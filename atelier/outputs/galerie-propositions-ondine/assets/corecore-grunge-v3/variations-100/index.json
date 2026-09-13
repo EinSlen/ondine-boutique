@@ -1,0 +1,1332 @@
+[
+  {
+    "number": 1,
+    "file": "001-last-tape.jpg",
+    "print": "001-last-tape.png",
+    "title": "LAST TAPE // ARCHIVE 01",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic"
+    ]
+  },
+  {
+    "number": 2,
+    "file": "002-last-tape.jpg",
+    "print": "002-last-tape.png",
+    "title": "LAST TAPE // CUT 02",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "runner",
+      "mic",
+      "cassette"
+    ]
+  },
+  {
+    "number": 3,
+    "file": "003-last-tape.jpg",
+    "print": "003-last-tape.png",
+    "title": "LAST TAPE // FRAME 03",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic",
+      "runner"
+    ]
+  },
+  {
+    "number": 4,
+    "file": "004-last-tape.jpg",
+    "print": "004-last-tape.png",
+    "title": "LAST TAPE // TAKE 04",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic"
+    ]
+  },
+  {
+    "number": 5,
+    "file": "005-last-tape.jpg",
+    "print": "005-last-tape.png",
+    "title": "LAST TAPE // COPY 05",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "runner",
+      "mic",
+      "cassette"
+    ]
+  },
+  {
+    "number": 6,
+    "file": "006-last-tape.jpg",
+    "print": "006-last-tape.png",
+    "title": "LAST TAPE // ROOM 06",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic"
+    ]
+  },
+  {
+    "number": 7,
+    "file": "007-last-tape.jpg",
+    "print": "007-last-tape.png",
+    "title": "LAST TAPE // TAPE 07",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic"
+    ]
+  },
+  {
+    "number": 8,
+    "file": "008-last-tape.jpg",
+    "print": "008-last-tape.png",
+    "title": "LAST TAPE // FILE 08",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "runner",
+      "mic",
+      "cassette"
+    ]
+  },
+  {
+    "number": 9,
+    "file": "009-last-tape.jpg",
+    "print": "009-last-tape.png",
+    "title": "LAST TAPE // SIDE 09",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic",
+      "runner"
+    ]
+  },
+  {
+    "number": 10,
+    "file": "010-last-tape.jpg",
+    "print": "010-last-tape.png",
+    "title": "LAST TAPE // END 10",
+    "theme": "LAST TAPE",
+    "chapter": "01",
+    "fragments": [
+      "seated",
+      "cassette",
+      "mic",
+      "runner"
+    ]
+  },
+  {
+    "number": 11,
+    "file": "011-no-signal.jpg",
+    "print": "011-no-signal.png",
+    "title": "NO SIGNAL // ARCHIVE 01",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch"
+    ]
+  },
+  {
+    "number": 12,
+    "file": "012-no-signal.jpg",
+    "print": "012-no-signal.png",
+    "title": "NO SIGNAL // CUT 02",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "mic2",
+      "crouch",
+      "door"
+    ]
+  },
+  {
+    "number": 13,
+    "file": "013-no-signal.jpg",
+    "print": "013-no-signal.png",
+    "title": "NO SIGNAL // FRAME 03",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch",
+      "mic2"
+    ]
+  },
+  {
+    "number": 14,
+    "file": "014-no-signal.jpg",
+    "print": "014-no-signal.png",
+    "title": "NO SIGNAL // TAKE 04",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch"
+    ]
+  },
+  {
+    "number": 15,
+    "file": "015-no-signal.jpg",
+    "print": "015-no-signal.png",
+    "title": "NO SIGNAL // COPY 05",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "mic2",
+      "crouch",
+      "door"
+    ]
+  },
+  {
+    "number": 16,
+    "file": "016-no-signal.jpg",
+    "print": "016-no-signal.png",
+    "title": "NO SIGNAL // ROOM 06",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch"
+    ]
+  },
+  {
+    "number": 17,
+    "file": "017-no-signal.jpg",
+    "print": "017-no-signal.png",
+    "title": "NO SIGNAL // TAPE 07",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch"
+    ]
+  },
+  {
+    "number": 18,
+    "file": "018-no-signal.jpg",
+    "print": "018-no-signal.png",
+    "title": "NO SIGNAL // FILE 08",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "mic2",
+      "crouch",
+      "door"
+    ]
+  },
+  {
+    "number": 19,
+    "file": "019-no-signal.jpg",
+    "print": "019-no-signal.png",
+    "title": "NO SIGNAL // SIDE 09",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch",
+      "mic2"
+    ]
+  },
+  {
+    "number": 20,
+    "file": "020-no-signal.jpg",
+    "print": "020-no-signal.png",
+    "title": "NO SIGNAL // END 10",
+    "theme": "NO SIGNAL",
+    "chapter": "02",
+    "fragments": [
+      "tv",
+      "door",
+      "crouch",
+      "mic2"
+    ]
+  },
+  {
+    "number": 21,
+    "file": "021-missed-call.jpg",
+    "print": "021-missed-call.png",
+    "title": "MISSED CALL // ARCHIVE 01",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth"
+    ]
+  },
+  {
+    "number": 22,
+    "file": "022-missed-call.jpg",
+    "print": "022-missed-call.png",
+    "title": "MISSED CALL // CUT 02",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "wave",
+      "booth",
+      "run1"
+    ]
+  },
+  {
+    "number": 23,
+    "file": "023-missed-call.jpg",
+    "print": "023-missed-call.png",
+    "title": "MISSED CALL // FRAME 03",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth",
+      "wave"
+    ]
+  },
+  {
+    "number": 24,
+    "file": "024-missed-call.jpg",
+    "print": "024-missed-call.png",
+    "title": "MISSED CALL // TAKE 04",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth"
+    ]
+  },
+  {
+    "number": 25,
+    "file": "025-missed-call.jpg",
+    "print": "025-missed-call.png",
+    "title": "MISSED CALL // COPY 05",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "wave",
+      "booth",
+      "run1"
+    ]
+  },
+  {
+    "number": 26,
+    "file": "026-missed-call.jpg",
+    "print": "026-missed-call.png",
+    "title": "MISSED CALL // ROOM 06",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth"
+    ]
+  },
+  {
+    "number": 27,
+    "file": "027-missed-call.jpg",
+    "print": "027-missed-call.png",
+    "title": "MISSED CALL // TAPE 07",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth"
+    ]
+  },
+  {
+    "number": 28,
+    "file": "028-missed-call.jpg",
+    "print": "028-missed-call.png",
+    "title": "MISSED CALL // FILE 08",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "wave",
+      "booth",
+      "run1"
+    ]
+  },
+  {
+    "number": 29,
+    "file": "029-missed-call.jpg",
+    "print": "029-missed-call.png",
+    "title": "MISSED CALL // SIDE 09",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth",
+      "wave"
+    ]
+  },
+  {
+    "number": 30,
+    "file": "030-missed-call.jpg",
+    "print": "030-missed-call.png",
+    "title": "MISSED CALL // END 10",
+    "theme": "MISSED CALL",
+    "chapter": "03",
+    "fragments": [
+      "phone",
+      "run1",
+      "booth",
+      "wave"
+    ]
+  },
+  {
+    "number": 31,
+    "file": "031-side-b.jpg",
+    "print": "031-side-b.png",
+    "title": "SIDE B // ARCHIVE 01",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3"
+    ]
+  },
+  {
+    "number": 32,
+    "file": "032-side-b.jpg",
+    "print": "032-side-b.png",
+    "title": "SIDE B // CUT 02",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "runner",
+      "mic3",
+      "seated2"
+    ]
+  },
+  {
+    "number": 33,
+    "file": "033-side-b.jpg",
+    "print": "033-side-b.png",
+    "title": "SIDE B // FRAME 03",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3",
+      "runner"
+    ]
+  },
+  {
+    "number": 34,
+    "file": "034-side-b.jpg",
+    "print": "034-side-b.png",
+    "title": "SIDE B // TAKE 04",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3"
+    ]
+  },
+  {
+    "number": 35,
+    "file": "035-side-b.jpg",
+    "print": "035-side-b.png",
+    "title": "SIDE B // COPY 05",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "runner",
+      "mic3",
+      "seated2"
+    ]
+  },
+  {
+    "number": 36,
+    "file": "036-side-b.jpg",
+    "print": "036-side-b.png",
+    "title": "SIDE B // ROOM 06",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3"
+    ]
+  },
+  {
+    "number": 37,
+    "file": "037-side-b.jpg",
+    "print": "037-side-b.png",
+    "title": "SIDE B // TAPE 07",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3"
+    ]
+  },
+  {
+    "number": 38,
+    "file": "038-side-b.jpg",
+    "print": "038-side-b.png",
+    "title": "SIDE B // FILE 08",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "runner",
+      "mic3",
+      "seated2"
+    ]
+  },
+  {
+    "number": 39,
+    "file": "039-side-b.jpg",
+    "print": "039-side-b.png",
+    "title": "SIDE B // SIDE 09",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3",
+      "runner"
+    ]
+  },
+  {
+    "number": 40,
+    "file": "040-side-b.jpg",
+    "print": "040-side-b.png",
+    "title": "SIDE B // END 10",
+    "theme": "SIDE B",
+    "chapter": "04",
+    "fragments": [
+      "cassette2",
+      "seated2",
+      "mic3",
+      "runner"
+    ]
+  },
+  {
+    "number": 41,
+    "file": "041-everyone-left.jpg",
+    "print": "041-everyone-left.png",
+    "title": "EVERYONE LEFT // ARCHIVE 01",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames"
+    ]
+  },
+  {
+    "number": 42,
+    "file": "042-everyone-left.jpg",
+    "print": "042-everyone-left.png",
+    "title": "EVERYONE LEFT // CUT 02",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "walk",
+      "frames",
+      "stage"
+    ]
+  },
+  {
+    "number": 43,
+    "file": "043-everyone-left.jpg",
+    "print": "043-everyone-left.png",
+    "title": "EVERYONE LEFT // FRAME 03",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames",
+      "walk"
+    ]
+  },
+  {
+    "number": 44,
+    "file": "044-everyone-left.jpg",
+    "print": "044-everyone-left.png",
+    "title": "EVERYONE LEFT // TAKE 04",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames"
+    ]
+  },
+  {
+    "number": 45,
+    "file": "045-everyone-left.jpg",
+    "print": "045-everyone-left.png",
+    "title": "EVERYONE LEFT // COPY 05",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "walk",
+      "frames",
+      "stage"
+    ]
+  },
+  {
+    "number": 46,
+    "file": "046-everyone-left.jpg",
+    "print": "046-everyone-left.png",
+    "title": "EVERYONE LEFT // ROOM 06",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames"
+    ]
+  },
+  {
+    "number": 47,
+    "file": "047-everyone-left.jpg",
+    "print": "047-everyone-left.png",
+    "title": "EVERYONE LEFT // TAPE 07",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames"
+    ]
+  },
+  {
+    "number": 48,
+    "file": "048-everyone-left.jpg",
+    "print": "048-everyone-left.png",
+    "title": "EVERYONE LEFT // FILE 08",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "walk",
+      "frames",
+      "stage"
+    ]
+  },
+  {
+    "number": 49,
+    "file": "049-everyone-left.jpg",
+    "print": "049-everyone-left.png",
+    "title": "EVERYONE LEFT // SIDE 09",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames",
+      "walk"
+    ]
+  },
+  {
+    "number": 50,
+    "file": "050-everyone-left.jpg",
+    "print": "050-everyone-left.png",
+    "title": "EVERYONE LEFT // END 10",
+    "theme": "EVERYONE LEFT",
+    "chapter": "05",
+    "fragments": [
+      "chair",
+      "stage",
+      "frames",
+      "walk"
+    ]
+  },
+  {
+    "number": 51,
+    "file": "051-room-tone.jpg",
+    "print": "051-room-tone.png",
+    "title": "ROOM TONE // ARCHIVE 01",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 52,
+    "file": "052-room-tone.jpg",
+    "print": "052-room-tone.png",
+    "title": "ROOM TONE // CUT 02",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "doorwoman2",
+      "doorwoman1",
+      "bed"
+    ]
+  },
+  {
+    "number": 53,
+    "file": "053-room-tone.jpg",
+    "print": "053-room-tone.png",
+    "title": "ROOM TONE // FRAME 03",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1",
+      "doorwoman2"
+    ]
+  },
+  {
+    "number": 54,
+    "file": "054-room-tone.jpg",
+    "print": "054-room-tone.png",
+    "title": "ROOM TONE // TAKE 04",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 55,
+    "file": "055-room-tone.jpg",
+    "print": "055-room-tone.png",
+    "title": "ROOM TONE // COPY 05",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "doorwoman2",
+      "doorwoman1",
+      "bed"
+    ]
+  },
+  {
+    "number": 56,
+    "file": "056-room-tone.jpg",
+    "print": "056-room-tone.png",
+    "title": "ROOM TONE // ROOM 06",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 57,
+    "file": "057-room-tone.jpg",
+    "print": "057-room-tone.png",
+    "title": "ROOM TONE // TAPE 07",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 58,
+    "file": "058-room-tone.jpg",
+    "print": "058-room-tone.png",
+    "title": "ROOM TONE // FILE 08",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "doorwoman2",
+      "doorwoman1",
+      "bed"
+    ]
+  },
+  {
+    "number": 59,
+    "file": "059-room-tone.jpg",
+    "print": "059-room-tone.png",
+    "title": "ROOM TONE // SIDE 09",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1",
+      "doorwoman2"
+    ]
+  },
+  {
+    "number": 60,
+    "file": "060-room-tone.jpg",
+    "print": "060-room-tone.png",
+    "title": "ROOM TONE // END 10",
+    "theme": "ROOM TONE",
+    "chapter": "06",
+    "fragments": [
+      "recorder",
+      "bed",
+      "doorwoman1",
+      "doorwoman2"
+    ]
+  },
+  {
+    "number": 61,
+    "file": "061-found-footage.jpg",
+    "print": "061-found-footage.png",
+    "title": "FOUND FOOTAGE // ARCHIVE 01",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone"
+    ]
+  },
+  {
+    "number": 62,
+    "file": "062-found-footage.jpg",
+    "print": "062-found-footage.png",
+    "title": "FOUND FOOTAGE // CUT 02",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "recorder",
+      "phone",
+      "tv"
+    ]
+  },
+  {
+    "number": 63,
+    "file": "063-found-footage.jpg",
+    "print": "063-found-footage.png",
+    "title": "FOUND FOOTAGE // FRAME 03",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone",
+      "recorder"
+    ]
+  },
+  {
+    "number": 64,
+    "file": "064-found-footage.jpg",
+    "print": "064-found-footage.png",
+    "title": "FOUND FOOTAGE // TAKE 04",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone"
+    ]
+  },
+  {
+    "number": 65,
+    "file": "065-found-footage.jpg",
+    "print": "065-found-footage.png",
+    "title": "FOUND FOOTAGE // COPY 05",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "recorder",
+      "phone",
+      "tv"
+    ]
+  },
+  {
+    "number": 66,
+    "file": "066-found-footage.jpg",
+    "print": "066-found-footage.png",
+    "title": "FOUND FOOTAGE // ROOM 06",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone"
+    ]
+  },
+  {
+    "number": 67,
+    "file": "067-found-footage.jpg",
+    "print": "067-found-footage.png",
+    "title": "FOUND FOOTAGE // TAPE 07",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone"
+    ]
+  },
+  {
+    "number": 68,
+    "file": "068-found-footage.jpg",
+    "print": "068-found-footage.png",
+    "title": "FOUND FOOTAGE // FILE 08",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "recorder",
+      "phone",
+      "tv"
+    ]
+  },
+  {
+    "number": 69,
+    "file": "069-found-footage.jpg",
+    "print": "069-found-footage.png",
+    "title": "FOUND FOOTAGE // SIDE 09",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone",
+      "recorder"
+    ]
+  },
+  {
+    "number": 70,
+    "file": "070-found-footage.jpg",
+    "print": "070-found-footage.png",
+    "title": "FOUND FOOTAGE // END 10",
+    "theme": "FOUND FOOTAGE",
+    "chapter": "X1",
+    "fragments": [
+      "cassette",
+      "tv",
+      "phone",
+      "recorder"
+    ]
+  },
+  {
+    "number": 71,
+    "file": "071-left-the-frame.jpg",
+    "print": "071-left-the-frame.png",
+    "title": "LEFT THE FRAME // ARCHIVE 01",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk"
+    ]
+  },
+  {
+    "number": 72,
+    "file": "072-left-the-frame.jpg",
+    "print": "072-left-the-frame.png",
+    "title": "LEFT THE FRAME // CUT 02",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "doorwoman1",
+      "walk",
+      "run1"
+    ]
+  },
+  {
+    "number": 73,
+    "file": "073-left-the-frame.jpg",
+    "print": "073-left-the-frame.png",
+    "title": "LEFT THE FRAME // FRAME 03",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 74,
+    "file": "074-left-the-frame.jpg",
+    "print": "074-left-the-frame.png",
+    "title": "LEFT THE FRAME // TAKE 04",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk"
+    ]
+  },
+  {
+    "number": 75,
+    "file": "075-left-the-frame.jpg",
+    "print": "075-left-the-frame.png",
+    "title": "LEFT THE FRAME // COPY 05",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "doorwoman1",
+      "walk",
+      "run1"
+    ]
+  },
+  {
+    "number": 76,
+    "file": "076-left-the-frame.jpg",
+    "print": "076-left-the-frame.png",
+    "title": "LEFT THE FRAME // ROOM 06",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk"
+    ]
+  },
+  {
+    "number": 77,
+    "file": "077-left-the-frame.jpg",
+    "print": "077-left-the-frame.png",
+    "title": "LEFT THE FRAME // TAPE 07",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk"
+    ]
+  },
+  {
+    "number": 78,
+    "file": "078-left-the-frame.jpg",
+    "print": "078-left-the-frame.png",
+    "title": "LEFT THE FRAME // FILE 08",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "doorwoman1",
+      "walk",
+      "run1"
+    ]
+  },
+  {
+    "number": 79,
+    "file": "079-left-the-frame.jpg",
+    "print": "079-left-the-frame.png",
+    "title": "LEFT THE FRAME // SIDE 09",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 80,
+    "file": "080-left-the-frame.jpg",
+    "print": "080-left-the-frame.png",
+    "title": "LEFT THE FRAME // END 10",
+    "theme": "LEFT THE FRAME",
+    "chapter": "X2",
+    "fragments": [
+      "runner",
+      "run1",
+      "walk",
+      "doorwoman1"
+    ]
+  },
+  {
+    "number": 81,
+    "file": "081-after-the-set.jpg",
+    "print": "081-after-the-set.png",
+    "title": "AFTER THE SET // ARCHIVE 01",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair"
+    ]
+  },
+  {
+    "number": 82,
+    "file": "082-after-the-set.jpg",
+    "print": "082-after-the-set.png",
+    "title": "AFTER THE SET // CUT 02",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "door",
+      "chair",
+      "stage"
+    ]
+  },
+  {
+    "number": 83,
+    "file": "083-after-the-set.jpg",
+    "print": "083-after-the-set.png",
+    "title": "AFTER THE SET // FRAME 03",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair",
+      "door"
+    ]
+  },
+  {
+    "number": 84,
+    "file": "084-after-the-set.jpg",
+    "print": "084-after-the-set.png",
+    "title": "AFTER THE SET // TAKE 04",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair"
+    ]
+  },
+  {
+    "number": 85,
+    "file": "085-after-the-set.jpg",
+    "print": "085-after-the-set.png",
+    "title": "AFTER THE SET // COPY 05",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "door",
+      "chair",
+      "stage"
+    ]
+  },
+  {
+    "number": 86,
+    "file": "086-after-the-set.jpg",
+    "print": "086-after-the-set.png",
+    "title": "AFTER THE SET // ROOM 06",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair"
+    ]
+  },
+  {
+    "number": 87,
+    "file": "087-after-the-set.jpg",
+    "print": "087-after-the-set.png",
+    "title": "AFTER THE SET // TAPE 07",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair"
+    ]
+  },
+  {
+    "number": 88,
+    "file": "088-after-the-set.jpg",
+    "print": "088-after-the-set.png",
+    "title": "AFTER THE SET // FILE 08",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "door",
+      "chair",
+      "stage"
+    ]
+  },
+  {
+    "number": 89,
+    "file": "089-after-the-set.jpg",
+    "print": "089-after-the-set.png",
+    "title": "AFTER THE SET // SIDE 09",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair",
+      "door"
+    ]
+  },
+  {
+    "number": 90,
+    "file": "090-after-the-set.jpg",
+    "print": "090-after-the-set.png",
+    "title": "AFTER THE SET // END 10",
+    "theme": "AFTER THE SET",
+    "chapter": "X3",
+    "fragments": [
+      "mic",
+      "stage",
+      "chair",
+      "door"
+    ]
+  },
+  {
+    "number": 91,
+    "file": "091-playback-ended.jpg",
+    "print": "091-playback-ended.png",
+    "title": "PLAYBACK ENDED // ARCHIVE 01",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed"
+    ]
+  },
+  {
+    "number": 92,
+    "file": "092-playback-ended.jpg",
+    "print": "092-playback-ended.png",
+    "title": "PLAYBACK ENDED // CUT 02",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "wave",
+      "bed",
+      "seated2"
+    ]
+  },
+  {
+    "number": 93,
+    "file": "093-playback-ended.jpg",
+    "print": "093-playback-ended.png",
+    "title": "PLAYBACK ENDED // FRAME 03",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed",
+      "wave"
+    ]
+  },
+  {
+    "number": 94,
+    "file": "094-playback-ended.jpg",
+    "print": "094-playback-ended.png",
+    "title": "PLAYBACK ENDED // TAKE 04",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed"
+    ]
+  },
+  {
+    "number": 95,
+    "file": "095-playback-ended.jpg",
+    "print": "095-playback-ended.png",
+    "title": "PLAYBACK ENDED // COPY 05",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "wave",
+      "bed",
+      "seated2"
+    ]
+  },
+  {
+    "number": 96,
+    "file": "096-playback-ended.jpg",
+    "print": "096-playback-ended.png",
+    "title": "PLAYBACK ENDED // ROOM 06",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed"
+    ]
+  },
+  {
+    "number": 97,
+    "file": "097-playback-ended.jpg",
+    "print": "097-playback-ended.png",
+    "title": "PLAYBACK ENDED // TAPE 07",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed"
+    ]
+  },
+  {
+    "number": 98,
+    "file": "098-playback-ended.jpg",
+    "print": "098-playback-ended.png",
+    "title": "PLAYBACK ENDED // FILE 08",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "wave",
+      "bed",
+      "seated2"
+    ]
+  },
+  {
+    "number": 99,
+    "file": "099-playback-ended.jpg",
+    "print": "099-playback-ended.png",
+    "title": "PLAYBACK ENDED // SIDE 09",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed",
+      "wave"
+    ]
+  },
+  {
+    "number": 100,
+    "file": "100-playback-ended.jpg",
+    "print": "100-playback-ended.png",
+    "title": "PLAYBACK ENDED // END 10",
+    "theme": "PLAYBACK ENDED",
+    "chapter": "X4",
+    "fragments": [
+      "crouch",
+      "seated2",
+      "bed",
+      "wave"
+    ]
+  }
+]

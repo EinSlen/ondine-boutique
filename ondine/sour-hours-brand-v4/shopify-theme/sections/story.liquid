@@ -1,0 +1,11 @@
+<section id="story" class="sh-story sh-container sh-section">
+  {% if section.settings.image != blank %}<div class="sh-story__image">{{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '480, 750, 1000, 1400', sizes: '(max-width: 700px) 100vw, 50vw' }}</div>{% endif %}
+  <div class="sh-story__copy"><p class="sh-eyebrow">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape }}</h2><div class="sh-rte">{{ section.settings.text }}</div>{% if section.settings.link != blank %}<a class="sh-button sh-button--outline" href="{{ section.settings.link }}">{{ section.settings.button_label | escape }} ↗</a>{% endif %}</div>
+</section>
+{% stylesheet %}
+  .sh-story{display:flex;align-items:center;gap:8%;border-top:1px solid var(--line);background:color-mix(in srgb,var(--ink) 5%,var(--cream));max-width:none}.sh-story__image{width:48%;flex-shrink:0}.sh-story__image img{width:100%;aspect-ratio:1/1.1;object-fit:cover}.sh-story__copy{max-width:700px;padding-block:26px;margin-inline:auto}.sh-story__copy .sh-eyebrow{margin-bottom:26px}.sh-story__copy h2{max-width:670px}.sh-story__copy .sh-rte{max-width:490px;margin-top:28px;line-height:1.8}.sh-story__copy .sh-button{margin-top:26px}
+  @media(max-width:700px){.sh-story{display:block}.sh-story__image{width:100%;margin-bottom:28px}.sh-story__copy{padding-bottom:0}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.story","settings":[{"type":"text","id":"eyebrow","label":"t:settings.eyebrow","default":"Notre état d'esprit"},{"type":"text","id":"heading","label":"t:settings.heading","default":"Bien dans ses heures."},{"type":"richtext","id":"text","label":"t:settings.text","default":"<p>Les heures qui n'appartiennent qu'à toi. Celles où tu ralentis, où tu traînes, où tu sors sans savoir à quelle heure tu rentres.</p><p>Sour Hours habille ces moments : des formes libres, des couleurs qui restent et un détail qui change tout.</p>"},{"type":"image_picker","id":"image","label":"t:settings.image"},{"type":"url","id":"link","label":"t:settings.link"},{"type":"text","id":"button_label","label":"t:settings.button_label","default":"Explorer le vestiaire"}],"presets":[{"name":"t:sections.story"}]}
+{% endschema %}

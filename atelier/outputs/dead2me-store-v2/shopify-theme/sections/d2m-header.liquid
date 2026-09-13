@@ -1,0 +1,9 @@
+<div class="d2m-announcement"><span>{{ section.settings.announcement }}</span><span class="desktop-only">{{ section.settings.shipping }}</span></div>
+<header class="d2m-header">
+  <a class="d2m-logo" href="{{ routes.root_url }}">DEAD<span>2</span>ME</a>
+  <nav aria-label="Navigation principale">
+    {% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ routes.all_products_collection_url }}">DROP 001</a><a href="{{ pages['about'].url | default: routes.root_url }}">À PROPOS</a>{% endfor %}
+  </nav>
+  <a class="d2m-cart" href="{{ routes.cart_url }}">PANIER <span>{{ cart.item_count }}</span></a>
+</header>
+{% schema %}{"name":"D2M Header","settings":[{"type":"text","id":"announcement","label":"Annonce","default":"DROP 001 — PROTOTYPES EN COURS"},{"type":"text","id":"shipping","label":"Livraison","default":"LIVRAISON UE · RETOURS SOUS 14 JOURS"},{"type":"link_list","id":"menu","label":"Menu"}],"presets":[{"name":"D2M Header"}]}{% endschema %}

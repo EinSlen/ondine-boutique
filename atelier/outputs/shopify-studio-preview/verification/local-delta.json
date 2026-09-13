@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-10T14:09:42.220Z",
+  "scope": "Local comparison against saved remote-files.json, not a fresh remote Shopify read.",
+  "themeId": "gid://shopify/OnlineStoreTheme/189335208264",
+  "remoteBaselineFiles": 37,
+  "localFiles": 38,
+  "deploymentAllowed": false,
+  "reason": "Creative direction rejected; capsule and technical changes remain local. Re-read remote state before any future authorized deployment.",
+  "differences": [
+    {
+      "filename": "locales/en.default.json",
+      "change": "modified",
+      "sha256": "ea9ebbfcf888d9552cceea300c106472eb1108c2db3eca002c792a704026247b"
+    },
+    {
+      "filename": "locales/en.default.schema.json",
+      "change": "modified",
+      "sha256": "c7d237a793a48bcfe8724539b629297685d7af1353fa5adb8c0a83c8352a97a6"
+    },
+    {
+      "filename": "locales/fr.json",
+      "change": "modified",
+      "sha256": "f0199f43ebd4f3a6a4c083ccd00790b4c6a835e7a861a20b4fb3735e3e6b8b6c"
+    },
+    {
+      "filename": "locales/fr.schema.json",
+      "change": "modified",
+      "sha256": "82635d0d942dedaecbf34989112c4cc53416afe38d9657928876f57b5f385c94"
+    },
+    {
+      "filename": "sections/header.liquid",
+      "change": "modified",
+      "sha256": "eefa0a177c9b0b0dcb92624f2b4243f09a86be0f9278f9c6b07b515fd34ba30d"
+    },
+    {
+      "filename": "sections/main-product.liquid",
+      "change": "modified",
+      "sha256": "dc7498f296b158e4e5025844078b36de95b34756370dbffe6f51015d82ce8bd6"
+    },
+    {
+      "filename": "sections/studio-home.liquid",
+      "change": "modified",
+      "sha256": "56109a0c9f55ebbbb6b0be08654ae2b7a7fc773efb5344c6107b5ff4a2cd8447"
+    },
+    {
+      "filename": "snippets/studio-capsule.liquid",
+      "change": "added",
+      "sha256": "9176eac2058eb77123ebf69e08041b186f5b64cbf0a5b22a889d1f4db41f0f94"
+    },
+    {
+      "filename": "templates/index.json",
+      "change": "modified",
+      "sha256": "105b014c427d2c175b71c2b473e32abd628e65fb05eb4730c213263b043f3130"
+    }
+  ]
+}

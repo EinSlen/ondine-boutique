@@ -1,0 +1,112 @@
+[
+  {
+    "numero": 1,
+    "famille": "coulures",
+    "palette": "encre",
+    "graine": 845751,
+    "fichiers": [
+      "001-coulures-tuile.png",
+      "001-coulures-feuille.png",
+      "001-coulures-devant.png"
+    ]
+  },
+  {
+    "numero": 2,
+    "famille": "lavis",
+    "palette": "papier",
+    "graine": 539483,
+    "fichiers": [
+      "002-lavis-tuile.png",
+      "002-lavis-feuille.png",
+      "002-lavis-devant.png"
+    ]
+  },
+  {
+    "numero": 3,
+    "famille": "trame",
+    "palette": "beton",
+    "graine": 547402,
+    "fichiers": [
+      "003-trame-tuile.png",
+      "003-trame-feuille.png",
+      "003-trame-devant.png"
+    ]
+  },
+  {
+    "numero": 4,
+    "famille": "fibres",
+    "palette": "olive",
+    "graine": 660050,
+    "fichiers": [
+      "004-fibres-tuile.png",
+      "004-fibres-feuille.png",
+      "004-fibres-devant.png"
+    ]
+  },
+  {
+    "numero": 5,
+    "famille": "craquelure",
+    "palette": "rouille",
+    "graine": 1086885,
+    "fichiers": [
+      "005-craquelure-tuile.png",
+      "005-craquelure-feuille.png",
+      "005-craquelure-devant.png"
+    ]
+  },
+  {
+    "numero": 6,
+    "famille": "coulures",
+    "palette": "encre",
+    "graine": 885346,
+    "fichiers": [
+      "006-coulures-tuile.png",
+      "006-coulures-feuille.png",
+      "006-coulures-devant.png"
+    ]
+  },
+  {
+    "numero": 7,
+    "famille": "lavis",
+    "palette": "papier",
+    "graine": 579078,
+    "fichiers": [
+      "007-lavis-tuile.png",
+      "007-lavis-feuille.png",
+      "007-lavis-devant.png"
+    ]
+  },
+  {
+    "numero": 8,
+    "famille": "trame",
+    "palette": "beton",
+    "graine": 586997,
+    "fichiers": [
+      "008-trame-tuile.png",
+      "008-trame-feuille.png",
+      "008-trame-devant.png"
+    ]
+  },
+  {
+    "numero": 9,
+    "famille": "fibres",
+    "palette": "olive",
+    "graine": 699645,
+    "fichiers": [
+      "009-fibres-tuile.png",
+      "009-fibres-feuille.png",
+      "009-fibres-devant.png"
+    ]
+  },
+  {
+    "numero": 10,
+    "famille": "craquelure",
+    "palette": "rouille",
+    "graine": 1126480,
+    "fichiers": [
+      "010-craquelure-tuile.png",
+      "010-craquelure-feuille.png",
+      "010-craquelure-devant.png"
+    ]
+  }
+]

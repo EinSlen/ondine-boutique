@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Ruban — la révision du tee</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+    .comparison figure{margin:0;min-width:0}.comparison img{width:100%;height:auto}
+    .comparison a{display:block}.comparison figcaption{padding:18px 0;line-height:1.6}
+    .comparison strong{display:block;font-size:1.25rem;font-weight:500;margin-bottom:7px}
+    .revision-label{display:inline-block;background:#f5e9ec;color:#6b1528;padding:7px 10px;font-size:.75rem;letter-spacing:.06em;margin-bottom:16px}
+    .production-copy a{overflow-wrap:anywhere}
+    @media(max-width:650px){.comparison{grid-template-columns:1fr;gap:16px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#comparaison">Aller à la comparaison</a>
+  <header class="masthead">
+    <a class="wordmark" href="index.html">LE VESTIAIRE<span>TRAVAIL EN COURS / 12.09.2026</span></a>
+    <nav aria-label="Navigation principale"><a href="index.html#piece-02">Les vêtements</a><a href="#fabrication">État de fabrication</a></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div><span class="revision-label">RUBAN / RÉVISION 02</span><h1 id="title">Plus de lumière.<br><em>Plus d’espace.</em></h1></div>
+      <div class="intro-note"><p>Le même ruban, avec des tons rouges plus lisibles sur le charbon et une taille moins envahissante. Aucune nouvelle marque ni slogan ajouté.</p><p class="meta">Deux simulations générées, pas des photos de produits fabriqués.<br>Cliquer sur une image pour la voir en grand.</p></div>
+    </section>
+    <section class="comparison" id="comparaison" aria-label="Ancienne et nouvelle composition du tee Ruban">
+      <figure><a href="assets/02-ruban-tee.png" aria-label="Agrandir le tee Ruban original"><img src="assets/02-ruban-tee.png" width="1254" height="1254" alt="Version initiale : grand ruban rouge sombre occupant une large partie du dos du tee charbon."></a><figcaption><strong>01 / La version initiale</strong>Le dessin prend beaucoup de place ; ses ombres se fondent dans le fond charbon.</figcaption></figure>
+      <figure><a href="assets/02-ruban-tee-v2.png" aria-label="Agrandir le tee Ruban révisé"><img src="assets/02-ruban-tee-v2.png" width="1254" height="1254" alt="Version révisée : ruban rouge plus lumineux, plus petit, centré dans le dos du tee charbon."></a><figcaption><strong>02 / La révision</strong>Des reflets plus clairs et davantage de tissu autour du motif. La taille reste illustrative, à fixer sur le gabarit du fournisseur.</figcaption></figure>
+    </section>
+    <section class="production" id="fabrication" aria-labelledby="production-title">
+      <div><p class="eyebrow">PAS ENCORE UN PRODUIT FABRIQUÉ</p><h2 id="production-title">Le dessin avance.<br>Le fichier reste à finir.</h2></div>
+      <div class="production-copy">
+        <p>La V2 est intégrée à la galerie. L’original est conservé. Le volume du tee et son délavage sont encore des simulations ; ils ne garantissent pas ceux du support livré.</p>
+        <p><strong>Contrôle refusé pour l’impression :</strong> les essais d’illustrations isolées du ruban et du cheval contiennent un damier dessiné, sans canal transparent. Ils ne sont pas proposés au téléchargement comme fichiers de production.</p>
+        <p>Les PNG obtenus font 1254 × 1254 pixels. À 30 cm, cela représente au maximum environ 106 ppp avant même de retirer les marges. Pour 30 cm à 150 ppp, il faut au moins 1772 pixels utiles. Aucun agrandissement artificiel n’a été présenté comme un original haute résolution.</p>
+        <p>Le <a href="https://help.printful.com/hc/en-us/articles/28491464259740-How-should-I-prepare-my-print-file-for-the-best-results" target="_blank" rel="noopener noreferrer">guide Printful</a> demande de vérifier résolution, transparence et règles propres au support. Ce contrôle général ne valide ni ton compte fournisseur, ni le produit précis.</p>
+        <p class="closing-note">Tee, hoodie, manches longues, pantalon, casquette, cagoule et boucles d’oreilles restent dans le périmètre. Cette révision ne remplace pas la collection complète et ne prouve pas des ventes futures. Aucune publication ou commande.</p>
+      </div>
+    </section>
+  </main>
+  <footer><span>RUBAN / AVANT — APRÈS</span><div><a href="index.html">Retour aux 6 pièces</a><a href="PREPARATION-12-SEPTEMBRE.md">Contrôle & prompts</a></div></footer>
+</body>
+</html>

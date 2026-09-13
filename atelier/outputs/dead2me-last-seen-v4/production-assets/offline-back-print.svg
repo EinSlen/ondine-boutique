@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850">
+  <text x="450" y="90" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="42" letter-spacing="22">CONNECTION LOST</text>
+  <text x="450" y="330" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="220" font-weight="900" letter-spacing="-12">03:17</text>
+  <rect x="70" y="412" width="760" height="120" fill="none" stroke="#111" stroke-width="13"/><rect x="94" y="436" width="570" height="72" fill="#111"/>
+  <circle cx="802" cy="622" r="26" fill="#a72d27"/>
+  <text x="450" y="730" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="45" letter-spacing="20">DEAD2ME / 001</text>
+</svg>

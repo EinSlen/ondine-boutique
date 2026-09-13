@@ -1,0 +1,239 @@
+{
+  "checkedAt": "2026-09-11 18:20:36 UTC",
+  "query": "query ExistingProductSalesState($ids:[ID!]!) {\n nodes(ids:$ids) {\n  ... on Product {\n   id title status onlineStoreUrl\n   variants(first:10) {\n    nodes {id title availableForSale inventoryQuantity}\n    pageInfo {hasNextPage endCursor}\n   }\n  }\n }\n}",
+  "variables": {
+    "ids": [
+      "gid://shopify/Product/10233685999944",
+      "gid://shopify/Product/10233686163784",
+      "gid://shopify/Product/10233686393160",
+      "gid://shopify/Product/10233686524232",
+      "gid://shopify/Product/10233686557000"
+    ]
+  },
+  "response": {
+    "data": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Product/10233685999944",
+          "title": "SPLIT FIGURES ZIP",
+          "status": "ACTIVE",
+          "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/split-figures-zip",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/53917010264392",
+                "title": "S",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010297160",
+                "title": "M",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010329928",
+                "title": "L",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010362696",
+                "title": "XL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010395464",
+                "title": "XXL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMDM5NTQ2NCwibGFzdF92YWx1ZSI6NX0="
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/Product/10233686163784",
+          "title": "SEATED FIGURE ZIP",
+          "status": "ACTIVE",
+          "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/seated-figure-zip",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/53917010559304",
+                "title": "S",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010592072",
+                "title": "M",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010624840",
+                "title": "L",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010657608",
+                "title": "XL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010690376",
+                "title": "XXL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMDY5MDM3NiwibGFzdF92YWx1ZSI6NX0="
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/Product/10233686393160",
+          "title": "TABLE ALONE ZIP",
+          "status": "ACTIVE",
+          "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/table-alone-zip",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/53917010952520",
+                "title": "S",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917010985288",
+                "title": "M",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011018056",
+                "title": "L",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011050824",
+                "title": "XL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011083592",
+                "title": "XXL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMTA4MzU5MiwibGFzdF92YWx1ZSI6NX0="
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/Product/10233686524232",
+          "title": "AFTERMATH ZIP",
+          "status": "ACTIVE",
+          "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/aftermath-zip",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/53917011214664",
+                "title": "S",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011247432",
+                "title": "M",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011280200",
+                "title": "L",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011312968",
+                "title": "XL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011345736",
+                "title": "XXL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMTM0NTczNiwibGFzdF92YWx1ZSI6NX0="
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/Product/10233686557000",
+          "title": "RUN AWAY TEE",
+          "status": "ACTIVE",
+          "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/run-away-tee",
+          "variants": {
+            "nodes": [
+              {
+                "id": "gid://shopify/ProductVariant/53917011378504",
+                "title": "S",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011411272",
+                "title": "M",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011444040",
+                "title": "L",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011476808",
+                "title": "XL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              },
+              {
+                "id": "gid://shopify/ProductVariant/53917011509576",
+                "title": "XXL",
+                "availableForSale": true,
+                "inventoryQuantity": 0
+              }
+            ],
+            "pageInfo": {
+              "hasNextPage": false,
+              "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMTUwOTU3NiwibGFzdF92YWx1ZSI6NX0="
+            }
+          }
+        }
+      ]
+    }
+  }
+}

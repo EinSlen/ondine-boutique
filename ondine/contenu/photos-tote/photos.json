@@ -1,0 +1,18 @@
+[
+  {
+    "nom": "001-barre-lin",
+    "produit": 84,
+    "variante": 4533,
+    "photos": [
+      "https://printful-upload.s3-accelerate.amazonaws.com/tmp/742b075ba79dbdee6c53a739fadba811/all-over-print-tote-bag-black-15x15-mockup-6a88add690c66.png"
+    ]
+  },
+  {
+    "nom": "002-angle-terre",
+    "produit": 84,
+    "variante": 4533,
+    "photos": [
+      "https://printful-upload.s3-accelerate.amazonaws.com/tmp/539a175df43eb0fdc18d99685b8cb760/all-over-print-tote-bag-black-15x15-mockup-6a88addc168bd.png"
+    ]
+  }
+]

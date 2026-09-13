@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 5400">
+  <g fill="none" stroke="#090909" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <!-- panel 1: a parent waiting in a doorway -->
+    <path d="M500 1080 500 2750 1750 2750 1750 1080Z"/>
+    <path d="M680 2690V1420h735v1270M850 1570h430"/>
+    <circle cx="1060" cy="1760" r="112"/>
+    <path d="M1065 1872c-160 145-171 388-137 664m137-664c164 147 172 405 139 664M905 2100l-220 244m396-250 230 230M923 2535l-79 124m343-126 86 126"/>
+    <!-- panel 2: a person alone at a desk -->
+    <path d="M2660 1320 2660 2950 4040 2950 4040 1320Z"/>
+    <path d="M2930 2310h850m-718 0-88 562m650-562 98 562"/>
+    <path d="M3200 1850h425v320h-425zM3410 2170v140"/>
+    <circle cx="3030" cy="1905" r="105"/>
+    <path d="M3070 2008c188 115 189 337 139 526m-42-335 294 35m-358 291-135 295m254-296 133 276"/>
+    <!-- small disconnected marks keep the drawing handmade -->
+    <path d="m612 1250 145-77m2740 1884 204 96m-1870-186 152 43"/>
+  </g>
+  <text x="2520" y="760" fill="#090909" font-family="Arial Narrow, Arial, sans-serif" font-size="236" font-weight="700" letter-spacing="5">DID IT FEEL</text>
+  <text x="2520" y="1015" fill="#090909" font-family="Arial Narrow, Arial, sans-serif" font-size="236" font-weight="700" letter-spacing="5">WORTH IT?</text>
+  <g fill="#77131b">
+    <circle cx="410" cy="3850" r="55"/><circle cx="1120" cy="3330" r="34"/>
+    <circle cx="2210" cy="3710" r="43"/><circle cx="4010" cy="3450" r="39"/>
+    <circle cx="3720" cy="1100" r="28"/><circle cx="1850" cy="1450" r="24"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+{% assign drop = collections['drop-001'] %}
+<section class="d2m-home" aria-label="DEAD2ME DROP 001">
+  <div class="d2m-manifesto">
+    <p>PHASE 001</p>
+    <p>DEAD2ME</p>
+    <p>NO RESTOCKS</p>
+  </div>
+
+  {% if drop != blank %}
+    <div class="d2m-grid d2m-grid--home">
+      {% for product in drop.products limit: 8 %}
+        <article class="d2m-card">
+          <a class="d2m-card__media" href="{{ product.url }}">
+            {% if product.featured_image %}
+              {{ product.featured_image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '360,540,720,900,1200,1400', sizes: '(max-width: 749px) 50vw, 25vw', alt: product.title }}
+            {% else %}
+              <div class="d2m-card__placeholder"></div>
+            {% endif %}
+            {% unless product.available %}<span class="d2m-sold">SOLD OUT</span>{% endunless %}
+          </a>
+          <div class="d2m-card__meta">
+            <a href="{{ product.url }}">{{ product.title }}</a>
+            <span>{{ product.price | money }}</span>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "DEAD2ME home",
+  "settings": [],
+  "presets": [{"name":"DEAD2ME home"}]
+}
+{% endschema %}

@@ -1,0 +1,63 @@
+{
+  "scope": "Local Ruban comparison and six-piece gallery only; no manufacturing validation",
+  "viewports": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee.png",
+          "width": 1254
+        },
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee-v2.png",
+          "width": 1254
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee.png",
+          "width": 1254
+        },
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee-v2.png",
+          "width": 1254
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee.png",
+          "width": 1254
+        },
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee-v2.png",
+          "width": 1254
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee.png",
+          "width": 1254
+        },
+        {
+          "url": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/product-lab-call-later/capsule-septembre/assets/02-ruban-tee-v2.png",
+          "width": 1254
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="{{ settings.color_cream }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <title>{{ page_title | escape }}{% unless page_title contains shop.name %} · {{ shop.name | escape }}{% endunless %}</title>
+    {% if page_description %}<meta name="description" content="{{ page_description | escape }}">{% endif %}
+    {{ content_for_header }}
+    {% render 'theme-base' %}
+    {% style %}:root{--cream:{{ settings.color_cream }};--ink:{{ settings.color_ink }};--accent:{{ settings.color_accent }};--butter:{{ settings.color_butter }};}{% endstyle %}
+  </head>
+  <body>
+    <a class="skip-link" href="#MainContent">{{ 'general.skip' | t }}</a>
+    {% sections 'header-group' %}
+    <main id="MainContent" tabindex="-1">{{ content_for_layout }}</main>
+    {% sections 'footer-group' %}
+  </body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "studio": {
+      "type": "studio-home",
+      "settings": {
+        "eyebrow": "LE STUDIO / PREMIÈRE ÉTUDE",
+        "heading": "Call me\nlater.",
+        "intro": "<p>Pour les messages auxquels tu as répondu dans ta tête. Un téléphone rouge. Un cordon qui s’emmêle. Une idée à porter.</p>",
+        "product_image": "shopify://shop_images/call-me-later-tee-back-concept.png",
+        "worn_image": "shopify://shop_images/call-me-later-tee-worn-concept.png",
+        "story_heading": "J’ai répondu.\nDans ma tête.",
+        "story": "<p>On connaît tous ce message qu’on laisse de côté. Le sujet de cette pièce : ce petit décalage entre le monde qui appelle et l’envie de prendre son temps.</p><p>Un dessin pop sur une base écrue, pensé pour garder le reste de la tenue simple.</p>"
+      },
+      "blocks": {
+        "cml": {
+          "type": "concept",
+          "settings": {
+            "title": "Call me later",
+            "category": "T-shirt",
+            "color": "Bone / écru",
+            "image": "shopify://shop_images/call-me-later-tee-back-concept.png",
+            "support": "AS Colour 5082",
+            "description": "<p>Un téléphone rouge et un cordon noué. Décor dorsal sur une base ample ; devant envisagé sans impression.</p><p>Coton 240 g/m² annoncé au catalogue. Tailles du support : S–3XL. Coloris, impression et disponibilité France à confirmer.</p>",
+            "supplier_url": "https://www.printful.com/custom/mens/t-shirts/oversized-faded-t-shirt-ascolour-5082"
+          }
+        },
+        "room": {
+          "type": "concept",
+          "settings": {
+            "title": "Room for yourself",
+            "category": "Hoodie",
+            "color": "Pine Green / vert profond",
+            "image": "shopify://shop_images/studio-room-hoodie-concept.png",
+            "support": "AS Colour 5161",
+            "description": "<p>La clé d’un peu de temps pour soi. Illustration rouge et argentée au dos, dessinée en impression couleur normale, sans élément métallique ajouté.</p><p>Support envisagé : 80 % coton, 20 % polyester recyclé, 319 g/m², capuche sans cordon et coupe relax. Tailles catalogue S–3XL ; disponibilité France à confirmer.</p>",
+            "supplier_url": "https://www.printful.com/custom/products/all/unisex-oversized-hoodie-as-colour-5161"
+          }
+        },
+        "detour": {
+          "type": "concept",
+          "settings": {
+            "title": "Detour",
+            "category": "Pantalon large",
+            "color": "Ivoire / rayures marine",
+            "image": "shopify://shop_images/studio-detour-pants-concept.png",
+            "support": "Printful — Cotton Wide-Leg Pants #309CO",
+            "description": "<p>Une jambe large, une base claire et de fines doubles rayures légèrement irrégulières. Motif imprimé, pas de rayures tissées ou de passepoils cousus.</p><p>Support envisagé : 95 % coton, 5 % élasthanne, 300 g/m². Tailles catalogue 2XS–6XL. Fabrication annoncée au Mexique ; disponibilité, transport France et raccords d’impression à confirmer.</p>",
+            "supplier_url": "https://www.printful.com/custom/mens/bottoms/all-over-print-unisex-cotton-wide-leg-pants"
+          }
+        },
+        "notnow": {
+          "type": "concept",
+          "settings": {
+            "title": "Not now",
+            "category": "Casquette",
+            "color": "Maroon / broderie blanche",
+            "image": "shopify://shop_images/studio-not-now-cap-concept.png",
+            "support": "Otto Cap 18-1248",
+            "description": "<p>Deux mots brodés sur une casquette bordeaux délavée. Lettrage frontal compact, en fil blanc ; six panneaux souples et visière courbe.</p><p>Support catalogue en twill de coton, taille unique réglable. Broderie et couleur simulées : numérisation, gabarit et coût complet à confirmer dans le compte fournisseur.</p>",
+            "supplier_url": "https://www.printful.com/custom/collections/bestsellers/vintage-cap-otto-cap-18-1248"
+          }
+        }
+      },
+      "block_order": [
+        "cml",
+        "room",
+        "detour",
+        "notnow"
+      ]
+    }
+  },
+  "order": [
+    "studio"
+  ]
+}

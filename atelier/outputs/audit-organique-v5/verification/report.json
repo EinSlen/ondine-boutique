@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-06T21:24:41.105Z",
+  "file": "file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/audit-organique-v5/index.html",
+  "passed": 21,
+  "checks": [
+    ".benchmark: 6",
+    ".name-ref: 6",
+    ".candidate: 6",
+    ".product-card: 3",
+    ".reserve-row: 5",
+    ".supplier: 5",
+    ".script: 12",
+    "No default name selected",
+    "All images loaded and visibly labelled archive; prices labelled targets",
+    "All local links and section anchors resolve",
+    "Cost example, recalculation, and unknown input handling",
+    "All script filters",
+    "Preference persists without renaming document",
+    "Manual observations: persistence, zero vs unknown, descriptive rates, escaped text",
+    "JSON export contains local values and unknowns",
+    "Observation removal with confirmation",
+    "No page overflow at 1440px",
+    "No page overflow at 768px",
+    "No page overflow at 390px",
+    "No page overflow at 320px",
+    "No JavaScript or browser console errors"
+  ],
+  "errors": [],
+  "scope": "Local browser QA, not commercial or legal validation"
+}

@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+const errors=[];page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});page.on('pageerror',e=>errors.push(e.message));
+await page.goto('file:///C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/dead2me-last-seen-v4/index.html',{waitUntil:'networkidle'});
+await page.screenshot({path:'C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/dead2me-last-seen-v4/store-preview.png',fullPage:true});
+await page.locator('[data-product-open="hoodie"]').click();
+const drawerOpen=await page.locator('[data-product-drawer].open').count();
+await page.locator('[data-close]').first().click();
+await page.setViewportSize({width:390,height:844});await page.reload({waitUntil:'networkidle'});
+await page.screenshot({path:'C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/dead2me-last-seen-v4/store-preview-mobile.png',fullPage:false});
+console.log(JSON.stringify({title:await page.title(),drawerOpen,errors,bodyWidth:await page.evaluate(()=>document.body.scrollWidth),viewportWidth:390}));
+await browser.close();

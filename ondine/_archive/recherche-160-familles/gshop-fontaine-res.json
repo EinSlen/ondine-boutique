@@ -1,0 +1,178 @@
+[
+  {
+    "kw": "fontaine a eau pour chat",
+    "url": "https://www.google.fr/search?q=fontaine%20a%20eau%20pour%20chat&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "maxi zoo",
+      "maxizoo",
+      "animalis",
+      "carrefour",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "temu",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [],
+    "priceCount": 46,
+    "pMin": 5.9,
+    "p25": 17.49,
+    "pMed": 23.99,
+    "p75": 44.99,
+    "hasShopping": true,
+    "pickupSignals": 3
+  },
+  {
+    "kw": "fontaine eau chat silencieuse",
+    "url": "https://www.google.fr/search?q=fontaine%20eau%20chat%20silencieuse&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "maxi zoo",
+      "maxizoo",
+      "animalis",
+      "carrefour",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [
+      "andis"
+    ],
+    "priceCount": 54,
+    "pMin": 8.95,
+    "p25": 21.99,
+    "pMed": 36.66,
+    "p75": 51.95,
+    "hasShopping": true,
+    "pickupSignals": 3
+  },
+  {
+    "kw": "fontaine a eau chat inox",
+    "url": "https://www.google.fr/search?q=fontaine%20a%20eau%20chat%20inox&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "maxi zoo",
+      "maxizoo",
+      "animalis",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [],
+    "priceCount": 46,
+    "pMin": 5.99,
+    "p25": 23.99,
+    "pMed": 31.44,
+    "p75": 51.95,
+    "hasShopping": true,
+    "pickupSignals": 1
+  },
+  {
+    "kw": "distributeur eau automatique chat",
+    "url": "https://www.google.fr/search?q=distributeur%20eau%20automatique%20chat&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "darty",
+      "gifi",
+      "maxi zoo",
+      "maxizoo",
+      "animalis",
+      "jardiland",
+      "carrefour",
+      "gamm vert",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [
+      "andis"
+    ],
+    "priceCount": 67,
+    "pMin": 6.29,
+    "p25": 19.72,
+    "pMed": 27.62,
+    "p75": 40,
+    "hasShopping": true,
+    "pickupSignals": 5
+  },
+  {
+    "kw": "filtre fontaine a eau chat",
+    "url": "https://www.google.fr/search?q=filtre%20fontaine%20a%20eau%20chat&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leclerc",
+      "leroy merlin",
+      "gifi",
+      "maxi zoo",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [],
+    "priceCount": 37,
+    "pMin": 5.79,
+    "p25": 9.99,
+    "pMed": 12.7,
+    "p75": 14.99,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "cartouche filtre fontaine chat",
+    "url": "https://www.google.fr/search?q=cartouche%20filtre%20fontaine%20chat&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "leroymerlin",
+      "maxi zoo",
+      "animalis",
+      "truffaut",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "manomano"
+    ],
+    "specialistsFound": [],
+    "priceCount": 59,
+    "pMin": 5,
+    "p25": 8.29,
+    "pMed": 11.47,
+    "p75": 15.46,
+    "hasShopping": true,
+    "pickupSignals": 0
+  }
+]

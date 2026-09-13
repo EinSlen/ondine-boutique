@@ -1,0 +1,72 @@
+{%- comment -%}
+  Bande noire des garanties, juste avant le pied de page.
+  Les pictogrammes sont traces en ligne : quatre traits suffisent, et cela evite une
+  requete d'image pour un element decoratif.
+{%- endcomment -%}
+
+<section class="d2m d2m-garanties" {{ section.shopify_attributes }}>
+  {%- for block in section.blocks -%}
+    <div class="d2m-garantie" {{ block.shopify_attributes }}>
+      {%- case block.settings.picto -%}
+        {%- when 'colis' -%}
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2.6 21 7v10l-9 4.4L3 17V7z"/>
+            <path d="M3 7l9 4.4L21 7"/>
+            <path d="M12 11.4V21.4"/>
+          </svg>
+        {%- when 'horloge' -%}
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 6.6V12l4 2.4"/>
+          </svg>
+        {%- when 'globe' -%}
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M3 12h18"/>
+            <path d="M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18z"/>
+          </svg>
+        {%- else -%}
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4.5" y="10.5" width="15" height="10.5" rx="1"/>
+            <path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/>
+          </svg>
+      {%- endcase -%}
+
+      <div>
+        <div class="d2m-garantie__titre">{{ block.settings.titre }}</div>
+        <div class="d2m-garantie__note">{{ block.settings.note }}</div>
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+{% schema %}
+{
+  "name": "D2M garanties",
+  "tag": "section",
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "garantie",
+      "name": "Garantie",
+      "settings": [
+        {
+          "type": "select",
+          "id": "picto",
+          "label": "Pictogramme",
+          "options": [
+            { "value": "colis", "label": "Colis" },
+            { "value": "horloge", "label": "Horloge" },
+            { "value": "globe", "label": "Globe" },
+            { "value": "cadenas", "label": "Cadenas" }
+          ],
+          "default": "colis"
+        },
+        { "type": "text", "id": "titre", "label": "Titre", "default": "Limited drop" },
+        { "type": "text", "id": "note", "label": "Note", "default": "Once it is gone, it is gone." }
+      ]
+    }
+  ],
+  "presets": [{ "name": "D2M garanties" }]
+}
+{% endschema %}

@@ -1,0 +1,396 @@
+[
+  {
+    "kw": "booster batterie voiture",
+    "url": "https://www.google.fr/search?q=booster%20batterie%20voiture&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "norauto",
+      "feu vert",
+      "carter-cash",
+      "leclerc",
+      "lidl",
+      "oscaro",
+      "mister-auto"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "manomano"
+    ],
+    "specialistsFound": [
+      "topdon"
+    ],
+    "priceCount": 36,
+    "pMin": 6,
+    "p25": 34.18,
+    "pMed": 53.09,
+    "p75": 99.99,
+    "hasShopping": true,
+    "pickupSignals": 8
+  },
+  {
+    "kw": "machine tatouage rotative",
+    "url": "https://www.google.fr/search?q=machine%20tatouage%20rotative&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [],
+    "marketplacesFound": [
+      "amazon",
+      "manomano"
+    ],
+    "specialistsFound": [
+      "barber dts",
+      "barberdts",
+      "killer ink",
+      "killerink",
+      "cheyenne",
+      "dragonhawk",
+      "mast ",
+      "ambition",
+      "eikon"
+    ],
+    "priceCount": 63,
+    "pMin": 5,
+    "p25": 53.51,
+    "pMed": 124.58,
+    "p75": 215,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "ponceuse ongles electrique professionnelle",
+    "url": "https://www.google.fr/search?q=ponceuse%20ongles%20electrique%20professionnelle&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "lidl",
+      "leroy merlin",
+      "leroymerlin",
+      "darty",
+      "intermarch",
+      "conforama",
+      "sephora",
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount"
+    ],
+    "specialistsFound": [
+      "peggy sage",
+      "marathon"
+    ],
+    "priceCount": 66,
+    "pMin": 6.45,
+    "p25": 36.99,
+    "pMed": 49.99,
+    "p75": 129,
+    "hasShopping": true,
+    "pickupSignals": 3
+  },
+  {
+    "kw": "aerographe patisserie alimentaire",
+    "url": "https://www.google.fr/search?q=aerographe%20patisserie%20alimentaire&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress"
+    ],
+    "specialistsFound": [
+      "cerf dellier",
+      "cerfdellier",
+      "meilleurduchef",
+      "cuisineaddict"
+    ],
+    "priceCount": 61,
+    "pMin": 6.9,
+    "p25": 50.88,
+    "pMed": 95.86,
+    "p75": 145.9,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "moulinet electrique peche",
+    "url": "https://www.google.fr/search?q=moulinet%20electrique%20peche&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "decathlon"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu"
+    ],
+    "specialistsFound": [
+      "pacificpeche",
+      "top-fishing",
+      "shimano",
+      "daiwa",
+      "penn ",
+      "okuma"
+    ],
+    "priceCount": 34,
+    "pMin": 5.49,
+    "p25": 47.41,
+    "pMed": 127.36,
+    "p75": 549.94,
+    "hasShopping": true,
+    "pickupSignals": 1
+  },
+  {
+    "kw": "tondeuse finition barbier professionnelle",
+    "url": "https://www.google.fr/search?q=tondeuse%20finition%20barbier%20professionnelle&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leclerc",
+      "boulanger",
+      "nocibe"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "manomano"
+    ],
+    "specialistsFound": [
+      "wahl",
+      "andis",
+      "babyliss",
+      "moser",
+      "jrl",
+      "stylecraft",
+      "gamma+"
+    ],
+    "priceCount": 74,
+    "pMin": 5.9,
+    "p25": 49.9,
+    "pMed": 95.88,
+    "p75": 144,
+    "hasShopping": true,
+    "pickupSignals": 3
+  },
+  {
+    "kw": "camera thermique smartphone",
+    "url": "https://www.google.fr/search?q=camera%20thermique%20smartphone&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "lidl",
+      "leroy merlin"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [
+      "flir",
+      "seek thermal",
+      "hikmicro",
+      "uni-t"
+    ],
+    "priceCount": 37,
+    "pMin": 56.21,
+    "p25": 119.99,
+    "pMed": 149.99,
+    "p75": 248.63,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "aspirateur poussiere ongles table",
+    "url": "https://www.google.fr/search?q=aspirateur%20poussiere%20ongles%20table&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "darty",
+      "conforama"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount"
+    ],
+    "specialistsFound": [
+      "peggy sage",
+      "nailshop"
+    ],
+    "priceCount": 67,
+    "pMin": 7.5,
+    "p25": 38.93,
+    "pMed": 79.86,
+    "p75": 239.99,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "lampe led ongles professionnelle 48w",
+    "url": "https://www.google.fr/search?q=lampe%20led%20ongles%20professionnelle%2048w&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "boulanger",
+      "darty",
+      "nocibe",
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "cdiscount"
+    ],
+    "specialistsFound": [
+      "peggy sage",
+      "semilac"
+    ],
+    "priceCount": 75,
+    "pMin": 6.45,
+    "p25": 21.63,
+    "pMed": 38.99,
+    "p75": 49.99,
+    "hasShopping": true,
+    "pickupSignals": 2
+  },
+  {
+    "kw": "kit ponceuse ongles professionnel",
+    "url": "https://www.google.fr/search?q=kit%20ponceuse%20ongles%20professionnel&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leclerc",
+      "lidl",
+      "leroy merlin",
+      "leroymerlin",
+      "boulanger",
+      "darty",
+      "nocibe",
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount"
+    ],
+    "specialistsFound": [
+      "peggy sage",
+      "marathon"
+    ],
+    "priceCount": 71,
+    "pMin": 15.29,
+    "p25": 35.9,
+    "pMed": 49.99,
+    "p75": 109,
+    "hasShopping": true,
+    "pickupSignals": 1
+  },
+  {
+    "kw": "fraise ponceuse ongles carbure",
+    "url": "https://www.google.fr/search?q=fraise%20ponceuse%20ongles%20carbure&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu"
+    ],
+    "specialistsFound": [
+      "nailshop",
+      "staleks"
+    ],
+    "priceCount": 74,
+    "pMin": 5.3,
+    "p25": 10.99,
+    "pMed": 16.41,
+    "p75": 19.8,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "table manucure professionnelle aspirante",
+    "url": "https://www.google.fr/search?q=table%20manucure%20professionnelle%20aspirante&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "darty",
+      "conforama",
+      "ikea"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount",
+      "manomano"
+    ],
+    "specialistsFound": [],
+    "priceCount": 73,
+    "pMin": 24.9,
+    "p25": 199,
+    "pMed": 267.99,
+    "p75": 478.8,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "appareil extension ongles resine",
+    "url": "https://www.google.fr/search?q=appareil%20extension%20ongles%20resine&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "cdiscount"
+    ],
+    "specialistsFound": [
+      "peggy sage",
+      "marathon"
+    ],
+    "priceCount": 42,
+    "pMin": 8.99,
+    "p25": 23.21,
+    "pMed": 35.89,
+    "p75": 64.99,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "sterilisateur uv instruments manucure",
+    "url": "https://www.google.fr/search?q=sterilisateur%20uv%20instruments%20manucure&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "darty",
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount"
+    ],
+    "specialistsFound": [
+      "nailshop"
+    ],
+    "priceCount": 65,
+    "pMin": 6.45,
+    "p25": 27.19,
+    "pMed": 49.9,
+    "p75": 79.69,
+    "hasShopping": true,
+    "pickupSignals": 0
+  }
+]

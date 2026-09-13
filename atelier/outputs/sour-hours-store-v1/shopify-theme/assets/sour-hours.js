@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('[data-menu]').forEach(button=>button.addEventListener('click',()=>{const nav=document.querySelector('.header nav');if(nav)nav.hidden=!nav.hidden}))});

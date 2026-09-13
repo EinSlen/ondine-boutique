@@ -1,0 +1,229 @@
+{
+  "type": "footer",
+  "name": "t:names.footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "colonnes": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "gap": 30,
+            "width": "fill",
+            "height": "fit",
+            "background_media": "none",
+            "border": "none",
+            "padding-block-start": 0,
+            "padding-block-end": 0
+          },
+          "blocks": {
+            "marque": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 16,
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit",
+                "background_media": "none",
+                "border": "none"
+              },
+              "blocks": {
+                "logo": {
+                  "type": "logo",
+                  "settings": {
+                    "inverse": false,
+                    "unit": "pixel",
+                    "pixel_height": 56,
+                    "custom_mobile_size": true,
+                    "unit_mobile": "pixel",
+                    "pixel_height_mobile": 40,
+                    "text_color": "#ffffff"
+                  }
+                },
+                "signature": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Clothing for the dead inside.<br/>Conçu en France.<br/>Une seule fois, pas de réassort.</p>",
+                    "width": "100%",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.75rem",
+                    "line_height": "normal",
+                    "text_color": "#b4b4b4"
+                  }
+                },
+                "reseaux": {
+                  "type": "social-links",
+                  "settings": {
+                    "icon_color": "#ffffff",
+                    "instagram_url": "https://www.instagram.com/dead2mewear",
+                    "tiktok_url": "https://www.tiktok.com/@dead2mewear"
+                  }
+                }
+              },
+              "block_order": [
+                "logo",
+                "signature",
+                "reseaux"
+              ]
+            },
+            "lettre": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 14,
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit",
+                "background_media": "none",
+                "border": "none"
+              },
+              "blocks": {
+                "titre": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Sub 2 know when it drops.</p>",
+                    "width": "100%",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.8125rem",
+                    "letter_spacing": "0.1em",
+                    "case": "uppercase",
+                    "text_color": "#ffffff"
+                  }
+                },
+                "inscription": {
+                  "type": "email-signup",
+                  "settings": {
+                    "width": "fill",
+                    "border_style": "all",
+                    "input_style": "custom",
+                    "border_width": 1,
+                    "border_radius": 0,
+                    "input_background_color": "#000000",
+                    "input_text_color": "#ffffff",
+                    "input_border_color": "#3a3a3a",
+                    "input_type_preset": "paragraph",
+                    "style_class": "button",
+                    "custom_button_background": "#8e1822",
+                    "custom_button_text": "#ffffff",
+                    "custom_button_border": "#8e1822",
+                    "link_text_color": "#ffffff",
+                    "display_type": "text",
+                    "label": "Submit",
+                    "integrated_button": true
+                  }
+                }
+              },
+              "block_order": [
+                "titre",
+                "inscription"
+              ]
+            },
+            "shop": {
+              "type": "menu",
+              "settings": {
+                "menu": "d2m-shop",
+                "heading": "Boutique",
+                "menu_spacing": 8,
+                "text_color": "#c8c8c8",
+                "heading_preset": "custom",
+                "link_preset": "paragraph"
+              }
+            },
+            "infos": {
+              "type": "menu",
+              "settings": {
+                "menu": "d2m-info",
+                "heading": "Infos",
+                "menu_spacing": 8,
+                "text_color": "#c8c8c8",
+                "heading_preset": "custom",
+                "link_preset": "paragraph"
+              }
+            },
+            "mentions": {
+              "type": "menu",
+              "settings": {
+                "menu": "d2m-legal",
+                "heading": "Mentions",
+                "menu_spacing": 8,
+                "text_color": "#c8c8c8",
+                "heading_preset": "custom",
+                "link_preset": "paragraph"
+              }
+            }
+          },
+          "block_order": [
+            "marque",
+            "lettre",
+            "shop",
+            "infos",
+            "mentions"
+          ]
+        }
+      },
+      "block_order": [
+        "colonnes"
+      ],
+      "settings": {
+        "section_width": "full-width",
+        "gap": 24,
+        "background_color": "#000000",
+        "padding-block-start": 44,
+        "padding-block-end": 34
+      }
+    },
+    "footer_utilities": {
+      "type": "footer-utilities",
+      "blocks": {
+        "copyright": {
+          "type": "footer-copyright",
+          "settings": {
+            "show_powered_by": false,
+            "text_color": "#8c8c8c",
+            "font_size": "0.6875rem",
+            "case": "uppercase"
+          }
+        },
+        "politiques": {
+          "type": "footer-policy-list",
+          "settings": {
+            "text_color": "#8c8c8c",
+            "font_size": "0.6875rem",
+            "case": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "copyright",
+        "politiques"
+      ],
+      "name": "t:names.utilities",
+      "settings": {
+        "section_width": "full-width",
+        "gap": 24,
+        "background_color": "#000000",
+        "divider_thickness": 1,
+        "divider_color": "#1d1d1d",
+        "padding-block-start": 16,
+        "padding-block-end": 22
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "footer_utilities"
+  ]
+}

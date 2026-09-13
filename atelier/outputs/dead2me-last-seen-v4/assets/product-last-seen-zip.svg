@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title">
+  <title id="title">Last Seen boxy zip hoodie, front and back concept</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#c5c2bc"/><stop offset="1" stop-color="#918e88"/></linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65635f"/><stop offset=".55" stop-color="#373633"/><stop offset="1" stop-color="#1c1c1b"/></linearGradient>
+    <filter id="wash"><feTurbulence type="fractalNoise" baseFrequency=".04" numOctaves="3" seed="23" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="mono"/><feBlend in="SourceGraphic" in2="mono" mode="overlay"/></filter>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <text x="60" y="83" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="5">02 / LAST SEEN ZIP</text>
+  <text x="1140" y="83" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="3">WASHED GRAPHITE</text>
+  <ellipse cx="332" cy="1270" rx="250" ry="35" opacity=".15" filter="url(#shadow)"/>
+  <ellipse cx="880" cy="1270" rx="250" ry="35" opacity=".15" filter="url(#shadow)"/>
+  <g filter="url(#wash)">
+    <g transform="translate(35 160)">
+      <path d="M206 160q90-100 181 0l17 140H190z" fill="#292826" stroke="#77736c" stroke-width="3"/>
+      <path d="M119 270 18 437l72 51 101-130v724h239V358l99 130 73-51-103-167-111-49H229z" fill="url(#cloth)" stroke="#1b1b1a" stroke-width="5"/>
+      <line x1="310" y1="292" x2="310" y2="1080" stroke="#aaa69e" stroke-width="5" opacity=".8"/>
+      <path d="M305 294h10v26h-10z" fill="#d0ccc2"/>
+      <path d="M310 833 212 932M310 833l97 99" stroke="#706d67" stroke-width="4"/>
+      <path d="M113 1066h324v25H113z" fill="#20201f"/>
+      <g transform="translate(348 425)"><circle cx="0" cy="0" r="8" fill="#a62b26"/><text x="-17" y="43" transform="rotate(90 -17 43)" font-family="Arial" font-size="12" letter-spacing="3" fill="#ddd8cf">OFFLINE</text></g>
+    </g>
+    <g transform="translate(585 160)">
+      <path d="M206 160q90-100 181 0l17 140H190z" fill="#292826" stroke="#77736c" stroke-width="3"/>
+      <path d="M119 270 18 437l72 51 101-130v724h239V358l99 130 73-51-103-167-111-49H229z" fill="url(#cloth)" stroke="#1b1b1a" stroke-width="5"/>
+      <path d="M113 1066h324v25H113z" fill="#20201f"/>
+      <g transform="translate(180 462)">
+        <path d="M0 0h263v263H31v-19H0z" fill="none" stroke="#d0ccc2" stroke-width="8"/>
+        <circle cx="238" cy="25" r="11" fill="#a62b26"/>
+        <text x="131" y="118" text-anchor="middle" font-family="Arial" font-size="31" letter-spacing="4" fill="#d8d4cb">DEAD2ME</text>
+        <text x="131" y="161" text-anchor="middle" font-family="Arial" font-size="14" letter-spacing="6" fill="#d8d4cb">LAST SEEN</text>
+        <text x="131" y="205" text-anchor="middle" font-family="Arial" font-size="25" letter-spacing="9" fill="#d8d4cb">03:17</text>
+      </g>
+    </g>
+  </g>
+  <text x="60" y="1435" font-family="Arial" font-size="19" letter-spacing="3">FRONT / ZIP + HEART EMBROIDERY</text>
+  <text x="1140" y="1435" text-anchor="end" font-family="Arial" font-size="19" letter-spacing="3">BACK / HIGH-DENSITY PRINT</text>
+</svg>

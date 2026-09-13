@@ -1,0 +1,114 @@
+const { chromium } = require('playwright');
+const fs = require('node:fs');
+const path = require('node:path');
+const { pathToFileURL, fileURLToPath } = require('node:url');
+const assert = require('node:assert/strict');
+(async () => {
+  const root = path.resolve(__dirname,'..');
+  const url = pathToFileURL(path.join(root,'index.html')).href;
+  const checks = [];
+  const browser = await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+  const context = await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true,reducedMotion:'reduce'});
+  const page = await context.newPage();
+  const errors = [];
+  page.on('pageerror',error => errors.push(error.message));
+  page.on('console',message => { if (message.type() === 'error') errors.push(message.text()); });
+  await page.goto(url);
+  await page.evaluate(() => {localStorage.removeItem('ondine-neutral-audit-v5');});
+  await page.reload();
+  await page.waitForSelector('.benchmark');
+  for (const [selector,count] of [['.benchmark',6],['.name-ref',6],['.candidate',6],['.product-card',3],['.reserve-row',5],['.supplier',5],['.script',12]]) {
+    assert.equal(await page.locator(selector).count(),count); checks.push(`${selector}: ${count}`);
+  }
+  assert.equal(await page.locator('.candidate.selected').count(),0);
+  assert.match(await page.locator('#name-status').innerText(),/Aucune piste/);
+  checks.push('No default name selected');
+  for (const image of await page.locator('img').all()) { await image.scrollIntoViewIfNeeded(); await image.evaluate(img => img.decode()); }
+  assert.equal(await page.locator('img').evaluateAll(images => images.every(img => img.complete && img.naturalWidth > 0)),true);
+  assert.equal(await page.locator('.product-image figcaption').count(),3);
+  assert.equal(await page.locator('.target-price').evaluateAll(items => items.every(item => item.textContent.includes('prix cible non validé'))),true);
+  checks.push('All images loaded and visibly labelled archive; prices labelled targets');
+  const localLinks = await page.locator('a[href]').evaluateAll(items => items.map(item => item.href).filter(href => href.startsWith('file:')));
+  for (const href of localLinks) {
+    const parsed = new URL(href);
+    assert.ok(fs.existsSync(fileURLToPath(parsed)),href);
+    if (parsed.hash) assert.ok(await page.locator(`[id="${decodeURIComponent(parsed.hash.slice(1))}"]`).count(),href);
+  }
+  checks.push('All local links and section anchors resolve');
+  assert.match(await page.locator('#cost-result').innerText(),/16,55/);
+  await page.locator('[name="other"]').fill('2.55');
+  assert.match(await page.locator('#cost-result').innerText(),/14,00/);
+  await page.locator('[name="revenue"]').fill('');
+  assert.equal(await page.locator('#cost-result').innerText(),'À compléter');
+  await page.locator('[name="revenue"]').fill('37.5');
+  await page.locator('[name="other"]').fill('0');
+  checks.push('Cost example, recalculation, and unknown input handling');
+  for (const filter of ['hoodie','tee','rayure']) {
+    await page.locator(`[data-filter="${filter}"]`).click();
+    assert.equal(await page.locator('.script').count(),4);
+    assert.equal(await page.locator(`[data-filter="${filter}"]`).getAttribute('aria-pressed'),'true');
+  }
+  await page.locator('[data-filter="all"]').click();
+  assert.equal(await page.locator('.script').count(),12);
+  checks.push('All script filters');
+  await page.locator('[data-name="Side Habit"]').click();
+  assert.match(await page.locator('#name-status').innerText(),/Side Habit.*Aucun changement/);
+  assert.match(await page.title(),/Étude de marque/);
+  await page.reload();
+  assert.equal(await page.locator('.candidate.selected [data-name]').getAttribute('data-name'),'Side Habit');
+  checks.push('Preference persists without renaming document');
+  await page.locator('[name="code"]').fill('TEST <img src=x onerror=alert(1)>');
+  await page.locator('[name="views"]').fill('1000');
+  await page.locator('[name="visits"]').fill('20');
+  await page.locator('[name="intents"]').fill('0');
+  await page.locator('[name="note"]').fill('Test automatique ; ne pas livrer ces résultats.');
+  await page.locator('#test-form button[type="submit"]').click();
+  assert.equal(await page.locator('.observation').count(),1);
+  assert.match(await page.locator('.rates').innerText(),/2 %.*non calculable/);
+  assert.equal(await page.locator('.observation img').count(),0);
+  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('ondine-neutral-audit-v5')));
+  assert.equal(stored.observations[0].orders,null);
+  assert.equal(stored.observations[0].intents,0);
+  await page.reload();
+  assert.equal(await page.locator('.observation').count(),1);
+  checks.push('Manual observations: persistence, zero vs unknown, descriptive rates, escaped text');
+  const downloadWait = page.waitForEvent('download');
+  await page.locator('#export').click();
+  const download = await downloadWait;
+  const exported = JSON.parse(fs.readFileSync(await download.path(),'utf8'));
+  assert.equal(exported.schema,'ondine-audit-local-v5');
+  assert.equal(exported.preference,'Side Habit');
+  assert.equal(exported.observations[0].orders,null);
+  checks.push('JSON export contains local values and unknowns');
+  page.once('dialog',dialog => dialog.accept());
+  await page.locator('[data-remove]').click();
+  assert.equal(await page.locator('.observation').count(),0);
+  checks.push('Observation removal with confirmation');
+  await page.evaluate(() => localStorage.removeItem('ondine-neutral-audit-v5'));
+  await page.reload();
+  for (const width of [1440,768,390,320]) {
+    await page.setViewportSize({width,height:width > 800 ? 1000 : 844});
+    await page.evaluate(() => scrollTo(0,0));
+    const dimensions = await page.evaluate(() => ({body:document.body.scrollWidth,root:document.documentElement.scrollWidth,width:innerWidth}));
+    assert.ok(dimensions.body <= width && dimensions.root <= width,JSON.stringify(dimensions));
+    await page.screenshot({path:path.join(__dirname,`top-${width}.png`)});
+    checks.push(`No page overflow at ${width}px`);
+  }
+  await page.setViewportSize({width:1440,height:1000});
+  await page.evaluate(() => document.querySelector('#identite').scrollIntoView({block:'start'}));
+  await page.screenshot({path:path.join(__dirname,'identity-desktop.png')});
+  await page.locator('#name-candidates').screenshot({path:path.join(__dirname,'names-desktop.png')});
+  await page.locator('#product-hoodie img').scrollIntoViewIfNeeded();
+  await page.locator('#product-hoodie img').evaluate(img => img.decode());
+  await page.evaluate(() => document.querySelector('#product-hoodie').scrollIntoView({block:'start'}));
+  await page.screenshot({path:path.join(__dirname,'product-review.png')});
+  await page.setViewportSize({width:390,height:844});
+  await page.evaluate(() => { document.activeElement?.blur(); document.querySelector('#name-candidates').scrollIntoView({block:'start'}); });
+  await page.screenshot({path:path.join(__dirname,'names-mobile.png')});
+  assert.deepEqual(errors,[]);
+  checks.push('No JavaScript or browser console errors');
+  const report = {date:new Date().toISOString(),file:url,passed:checks.length,checks,errors,scope:'Local browser QA, not commercial or legal validation'};
+  fs.writeFileSync(path.join(__dirname,'report.json'),JSON.stringify(report,null,2));
+  console.log(JSON.stringify(report,null,2));
+  await browser.close();
+})().catch(error => {console.error(error);process.exit(1);});

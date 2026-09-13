@@ -1,0 +1,58 @@
+[
+  {
+    "numero": 1,
+    "scene": "duo",
+    "phrase": "dead to me",
+    "encre": "#cfcbc2",
+    "lot": "pub"
+  },
+  {
+    "numero": 2,
+    "scene": "fuite",
+    "phrase": "no reply",
+    "encre": "#8f9aa3",
+    "lot": "pub"
+  },
+  {
+    "numero": 3,
+    "scene": "symbole",
+    "phrase": "you first",
+    "encre": "#a8a49b",
+    "lot": "pub"
+  },
+  {
+    "numero": 4,
+    "scene": "eloignement",
+    "phrase": "still nothing",
+    "encre": "#cfcbc2",
+    "lot": "pub"
+  },
+  {
+    "numero": 5,
+    "scene": "duo",
+    "phrase": "last seen online",
+    "encre": "#a8a49b",
+    "lot": "pub"
+  },
+  {
+    "numero": 6,
+    "scene": "fuite",
+    "phrase": "read at 4am",
+    "encre": "#a8a49b",
+    "lot": "pub"
+  },
+  {
+    "numero": 7,
+    "scene": "symbole",
+    "phrase": "gone by morning",
+    "encre": "#cfcbc2",
+    "lot": "pub"
+  },
+  {
+    "numero": 8,
+    "scene": "eloignement",
+    "phrase": "told you so",
+    "encre": "#cfcbc2",
+    "lot": "pub"
+  }
+]

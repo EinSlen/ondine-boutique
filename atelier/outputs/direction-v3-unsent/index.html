@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Direction V3 — Unsent Messages</title>
+  <style>
+    :root {
+      --ink: #11100e;
+      --paper: #e8e4dc;
+      --paper-2: #d5d0c7;
+      --red: #781b1e;
+      --line: rgba(17, 16, 14, .28);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        repeating-linear-gradient(0deg, rgba(0,0,0,.018) 0 1px, transparent 1px 4px),
+        var(--paper);
+      font-family: "Courier New", Courier, monospace;
+    }
+    a { color: inherit; }
+    button { font: inherit; }
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: .75rem 1.1rem;
+      color: var(--paper);
+      background: var(--ink);
+      font-size: .68rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    header {
+      min-height: 88vh;
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(270px, .65fr);
+      border-bottom: 1px solid var(--ink);
+    }
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: clamp(1.25rem, 4vw, 4rem);
+      border-right: 1px solid var(--ink);
+    }
+    .kicker, .stamp {
+      width: max-content;
+      padding: .42rem .6rem;
+      border: 1px solid currentColor;
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      transform: rotate(-1deg);
+    }
+    h1 {
+      max-width: 11ch;
+      margin: 3rem 0 2rem;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(4.8rem, 13vw, 12.5rem);
+      font-weight: 900;
+      line-height: .73;
+      letter-spacing: -.055em;
+      text-transform: uppercase;
+    }
+    .hero-copy h1 em {
+      display: block;
+      color: var(--red);
+      font-family: Georgia, serif;
+      font-size: .49em;
+      font-weight: 400;
+      letter-spacing: -.08em;
+      text-transform: lowercase;
+      transform: rotate(-2deg);
+    }
+    .hero-intro {
+      max-width: 64ch;
+      font-size: clamp(.92rem, 1.4vw, 1.15rem);
+      line-height: 1.55;
+    }
+    .hero-rule {
+      display: grid;
+      align-content: center;
+      gap: 1.6rem;
+      padding: clamp(1.25rem, 3vw, 3rem);
+      background: var(--paper-2);
+    }
+    .hero-rule p { margin: 0; }
+    .manifesto {
+      font-family: Georgia, serif;
+      font-size: clamp(1.8rem, 3.6vw, 4rem);
+      font-style: italic;
+      line-height: .98;
+    }
+    .formula {
+      display: grid;
+      gap: .6rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid var(--ink);
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .formula strong { color: var(--red); }
+    main { overflow: hidden; }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 3rem clamp(1rem, 3vw, 3rem) 1rem;
+      border-bottom: 1px solid var(--ink);
+    }
+    .section-head h2 {
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(2.7rem, 7vw, 7rem);
+      font-weight: 900;
+      line-height: .82;
+      text-transform: uppercase;
+    }
+    .section-head p { margin: 0; font-size: .74rem; text-transform: uppercase; }
+    .products { display: grid; grid-template-columns: 1fr 1fr; }
+    .product {
+      position: relative;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-width: 0;
+      border-bottom: 1px solid var(--ink);
+    }
+    .product:nth-child(odd) { border-right: 1px solid var(--ink); }
+    .product-media {
+      position: relative;
+      aspect-ratio: 16 / 11;
+      overflow: hidden;
+      background: #cac6bf;
+      border-bottom: 1px solid var(--ink);
+    }
+    .product-media img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s cubic-bezier(.2,.7,.2,1), filter .4s;
+    }
+    .product:hover .product-media img { transform: scale(1.025); filter: contrast(1.04); }
+    .index {
+      position: absolute;
+      z-index: 2;
+      top: .75rem;
+      left: .75rem;
+      display: grid;
+      place-items: center;
+      width: 2.6rem;
+      height: 2.6rem;
+      color: var(--paper);
+      background: var(--ink);
+      border-radius: 50%;
+      font-weight: 700;
+    }
+    .product-copy { padding: 1.2rem clamp(1rem, 2.4vw, 2.2rem) 1.6rem; }
+    .product-title {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .product h3 {
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(2rem, 4.2vw, 4.6rem);
+      font-weight: 900;
+      line-height: .86;
+      text-transform: uppercase;
+    }
+    .type { padding-top: .3rem; color: var(--red); font-size: .72rem; text-align: right; text-transform: uppercase; }
+    .story {
+      max-width: 58ch;
+      margin: 1rem 0 1.1rem;
+      font-family: Georgia, serif;
+      font-size: 1rem;
+      font-style: italic;
+      line-height: 1.4;
+    }
+    .specs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .45rem;
+      margin-bottom: 1.2rem;
+    }
+    .specs span { padding: .35rem .48rem; border: 1px solid var(--line); font-size: .66rem; text-transform: uppercase; }
+    .why { min-height: 3.8em; margin: 0 0 1.2rem; font-size: .74rem; line-height: 1.45; }
+    .select {
+      width: 100%;
+      padding: .9rem 1rem;
+      border: 1px solid var(--ink);
+      color: var(--ink);
+      background: transparent;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: color .18s, background .18s;
+    }
+    .select:hover, .select[aria-pressed="true"] { color: var(--paper); background: var(--red); border-color: var(--red); }
+    .audit {
+      padding: clamp(2rem, 5vw, 5rem) clamp(1rem, 3vw, 3rem);
+      color: var(--paper);
+      background: var(--ink);
+    }
+    .audit h2, .decision h2 {
+      margin: 0 0 2rem;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(3rem, 8vw, 8rem);
+      line-height: .82;
+      text-transform: uppercase;
+    }
+    .audit-grid { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid rgba(232,228,220,.35); }
+    .lesson { min-height: 15rem; padding: 1.1rem; border-right: 1px solid rgba(232,228,220,.35); }
+    .lesson:last-child { border: 0; }
+    .lesson b { display: block; margin-bottom: 2.8rem; color: #b84b4e; text-transform: uppercase; }
+    .lesson p { margin: 0; font-family: Georgia, serif; font-size: 1.08rem; line-height: 1.35; }
+    .lesson a { display: inline-block; margin-top: 1rem; font-size: .65rem; text-transform: uppercase; }
+    .decision {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: clamp(2rem, 6vw, 7rem);
+      padding: clamp(2rem, 6vw, 6rem) clamp(1rem, 3vw, 3rem);
+    }
+    .decision h2 { margin: 0; color: var(--red); }
+    .decision-copy { display: grid; align-content: center; gap: 1.2rem; }
+    .decision-copy p { margin: 0; line-height: 1.5; }
+    .lead { padding: 1rem; border: 1px solid var(--ink); font-weight: 700; }
+    .selection-output {
+      padding: 1rem;
+      color: var(--paper);
+      background: var(--ink);
+      line-height: 1.45;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem;
+      border-top: 1px solid var(--ink);
+      font-size: .65rem;
+      text-transform: uppercase;
+    }
+    @media (max-width: 900px) {
+      header { min-height: auto; grid-template-columns: 1fr; }
+      .hero-copy { min-height: 70vh; border-right: 0; border-bottom: 1px solid var(--ink); }
+      .products { grid-template-columns: 1fr; }
+      .product:nth-child(odd) { border-right: 0; }
+      .audit-grid { grid-template-columns: 1fr 1fr; }
+      .lesson:nth-child(2) { border-right: 0; }
+      .lesson:nth-child(-n+2) { border-bottom: 1px solid rgba(232,228,220,.35); }
+      .decision { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      .topline span:last-child { display: none; }
+      h1 { font-size: clamp(4.2rem, 22vw, 7rem); }
+      .section-head { align-items: start; flex-direction: column; }
+      .product-media { aspect-ratio: 1 / 1; }
+      .audit-grid { grid-template-columns: 1fr; }
+      .lesson, .lesson:nth-child(2) { min-height: auto; border-right: 0; border-bottom: 1px solid rgba(232,228,220,.35); }
+      .lesson:last-child { border-bottom: 0; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topline"><span>Ondine / étude de direction</span><span>05.09.2026 — aucun produit publié</span></div>
+  <header>
+    <div class="hero-copy">
+      <span class="kicker">Direction V3 / prototype</span>
+      <h1>Unsent <em>messages</em></h1>
+      <p class="hero-intro">On arrête de fabriquer une « identité de marque » avec des symboles répétés. Chaque vêtement devient une scène autonome : une image qu’on retient, une phrase qu’on ressent et une vraie raison technique d’acheter la pièce.</p>
+    </div>
+    <aside class="hero-rule">
+      <p class="manifesto">Ce n’est pas le logo qui vend l’histoire. C’est le moment qu’on n’arrive pas à oublier.</p>
+      <div class="formula">
+        <span><strong>01</strong> image forte</span>
+        <span><strong>01</strong> phrase</span>
+        <span><strong>01</strong> technique textile</span>
+        <span><strong>00</strong> mascotte récurrente</span>
+      </div>
+    </aside>
+  </header>
+
+  <main>
+    <div class="section-head">
+      <h2>Les 4 prototypes</h2>
+      <p>Clique sur les pièces que tu garderais</p>
+    </div>
+
+    <section class="products">
+      <article class="product" data-name="01 — LAST SEEN ZIP">
+        <div class="product-media"><span class="index">01</span><img src="assets/01-last-seen-zip.png" alt="Prototype de hoodie zippé Last Seen, vues avant et arrière"></div>
+        <div class="product-copy">
+          <div class="product-title"><h3>Last Seen</h3><span class="type">Zip hoodie<br>420–460 GSM</span></div>
+          <p class="story">03:17. Une silhouette quitte la lumière du lampadaire sans se retourner.</p>
+          <div class="specs"><span>photo 35 mm</span><span>trame grossière</span><span>encre gonflante noire</span><span>lavage vintage</span></div>
+          <p class="why">La pièce la plus proche du principe Live2Die : une seule image narrative imparfaite qui devient le produit, avec assez de silence autour pour qu’elle frappe.</p>
+          <button class="select" type="button" aria-pressed="false">Je garde le 01</button>
+        </div>
+      </article>
+
+      <article class="product" data-name="02 — CALL ME WHEN YOU GET HOME TEE">
+        <div class="product-media"><span class="index">02</span><img src="assets/02-call-home-tee.png" alt="Prototype de tee-shirt Call Me When You Get Home, vues avant et arrière"></div>
+        <div class="product-copy">
+          <div class="product-title"><h3>Call Me When You Get Home</h3><span class="type">Heavy tee<br>260 GSM</span></div>
+          <p class="story">Le combiné pend encore. L’appel n’a jamais été repris.</p>
+          <div class="specs"><span>sérigraphie 2 encres</span><span>photocopie</span><span>bord déchiré</span><span>coupe boxy</span></div>
+          <p class="why">Très lisible en vidéo et en miniature : devant presque vide, dos iconique, phrase émotionnelle courte. C’est le meilleur produit d’entrée.</p>
+          <button class="select" type="button" aria-pressed="false">Je garde le 02</button>
+        </div>
+      </article>
+
+      <article class="product" data-name="03 — I KEPT THE LIGHT ON JACKET">
+        <div class="product-media"><span class="index">03</span><img src="assets/03-light-on-jacket.png" alt="Prototype de veste I Kept The Light On, vues avant et arrière"></div>
+        <div class="product-copy">
+          <div class="product-title"><h3>I Kept The Light On</h3><span class="type">Canvas jacket<br>pièce hero</span></div>
+          <p class="story">Toutes les chambres sont noires, sauf celle de la personne qui attend toujours.</p>
+          <div class="specs"><span>canvas lavé</span><span>broderie dégradée</span><span>pigment craquelé</span><span>surpiqûre crème</span></div>
+          <p class="why">La technique textile justifie un prix supérieur. Le vêtement reste désirable sans l’image grâce à sa coupe, son zip métal et ses coutures.</p>
+          <button class="select" type="button" aria-pressed="false">Je garde le 03</button>
+        </div>
+      </article>
+
+      <article class="product" data-name="04 — RETURN TO SENDER DENIM">
+        <div class="product-media"><span class="index">04</span><img src="assets/04-return-to-sender-denim.png" alt="Prototype de jean Return To Sender, vues avant et arrière"></div>
+        <div class="product-copy">
+          <div class="product-title"><h3>Return To Sender</h3><span class="type">Ultra-wide denim<br>13–14 oz</span></div>
+          <p class="story">La lettre est revenue fermée. Ce qui devait être dit restera dedans.</p>
+          <div class="specs"><span>laser denim</span><span>couture torsadée</span><span>lavage noir</span><span>jambe ultra-large</span></div>
+          <p class="why">Ici, la silhouette et la construction passent avant le dessin. C’est la leçon des meilleurs labels : le graphisme renforce une vraie pièce, il ne la sauve pas.</p>
+          <button class="select" type="button" aria-pressed="false">Je garde le 04</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="audit">
+      <h2>Ce qu’on reprend.<br>Pas ce qu’on copie.</h2>
+      <div class="audit-grid">
+        <article class="lesson"><b>Live2Die</b><p>Une histoire par pièce, une finition imparfaite assumée, une vraie rareté.</p><a href="https://live2die.us/" target="_blank" rel="noreferrer">Voir la référence ↗</a></article>
+        <article class="lesson"><b>Represent</b><p>Une grande image centrale posée sur un vêtement premium qui existe par lui-même.</p><a href="https://eu.representclo.com/collections/247-bestsellers" target="_blank" rel="noreferrer">Voir la référence ↗</a></article>
+        <article class="lesson"><b>Derschutze</b><p>La technique — densité de broderie, matière, construction — devient une preuve de valeur.</p><a href="https://derschutze.com/products/dse-3017u-hoodie-black" target="_blank" rel="noreferrer">Voir la référence ↗</a></article>
+        <article class="lesson"><b>Scuffers / Cold Culture</b><p>Des héros graphiques entourés de basiques plus simples, faciles à reporter et à décliner.</p><a href="https://scuffers.com/collections/best-sellers" target="_blank" rel="noreferrer">Voir les références ↗</a></article>
+      </div>
+    </section>
+
+    <section class="decision">
+      <h2>La suite<br>se décide ici.</h2>
+      <div class="decision-copy">
+        <p class="lead">Recommandation de lancement : <strong>01 LAST SEEN</strong> + <strong>02 CALL ME WHEN YOU GET HOME</strong>. Le 03 porte l’image premium ; le 04 vient après validation du patron et du lavage.</p>
+        <p>Après validation, on construit une capsule resserrée de 6 à 8 références : 2 héros narratifs, 2 vêtements de silhouette, 2 accessoires et 1 ou 2 basiques. Pas douze dessins de remplissage.</p>
+        <div class="selection-output" id="selection" aria-live="polite">Aucune pièce sélectionnée — clique sur celles qui ont vraiment le niveau.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Direction artistique originale — étude non publiée</span><span>Sélection V3 / Ondine</span></footer>
+
+  <script>
+    const buttons = [...document.querySelectorAll('.select')];
+    const output = document.querySelector('#selection');
+    const update = () => {
+      const selected = buttons
+        .filter(button => button.getAttribute('aria-pressed') === 'true')
+        .map(button => button.closest('.product').dataset.name);
+      output.textContent = selected.length
+        ? `TA SÉLECTION : ${selected.join(' + ')}`
+        : 'Aucune pièce sélectionnée — clique sur celles qui ont vraiment le niveau.';
+    };
+    buttons.forEach(button => button.addEventListener('click', () => {
+      const active = button.getAttribute('aria-pressed') === 'true';
+      button.setAttribute('aria-pressed', String(!active));
+      button.textContent = active ? button.textContent.replace('RETIRER', 'JE GARDE') : button.textContent.replace('JE GARDE', 'RETIRER');
+      update();
+    }));
+  </script>
+</body>
+</html>

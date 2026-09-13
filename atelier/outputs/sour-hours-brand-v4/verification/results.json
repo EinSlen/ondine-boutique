@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-06T10:10:41.632Z",
+  "results": [
+    {
+      "name": "8 produits et une composition éditoriale",
+      "status": "PASS"
+    },
+    {
+      "name": "11 images sources disponibles",
+      "status": "PASS"
+    },
+    {
+      "name": "Aucun débordement horizontal desktop",
+      "status": "PASS"
+    },
+    {
+      "name": "Filtre tops : 2 pièces",
+      "status": "PASS"
+    },
+    {
+      "name": "Filtre sweats : 2 pièces",
+      "status": "PASS"
+    },
+    {
+      "name": "Filtre pants : 2 pièces",
+      "status": "PASS"
+    },
+    {
+      "name": "Filtre accessories : 2 pièces",
+      "status": "PASS"
+    },
+    {
+      "name": "Tri prix croissant",
+      "status": "PASS"
+    },
+    {
+      "name": "Recherche cerise ouvre Double Cherry",
+      "status": "PASS"
+    },
+    {
+      "name": "Vues détail et silhouette, taille obligatoire",
+      "status": "PASS"
+    },
+    {
+      "name": "Ajout, quantité et export de sélection",
+      "status": "PASS"
+    },
+    {
+      "name": "Look Cherry affiche les trois pièces",
+      "status": "PASS"
+    },
+    {
+      "name": "Accessoires sans fausse vue portée + navigation",
+      "status": "PASS"
+    },
+    {
+      "name": "Entrées locales invalides ignorées",
+      "status": "PASS"
+    },
+    {
+      "name": "Aucun débordement horizontal 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "Aucun débordement horizontal 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "Contrôles de vue mobile ancrés à l’image",
+      "status": "PASS"
+    },
+    {
+      "name": "Aucun débordement horizontal 320px",
+      "status": "PASS"
+    },
+    {
+      "name": "Atelier : huit briefs et calculateur",
+      "status": "PASS"
+    },
+    {
+      "name": "Atelier mobile sans débordement",
+      "status": "PASS"
+    },
+    {
+      "name": "Liens locaux HTML et ressources disponibles",
+      "status": "PASS"
+    },
+    {
+      "name": "Aucune erreur JavaScript",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

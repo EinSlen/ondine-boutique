@@ -1,0 +1,58 @@
+[
+  {
+    "nom": "001-duo",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-001-duo.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/584a5f1514748d58687527a10e48695e/unisex-heavy-blend-hoodie-black-front-6a8864490696b.png",
+    "local": "001-duo.png"
+  },
+  {
+    "nom": "002-fuite",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-002-fuite.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/a263957582f3b7663bb14eabccc91558/unisex-heavy-blend-hoodie-black-front-6a88645432cde.png",
+    "local": "002-fuite.png"
+  },
+  {
+    "nom": "003-symbole",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-003-symbole.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/6df7c0ba1e21140960995d04d720639a/unisex-heavy-blend-hoodie-black-front-6a8864930eb94.png",
+    "local": "003-symbole.png"
+  },
+  {
+    "nom": "004-eloignement",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-004-eloignement.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/ee4fb9019a15f6937ae935ec3659bed1/unisex-heavy-blend-hoodie-black-front-6a88649f1102a.png",
+    "local": "004-eloignement.png"
+  },
+  {
+    "nom": "005-duo",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-005-duo.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/9e5f1a67b95c22f3d7af8f76d255306a/unisex-heavy-blend-hoodie-black-front-6a8864de1bcfa.png",
+    "local": "005-duo.png"
+  },
+  {
+    "nom": "006-fuite",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-006-fuite.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/65b2b9f419137ce1eec5e4309a3ab2bd/unisex-heavy-blend-hoodie-black-front-6a8864e9ebd3a.png",
+    "local": "006-fuite.png"
+  },
+  {
+    "nom": "007-symbole",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-007-symbole.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/39bbcff04c08dc9a224b8fd2cdf77263/unisex-heavy-blend-hoodie-black-front-6a8865297e712.png",
+    "local": "007-symbole.png"
+  },
+  {
+    "nom": "008-eloignement",
+    "lot": "organique",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-organique-008-eloignement.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/4b81b96a7300fa62ef717913f7922b94/unisex-heavy-blend-hoodie-black-front-6a886534ef4e4.png",
+    "local": "008-eloignement.png"
+  }
+]

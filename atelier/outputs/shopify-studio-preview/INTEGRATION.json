@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-09-09",
+  "shop": "0rsiku-r1.myshopify.com",
+  "mainThemeUntouched": "gid://shopify/OnlineStoreTheme/188582592840",
+  "previewTheme": {"id": "gid://shopify/OnlineStoreTheme/189335208264", "name": "LE STUDIO — Call me later — Aperçu", "role": "UNPUBLISHED", "processing": false, "processingFailed": false, "archive": "studio-preview-r1.zip", "url": "https://0rsiku-r1.myshopify.com/?preview_theme_id=189335208264", "verifiedRemoteFiles": 37, "browserTestsPassed": 12, "viewports": [1440, 768, 390, 320]},
+  "product": {
+    "id": "gid://shopify/Product/10273301299528",
+    "title": "Call me later — Tee",
+    "status": "DRAFT",
+    "priceHypothesisEUR": 49,
+    "supplierSynchronized": false,
+    "physicalSample": false,
+    "variantSizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "color": "Bone",
+    "inventoryPerVariant": 0,
+    "images": [
+      {"id": "gid://shopify/MediaImage/63171727524168", "filename": "call-me-later-tee-back-concept.png", "url": "https://cdn.shopify.com/s/files/1/0981/1990/9704/files/call-me-later-tee-back-concept.png?v=1788886633"},
+      {"id": "gid://shopify/MediaImage/63171735388488", "filename": "call-me-later-tee-worn-concept.png", "url": "https://cdn.shopify.com/s/files/1/0981/1990/9704/files/call-me-later-tee-worn-concept.png?v=1788886684"}
+    ]
+  },
+  "localDevelopment": {
+    "checkedAt": "2026-09-10",
+    "deployed": false,
+    "creativeDirectionPaused": true,
+    "technicalChanges": "Product options timeout recovery and add-to-cart error handling; three production files changed locally.",
+    "browserContractTestsPassed": 23,
+    "realCheckoutTested": false,
+    "liquidValidationRevision": 4,
+    "localThemeFiles": 38,
+    "report": "COMMERCE-LOCAL.md"
+  },
+  "limits": ["Design non approuvé", "Collection incomplète", "Coût France non confirmé", "Décor source non finalisé pour impression", "Aucune preuve de demande", "Aucune publication"]
+}

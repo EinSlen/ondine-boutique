@@ -1,0 +1,10 @@
+[
+  { "tag": "v2-fontaine-ES-cmd", "kw": "cat water fountain", "ship": "ES", "sort": "total_tranpro_desc" },
+  { "tag": "v2-fontaine-DE-cmd", "kw": "cat water fountain", "ship": "DE", "sort": "total_tranpro_desc" },
+  { "tag": "v2-fontaine-FR-cmd", "kw": "cat water fountain", "ship": "FR", "sort": "total_tranpro_desc" },
+  { "tag": "v2-fontaine-CN-cmd", "kw": "cat water fountain", "ship": "CN", "sort": "total_tranpro_desc" },
+  { "tag": "v2-fontaine-tout-cmd", "kw": "cat water fountain", "sort": "total_tranpro_desc" },
+  { "tag": "v2-fontaine-ES-prix", "kw": "cat water fountain", "ship": "ES", "sort": "price_asc" },
+  { "tag": "v2-filtres-CN-cmd", "kw": "cat fountain filter replacement", "ship": "CN", "sort": "total_tranpro_desc" },
+  { "tag": "v2-filtres-ES-cmd", "kw": "cat fountain filter replacement", "ship": "ES", "sort": "total_tranpro_desc" }
+]

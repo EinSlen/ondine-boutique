@@ -1,0 +1,25 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Price,Variant Inventory Policy,Variant Fulfillment Service,Variant Requires Shipping,Variant Taxable,Status
+last-seen-hoodie,Last Seen Hoodie,<p>Hoodie boxy charbon délavé. Petite broderie poitrine et panneau appliqué bord brut au dos.</p><ul><li>400 GSM cible</li><li>Coupe boxy sans cordons</li><li>Appliqué et broderie</li></ul>,DEAD2ME,Apparel & Accessories > Clothing > Shirts & Tops,Hoodie,"DROP 001,Last Seen,boxy,heavyweight,prototype",false,Size,XS,D2M-LSH-XS,99,deny,manual,true,true,draft
+last-seen-hoodie,,,,,,,,Size,S,D2M-LSH-S,99,deny,manual,true,true,draft
+last-seen-hoodie,,,,,,,,Size,M,D2M-LSH-M,99,deny,manual,true,true,draft
+last-seen-hoodie,,,,,,,,Size,L,D2M-LSH-L,99,deny,manual,true,true,draft
+last-seen-hoodie,,,,,,,,Size,XL,D2M-LSH-XL,99,deny,manual,true,true,draft
+last-seen-hoodie,,,,,,,,Size,XXL,D2M-LSH-XXL,99,deny,manual,true,true,draft
+last-seen-zip,Last Seen Zip,"<p>Zip hoodie graphite délavé, large et légèrement court. Broderie poitrine et sérigraphie haute densité au dos.</p><ul><li>400 GSM cible</li><li>Zip métal</li><li>Coupe boxy</li></ul>",DEAD2ME,Apparel & Accessories > Clothing > Shirts & Tops,Zip Hoodie,"DROP 001,Last Seen,boxy,heavyweight,prototype",false,Size,XS,D2M-LSZ-XS,109,deny,manual,true,true,draft
+last-seen-zip,,,,,,,,Size,S,D2M-LSZ-S,109,deny,manual,true,true,draft
+last-seen-zip,,,,,,,,Size,M,D2M-LSZ-M,109,deny,manual,true,true,draft
+last-seen-zip,,,,,,,,Size,L,D2M-LSZ-L,109,deny,manual,true,true,draft
+last-seen-zip,,,,,,,,Size,XL,D2M-LSZ-XL,109,deny,manual,true,true,draft
+last-seen-zip,,,,,,,,Size,XXL,D2M-LSZ-XXL,109,deny,manual,true,true,draft
+offline-boxy-tee,Offline Boxy Tee,"<p>Tee heavyweight vintage bone, col compact et manches larges. Statut brodé devant et sérigraphie deux couleurs au dos.</p><ul><li>240 GSM cible</li><li>Coton biologique cible</li><li>Oversized boxy</li></ul>",DEAD2ME,Apparel & Accessories > Clothing > Shirts & Tops,T-Shirt,"DROP 001,Offline,boxy,240gsm,prototype",false,Size,XS,D2M-OBT-XS,55,deny,manual,true,true,draft
+offline-boxy-tee,,,,,,,,Size,S,D2M-OBT-S,55,deny,manual,true,true,draft
+offline-boxy-tee,,,,,,,,Size,M,D2M-OBT-M,55,deny,manual,true,true,draft
+offline-boxy-tee,,,,,,,,Size,L,D2M-OBT-L,55,deny,manual,true,true,draft
+offline-boxy-tee,,,,,,,,Size,XL,D2M-OBT-XL,55,deny,manual,true,true,draft
+offline-boxy-tee,,,,,,,,Size,XXL,D2M-OBT-XXL,55,deny,manual,true,true,draft
+missed-call-long-sleeve,Missed Call Long Sleeve,"<p>Long sleeve oxblood délavé, large et légèrement court. Motifs poitrine, manches et dos.</p><ul><li>240 GSM cible</li><li>Coton biologique cible</li><li>Oversized boxy</li></ul>",DEAD2ME,Apparel & Accessories > Clothing > Shirts & Tops,Long Sleeve,"DROP 001,Missed Call,boxy,240gsm,prototype",false,Size,XS,D2M-MCL-XS,65,deny,manual,true,true,draft
+missed-call-long-sleeve,,,,,,,,Size,S,D2M-MCL-S,65,deny,manual,true,true,draft
+missed-call-long-sleeve,,,,,,,,Size,M,D2M-MCL-M,65,deny,manual,true,true,draft
+missed-call-long-sleeve,,,,,,,,Size,L,D2M-MCL-L,65,deny,manual,true,true,draft
+missed-call-long-sleeve,,,,,,,,Size,XL,D2M-MCL-XL,65,deny,manual,true,true,draft
+missed-call-long-sleeve,,,,,,,,Size,XXL,D2M-MCL-XXL,65,deny,manual,true,true,draft

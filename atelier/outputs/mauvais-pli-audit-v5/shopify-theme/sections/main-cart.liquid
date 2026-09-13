@@ -1,0 +1,27 @@
+<section class="sh-cart sh-container sh-section">
+  <h1 class="sh-page-title">{{ 'cart.title' | t }}</h1>
+  {% if cart.item_count > 0 %}
+    {% form 'cart', cart, class: 'sh-cart__form' %}
+      {{ form.errors | default_errors }}
+      <div class="sh-cart__items">
+        {% for item in cart.items %}
+          <article class="sh-cart__item">
+            <a href="{{ item.url }}" class="sh-cart__image">{% if item.image %}{{ item.image | image_url: width: 400 | image_tag: loading: 'lazy', widths: '200, 400', sizes: '(max-width: 600px) 90px, 140px', alt: item.image.alt | default: item.product.title }}{% endif %}</a>
+            <div class="sh-cart__details"><a href="{{ item.url }}">{{ item.product.title | escape }}</a>{% unless item.product.has_only_default_variant %}<p class="sh-note sh-muted">{{ item.variant.title | escape }}</p>{% endunless %}{% if item.selling_plan_allocation %}<p class="sh-note">{{ item.selling_plan_allocation.selling_plan.name | escape }}</p>{% endif %}{% for property in item.properties %}{% assign property_initial = property.first | slice: 0 %}{% if property.last != blank and property_initial != '_' %}<p class="sh-note">{{ property.first | escape }}: {% if property.last contains '/uploads/' %}<a href="{{ property.last }}">{{ 'cart.custom_file' | t }}</a>{% else %}{{ property.last | escape }}{% endif %}</p>{% endif %}{% endfor %}<p class="sh-cart__unit sh-note">{{ item.final_price | money }}</p>{% for discount in item.line_level_discount_allocations %}<p class="sh-note">{{ discount.discount_application.title | escape }} (−{{ discount.amount | money }})</p>{% endfor %}<a class="sh-cart__remove sh-note" href="{{ item.url_to_remove }}">{{ 'cart.remove' | t }}</a></div>
+            <div class="sh-cart__quantity"><label class="visually-hidden" for="CartQuantity-{{ forloop.index }}">{{ 'cart.quantity_for' | t: title: item.product.title | escape }}</label><input id="CartQuantity-{{ forloop.index }}" type="number" name="updates[]" value="{{ item.quantity }}" min="0" step="{{ item.variant.quantity_rule.increment | default: 1 }}"{% if item.variant.quantity_rule.max != blank %} max="{{ item.variant.quantity_rule.max }}"{% endif %} inputmode="numeric"></div>
+            <p class="sh-cart__line-price">{{ item.final_line_price | money }}</p>
+          </article>
+        {% endfor %}
+        <button type="submit" name="update" class="sh-button sh-button--outline">{{ 'cart.update' | t }}</button>
+      </div>
+      <aside class="sh-cart__summary"><h2>{{ 'cart.summary' | t }}</h2>{% for discount in cart.cart_level_discount_applications %}<p>{{ discount.title | escape }} <span>−{{ discount.total_allocated_amount | money }}</span></p>{% endfor %}<p class="sh-cart__total">{{ 'cart.total' | t }} <span>{{ cart.total_price | money_with_currency }}</span></p><div class="sh-note sh-muted">{% if cart.taxes_included %}{{ 'cart.taxes_included' | t }}{% else %}{{ 'cart.taxes_checkout' | t }}{% endif %}</div><button type="submit" name="checkout" class="sh-button">{{ 'cart.checkout' | t }} ↗</button></aside>
+    {% endform %}
+  {% else %}<div class="sh-empty"><p>{{ 'cart.empty' | t }}</p><a class="sh-button" href="{{ routes.all_products_collection_url }}">{{ 'navigation.collection' | t }} ↗</a></div>{% endif %}
+</section>
+{% stylesheet %}
+  .sh-cart__form{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(260px,1fr);gap:7%;align-items:start}.sh-cart__item{display:grid;grid-template-columns:125px minmax(0,1fr) auto auto;gap:24px;align-items:start;padding-block:24px;border-top:1px solid var(--line)}.sh-cart__image{background:white;aspect-ratio:4/5}.sh-cart__image img{width:100%;height:100%;object-fit:contain}.sh-cart__details>a:first-child{font-size:14px;font-weight:700;text-decoration:none}.sh-cart__details>p{margin-top:6px}.sh-cart__remove{display:inline-block;margin-top:16px}.sh-cart__line-price{font-size:13px;white-space:nowrap}.sh-cart__quantity input{width:65px;padding:8px}.sh-cart__items>button{margin-top:16px}.sh-cart__summary{background:color-mix(in srgb,var(--ink) 5%,var(--cream));padding:30px;position:sticky;top:30px}.sh-cart__summary h2{font-size:33px;margin-bottom:25px}.sh-cart__summary>p{display:flex;justify-content:space-between;gap:14px}.sh-cart__total{border-top:1px solid var(--line);padding-top:20px;margin-top:20px;font-size:14px}.sh-cart__summary>.sh-note{margin-top:16px}.sh-cart__summary>.sh-button{width:100%;margin-top:24px}
+  @media(max-width:1000px){.sh-cart__form{grid-template-columns:1fr;gap:38px}.sh-cart__summary{position:static;max-width:600px;width:100%;margin-left:auto}}@media(max-width:600px){.sh-cart__item{grid-template-columns:85px minmax(0,1fr) auto;gap:14px}.sh-cart__line-price{grid-column:2/-1}.sh-cart__summary{padding:24px}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.cart","settings":[]}
+{% endschema %}

@@ -1,0 +1,12 @@
+<section class="sh-contact sh-container sh-section"><h1 class="sh-page-title">{{ page.title | escape }}</h1>{% if page.content != blank %}<div class="sh-rte">{{ page.content }}</div>{% endif %}
+  {% form 'contact' %}
+    {% if form.posted_successfully? %}<p role="status">{{ 'contact.success' | t }}</p>{% endif %}
+    {{ form.errors | default_errors }}
+    <div class="sh-form-field"><label for="ContactName">{{ 'contact.name' | t }}</label><input id="ContactName" type="text" name="contact[name]" value="{{ form.name | default: customer.name | escape }}" autocomplete="name" required></div>
+    <div class="sh-form-field"><label for="ContactEmail">{{ 'contact.email' | t }}</label><input id="ContactEmail" type="email" name="contact[email]" value="{{ form.email | default: customer.email | escape }}" autocomplete="email" required></div>
+    <div class="sh-form-field"><label for="ContactBody">{{ 'contact.message' | t }}</label><textarea id="ContactBody" name="contact[body]" required>{{ form.body | escape }}</textarea></div>
+    <div class="sh-form-actions"><button type="submit" class="sh-button">{{ 'contact.submit' | t }} ↗</button></div>
+  {% endform %}
+</section>
+{% stylesheet %}.sh-contact{max-width:930px}.sh-contact>.sh-rte{margin-bottom:32px}.sh-contact form{max-width:650px}{% endstylesheet %}
+{% schema %}{"name":"t:sections.contact","settings":[]}{% endschema %}

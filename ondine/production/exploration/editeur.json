@@ -1,0 +1,3199 @@
+[
+  {
+    "cle": "10-fiche-blank",
+    "quoi": "la fiche produit du blank, avant l’éditeur",
+    "url": "https://www.printful.com/dashboard/custom/mens/hoodies-sweatshirts/unisex-heavy-blend-zip-hoodie-gildan-18600",
+    "titre": "Unisex Heavy Blend Zip Hoodie - Gildan 18600 | Printful",
+    "elements": [
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "Search Printful",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "New order",
+        "attrs": {
+          "data-test": "new-order-QWpKc8PEToXxD5Z"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {
+          "data-test": "logo-hPqJQfxownT7aiA"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Collapse sidebar",
+        "attrs": {
+          "data-testid": "dashboard-sidebar-desktop--more-toggle",
+          "aria-label": "Collapse sidebar"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Home",
+        "attrs": {
+          "aria-label": "Home"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Orders",
+        "attrs": {
+          "aria-label": "Orders"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Product catalog",
+        "attrs": {
+          "aria-label": "Product catalog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "My products",
+        "attrs": {
+          "aria-label": "My products"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Stores",
+        "attrs": {
+          "aria-label": "Stores"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "More",
+        "attrs": {
+          "aria-label": "More"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Products",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Men's",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Hoodies & sweatshirts",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Go to last slide",
+        "attrs": {
+          "aria-label": "Go to last slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Next slide",
+        "attrs": {
+          "aria-label": "Next slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Save to favorites",
+        "attrs": {
+          "data-original-title": "Save to favorites",
+          "aria-label": "Save to favorites",
+          "data-toggle": "tooltip",
+          "data-container": "body"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "289 Reviews",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "File guidelines",
+        "attrs": {
+          "data-test": "single-picker-link"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printing",
+        "attrs": {
+          "data-test": "printingTechniques-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Embroidery",
+        "attrs": {
+          "data-test": "EMBROIDERY-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "DTG printing",
+        "attrs": {
+          "data-test": "sub-technique-button-T-SHIRT-Mfua5KLshmIsO0z"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "T-SHIRT",
+        "attrs": {
+          "id": "sub-technique-T-SHIRT",
+          "type": "radio"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "New",
+        "attrs": {
+          "data-test": "sub-technique-button-DTFILM-Mfua5KLshmIsO0z"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "DTFILM",
+        "attrs": {
+          "id": "sub-technique-DTFILM",
+          "type": "radio"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Find out more.",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Black #0b0b0b",
+        "attrs": {
+          "aria-label": "Black #0b0b0b",
+          "id": "Black",
+          "data-test": "Black-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Navy #15263c",
+        "attrs": {
+          "aria-label": "Navy #15263c",
+          "id": "Navy",
+          "data-test": "Navy-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Chocolate #483525",
+        "attrs": {
+          "aria-label": "Dark Chocolate #483525",
+          "id": "Dark Chocolate",
+          "data-test": "Dark Chocolate-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Forest Green #304029",
+        "attrs": {
+          "aria-label": "Forest Green #304029",
+          "id": "Forest Green",
+          "data-test": "Forest Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Heather #3c3d44",
+        "attrs": {
+          "aria-label": "Dark Heather #3c3d44",
+          "id": "Dark Heather",
+          "data-test": "Dark Heather-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Cardinal Red #aa1f31",
+        "attrs": {
+          "aria-label": "Cardinal Red #aa1f31",
+          "id": "Cardinal Red",
+          "data-test": "Cardinal Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Red #e01221",
+        "attrs": {
+          "aria-label": "Red #e01221",
+          "id": "Red",
+          "data-test": "Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Purple #643285",
+        "attrs": {
+          "aria-label": "Purple #643285",
+          "id": "Purple",
+          "data-test": "Purple-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Royal #1d57a5",
+        "attrs": {
+          "aria-label": "Royal #1d57a5",
+          "id": "Royal",
+          "data-test": "Royal-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Irish Green #00c85e",
+        "attrs": {
+          "aria-label": "Irish Green #00c85e",
+          "id": "Irish Green",
+          "data-test": "Irish Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Carolina Blue #9cc4ff",
+        "attrs": {
+          "aria-label": "Carolina Blue #9cc4ff",
+          "id": "Carolina Blue",
+          "data-test": "Carolina Blue-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sport Grey #c0c1c5",
+        "attrs": {
+          "aria-label": "Sport Grey #c0c1c5",
+          "id": "Sport Grey",
+          "data-test": "Sport Grey-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ash #f8f8f8",
+        "attrs": {
+          "aria-label": "Ash #f8f8f8",
+          "id": "Ash",
+          "data-test": "Ash-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White #ffffff",
+        "attrs": {
+          "aria-label": "White #ffffff",
+          "id": "White",
+          "data-test": "White-color-swatch"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Size guide",
+        "attrs": {
+          "data-test": "single-picker-link"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "S",
+        "attrs": {
+          "data-test": "S-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "M",
+        "attrs": {
+          "data-test": "M-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "L",
+        "attrs": {
+          "data-test": "L-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "XL",
+        "attrs": {
+          "data-test": "XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "2XL",
+        "attrs": {
+          "data-test": "2XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "3XL",
+        "attrs": {
+          "data-test": "3XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "4XL",
+        "attrs": {
+          "data-test": "4XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "5XL",
+        "attrs": {
+          "data-test": "5XL-text-button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Printful Growth",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Start designing",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "detailed info",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "EU GPSR-related product information",
+        "attrs": {
+          "id": "21"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "care instructions",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Information",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "289 Reviews",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Add a review Add a review",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Stars",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sizes",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Techniques",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Colors",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ratings",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Most recent",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "bhIj50",
+          "type": "checkbox",
+          "name": "withPictures"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "neiggM",
+          "type": "checkbox",
+          "name": "withPictures"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-103372"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-103012"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-102241"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-101994"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "1",
+        "attrs": {
+          "id": "23",
+          "name": "pagination number",
+          "aria-label": "Choose which page to navigate to",
+          "type": "number"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Next page",
+        "attrs": {
+          "aria-label": "Next page"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Last page",
+        "attrs": {
+          "aria-label": "Last page"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Add a review Add a review",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Instagram",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Facebook",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Youtube",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "LinkedIn",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "X",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Pinterest",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "TikTok",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Services",
+        "attrs": {
+          "id": "footer-link-services"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Integrations",
+        "attrs": {
+          "id": "footer-link-integrations"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "attrs": {
+          "id": "footer-link-shipping"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "attrs": {
+          "id": "footer-link-policies"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Feature requests",
+        "attrs": {
+          "id": "footer-link-feature-requests"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "attrs": {
+          "id": "footer-link-blog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "FAQ",
+        "attrs": {
+          "id": "footer-link-faq"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "attrs": {
+          "id": "footer-link-recent-updates"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printful Help Center",
+        "attrs": {
+          "id": "pf-zendesk-chat",
+          "type": "button"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "11-editeur",
+    "quoi": "l’éditeur, avec ses zones de placement et son ajout de fichier",
+    "url": "https://www.printful.com/dashboard/custom/mens/hoodies-sweatshirts/unisex-heavy-blend-zip-hoodie-gildan-18600",
+    "titre": "Unisex Heavy Blend Zip Hoodie - Gildan 18600 | Printful",
+    "elements": [
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "Search Printful",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "New order",
+        "attrs": {
+          "data-test": "new-order-QWpKc8PEToXxD5Z"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {
+          "data-test": "logo-hPqJQfxownT7aiA"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Collapse sidebar",
+        "attrs": {
+          "data-testid": "dashboard-sidebar-desktop--more-toggle",
+          "aria-label": "Collapse sidebar"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Home",
+        "attrs": {
+          "aria-label": "Home"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Orders",
+        "attrs": {
+          "aria-label": "Orders"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Product catalog",
+        "attrs": {
+          "aria-label": "Product catalog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "My products",
+        "attrs": {
+          "aria-label": "My products"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Stores",
+        "attrs": {
+          "aria-label": "Stores"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "More",
+        "attrs": {
+          "aria-label": "More"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Products",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Men's",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Hoodies & sweatshirts",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Go to last slide",
+        "attrs": {
+          "aria-label": "Go to last slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Next slide",
+        "attrs": {
+          "aria-label": "Next slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Save to favorites",
+        "attrs": {
+          "data-original-title": "Save to favorites",
+          "aria-label": "Save to favorites",
+          "data-toggle": "tooltip",
+          "data-container": "body"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "289 Reviews",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Black #0b0b0b",
+        "attrs": {
+          "aria-label": "Black #0b0b0b",
+          "id": "Black",
+          "data-test": "Black-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Navy #15263c",
+        "attrs": {
+          "aria-label": "Navy #15263c",
+          "id": "Navy",
+          "data-test": "Navy-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Chocolate #483525",
+        "attrs": {
+          "aria-label": "Dark Chocolate #483525",
+          "id": "Dark Chocolate",
+          "data-test": "Dark Chocolate-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Forest Green #304029",
+        "attrs": {
+          "aria-label": "Forest Green #304029",
+          "id": "Forest Green",
+          "data-test": "Forest Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Heather #3c3d44",
+        "attrs": {
+          "aria-label": "Dark Heather #3c3d44",
+          "id": "Dark Heather",
+          "data-test": "Dark Heather-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Cardinal Red #aa1f31",
+        "attrs": {
+          "aria-label": "Cardinal Red #aa1f31",
+          "id": "Cardinal Red",
+          "data-test": "Cardinal Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Red #e01221",
+        "attrs": {
+          "aria-label": "Red #e01221",
+          "id": "Red",
+          "data-test": "Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Purple #643285",
+        "attrs": {
+          "aria-label": "Purple #643285",
+          "id": "Purple",
+          "data-test": "Purple-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Royal #1d57a5",
+        "attrs": {
+          "aria-label": "Royal #1d57a5",
+          "id": "Royal",
+          "data-test": "Royal-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Irish Green #00c85e",
+        "attrs": {
+          "aria-label": "Irish Green #00c85e",
+          "id": "Irish Green",
+          "data-test": "Irish Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Carolina Blue #9cc4ff",
+        "attrs": {
+          "aria-label": "Carolina Blue #9cc4ff",
+          "id": "Carolina Blue",
+          "data-test": "Carolina Blue-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sport Grey #c0c1c5",
+        "attrs": {
+          "aria-label": "Sport Grey #c0c1c5",
+          "id": "Sport Grey",
+          "data-test": "Sport Grey-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ash #f8f8f8",
+        "attrs": {
+          "aria-label": "Ash #f8f8f8",
+          "id": "Ash",
+          "data-test": "Ash-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White #ffffff",
+        "attrs": {
+          "aria-label": "White #ffffff",
+          "id": "White",
+          "data-test": "White-color-swatch"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Size guide",
+        "attrs": {
+          "data-test": "single-picker-link"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "S",
+        "attrs": {
+          "data-test": "S-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "M",
+        "attrs": {
+          "data-test": "M-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "L",
+        "attrs": {
+          "data-test": "L-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "XL",
+        "attrs": {
+          "data-test": "XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "2XL",
+        "attrs": {
+          "data-test": "2XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "3XL",
+        "attrs": {
+          "data-test": "3XL-text-button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Printful Growth",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Start designing",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "detailed info",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "EU GPSR-related product information",
+        "attrs": {
+          "id": "21"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "care instructions",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Information",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "289 Reviews",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Add a review Add a review",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Stars",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sizes",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Techniques",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Colors",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ratings",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Most recent",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "bhIj50",
+          "type": "checkbox",
+          "name": "withPictures"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "neiggM",
+          "type": "checkbox",
+          "name": "withPictures"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-103372"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-103012"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-102241"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-101994"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "1",
+        "attrs": {
+          "id": "23",
+          "name": "pagination number",
+          "aria-label": "Choose which page to navigate to",
+          "type": "number"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Next page",
+        "attrs": {
+          "aria-label": "Next page"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Last page",
+        "attrs": {
+          "aria-label": "Last page"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Add a review Add a review",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Instagram",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Facebook",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Youtube",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "LinkedIn",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "X",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Pinterest",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "TikTok",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Services",
+        "attrs": {
+          "id": "footer-link-services"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Integrations",
+        "attrs": {
+          "id": "footer-link-integrations"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "attrs": {
+          "id": "footer-link-shipping"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "attrs": {
+          "id": "footer-link-policies"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Feature requests",
+        "attrs": {
+          "id": "footer-link-feature-requests"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "attrs": {
+          "id": "footer-link-blog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "FAQ",
+        "attrs": {
+          "id": "footer-link-faq"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "attrs": {
+          "id": "footer-link-recent-updates"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printful Help Center",
+        "attrs": {
+          "id": "pf-zendesk-chat",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "Unisex heavy blend zip hoodie",
+        "attrs": {
+          "id": "templates-title-input-field-vue",
+          "placeholder": "Unisex heavy blend zip hoodie",
+          "name": "templates-title--input-field",
+          "type": "text"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Change product",
+        "attrs": {
+          "id": "js--back-to-catalog-link"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Undo",
+        "attrs": {
+          "data-container": ".main-mockup-area",
+          "type": "button",
+          "aria-label": "Undo",
+          "data-test": "click-undo-button-xfDxUvMKrgvY7T0"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Redo",
+        "attrs": {
+          "data-container": ".main-mockup-area",
+          "type": "button",
+          "aria-label": "Redo",
+          "data-test": "click-redo-button-xfDxUfgKJusY9TX"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Close",
+        "attrs": {
+          "aria-label": "Close"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Product",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "data-testid": "designer-sidebar-navigation-product-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Uploads",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "file",
+          "data-test": "designer-sidebar-navigation-uploads-button",
+          "data-testid": "designer-sidebar-navigation-uploads-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Text",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "textbox",
+          "data-test": "designer-sidebar-navigation-text-button",
+          "data-testid": "designer-sidebar-navigation-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Saved designs",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "customer_quick_design",
+          "data-test": "designer-sidebar-navigation-quick-design-button",
+          "data-testid": "designer-sidebar-navigation-quick-design-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Clipart",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "clipart_section",
+          "data-test": "designer-sidebar-navigation-clipart-button",
+          "data-testid": "designer-sidebar-navigation-clipart-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Quick Designs",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "quick-design_section",
+          "data-test": "designer-sidebar-navigation-quick-designs-button",
+          "data-testid": "designer-sidebar-navigation-quick-designs-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Premium",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "licensed_asset",
+          "data-test": "designer-sidebar-navigation-premium-button",
+          "data-testid": "designer-sidebar-navigation-premium-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Fill",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "background_fill",
+          "data-test": "designer-sidebar-navigation-fill-button",
+          "data-testid": "designer-sidebar-navigation-fill-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Layers",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Hire designer",
+        "attrs": {
+          "id": "hire-fiverr-link-dm",
+          "data-gtm-vis-recent-on-screen2760778_1950": "10902",
+          "data-gtm-vis-first-on-screen2760778_1950": "10902",
+          "data-gtm-vis-total-visible-time2760778_1950": "100",
+          "data-gtm-vis-has-fired2760778_1950": "1"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Help",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "data-test": "designer-sidebar-navigation-help-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Pricing & file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Printing",
+        "attrs": {
+          "role": "button",
+          "data-test": "technique-button-PRINTING-4bxDzoWiuJ1G6Zp"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Embroidery",
+        "attrs": {
+          "role": "button",
+          "data-test": "technique-button-EMBROIDERY-4bxDzoWiuJ1G6Zp"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "DTG printing",
+        "attrs": {
+          "data-test": "sub-technique-button-T-SHIRT-Mfua5KLshmIsO0z"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "T-SHIRT",
+        "attrs": {
+          "id": "sub-technique-T-SHIRT",
+          "type": "radio"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "New",
+        "attrs": {
+          "data-test": "sub-technique-button-DTFILM-Mfua5KLshmIsO0z"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "DTFILM",
+        "attrs": {
+          "id": "sub-technique-DTFILM",
+          "type": "radio"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Find out more.",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Black #0b0b0b",
+        "attrs": {
+          "aria-label": "Black #0b0b0b",
+          "id": "Black",
+          "data-test": "Black-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Navy #15263c",
+        "attrs": {
+          "aria-label": "Navy #15263c",
+          "id": "Navy",
+          "data-test": "Navy-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Chocolate #483525",
+        "attrs": {
+          "aria-label": "Dark Chocolate #483525",
+          "id": "Dark Chocolate",
+          "data-test": "Dark Chocolate-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Forest Green #304029",
+        "attrs": {
+          "aria-label": "Forest Green #304029",
+          "id": "Forest Green",
+          "data-test": "Forest Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Heather #3c3d44",
+        "attrs": {
+          "aria-label": "Dark Heather #3c3d44",
+          "id": "Dark Heather",
+          "data-test": "Dark Heather-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Cardinal Red #aa1f31",
+        "attrs": {
+          "aria-label": "Cardinal Red #aa1f31",
+          "id": "Cardinal Red",
+          "data-test": "Cardinal Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Red #e01221",
+        "attrs": {
+          "aria-label": "Red #e01221",
+          "id": "Red",
+          "data-test": "Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Purple #643285",
+        "attrs": {
+          "aria-label": "Purple #643285",
+          "id": "Purple",
+          "data-test": "Purple-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Royal #1d57a5",
+        "attrs": {
+          "aria-label": "Royal #1d57a5",
+          "id": "Royal",
+          "data-test": "Royal-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Irish Green #00c85e",
+        "attrs": {
+          "aria-label": "Irish Green #00c85e",
+          "id": "Irish Green",
+          "data-test": "Irish Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Carolina Blue #9cc4ff",
+        "attrs": {
+          "aria-label": "Carolina Blue #9cc4ff",
+          "id": "Carolina Blue",
+          "data-test": "Carolina Blue-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sport Grey #c0c1c5",
+        "attrs": {
+          "aria-label": "Sport Grey #c0c1c5",
+          "id": "Sport Grey",
+          "data-test": "Sport Grey-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ash #f8f8f8",
+        "attrs": {
+          "aria-label": "Ash #f8f8f8",
+          "id": "Ash",
+          "data-test": "Ash-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White #ffffff",
+        "attrs": {
+          "aria-label": "White #ffffff",
+          "id": "White",
+          "data-test": "White-color-swatch"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-select-all-checkbox",
+          "type": "checkbox",
+          "data-test": "single-picker-select-all-checkbox"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-S",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-S"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-M",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-M"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-L",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-L"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-XL",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-XL"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-2XL",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-2XL"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-3XL",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-3XL"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Collapse Product",
+        "attrs": {
+          "data-test": "designer-layout-left-sidebar-toggle",
+          "data-testid": "designer-sidebar-toggle-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Front",
+        "attrs": {
+          "data-test": "placement-tab-front-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-front",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Back",
+        "attrs": {
+          "data-test": "placement-tab-back-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-back",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Right sleeve",
+        "attrs": {
+          "data-test": "placement-tab-sleeve_right-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-sleeve_right",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Left sleeve",
+        "attrs": {
+          "data-test": "placement-tab-sleeve_left-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-sleeve_left",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Outside label",
+        "attrs": {
+          "data-test": "placement-tab-label_outside-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-label_outside",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Inside label DTF",
+        "attrs": {
+          "data-test": "placement-tab-label_inside_dtf-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-label_inside_dtf",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Left wrist EMB",
+        "attrs": {
+          "data-test": "placement-tab-embroidery_wrist_left-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-embroidery_wrist_left",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Right wrist EMB",
+        "attrs": {
+          "data-test": "placement-tab-embroidery_wrist_right-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-embroidery_wrist_right",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White",
+        "attrs": {
+          "id": "198421-title"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Save template",
+        "attrs": {
+          "type": "button",
+          "data-test": "proceed-btn-TMy5EYwDLbVl8Pq",
+          "data-testid": "save-template"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Publish",
+        "attrs": {
+          "type": "button"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "12-fichiers",
+    "quoi": "le panneau d’ajout de fichier, où se colle une URL",
+    "url": "https://www.printful.com/dashboard/custom/mens/hoodies-sweatshirts/unisex-heavy-blend-zip-hoodie-gildan-18600",
+    "titre": "Unisex Heavy Blend Zip Hoodie - Gildan 18600 | Printful",
+    "elements": [
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "Search Printful",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "New order",
+        "attrs": {
+          "data-test": "new-order-QWpKc8PEToXxD5Z"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {
+          "data-test": "logo-hPqJQfxownT7aiA"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Collapse sidebar",
+        "attrs": {
+          "data-testid": "dashboard-sidebar-desktop--more-toggle",
+          "aria-label": "Collapse sidebar"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Home",
+        "attrs": {
+          "aria-label": "Home"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Orders",
+        "attrs": {
+          "aria-label": "Orders"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Product catalog",
+        "attrs": {
+          "aria-label": "Product catalog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "My products",
+        "attrs": {
+          "aria-label": "My products"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Stores",
+        "attrs": {
+          "aria-label": "Stores"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "More",
+        "attrs": {
+          "aria-label": "More"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Products",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Men's",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Hoodies & sweatshirts",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Go to last slide",
+        "attrs": {
+          "aria-label": "Go to last slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Next slide",
+        "attrs": {
+          "aria-label": "Next slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Save to favorites",
+        "attrs": {
+          "data-original-title": "Save to favorites",
+          "aria-label": "Save to favorites",
+          "data-toggle": "tooltip",
+          "data-container": "body"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "289 Reviews",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Black #0b0b0b",
+        "attrs": {
+          "aria-label": "Black #0b0b0b",
+          "id": "Black",
+          "data-test": "Black-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Navy #15263c",
+        "attrs": {
+          "aria-label": "Navy #15263c",
+          "id": "Navy",
+          "data-test": "Navy-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Chocolate #483525",
+        "attrs": {
+          "aria-label": "Dark Chocolate #483525",
+          "id": "Dark Chocolate",
+          "data-test": "Dark Chocolate-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Forest Green #304029",
+        "attrs": {
+          "aria-label": "Forest Green #304029",
+          "id": "Forest Green",
+          "data-test": "Forest Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Heather #3c3d44",
+        "attrs": {
+          "aria-label": "Dark Heather #3c3d44",
+          "id": "Dark Heather",
+          "data-test": "Dark Heather-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Cardinal Red #aa1f31",
+        "attrs": {
+          "aria-label": "Cardinal Red #aa1f31",
+          "id": "Cardinal Red",
+          "data-test": "Cardinal Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Red #e01221",
+        "attrs": {
+          "aria-label": "Red #e01221",
+          "id": "Red",
+          "data-test": "Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Purple #643285",
+        "attrs": {
+          "aria-label": "Purple #643285",
+          "id": "Purple",
+          "data-test": "Purple-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Royal #1d57a5",
+        "attrs": {
+          "aria-label": "Royal #1d57a5",
+          "id": "Royal",
+          "data-test": "Royal-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Irish Green #00c85e",
+        "attrs": {
+          "aria-label": "Irish Green #00c85e",
+          "id": "Irish Green",
+          "data-test": "Irish Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Carolina Blue #9cc4ff",
+        "attrs": {
+          "aria-label": "Carolina Blue #9cc4ff",
+          "id": "Carolina Blue",
+          "data-test": "Carolina Blue-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sport Grey #c0c1c5",
+        "attrs": {
+          "aria-label": "Sport Grey #c0c1c5",
+          "id": "Sport Grey",
+          "data-test": "Sport Grey-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ash #f8f8f8",
+        "attrs": {
+          "aria-label": "Ash #f8f8f8",
+          "id": "Ash",
+          "data-test": "Ash-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White #ffffff",
+        "attrs": {
+          "aria-label": "White #ffffff",
+          "id": "White",
+          "data-test": "White-color-swatch"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Size guide",
+        "attrs": {
+          "data-test": "single-picker-link"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "S",
+        "attrs": {
+          "data-test": "S-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "M",
+        "attrs": {
+          "data-test": "M-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "L",
+        "attrs": {
+          "data-test": "L-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "XL",
+        "attrs": {
+          "data-test": "XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "2XL",
+        "attrs": {
+          "data-test": "2XL-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "3XL",
+        "attrs": {
+          "data-test": "3XL-text-button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Printful Growth",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Start designing",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "detailed info",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "See file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "EU GPSR-related product information",
+        "attrs": {
+          "id": "21"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "care instructions",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Information",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "289 Reviews",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Add a review Add a review",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Stars",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sizes",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Techniques",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Colors",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ratings",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Most recent",
+        "attrs": {
+          "type": "button",
+          "role": "combobox"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "bhIj50",
+          "type": "checkbox",
+          "name": "withPictures"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "neiggM",
+          "type": "checkbox",
+          "name": "withPictures"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-103372"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-103012"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-102241"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Show ratings",
+        "attrs": {
+          "id": "show-rates-101994"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Helpful",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "1",
+        "attrs": {
+          "id": "23",
+          "name": "pagination number",
+          "aria-label": "Choose which page to navigate to",
+          "type": "number"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Next page",
+        "attrs": {
+          "aria-label": "Next page"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Last page",
+        "attrs": {
+          "aria-label": "Last page"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Add a review Add a review",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Instagram",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Facebook",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Youtube",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "LinkedIn",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "X",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Pinterest",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "TikTok",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Services",
+        "attrs": {
+          "id": "footer-link-services"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Integrations",
+        "attrs": {
+          "id": "footer-link-integrations"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "attrs": {
+          "id": "footer-link-shipping"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "attrs": {
+          "id": "footer-link-policies"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Feature requests",
+        "attrs": {
+          "id": "footer-link-feature-requests"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "attrs": {
+          "id": "footer-link-blog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "FAQ",
+        "attrs": {
+          "id": "footer-link-faq"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "attrs": {
+          "id": "footer-link-recent-updates"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printful Help Center",
+        "attrs": {
+          "id": "pf-zendesk-chat",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "Unisex heavy blend zip hoodie",
+        "attrs": {
+          "id": "templates-title-input-field-vue",
+          "placeholder": "Unisex heavy blend zip hoodie",
+          "name": "templates-title--input-field",
+          "type": "text"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Change product",
+        "attrs": {
+          "id": "js--back-to-catalog-link"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Undo",
+        "attrs": {
+          "data-container": ".main-mockup-area",
+          "type": "button",
+          "aria-label": "Undo",
+          "data-test": "click-undo-button-xfDxUvMKrgvY7T0"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Redo",
+        "attrs": {
+          "data-container": ".main-mockup-area",
+          "type": "button",
+          "aria-label": "Redo",
+          "data-test": "click-redo-button-xfDxUfgKJusY9TX"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Close",
+        "attrs": {
+          "aria-label": "Close"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Product",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "data-testid": "designer-sidebar-navigation-product-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Uploads",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "file",
+          "data-test": "designer-sidebar-navigation-uploads-button",
+          "data-testid": "designer-sidebar-navigation-uploads-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Text",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "textbox",
+          "data-test": "designer-sidebar-navigation-text-button",
+          "data-testid": "designer-sidebar-navigation-text-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Saved designs",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "customer_quick_design",
+          "data-test": "designer-sidebar-navigation-quick-design-button",
+          "data-testid": "designer-sidebar-navigation-quick-design-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Clipart",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "clipart_section",
+          "data-test": "designer-sidebar-navigation-clipart-button",
+          "data-testid": "designer-sidebar-navigation-clipart-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Quick Designs",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "quick-design_section",
+          "data-test": "designer-sidebar-navigation-quick-designs-button",
+          "data-testid": "designer-sidebar-navigation-quick-designs-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Premium",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "licensed_asset",
+          "data-test": "designer-sidebar-navigation-premium-button",
+          "data-testid": "designer-sidebar-navigation-premium-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Fill",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "id": "background_fill",
+          "data-test": "designer-sidebar-navigation-fill-button",
+          "data-testid": "designer-sidebar-navigation-fill-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Layers",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Hire designer",
+        "attrs": {
+          "id": "hire-fiverr-link-dm",
+          "data-gtm-vis-recent-on-screen2760778_1950": "10902",
+          "data-gtm-vis-first-on-screen2760778_1950": "10902",
+          "data-gtm-vis-total-visible-time2760778_1950": "100",
+          "data-gtm-vis-has-fired2760778_1950": "1"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Help",
+        "attrs": {
+          "data-placement": "right",
+          "type": "button",
+          "data-test": "designer-sidebar-navigation-help-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Pricing & file guidelines",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Printing",
+        "attrs": {
+          "role": "button",
+          "data-test": "technique-button-PRINTING-4bxDzoWiuJ1G6Zp"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Embroidery",
+        "attrs": {
+          "role": "button",
+          "data-test": "technique-button-EMBROIDERY-4bxDzoWiuJ1G6Zp"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "DTG printing",
+        "attrs": {
+          "data-test": "sub-technique-button-T-SHIRT-Mfua5KLshmIsO0z"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "T-SHIRT",
+        "attrs": {
+          "id": "sub-technique-T-SHIRT",
+          "type": "radio"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "New",
+        "attrs": {
+          "data-test": "sub-technique-button-DTFILM-Mfua5KLshmIsO0z"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "DTFILM",
+        "attrs": {
+          "id": "sub-technique-DTFILM",
+          "type": "radio"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Find out more.",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Black #0b0b0b",
+        "attrs": {
+          "aria-label": "Black #0b0b0b",
+          "id": "Black",
+          "data-test": "Black-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Navy #15263c",
+        "attrs": {
+          "aria-label": "Navy #15263c",
+          "id": "Navy",
+          "data-test": "Navy-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Chocolate #483525",
+        "attrs": {
+          "aria-label": "Dark Chocolate #483525",
+          "id": "Dark Chocolate",
+          "data-test": "Dark Chocolate-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Forest Green #304029",
+        "attrs": {
+          "aria-label": "Forest Green #304029",
+          "id": "Forest Green",
+          "data-test": "Forest Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Dark Heather #3c3d44",
+        "attrs": {
+          "aria-label": "Dark Heather #3c3d44",
+          "id": "Dark Heather",
+          "data-test": "Dark Heather-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Cardinal Red #aa1f31",
+        "attrs": {
+          "aria-label": "Cardinal Red #aa1f31",
+          "id": "Cardinal Red",
+          "data-test": "Cardinal Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Red #e01221",
+        "attrs": {
+          "aria-label": "Red #e01221",
+          "id": "Red",
+          "data-test": "Red-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Purple #643285",
+        "attrs": {
+          "aria-label": "Purple #643285",
+          "id": "Purple",
+          "data-test": "Purple-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Royal #1d57a5",
+        "attrs": {
+          "aria-label": "Royal #1d57a5",
+          "id": "Royal",
+          "data-test": "Royal-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Irish Green #00c85e",
+        "attrs": {
+          "aria-label": "Irish Green #00c85e",
+          "id": "Irish Green",
+          "data-test": "Irish Green-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Carolina Blue #9cc4ff",
+        "attrs": {
+          "aria-label": "Carolina Blue #9cc4ff",
+          "id": "Carolina Blue",
+          "data-test": "Carolina Blue-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Sport Grey #c0c1c5",
+        "attrs": {
+          "aria-label": "Sport Grey #c0c1c5",
+          "id": "Sport Grey",
+          "data-test": "Sport Grey-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Ash #f8f8f8",
+        "attrs": {
+          "aria-label": "Ash #f8f8f8",
+          "id": "Ash",
+          "data-test": "Ash-color-swatch"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White #ffffff",
+        "attrs": {
+          "aria-label": "White #ffffff",
+          "id": "White",
+          "data-test": "White-color-swatch"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-select-all-checkbox",
+          "type": "checkbox",
+          "data-test": "single-picker-select-all-checkbox"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-S",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-S"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-M",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-M"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-L",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-L"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-XL",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-XL"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-2XL",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-2XL"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "on",
+        "attrs": {
+          "id": "single-picker-checkbox-3XL",
+          "type": "checkbox",
+          "data-test": "single-picker-checkbox-3XL"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Collapse Product",
+        "attrs": {
+          "data-test": "designer-layout-left-sidebar-toggle",
+          "data-testid": "designer-sidebar-toggle-button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Front",
+        "attrs": {
+          "data-test": "placement-tab-front-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-front",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Back",
+        "attrs": {
+          "data-test": "placement-tab-back-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-back",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Right sleeve",
+        "attrs": {
+          "data-test": "placement-tab-sleeve_right-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-sleeve_right",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Left sleeve",
+        "attrs": {
+          "data-test": "placement-tab-sleeve_left-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-sleeve_left",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Outside label",
+        "attrs": {
+          "data-test": "placement-tab-label_outside-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-label_outside",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Inside label DTF",
+        "attrs": {
+          "data-test": "placement-tab-label_inside_dtf-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-label_inside_dtf",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Left wrist EMB",
+        "attrs": {
+          "data-test": "placement-tab-embroidery_wrist_left-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-embroidery_wrist_left",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Right wrist EMB",
+        "attrs": {
+          "data-test": "placement-tab-embroidery_wrist_right-mYzjl4B66hXuLMk",
+          "data-testid": "placement-tab-embroidery_wrist_right",
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "White",
+        "attrs": {
+          "id": "198421-title"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Save template",
+        "attrs": {
+          "type": "button",
+          "data-test": "proceed-btn-TMy5EYwDLbVl8Pq",
+          "data-testid": "save-template"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Publish",
+        "attrs": {
+          "type": "button"
+        }
+      },
+      {
+        "tag": "span",
+        "texte": "Close",
+        "attrs": {
+          "aria-label": "Close",
+          "role": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Terms of service",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Intellectual Property Policy",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "file-library-copyright",
+          "type": "checkbox",
+          "name": "file-library-copyright"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Save and close",
+        "attrs": {
+          "type": "submit"
+        }
+      },
+      {
+        "tag": "label",
+        "texte": "Upload",
+        "attrs": {
+          "role": "button",
+          "data-testid": "fileLibraryUploadButton"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "attrs": {
+          "id": "file-library-upload-679",
+          "data-test": "file-library-upload-button",
+          "type": "file",
+          "name": "file"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "attrs": {
+          "title": "Upload files from Dropbox"
+        }
+      }
+    ]
+  }
+]

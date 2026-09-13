@@ -1,0 +1,258 @@
+{
+  "commentaire": "Selection du 21/08 apres examen de la planche des 161 pieces moissonnees. Valentin a retenu le couple et le personnage effondre sur la chaise. Roles: assis (effondrement), couple (le avant), court (la fuite), attend (la solitude debout), symbole. MAJ 21/08 : la fee et le vigile sont sortis apres examen de la planche serie. Le role attend n'a plus d'asset : ses phrases passent sur les scenes assis et couple. Deux silhouettes a acheter en licence etendue : une femme qui s'eloigne EN MARCHANT, et une personne debout seule. MAJ 21/08 soir : revue des 49 objets et 47 symboles rendus DANS le style (contenu/revue.mjs). 23 pieces ajoutees, dont banc vide, lune, corbeau, tombes, grille, rose, clope et frises de cimetiere : c'est le vocabulaire visuel du creneau qui manquait.",
+  "licence": "toutes en CC0 depuis Openclipart, usage commercial et merchandising autorisés, provenance dans bibliotheque/catalogue.json et silhouettes/catalogue.json",
+  "retenues": [
+    {
+      "fichier": "bibliotheque/personnage-307340.svg",
+      "role": "assis",
+      "note": "depression-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-307339.svg",
+      "role": "assis",
+      "note": "desperation"
+    },
+    {
+      "fichier": "bibliotheque/personnage-320824.svg",
+      "role": "assis",
+      "note": "sitting-crying-man"
+    },
+    {
+      "fichier": "bibliotheque/personnage-320868.svg",
+      "role": "assis",
+      "note": "depressed-woman"
+    },
+    {
+      "fichier": "bibliotheque/personnage-297306.svg",
+      "role": "couple",
+      "note": "silhouette-children"
+    },
+    {
+      "fichier": "bibliotheque/personnage-329207.svg",
+      "role": "couple",
+      "note": "couple-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-329208.svg",
+      "role": "couple",
+      "note": "couple-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-329209.svg",
+      "role": "couple",
+      "note": "couple-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-329211.svg",
+      "role": "couple",
+      "note": "couple-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-329212.svg",
+      "role": "couple",
+      "note": "couple-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-329257.svg",
+      "role": "couple",
+      "note": "couple-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-274599.svg",
+      "role": "court",
+      "note": "sprinting-man-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-310863.svg",
+      "role": "court",
+      "note": "man-sprinting-silhouette"
+    },
+    {
+      "fichier": "bibliotheque/personnage-283526.svg",
+      "role": "court",
+      "note": "runner"
+    },
+    {
+      "fichier": "bibliotheque/personnage-332098.svg",
+      "role": "couple",
+      "note": "man-smoking-with-woman"
+    },
+    {
+      "fichier": "bibliotheque/personnage-320381.svg",
+      "role": "court",
+      "note": "jogging-woman-in-cap"
+    },
+    {
+      "fichier": "silhouettes/a-classer-295815.svg",
+      "role": "symbole",
+      "note": "croix gravée de cimetière"
+    },
+    {
+      "fichier": "silhouettes/a-classer-353556.svg",
+      "role": "symbole",
+      "note": "frise de croix, sert de bas de page"
+    },
+    {
+      "fichier": "bibliotheque/objet-317571.svg",
+      "role": "banc",
+      "note": "banc public vide, la piece la plus forte du lot"
+    },
+    {
+      "fichier": "bibliotheque/objet-302732.svg",
+      "role": "clope",
+      "note": "cigarette posee"
+    },
+    {
+      "fichier": "bibliotheque/objet-319778.svg",
+      "role": "lune",
+      "note": "pleine lune, disque plein"
+    },
+    {
+      "fichier": "bibliotheque/objet-316725.svg",
+      "role": "rose",
+      "note": "rose pleine, tige et feuilles"
+    },
+    {
+      "fichier": "bibliotheque/objet-301927.svg",
+      "role": "grille",
+      "note": "grille de fer forge, lit comme une entree de cimetiere"
+    },
+    {
+      "fichier": "bibliotheque/objet-290987.svg",
+      "role": "couronne",
+      "note": "couronne funeraire"
+    },
+    {
+      "fichier": "bibliotheque/objet-321200.svg",
+      "role": "table",
+      "note": "couple attable, vu de dos"
+    },
+    {
+      "fichier": "bibliotheque/objet-337510.svg",
+      "role": "chaises",
+      "note": "rangee de chaises occupees, six vignettes"
+    },
+    {
+      "fichier": "bibliotheque/objet-311708.svg",
+      "role": "tete",
+      "note": "profil de tete, plein"
+    },
+    {
+      "fichier": "bibliotheque/symbole-319553.svg",
+      "role": "oiseau",
+      "note": "corbeau posé, plein"
+    },
+    {
+      "fichier": "bibliotheque/symbole-279445.svg",
+      "role": "oiseau",
+      "note": "oiseau qui s envole, plein"
+    },
+    {
+      "fichier": "bibliotheque/symbole-327768.svg",
+      "role": "lune",
+      "note": "croissant de lune plein"
+    },
+    {
+      "fichier": "bibliotheque/symbole-316242.svg",
+      "role": "lune",
+      "note": "croissant de lune plein, variante"
+    },
+    {
+      "fichier": "bibliotheque/symbole-320827.svg",
+      "role": "tombe",
+      "note": "lune derriere une croix, herbes"
+    },
+    {
+      "fichier": "bibliotheque/symbole-320828.svg",
+      "role": "tombe",
+      "note": "lune et herbes"
+    },
+    {
+      "fichier": "bibliotheque/symbole-233630.svg",
+      "role": "tombe",
+      "note": "croix sur un tertre"
+    },
+    {
+      "fichier": "bibliotheque/symbole-238664.svg",
+      "role": "tombe",
+      "note": "tombe avec croix dans les herbes"
+    },
+    {
+      "fichier": "bibliotheque/symbole-330829.svg",
+      "role": "tombe",
+      "note": "pierre tombale et arbre mort"
+    },
+    {
+      "fichier": "bibliotheque/symbole-314187.svg",
+      "role": "tombe",
+      "note": "pierre tombale nette"
+    },
+    {
+      "fichier": "bibliotheque/symbole-307192.svg",
+      "role": "paysage",
+      "note": "frise de cimetiere avec arbres nus, sert de bande basse"
+    },
+    {
+      "fichier": "bibliotheque/symbole-307191.svg",
+      "role": "paysage",
+      "note": "frise de cimetiere, variante plus large"
+    },
+    {
+      "fichier": "bibliotheque/symbole-307202.svg",
+      "role": "lune",
+      "note": "lune encadree de branches nues"
+    },
+    {
+      "fichier": "bibliotheque/symbole-292753.svg",
+      "role": "cadre",
+      "note": "cadre de barbeles ovale"
+    }
+  ],
+  "ecartees": {
+    "a-classer-121987": "crâne trop bouché, masse noire illisible",
+    "a-classer-169895": "crâne net mais Valentin ne veut pas de tête de mort",
+    "a-classer-173861": "crâne au chapeau, registre déguisement",
+    "a-classer-181678": "gravure à hachures blanches, lit comme un croquis et pas comme un pochoir",
+    "a-classer-181715": "planche anatomique avec légendes texte",
+    "a-classer-247372": "nu, inutilisable pour une marque de vêtements",
+    "a-classer-25236": "pictogramme de salle d'attente, trop signalétique",
+    "a-classer-354734": "carré noir, fichier cassé",
+    "personnage-307719": "cœur composé de personnages, décoratif",
+    "personnage-307720": "idem, cœur décoratif",
+    "personnage-319659": "illustration orange, hors palette",
+    "personnage-321386": "scène de coucher de soleil en couleurs",
+    "personnage-325669": "figure ailée, registre fantasy",
+    "personnage-332104": "camée victorien rose",
+    "personnage-332105": "dame victorienne à ombrelle",
+    "personnage-333764": "coureur en couleurs, trop petit",
+    "personnage-274667": "figure ailee lue comme une fee, hors registre sur un vetement",
+    "personnage-233952": "silhouette massive lue comme un vigile, pas comme quelqu'un qui attend",
+    "objet-347850": "rectangle plein, fichier casse",
+    "objet-251752": "rectangle plein, fichier casse",
+    "objet-245606": "rectangle plein, fichier casse",
+    "objet-352127": "rectangle plein, fichier casse",
+    "objet-320858": "texte FreeSVG.org incruste dans le fichier",
+    "objet-317444": "texte et couleurs incrustes",
+    "objet-316924": "texte incruste",
+    "objet-309760": "horloge 4:20, reference stupefiants hors sujet",
+    "objet-309765": "idem 4:20",
+    "objet-344130": "fauteuil roulant, hors registre",
+    "objet-284021": "escargot",
+    "objet-314483": "hamac, hors registre",
+    "objet-336069": "tire-bouchon",
+    "objet-322350": "rouleau a patisserie",
+    "objet-330885": "motif ornemental charge",
+    "symbole-303234": "forme pleine informe, fichier casse",
+    "symbole-231847": "rectangle plein, fichier casse",
+    "symbole-282148": "rectangle plein, fichier casse",
+    "symbole-259920": "rectangle plein, fichier casse",
+    "symbole-284081": "pierre tombale avec le texte HOME SWEET HOME incruste",
+    "symbole-259915": "crane mexicain, Valentin ne veut pas de tete de mort",
+    "symbole-317561": "ange a l epee, registre religieux",
+    "symbole-317560": "ange, registre religieux",
+    "symbole-314896": "cupidon",
+    "symbole-352178": "mention made by ... on openclipart incrustee",
+    "symbole-224727": "gravure trop granuleuse, illisible en encre",
+    "symbole-230094": "trait trop fin, disparait"
+  }
+}

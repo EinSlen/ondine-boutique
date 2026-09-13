@@ -1,0 +1,55 @@
+{% assign current_variant = product.selected_or_first_available_variant %}
+{% if current_variant == blank %}{% assign current_variant = product.variants.first %}{% endif %}
+<section class="d2m-product-page">
+  <div class="d2m-product-media">
+    {% for media in product.media %}
+      {% if media.media_type == 'image' %}
+        <div class="d2m-product-image">
+          {{ media | image_url: width: 1800 | image_tag: loading: 'eager', widths: '600,900,1200,1500,1800', sizes: '(max-width: 899px) 100vw, 60vw', alt: media.alt | default: product.title }}
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="d2m-product-image d2m-card__placeholder"></div>
+    {% endfor %}
+  </div>
+
+  <aside class="d2m-product-info">
+    <p class="d2m-product-brand">DEAD2ME</p>
+    <h1>{{ product.title }}</h1>
+    <p class="d2m-product-price">{{ current_variant.price | money }}</p>
+    <p class="d2m-shipping-note">Shipping calculated at checkout.</p>
+
+    {% form 'product', product, class: 'd2m-product-form' %}
+      {% if product.variants.size > 1 %}
+        <fieldset class="d2m-size-fieldset">
+          <legend>{{ product.options.first | default: 'Size' }}</legend>
+          <div class="d2m-size-list">
+            {% for variant in product.variants %}
+              <input class="d2m-size-input" type="radio" name="id" value="{{ variant.id }}" id="d2m-v-{{ variant.id }}" {% if variant.id == current_variant.id %}checked{% endif %} {% unless variant.available %}disabled{% endunless %}>
+              <label for="d2m-v-{{ variant.id }}">{{ variant.title }}</label>
+            {% endfor %}
+          </div>
+        </fieldset>
+      {% else %}
+        <input type="hidden" name="id" value="{{ current_variant.id }}">
+      {% endif %}
+
+      <label class="d2m-qty-label" for="d2m-qty-{{ section.id }}">Quantity</label>
+      <input class="d2m-qty" id="d2m-qty-{{ section.id }}" type="number" name="quantity" min="1" value="1">
+
+      <button class="d2m-atc" type="submit" {% unless current_variant.available %}disabled{% endunless %}>
+        {% if current_variant.available %}Add to cart{% else %}Sold out{% endif %}
+      </button>
+    {% endform %}
+
+    <div class="d2m-description">{{ product.description }}</div>
+    <a class="d2m-view-details" href="{{ product.url }}">View full details</a>
+  </aside>
+</section>
+
+{% schema %}
+{
+  "name": "DEAD2ME product",
+  "settings": []
+}
+{% endschema %}

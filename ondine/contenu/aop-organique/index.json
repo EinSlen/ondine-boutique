@@ -1,0 +1,28 @@
+[
+  {
+    "numero": 1,
+    "lot": "organique",
+    "phrase": "dead to me",
+    "fichiers": {
+      "front": "001-front.png",
+      "back": "001-back.png",
+      "sleeve_left": "001-sleeve_left.png",
+      "sleeve_right": "001-sleeve_right.png",
+      "pocket": "001-pocket.png",
+      "hood": "001-hood.png"
+    }
+  },
+  {
+    "numero": 2,
+    "lot": "organique",
+    "phrase": "she left twice",
+    "fichiers": {
+      "front": "002-front.png",
+      "back": "002-back.png",
+      "sleeve_left": "002-sleeve_left.png",
+      "sleeve_right": "002-sleeve_right.png",
+      "pocket": "002-pocket.png",
+      "hood": "002-hood.png"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+# Six compléments du vestiaire V8
+
+Mode : outil intégré imagegen. Six concepts, non échantillons physiques. Tous les prompts exacts ci-dessous.
+
+## last-song-hoodie
+
+Référence : C:/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/side-habit-store-v6/assets/last-song-art-v8.png
+
+Use case: product-mockup. Asset type: original SIDE HABIT collection concept, photorealistic premium e-commerce product photograph. Single product isolated on plain warm light-gray studio background, complete silhouette visible, soft natural shadows, realistic fabric or material, no person, props, price or text outside product. BACK view of a washed charcoal heavy cotton pullover hoodie, wide boxy silhouette, slightly cropped hem, generous hood folded naturally at neck, broad dropped shoulders. Input Image 1 is the exact original artwork reference: use its ivory dove, crimson ribbon and LAST SONG / SIDE HABIT text faithfully as a large distressed BACK print. Keep the printed subject and text unobstructed below the hood, around 60% of body width. No rectangle, glowing background or extra graphics. Ribbed hem and cuffs, subtle washed edges, no drawstrings. This is printed art on cotton, not embroidery or a physical bird.
+
+## after-denim
+
+Use case: product-mockup. Asset type: original SIDE HABIT collection concept, photorealistic premium e-commerce product photograph. Single product isolated on plain warm light-gray studio background, complete silhouette visible, soft natural shadows, realistic fabric or material, no person, props, price or text outside product. FRONT flat lay view of washed charcoal gray heavyweight denim jeans, relaxed low-to-mid rise, very wide straight legs, gently curved outer seams, natural stacking folds at hems. Five-pocket construction, subtle black topstitching, silver button and rivets, no large logos, patches, graphics or torn holes. Faded thighs and seam edges, nuanced smoky gray tonal wash, not exaggerated bright bleaching. A believable wearable cut with a clean waistband, two separate full-length legs clearly visible. Small dark unbranded back-waist patch may only peek at edge; do not add any text.
+
+## night-transit
+
+Use case: product-mockup. Asset type: original SIDE HABIT collection concept, photorealistic premium e-commerce product photograph. Single product isolated on plain warm light-gray studio background, complete silhouette visible, soft natural shadows, realistic fabric or material, no person, props, price or text outside product. FRONT flat lay view of matte black technical nylon wide-leg trousers, natural lightly crinkled woven texture, elastic waistband with internal drawcord, two side pockets and a discreet welt back pocket not visible from front, subtle dark seam line at knees, adjustable hem drawcords tucked in. Relaxed full-length silhouette, gently pooling hems, no stripe, huge cargo pockets, buckles or conspicuous logos. Tiny tonal sewn tab near side pocket, no readable text. Both legs distinct, no model. Plain practical accompaniment to a graphic vintage T-shirt, not a tracksuit made of fleece.
+
+## encore-cap
+
+Use case: product-mockup. Asset type: original SIDE HABIT collection concept, photorealistic premium e-commerce product photograph. Single product isolated on plain warm light-gray studio background, complete silhouette visible, soft natural shadows, realistic fabric or material, no person, props, price or text outside product. Three-quarter FRONT view of a washed black six-panel cotton cap, softly structured low-profile crown, curved brim with authentic topstitching, small muted ivory embroidery on center front reading exactly 'SIDE HABIT' in delicate compact serif capitals on ONE line. Subtle washed seams, no distressed holes. Short inscription occupying less than half the crown width, no graphics, roses, birds or invented sports symbols. Adjustable metal clasp at back barely visible. Render actual convincing tiny embroidery thread, quiet timeless accessory, not a tall baseball team cap.
+
+## rib-balaclava
+
+Use case: product-mockup. Asset type: original SIDE HABIT collection concept, photorealistic premium e-commerce product photograph. Single product isolated on plain warm light-gray studio background, complete silhouette visible, soft natural shadows, realistic fabric or material, no person, props, price or text outside product. FRONT slightly three-quarter view of a charcoal gray rib-knit fashion balaclava, rounded head shape, single oval opening for the eyes and upper nose, soft extended neck bib with gently flared base and ribbed edges. Display as a standalone knit product with subtle internal shaping, no visible face or mannequin. Dense fine vertical ribs, comfortable rounded opening, no military hardware or extra nose/mouth holes. One very small muted burgundy woven tag at lower neck edge, no readable letters. Plain essential to accompany washed black and ivory clothing. Do not add bird or rose artwork.
+
+## echo-earrings
+
+Use case: product-mockup. Asset type: original SIDE HABIT collection concept, photorealistic premium e-commerce product photograph. Single product isolated on plain warm light-gray studio background, complete silhouette visible, soft natural shadows, realistic fabric or material, no person, props, price or text outside product. Close-up jewelry product photograph of ONE PAIR of matching small polished silver-tone hinged oval hoop earrings, gently irregular organic oval profile with a subtle flattened outer face, smooth rounded edges and visible realistic hinged post/clasp. Pair neatly arranged with one front view and one slightly angled view to reveal closure. Minimal sculptural shape, no gems, pendants, crosses, engraved branding, sharp spikes or extra earrings. Lustrous but realistic metal reflections, fine surface detail. These are small everyday hoops, not huge statement loops. No claim about metal purity or hypoallergenic properties in image.

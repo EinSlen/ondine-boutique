@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title">
+  <title id="title">Missed Call long sleeve, front and back concept</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#d1cac0"/><stop offset="1" stop-color="#8e877f"/></linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#762d2d"/><stop offset=".5" stop-color="#4a1b1e"/><stop offset="1" stop-color="#241113"/></linearGradient>
+    <filter id="wash"><feTurbulence type="fractalNoise" baseFrequency=".027" numOctaves="4" seed="31" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="mono"/><feBlend in="SourceGraphic" in2="mono" mode="soft-light"/></filter>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <text x="60" y="83" font-family="Arial" font-size="25" letter-spacing="5">04 / MISSED CALL LONG SLEEVE</text>
+  <text x="1140" y="83" text-anchor="end" font-family="Arial" font-size="19" letter-spacing="3">FADED OXBLOOD</text>
+  <ellipse cx="332" cy="1280" rx="250" ry="35" opacity=".17" filter="url(#shadow)"/>
+  <ellipse cx="880" cy="1280" rx="250" ry="35" opacity=".17" filter="url(#shadow)"/>
+  <g filter="url(#wash)">
+    <g transform="translate(24 170)">
+      <path d="M212 170q87 50 177 0l100 45 108 142-70 54-95-85v760H168V326l-94 85-70-54 108-142z" fill="url(#cloth)" stroke="#2b1114" stroke-width="5"/>
+      <path d="M212 170q87 94 177 0" fill="none" stroke="#9c5554" stroke-width="7" opacity=".65"/>
+      <path d="M168 1071h264" stroke="#321216" stroke-width="8"/>
+      <g transform="translate(231 417)"><path d="M0 0h54v54H10v-10H0z" fill="none" stroke="#d9cec1" stroke-width="6"/><circle cx="71" cy="10" r="8" fill="#171717"/></g>
+      <text x="260" y="507" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="5" fill="#e2d8cb">1 MISSED CALL</text>
+      <text x="75" y="510" transform="rotate(-57 75 510)" font-family="Arial" font-size="17" letter-spacing="5" fill="#d8cdbf">03:17</text>
+      <text x="500" y="500" transform="rotate(57 500 500)" font-family="Arial" font-size="17" letter-spacing="5" fill="#d8cdbf">NO ANSWER</text>
+    </g>
+    <g transform="translate(580 170)">
+      <path d="M212 170q87 50 177 0l100 45 108 142-70 54-95-85v760H168V326l-94 85-70-54 108-142z" fill="url(#cloth)" stroke="#2b1114" stroke-width="5"/>
+      <path d="M212 170q87 94 177 0" fill="none" stroke="#9c5554" stroke-width="7" opacity=".65"/>
+      <path d="M168 1071h264" stroke="#321216" stroke-width="8"/>
+      <g transform="translate(184 465)">
+        <text x="114" y="0" text-anchor="middle" font-family="Arial" font-size="14" letter-spacing="6" fill="#e2d8cb">DEAD2ME</text>
+        <text x="114" y="72" text-anchor="middle" font-family="Arial" font-weight="700" font-size="46" letter-spacing="-2" fill="#e2d8cb">NO ANSWER</text>
+        <line x1="5" y1="99" x2="224" y2="99" stroke="#e2d8cb" stroke-width="3"/>
+        <text x="114" y="139" text-anchor="middle" font-family="Arial" font-size="18" letter-spacing="8" fill="#e2d8cb">03:17</text>
+        <path d="M28 185h171v171H51v-21H28z" fill="none" stroke="#e2d8cb" stroke-width="6"/>
+        <circle cx="191" cy="202" r="9" fill="#111"/>
+      </g>
+    </g>
+  </g>
+  <text x="60" y="1435" font-family="Arial" font-size="19" letter-spacing="3">FRONT / CHEST + SLEEVE PRINT</text>
+  <text x="1140" y="1435" text-anchor="end" font-family="Arial" font-size="19" letter-spacing="3">BACK / SCREENPRINT</text>
+</svg>

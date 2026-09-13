@@ -1,0 +1,43 @@
+<section class="d2m-collection-page">
+  <header class="d2m-collection-head">
+    <h1>{{ collection.title }}</h1>
+    {% if collection.description != blank %}<div>{{ collection.description }}</div>{% endif %}
+  </header>
+
+  <div class="d2m-collection-tools">
+    <span>{{ collection.products_count }} products</span>
+    <form method="get" class="d2m-sort-form">
+      <label for="d2m-sort">Sort by:</label>
+      <select id="d2m-sort" name="sort_by" onchange="this.form.submit()">
+        {% assign sort_by = collection.sort_by | default: collection.default_sort_by %}
+        {% for option in collection.sort_options %}
+          <option value="{{ option.value }}" {% if option.value == sort_by %}selected{% endif %}>{{ option.name }}</option>
+        {% endfor %}
+      </select>
+    </form>
+  </div>
+
+  <div class="d2m-grid">
+    {% for product in collection.products %}
+      <article class="d2m-card">
+        <a class="d2m-card__media" href="{{ product.url }}">
+          {% if product.featured_image %}
+            {{ product.featured_image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '360,540,720,900,1200,1400', sizes: '(max-width: 749px) 50vw, 25vw', alt: product.title }}
+          {% endif %}
+          {% unless product.available %}<span class="d2m-sold">SOLD OUT</span>{% endunless %}
+        </a>
+        <div class="d2m-card__meta">
+          <a href="{{ product.url }}">{{ product.title }}</a>
+          <span>{{ product.price | money }}</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "DEAD2ME collection",
+  "settings": []
+}
+{% endschema %}

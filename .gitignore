@@ -1,0 +1,16 @@
+.env
+.env.*
+.mcp.json
+**/.edge-profile*/
+**/edge-*profile*/
+**/node_modules/
+**/.venv/
+**/__pycache__/
+**/.shopify/
+*.pem
+*.key
+*.p12
+*.pfx
+*.har
+*.log
+*.zip

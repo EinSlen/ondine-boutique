@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dead2me — Designs issus des TikToks</title>
+  <style>
+    :root { color-scheme: dark; --bg:#070707; --panel:#101010; --line:#292929; --ink:#f3f1ec; --muted:#9a9892; --red:#80141d; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+    header, main, footer { width:min(1480px,calc(100% - 36px)); margin:auto; }
+    header { padding:54px 0 30px; border-bottom:1px solid var(--line); }
+    .eyebrow { color:var(--red); font:700 12px/1 monospace; letter-spacing:.2em; text-transform:uppercase; }
+    h1 { margin:12px 0 8px; font-size:clamp(42px,7vw,92px); line-height:.9; letter-spacing:-.055em; }
+    header p { max-width:800px; color:var(--muted); line-height:1.6; }
+    .board { margin:34px 0 48px; border:1px solid var(--line); background:#000; }
+    .board img { width:100%; display:block; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    article { border:1px solid var(--line); background:var(--panel); }
+    article>img { display:block; width:100%; aspect-ratio:1; object-fit:cover; background:#000; }
+    .copy { padding:22px; }
+    .ref { color:var(--red); font:700 11px/1.2 monospace; letter-spacing:.12em; text-transform:uppercase; }
+    h2 { margin:9px 0 6px; font-size:28px; letter-spacing:-.035em; }
+    .type { color:var(--muted); font:12px/1.4 monospace; text-transform:uppercase; }
+    p { color:#bbb8b1; line-height:1.55; }
+    .actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
+    a { color:var(--ink); border:1px solid #3b3a37; padding:10px 12px; text-decoration:none; font:700 11px/1 monospace; text-transform:uppercase; }
+    a:hover { background:var(--red); border-color:var(--red); }
+    .note { margin:48px 0; padding:26px 0; border-top:1px solid var(--line); color:var(--muted); line-height:1.7; }
+    footer { padding:22px 0 48px; border-top:1px solid var(--line); color:#716e68; font:11px/1.5 monospace; }
+    @media(max-width:900px){ .grid{grid-template-columns:1fr} header,main,footer{width:min(100% - 20px,680px)} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">dead2me / capsule TikTok v1</div>
+    <h1>LES VRAIES<br>RÉFÉRENCES.</h1>
+    <p>Cette planche répond séparément aux trois TikToks transmis. Les poses, phrases et graphismes sont originaux, mais chaque produit conserve la grammaire visuelle précise de sa référence.</p>
+  </header>
+  <main>
+    <div class="board"><img src="planche-tiktok-3-produits.jpg" alt="Planche des trois produits inspirés des TikToks"></div>
+    <section class="grid">
+      <article>
+        <img src="mockups/01-stay-run-longsleeve.png" alt="Long-sleeve Stay Run">
+        <div class="copy">
+          <div class="ref">Référence · TikTok Live2die</div>
+          <h2>STAY / RUN</h2>
+          <div class="type">Bone long-sleeve · noir + bordeaux</div>
+          <p>Deux silhouettes hautes, une présence qui s’effondre et une autre qui fuit. Impact organique près de la tête et projections réellement réparties entre le devant et les manches.</p>
+          <div class="actions">
+            <a href="prints/01-stay-run-front-4500x5400.png" download>Devant PNG</a>
+            <a href="placements/01-stay-run-left-sleeve-1500x1800.png" download>Manche G</a>
+            <a href="placements/01-stay-run-right-sleeve-1500x1800.png" download>Manche D</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <img src="mockups/02-did-it-feel-worth-it-hoodie.png" alt="Hoodie Did It Feel Worth It">
+        <div class="copy">
+          <div class="ref">Référence · TikTok RawSoult</div>
+          <h2>DID IT FEEL WORTH IT?</h2>
+          <div class="type">Bone hoodie · trait noir + points bordeaux</div>
+          <p>Deux cases volontairement naïves : quelqu’un attend dans l’encadrement d’une porte, quelqu’un d’autre reste seul devant son écran.</p>
+          <div class="actions">
+            <a href="prints/02-did-it-feel-worth-it-front-4500x5400.png" download>Devant PNG</a>
+            <a href="placements/02-did-it-feel-worth-it-cuff-drops-1500x1800.png" download>Points poignets</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <img src="mockups/03-same-night-different-exits-tee.png" alt="T-shirt Same Night Different Exits">
+        <div class="copy">
+          <div class="ref">Référence · TikTok 242g</div>
+          <h2>SAME NIGHT / DIFFERENT EXITS</h2>
+          <div class="type">Washed-black tee · négatif blanc et cyan</div>
+          <p>Deux fragments opposés, un personnage replié et un signe d’envol. La phrase courte remplace “same earth / different worlds” sans la recopier.</p>
+          <div class="actions">
+            <a href="prints/03-same-night-different-exits-4500x5400.png" download>Devant PNG</a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="note">Tous les devants sont fournis en PNG transparent 4500 × 5400 px. Les marques placées sur les manches ou poignets sont livrées séparément afin que le mockup ne promette pas une impression impossible à produire.</div>
+  </main>
+  <footer>Les TikToks servent de références de direction artistique. Aucun fichier, slogan exact ni illustration appartenant aux marques observées n’est inclus.</footer>
+</body>
+</html>

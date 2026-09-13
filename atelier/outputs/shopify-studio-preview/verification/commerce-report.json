@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-09-10T14:07:46.821Z",
+  "baselineMode": false,
+  "scope": "Browser tests of actual section JavaScript and CSS with simulated Shopify HTML/API contracts. Liquid itself is validated separately. Not a real Shopify cart, checkout, supplier, physical-product or demand test.",
+  "sourceSha256": "dc7498f296b158e4e5025844078b36de95b34756370dbffe6f51015d82ce8bd6",
+  "checks": [
+    {
+      "name": "Variant updates size, price, ID, URL and focus",
+      "pass": true
+    },
+    {
+      "name": "Unavailable size cannot be added",
+      "pass": true
+    },
+    {
+      "name": "Variant HTTP 500 restores previous selection",
+      "pass": true
+    },
+    {
+      "name": "Variant Missing section restores previous selection",
+      "pass": true
+    },
+    {
+      "name": "Variant Network failure restores previous selection",
+      "pass": true
+    },
+    {
+      "name": "Variant timeout recovers after 12 seconds",
+      "pass": true
+    },
+    {
+      "name": "Rapid option changes ignore obsolete response",
+      "pass": true
+    },
+    {
+      "name": "No add while option request is pending",
+      "pass": true
+    },
+    {
+      "name": "Add sends exact selected ID, quantity, properties, plan and locale route",
+      "pass": true
+    },
+    {
+      "name": "Duplicate submit sends only one request and locks options",
+      "pass": true
+    },
+    {
+      "name": "Showcase blocks even programmatic submit",
+      "pass": true
+    },
+    {
+      "name": "Invalid quantity: minimum",
+      "pass": true
+    },
+    {
+      "name": "Invalid quantity: maximum",
+      "pass": true
+    },
+    {
+      "name": "Invalid quantity: increment",
+      "pass": true
+    },
+    {
+      "name": "Stock 422 is shown as text, warns of possible partial add",
+      "pass": true
+    },
+    {
+      "name": "JSON error in HTTP 200 is not treated as success",
+      "pass": true
+    },
+    {
+      "name": "Cart network error stays on page and does not auto-retry",
+      "pass": true
+    },
+    {
+      "name": "Cart non-JSON error restores controls",
+      "pass": true
+    },
+    {
+      "name": "Malformed success response is not reported as added",
+      "pass": true
+    },
+    {
+      "name": "Cart timeout warns without an automatic second request",
+      "pass": true
+    },
+    {
+      "name": "Error recovery link opens locale-aware cart",
+      "pass": true
+    },
+    {
+      "name": "Responsive product controls and information accordion",
+      "pass": true
+    },
+    {
+      "name": "Liquid contains native fallback, route bindings and quantity rules (static contract)",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

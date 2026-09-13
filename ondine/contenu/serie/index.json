@@ -1,0 +1,242 @@
+[
+  {
+    "numero": 1,
+    "phrase": "don't wait up",
+    "pub": false,
+    "role": "court",
+    "scene": "foule",
+    "registre": "manuscrit",
+    "palette": "sombre",
+    "fichier": "001-foule-manuscrit-sombre.png"
+  },
+  {
+    "numero": 2,
+    "phrase": "i left first",
+    "pub": true,
+    "role": "court",
+    "scene": "chaiseRenversee",
+    "registre": "barre",
+    "palette": "sombre",
+    "fichier": "002-chaiseRenversee-barre-sombre.png"
+  },
+  {
+    "numero": 3,
+    "phrase": "i still park there",
+    "pub": true,
+    "role": "attend",
+    "scene": "clopeSeule",
+    "registre": "barre",
+    "palette": "sombre",
+    "fichier": "003-clopeSeule-barre-sombre.png"
+  },
+  {
+    "numero": 4,
+    "phrase": "we said forever",
+    "pub": true,
+    "role": "couple",
+    "scene": "avantApres",
+    "registre": "barre",
+    "palette": "lin",
+    "fichier": "004-avantApres-barre-lin.png"
+  },
+  {
+    "numero": 5,
+    "phrase": "she isn't coming",
+    "pub": true,
+    "role": "attend",
+    "scene": "tombeSeule",
+    "registre": "serif",
+    "palette": "sombre",
+    "fichier": "005-tombeSeule-serif-sombre.png"
+  },
+  {
+    "numero": 6,
+    "phrase": "i waited anyway",
+    "pub": true,
+    "role": "attend",
+    "scene": "clopeSeule",
+    "registre": "manuscrit",
+    "palette": "terre",
+    "fichier": "006-clopeSeule-manuscrit-terre.png"
+  },
+  {
+    "numero": 7,
+    "phrase": "nothing after you",
+    "pub": false,
+    "role": "assis",
+    "scene": "sousLaLune",
+    "registre": "barre",
+    "palette": "lin",
+    "fichier": "007-sousLaLune-barre-lin.png"
+  },
+  {
+    "numero": 8,
+    "phrase": "you moved on fast",
+    "pub": false,
+    "role": "court",
+    "scene": "coupleSeul",
+    "registre": "bloc",
+    "palette": "lin",
+    "fichier": "008-coupleSeul-bloc-lin.png"
+  },
+  {
+    "numero": 9,
+    "phrase": "your side is cold",
+    "pub": false,
+    "role": "couple",
+    "scene": "foule",
+    "registre": "manuscrit",
+    "palette": "os",
+    "fichier": "009-foule-manuscrit-os.png"
+  },
+  {
+    "numero": 10,
+    "phrase": "she took the dog",
+    "pub": true,
+    "role": "court",
+    "scene": "coupleSeul",
+    "registre": "serif",
+    "palette": "lin",
+    "fichier": "010-coupleSeul-serif-lin.png"
+  },
+  {
+    "numero": 11,
+    "phrase": "last one to leave",
+    "pub": true,
+    "role": "assis",
+    "scene": "memoire",
+    "registre": "barre",
+    "palette": "terre",
+    "fichier": "011-memoire-barre-terre.png"
+  },
+  {
+    "numero": 12,
+    "phrase": "i answered every time",
+    "pub": true,
+    "role": "attend",
+    "scene": "sousLaLune",
+    "registre": "bloc",
+    "palette": "os",
+    "fichier": "012-sousLaLune-bloc-os.png"
+  },
+  {
+    "numero": 13,
+    "phrase": "call ended 4:12",
+    "pub": true,
+    "role": "assis",
+    "scene": "litDefait",
+    "registre": "horodate",
+    "palette": "os",
+    "fichier": "013-litDefait-horodate-os.png"
+  },
+  {
+    "numero": 14,
+    "phrase": "still your number",
+    "pub": false,
+    "role": "attend",
+    "scene": "telephone",
+    "registre": "serif",
+    "palette": "sombre",
+    "fichier": "014-telephone-serif-sombre.png"
+  },
+  {
+    "numero": 15,
+    "phrase": "i deleted nothing",
+    "pub": true,
+    "role": "assis",
+    "scene": "croix",
+    "registre": "barre",
+    "palette": "sombre",
+    "fichier": "015-croix-barre-sombre.png"
+  },
+  {
+    "numero": 16,
+    "phrase": "typing, then nothing",
+    "pub": true,
+    "role": "assis",
+    "scene": "sousLaLune",
+    "registre": "serif",
+    "palette": "terre",
+    "fichier": "016-sousLaLune-serif-terre.png"
+  },
+  {
+    "numero": 17,
+    "phrase": "no one noticed",
+    "pub": true,
+    "role": "assis",
+    "scene": "horizon",
+    "registre": "bloc",
+    "palette": "os",
+    "fichier": "017-horizon-bloc-os.png"
+  },
+  {
+    "numero": 18,
+    "phrase": "everyone left fine",
+    "pub": true,
+    "role": "court",
+    "scene": "valiseSeule",
+    "registre": "horodate",
+    "palette": "lin",
+    "fichier": "018-valiseSeule-horodate-lin.png"
+  },
+  {
+    "numero": 19,
+    "phrase": "i peaked already",
+    "pub": true,
+    "role": "assis",
+    "scene": "chaiseRenversee",
+    "registre": "barre",
+    "palette": "lin",
+    "fichier": "019-chaiseRenversee-barre-lin.png"
+  },
+  {
+    "numero": 20,
+    "phrase": "nothing worked out",
+    "pub": true,
+    "role": "assis",
+    "scene": "chaiseRenversee",
+    "registre": "bloc",
+    "palette": "lin",
+    "fichier": "020-chaiseRenversee-bloc-lin.png"
+  },
+  {
+    "numero": 21,
+    "phrase": "not doing great",
+    "pub": true,
+    "role": "assis",
+    "scene": "litDefait",
+    "registre": "horodate",
+    "palette": "os",
+    "fichier": "021-litDefait-horodate-os.png"
+  },
+  {
+    "numero": 22,
+    "phrase": "same room, no one",
+    "pub": true,
+    "role": "couple",
+    "scene": "placeVide",
+    "registre": "manuscrit",
+    "palette": "sombre",
+    "fichier": "022-placeVide-manuscrit-sombre.png"
+  },
+  {
+    "numero": 23,
+    "phrase": "grew up alone",
+    "pub": true,
+    "role": "attend",
+    "scene": "memoire",
+    "registre": "serif",
+    "palette": "terre",
+    "fichier": "023-memoire-serif-terre.png"
+  },
+  {
+    "numero": 24,
+    "phrase": "wrong one stayed",
+    "pub": true,
+    "role": "couple",
+    "scene": "chaiseVide",
+    "registre": "horodate",
+    "palette": "os",
+    "fichier": "024-chaiseVide-horodate-os.png"
+  }
+]

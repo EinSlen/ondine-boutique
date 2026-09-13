@@ -1,0 +1,10 @@
+[
+  { "tag": "fontaine-ES", "kw": "cat water fountain", "ship": "ES" },
+  { "tag": "fontaine-FR", "kw": "cat water fountain", "ship": "FR" },
+  { "tag": "fontaine-DE", "kw": "cat water fountain", "ship": "DE" },
+  { "tag": "fontaine-CN", "kw": "cat water fountain", "ship": "CN" },
+  { "tag": "fontaine-fr-mot", "kw": "fontaine a eau chat", "ship": "ES" },
+  { "tag": "filtres-ES", "kw": "cat water fountain filter replacement", "ship": "ES" },
+  { "tag": "filtres-CN", "kw": "cat water fountain filter replacement", "ship": "CN" },
+  { "tag": "fontaine-inox-ES", "kw": "stainless steel cat water fountain", "ship": "ES" }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "numero": 1,
+    "phrase": "don't wait up",
+    "pub": false,
+    "mise": "barre",
+    "palette": "lin",
+    "fichier": "001-barre-lin.png"
+  },
+  {
+    "numero": 2,
+    "phrase": "i left first",
+    "pub": true,
+    "mise": "angle",
+    "palette": "terre",
+    "fichier": "002-angle-terre.png"
+  },
+  {
+    "numero": 3,
+    "phrase": "i still park there",
+    "pub": true,
+    "mise": "manuscrit",
+    "palette": "lin",
+    "fichier": "003-manuscrit-lin.png"
+  },
+  {
+    "numero": 4,
+    "phrase": "we said forever",
+    "pub": true,
+    "mise": "serif",
+    "palette": "os",
+    "fichier": "004-serif-os.png"
+  },
+  {
+    "numero": 5,
+    "phrase": "she isn't coming",
+    "pub": true,
+    "mise": "angle",
+    "palette": "sombre",
+    "fichier": "005-angle-sombre.png"
+  },
+  {
+    "numero": 6,
+    "phrase": "i waited anyway",
+    "pub": true,
+    "mise": "barre",
+    "palette": "terre",
+    "fichier": "006-barre-terre.png"
+  },
+  {
+    "numero": 7,
+    "phrase": "nothing after you",
+    "pub": false,
+    "mise": "repetition",
+    "palette": "lin",
+    "fichier": "007-repetition-lin.png"
+  },
+  {
+    "numero": 8,
+    "phrase": "you moved on fast",
+    "pub": false,
+    "mise": "barre",
+    "palette": "os",
+    "fichier": "008-barre-os.png"
+  },
+  {
+    "numero": 9,
+    "phrase": "your side is cold",
+    "pub": false,
+    "mise": "barre",
+    "palette": "terre",
+    "fichier": "009-barre-terre.png"
+  },
+  {
+    "numero": 10,
+    "phrase": "she took the dog",
+    "pub": true,
+    "mise": "angle",
+    "palette": "terre",
+    "fichier": "010-angle-terre.png"
+  },
+  {
+    "numero": 11,
+    "phrase": "last one to leave",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "lin",
+    "fichier": "011-repetition-lin.png"
+  },
+  {
+    "numero": 12,
+    "phrase": "i answered every time",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "lin",
+    "fichier": "012-repetition-lin.png"
+  },
+  {
+    "numero": 13,
+    "phrase": "call ended 4:12",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "lin",
+    "fichier": "013-bloc-lin.png"
+  },
+  {
+    "numero": 14,
+    "phrase": "still your number",
+    "pub": false,
+    "mise": "bloc",
+    "palette": "os",
+    "fichier": "014-bloc-os.png"
+  },
+  {
+    "numero": 15,
+    "phrase": "i deleted nothing",
+    "pub": true,
+    "mise": "angle",
+    "palette": "lin",
+    "fichier": "015-angle-lin.png"
+  },
+  {
+    "numero": 16,
+    "phrase": "typing, then nothing",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "terre",
+    "fichier": "016-horodatage-terre.png"
+  },
+  {
+    "numero": 17,
+    "phrase": "no one noticed",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "lin",
+    "fichier": "017-horodatage-lin.png"
+  },
+  {
+    "numero": 18,
+    "phrase": "everyone left fine",
+    "pub": true,
+    "mise": "manuscrit",
+    "palette": "terre",
+    "fichier": "018-manuscrit-terre.png"
+  },
+  {
+    "numero": 19,
+    "phrase": "i peaked already",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "terre",
+    "fichier": "019-horodatage-terre.png"
+  },
+  {
+    "numero": 20,
+    "phrase": "nothing worked out",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "lin",
+    "fichier": "020-bloc-lin.png"
+  },
+  {
+    "numero": 21,
+    "phrase": "not doing great",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "lin",
+    "fichier": "021-bloc-lin.png"
+  },
+  {
+    "numero": 22,
+    "phrase": "same room, no one",
+    "pub": true,
+    "mise": "barre",
+    "palette": "os",
+    "fichier": "022-barre-os.png"
+  },
+  {
+    "numero": 23,
+    "phrase": "grew up alone",
+    "pub": true,
+    "mise": "barre",
+    "palette": "terre",
+    "fichier": "023-barre-terre.png"
+  },
+  {
+    "numero": 24,
+    "phrase": "wrong one stayed",
+    "pub": true,
+    "mise": "manuscrit",
+    "palette": "terre",
+    "fichier": "024-manuscrit-terre.png"
+  },
+  {
+    "numero": 25,
+    "phrase": "you never called",
+    "pub": false,
+    "mise": "bloc",
+    "palette": "lin",
+    "fichier": "025-bloc-lin.png"
+  },
+  {
+    "numero": 26,
+    "phrase": "she blocked me",
+    "pub": true,
+    "mise": "barre",
+    "palette": "os",
+    "fichier": "026-barre-os.png"
+  },
+  {
+    "numero": 27,
+    "phrase": "i kept the receipts",
+    "pub": true,
+    "mise": "serif",
+    "palette": "sombre",
+    "fichier": "027-serif-sombre.png"
+  },
+  {
+    "numero": 28,
+    "phrase": "no one asked",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "sombre",
+    "fichier": "028-horodatage-sombre.png"
+  },
+  {
+    "numero": 29,
+    "phrase": "still up at four",
+    "pub": true,
+    "mise": "serif",
+    "palette": "lin",
+    "fichier": "029-serif-lin.png"
+  },
+  {
+    "numero": 30,
+    "phrase": "we had a plan",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "os",
+    "fichier": "030-repetition-os.png"
+  },
+  {
+    "numero": 31,
+    "phrase": "you had someone",
+    "pub": false,
+    "mise": "bloc",
+    "palette": "lin",
+    "fichier": "031-bloc-lin.png"
+  },
+  {
+    "numero": 32,
+    "phrase": "nothing since june",
+    "pub": true,
+    "mise": "barre",
+    "palette": "os",
+    "fichier": "032-barre-os.png"
+  },
+  {
+    "numero": 33,
+    "phrase": "she kept the ring",
+    "pub": true,
+    "mise": "barre",
+    "palette": "terre",
+    "fichier": "033-barre-terre.png"
+  },
+  {
+    "numero": 34,
+    "phrase": "i drove past twice",
+    "pub": true,
+    "mise": "barre",
+    "palette": "os",
+    "fichier": "034-barre-os.png"
+  },
+  {
+    "numero": 35,
+    "phrase": "left the light on",
+    "pub": true,
+    "mise": "manuscrit",
+    "palette": "terre",
+    "fichier": "035-manuscrit-terre.png"
+  },
+  {
+    "numero": 36,
+    "phrase": "i still say we",
+    "pub": true,
+    "mise": "serif",
+    "palette": "os",
+    "fichier": "036-serif-os.png"
+  },
+  {
+    "numero": 37,
+    "phrase": "never made the list",
+    "pub": true,
+    "mise": "serif",
+    "palette": "terre",
+    "fichier": "037-serif-terre.png"
+  },
+  {
+    "numero": 38,
+    "phrase": "always the backup",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "os",
+    "fichier": "038-bloc-os.png"
+  },
+  {
+    "numero": 39,
+    "phrase": "i was the practice",
+    "pub": true,
+    "mise": "manuscrit",
+    "palette": "terre",
+    "fichier": "039-manuscrit-terre.png"
+  },
+  {
+    "numero": 40,
+    "phrase": "you got better",
+    "pub": false,
+    "mise": "angle",
+    "palette": "os",
+    "fichier": "040-angle-os.png"
+  },
+  {
+    "numero": 41,
+    "phrase": "i got worse",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "terre",
+    "fichier": "041-repetition-terre.png"
+  },
+  {
+    "numero": 42,
+    "phrase": "nobody clapped",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "lin",
+    "fichier": "042-bloc-lin.png"
+  },
+  {
+    "numero": 43,
+    "phrase": "came home to nothing",
+    "pub": true,
+    "mise": "manuscrit",
+    "palette": "terre",
+    "fichier": "043-manuscrit-terre.png"
+  },
+  {
+    "numero": 44,
+    "phrase": "ate alone again",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "os",
+    "fichier": "044-repetition-os.png"
+  },
+  {
+    "numero": 45,
+    "phrase": "they all graduated",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "lin",
+    "fichier": "045-horodatage-lin.png"
+  },
+  {
+    "numero": 46,
+    "phrase": "still in my room",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "os",
+    "fichier": "046-repetition-os.png"
+  },
+  {
+    "numero": 47,
+    "phrase": "i peaked at nineteen",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "terre",
+    "fichier": "047-horodatage-terre.png"
+  },
+  {
+    "numero": 48,
+    "phrase": "nothing to report",
+    "pub": true,
+    "mise": "barre",
+    "palette": "os",
+    "fichier": "048-barre-os.png"
+  },
+  {
+    "numero": 49,
+    "phrase": "i am the ex",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "terre",
+    "fichier": "049-horodatage-terre.png"
+  },
+  {
+    "numero": 50,
+    "phrase": "you kept the friends",
+    "pub": false,
+    "mise": "serif",
+    "palette": "os",
+    "fichier": "050-serif-os.png"
+  },
+  {
+    "numero": 51,
+    "phrase": "i moved out first",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "os",
+    "fichier": "051-repetition-os.png"
+  },
+  {
+    "numero": 52,
+    "phrase": "the dog forgot me",
+    "pub": true,
+    "mise": "repetition",
+    "palette": "sombre",
+    "fichier": "052-repetition-sombre.png"
+  },
+  {
+    "numero": 53,
+    "phrase": "call me when",
+    "pub": true,
+    "mise": "barre",
+    "palette": "sombre",
+    "fichier": "053-barre-sombre.png"
+  },
+  {
+    "numero": 54,
+    "phrase": "seen, no reply",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "sombre",
+    "fichier": "054-bloc-sombre.png"
+  },
+  {
+    "numero": 55,
+    "phrase": "i waited till two",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "lin",
+    "fichier": "055-horodatage-lin.png"
+  },
+  {
+    "numero": 56,
+    "phrase": "you looked happy",
+    "pub": false,
+    "mise": "serif",
+    "palette": "lin",
+    "fichier": "056-serif-lin.png"
+  },
+  {
+    "numero": 57,
+    "phrase": "everyone knew but me",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "sombre",
+    "fichier": "057-horodatage-sombre.png"
+  },
+  {
+    "numero": 58,
+    "phrase": "last to know",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "os",
+    "fichier": "058-horodatage-os.png"
+  },
+  {
+    "numero": 59,
+    "phrase": "i unpacked nothing",
+    "pub": true,
+    "mise": "horodatage",
+    "palette": "sombre",
+    "fichier": "059-horodatage-sombre.png"
+  },
+  {
+    "numero": 60,
+    "phrase": "she moved in june",
+    "pub": true,
+    "mise": "bloc",
+    "palette": "sombre",
+    "fichier": "060-bloc-sombre.png"
+  }
+]

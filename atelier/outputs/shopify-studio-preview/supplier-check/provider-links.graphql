@@ -1,0 +1,20 @@
+query ExistingProviderLinks($ids:[ID!]!) {
+  nodes(ids:$ids) {
+    ... on Product {
+      id title status
+      variants(first:10) {
+        nodes {
+          id title sku inventoryPolicy
+          inventoryItem {
+            id tracked unitCost {amount currencyCode}
+            inventoryLevels(first:5) {
+              nodes {location {id name isActive fulfillmentService {id serviceName inventoryManagement}}}
+              pageInfo {hasNextPage endCursor}
+            }
+          }
+        }
+        pageInfo {hasNextPage endCursor}
+      }
+    }
+  }
+}

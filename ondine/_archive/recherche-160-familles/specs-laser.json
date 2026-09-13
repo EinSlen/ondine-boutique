@@ -1,0 +1,76 @@
+[
+  {
+    "tag": "f23",
+    "url": "https://www.alibaba.com/product-detail/16-Line-Laser-Level-360-Self_1601698557348.html",
+    "pageChars": 26226,
+    "powers": [],
+    "classHits": [
+      "Class 2"
+    ],
+    "laserLines": [
+      "wavelength",
+      "520 nm",
+      "wavelength",
+      "520 nm",
+      "Laser wavelength",
+      "505-520nm",
+      "laser level EN60825-1",
+      "1/2 Inch Brushless Wrench 21V 1500nm Electric Screwdriver Cordless Impact With Battery Power Tools for Repair"
+    ],
+    "verdict": "classe 2 annoncee, puissance non chiffree"
+  },
+  {
+    "tag": "f17",
+    "url": "https://www.alibaba.com/product-detail/OEM-ODM-Supported-16-Lines-4D_1601621787675.html",
+    "pageChars": 23104,
+    "powers": [],
+    "classHits": [],
+    "laserLines": [
+      "wavelength",
+      "505-520nm",
+      "40 Nm Torque Multi-Function Cordless Electric Screwdriver Set Home Power Drill with Charging Ability",
+      "wavelength",
+      "505-520nm",
+      "Cordless Rechargeable Foldable Lithium Battery Electric Drill Screwdriver with 3.5Nm Max Torque for Home Use DIY"
+    ],
+    "verdict": "aucune donnee de puissance ni de classe"
+  },
+  {
+    "tag": "f7",
+    "url": "https://www.alibaba.com/product-detail/16-Lines-4D-Green-Beam-Laser_1601820668286.html",
+    "pageChars": 15375,
+    "powers": [],
+    "classHits": [],
+    "laserLines": [
+      "wavelength",
+      "520 nm",
+      "wavelength",
+      "520 nm",
+      "Laser wavelength",
+      "505-520nm",
+      "Light Color: Green Beam (515nm)"
+    ],
+    "verdict": "aucune donnee de puissance ni de classe"
+  },
+  {
+    "tag": "f5",
+    "url": "https://www.alibaba.com/product-detail/Hot-Selling-16-Lines-4d-Automatic_1601061734053.html",
+    "pageChars": 19376,
+    "powers": [],
+    "classHits": [
+      "ClassII"
+    ],
+    "laserLines": [
+      "wavelength",
+      "520nm",
+      "700Nm Electric Torque Wrench 18v Lithium Battery Wrench Multifunctional Wrench Brushless Dc Brushless Motor",
+      "wavelength",
+      "520nm",
+      "Laser wavelength",
+      "520-635nm",
+      "Laser Class",
+      "500Nm Electric Torque Wrench 18v Lithium Battery Wrench Multifunctional Wrench Brushless Dc Brushless Motor"
+    ],
+    "verdict": "classe 2 annoncee, puissance non chiffree"
+  }
+]

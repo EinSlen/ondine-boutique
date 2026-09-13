@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "hero": {
+      "type": "d2m-hero",
+      "settings": {
+        "image": "shopify://shop_images/d2m-hero_a880d235-6e1f-412f-8c14-2025651a4568.jpg",
+        "ligne_1": "Nothing",
+        "ligne_2": "Lasts.",
+        "ligne_3": "Nothing comes back.",
+        "accroche": "[pieces] pièces. Puis c’est fini.",
+        "collection": "still-here",
+        "compter_pieces": true,
+        "lien_texte": "Voir la collection",
+        "lien": "shopify://collections/still-here",
+        "image_mobile": "shopify://shop_images/d2m-hero-mobile_f42c698e-91cc-4775-b3db-7f19ffa92d39.jpg",
+        "police_titre": "anton_n4"
+      }
+    },
+    "drop": {
+      "type": "d2m-drop",
+      "blocks": {
+        "logo": {
+          "type": "rayon",
+          "settings": {
+            "collection": "logo-essentials",
+            "titre": "Logo essentials",
+            "colonnes": 4,
+            "colonnes_mobile": "2",
+            "nombre": 4,
+            "montrer_tailles": true,
+            "montrer_tout": true,
+            "texte_tout": "Tout voir"
+          }
+        },
+        "graphiques": {
+          "type": "rayon",
+          "settings": {
+            "collection": "graphic-pieces",
+            "titre": "Graphic pieces",
+            "colonnes": 5,
+            "colonnes_mobile": "2",
+            "nombre": 5,
+            "montrer_tailles": false,
+            "montrer_tout": true,
+            "texte_tout": "Tout voir"
+          }
+        },
+        "bas": {
+          "type": "rayon",
+          "settings": {
+            "collection": "bottoms",
+            "titre": "Bottoms",
+            "colonnes": 3,
+            "colonnes_mobile": "2",
+            "nombre": 3,
+            "montrer_tailles": false,
+            "montrer_tout": true,
+            "texte_tout": "Tout voir"
+          }
+        },
+        "looks": {
+          "type": "silhouettes",
+          "settings": {
+            "titre": "Looks",
+            "mention": "Tenues composées",
+            "image_1": "shopify://shop_images/look-01.jpg",
+            "titre_1": "Look 01",
+            "haut_1": "run-away-tee",
+            "bas_1": "static-wide-leg-pants",
+            "image_2": "shopify://shop_images/look-02.jpg",
+            "titre_2": "Look 02",
+            "haut_2": "split-figures-zip",
+            "bas_2": "void-wide-leg-joggers",
+            "image_3": "shopify://shop_images/look-03.jpg",
+            "titre_3": "Look 03",
+            "haut_3": "table-alone-zip",
+            "bas_3": "no-signal-track-pants"
+          }
+        }
+      },
+      "block_order": [
+        "logo",
+        "graphiques",
+        "bas",
+        "looks"
+      ]
+    },
+    "garanties": {
+      "type": "d2m-benefits",
+      "blocks": {
+        "limite": {
+          "type": "garantie",
+          "settings": {
+            "picto": "colis",
+            "titre": "Série limitée",
+            "note": "Une fois parti, c’est parti."
+          }
+        },
+        "restock": {
+          "type": "garantie",
+          "settings": {
+            "picto": "horloge",
+            "titre": "Aucun réassort",
+            "note": "Une seule fois. Pas de seconde chance."
+          }
+        },
+        "monde": {
+          "type": "garantie",
+          "settings": {
+            "picto": "globe",
+            "titre": "Livraison mondiale",
+            "note": "Nous expédions partout."
+          }
+        },
+        "paiement": {
+          "type": "garantie",
+          "settings": {
+            "picto": "cadenas",
+            "titre": "Paiement sécurisé",
+            "note": "Transactions protégées."
+          }
+        }
+      },
+      "block_order": [
+        "limite",
+        "restock",
+        "monde",
+        "paiement"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "drop",
+    "garanties"
+  ]
+}

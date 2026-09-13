@@ -1,0 +1,25 @@
+<footer class="sh-footer sh-container">
+  <div class="sh-footer__top">
+    <div><p class="sh-footer__tagline">{{ section.settings.tagline | escape }}</p></div>
+    <nav aria-label="{{ 'navigation.footer' | t }}">
+      {% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% endfor %}{% endif %}
+      {% for policy in shop.policies %}{% if policy.body != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}
+    </nav>
+    {% if localization.available_languages.size > 1 or localization.available_countries.size > 1 %}
+      {% form 'localization', class: 'sh-footer__localization' %}
+        {% if localization.available_languages.size > 1 %}<label for="FooterLanguage">{{ 'general.language' | t }}</label><select id="FooterLanguage" name="language_code">{% for language in localization.available_languages %}<option value="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} selected{% endif %}>{{ language.endonym_name | escape }}</option>{% endfor %}</select>{% endif %}
+        {% if localization.available_countries.size > 1 %}<label for="FooterCountry">{{ 'general.country' | t }}</label><select id="FooterCountry" name="country_code">{% for country in localization.available_countries %}<option value="{{ country.iso_code }}"{% if country.iso_code == localization.country.iso_code %} selected{% endif %}>{{ country.name | escape }} · {{ country.currency.iso_code }}</option>{% endfor %}</select>{% endif %}
+        <button class="sh-button sh-button--outline" type="submit">{{ 'general.apply' | t }}</button>
+      {% endform %}
+    {% endif %}
+  </div>
+  <div class="sh-footer__masthead"><a href="{{ routes.root_url }}" class="sh-wordmark">{{ section.settings.wordmark | escape }}</a></div>
+  <div class="sh-footer__bottom"><span>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</span><a href="{{ routes.all_products_collection_url }}">{{ 'navigation.collection' | t }} ↗</a></div>
+</footer>
+{% stylesheet %}
+  .sh-footer{padding-top:70px;padding-bottom:26px;border-top:1px solid var(--line)}.sh-footer__top{display:grid;grid-template-columns:1.2fr 1fr auto;gap:40px;padding-bottom:60px}.sh-footer__tagline{font:italic clamp(26px,3.5vw,50px)/1.03 var(--serif);letter-spacing:-.04em;max-width:320px}.sh-footer nav{display:grid;align-content:start;gap:12px;font-size:12px}.sh-footer nav a{text-decoration:none}.sh-footer__localization{display:grid;align-content:start;gap:7px;font-size:11px;max-width:240px}.sh-footer__localization .sh-button{margin-top:8px}.sh-footer__masthead{padding:35px 0 60px}.sh-footer__masthead .sh-wordmark{display:block;width:fit-content;max-width:100%;font-size:clamp(72px,20vw,320px);line-height:.76;letter-spacing:-.095em;transform:skewX(-5deg);padding-right:.14em;white-space:normal;overflow-wrap:anywhere}.sh-footer__bottom{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:23px;font-size:10px}.sh-footer__bottom a{text-decoration:none}
+  @media(max-width:850px){.sh-footer__top{grid-template-columns:1fr 1fr}.sh-footer__localization{grid-column:1/-1}.sh-footer__masthead{padding:12px 0 40px}}@media(max-width:500px){.sh-footer__top{grid-template-columns:1fr 1fr;gap:28px}.sh-footer__bottom{flex-wrap:wrap}.sh-footer__tagline{max-width:160px}.sh-footer nav{font-size:11px}.sh-footer__masthead .sh-wordmark{font-size:21vw}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.footer","settings":[{"type":"text","id":"wordmark","label":"t:settings.wordmark","default":"sour hours"},{"type":"text","id":"tagline","label":"t:settings.text","default":"Les heures à soi."},{"type":"link_list","id":"menu","label":"t:settings.menu"}]}
+{% endschema %}

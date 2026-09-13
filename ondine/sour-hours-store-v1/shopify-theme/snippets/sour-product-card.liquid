@@ -1,0 +1,28 @@
+{% liquid
+  assign image = product.featured_image
+  assign fallback = 'sour-cherry-hoodie-chocolate.png'
+  if product.handle contains 'raw-club'
+    assign fallback = 'raw-club-hoodie.png'
+  elsif product.handle contains 'lucky-star'
+    assign fallback = 'lucky-star-zip.png'
+  elsif product.handle contains 'stray-dogs'
+    assign fallback = 'stray-dogs-tee.png'
+  elsif product.handle contains 'after-midnight'
+    assign fallback = 'after-midnight-knit.png'
+  elsif product.handle contains 'night-shift-racing'
+    assign fallback = 'night-shift-racing-jersey.png'
+  elsif product.handle contains 'broken-halo-longsleeve'
+    assign fallback = 'broken-halo-longsleeve.png'
+  elsif product.handle contains 'night-work-denim'
+    assign fallback = 'night-work-denim-jeans.png'
+  elsif product.handle contains 'pit-lane-track'
+    assign fallback = 'pit-lane-track-pants.png'
+  elsif product.handle contains 'midnight-balaclava'
+    assign fallback = 'midnight-balaclava.png'
+  elsif product.handle contains 'broken-halo-earrings'
+    assign fallback = 'broken-halo-earrings.png'
+  elsif product.handle contains 'night-shift-scarf'
+    assign fallback = 'night-shift-scarf.png'
+  endif
+%}
+<article class="product-card theme-card{% if card_index == 1 or card_index == 11 %} large{% elsif card_index == 2 or card_index == 12 %} raw{% endif %}"><a class="visual" href="{{ product.url }}">{% if image != blank %}{{ image | image_url: width: 1600 | image_tag: loading: 'lazy', widths: '500,800,1200,1600', alt: product.title }}{% else %}<img src="{{ fallback | asset_url }}" width="1536" height="1024" loading="lazy" alt="{{ product.title | escape }}">{% endif %}</a><div class="meta"><div><h3><a href="{{ product.url }}">{{ product.title }}</a></h3><p>{{ product.type }}</p></div><strong>{{ product.price | money }}</strong></div></article>

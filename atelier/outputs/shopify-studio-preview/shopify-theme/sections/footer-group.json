@@ -1,0 +1,16 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "wordmark": "LE STUDIO",
+        "tagline": "On te rappelle."
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

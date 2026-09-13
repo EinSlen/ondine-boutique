@@ -1,0 +1,11 @@
+query ExistingProductSalesState($ids:[ID!]!) {
+ nodes(ids:$ids) {
+  ... on Product {
+   id title status onlineStoreUrl
+   variants(first:10) {
+    nodes {id title availableForSale inventoryQuantity}
+    pageInfo {hasNextPage endCursor}
+   }
+  }
+ }
+}

@@ -1,0 +1,526 @@
+/*
+  Habillage D2M par-dessus Horizon.
+  Le corps de page reste blanc : ce sont les bandes noires (annonce, en-tete, garanties,
+  pied) et le rouge de la marque qui portent l'identite, comme sur la maquette.
+  On ne reecrit ici que ce qui differe du theme, pour que ses mises a jour passent encore.
+*/
+
+:root {
+  --d2m-noir: #000;
+  --d2m-encre: #0a0a0a;
+  --d2m-rouge: #8e1822;
+  --d2m-rouge-sombre: #621219;
+  --d2m-blanc: #fff;
+  --d2m-gris: #6f6f6f;
+  --d2m-gris-clair: #f2f2f2;
+  --d2m-marge: clamp(16px, 3vw, 46px);
+}
+
+/* --- socle ------------------------------------------------------------- */
+
+body {
+  background: var(--d2m-blanc);
+  color: var(--d2m-encre);
+  -webkit-font-smoothing: antialiased;
+}
+
+.d2m a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.d2m *,
+.d2m *::before,
+.d2m *::after {
+  box-sizing: border-box;
+}
+
+/* --- bandeau d'ouverture ----------------------------------------------- */
+
+.d2m-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: clamp(300px, 26vw, 380px);
+  padding: 44px var(--d2m-marge);
+  overflow: hidden;
+  background: var(--d2m-noir);
+  color: var(--d2m-blanc);
+}
+
+.d2m-hero__fond {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.d2m-hero__fond img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+}
+
+/* Le degrade garde le titre lisible quelle que soit la photo posee derriere. */
+.d2m-hero__voile {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    #000 0%,
+    rgba(0, 0, 0, 0.92) 26%,
+    rgba(0, 0, 0, 0.4) 52%,
+    rgba(0, 0, 0, 0.12) 72%,
+    rgba(0, 0, 0, 0.32) 100%
+  );
+}
+
+.d2m-hero__texte {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+}
+
+.d2m-hero__titre {
+  margin: 0;
+  font-size: clamp(2.5rem, 4.6vw, 4.25rem);
+  font-weight: 900;
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.d2m-hero__titre em {
+  color: var(--d2m-rouge);
+  font-style: normal;
+}
+
+.d2m-hero__accroche {
+  margin: 20px 0 24px;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.d2m-bouton {
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+  padding: 13px 22px;
+  border: 1px solid currentcolor;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.d2m-bouton:hover {
+  background: var(--d2m-blanc);
+  color: var(--d2m-noir);
+}
+
+/* --- rayons de la page d'accueil --------------------------------------- */
+
+.d2m-drop {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 34px var(--d2m-marge);
+  padding: 30px var(--d2m-marge) 44px;
+  align-items: start;
+}
+
+.d2m-rayon__entete {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.d2m-rayon__titre {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.d2m-rayon__tout {
+  font-size: 0.625rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.d2m-rayon__tout:hover {
+  color: var(--d2m-rouge);
+}
+
+.d2m-grille {
+  display: grid;
+  grid-template-columns: repeat(var(--colonnes, 4), minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* --- carte produit ------------------------------------------------------ */
+
+.d2m-carte__cadre {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--d2m-gris-clair);
+}
+
+.d2m-carte__cadre img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.25s ease;
+}
+
+/* La seconde vue attend le survol : c'est le dos imprime qui fait vendre. */
+.d2m-carte__dos {
+  opacity: 0;
+}
+
+.d2m-carte:hover .d2m-carte__dos {
+  opacity: 1;
+}
+
+.d2m-carte__nom {
+  margin: 11px 0 3px;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.d2m-carte:hover .d2m-carte__nom {
+  color: var(--d2m-rouge);
+}
+
+.d2m-carte__prix {
+  font-size: 0.6875rem;
+  font-weight: 600;
+}
+
+.d2m-carte__tailles {
+  margin-top: 4px;
+  font-size: 0.625rem;
+  color: var(--d2m-gris);
+  letter-spacing: 0.06em;
+}
+
+.d2m-carte__epuise {
+  position: absolute;
+  inset: auto 0 0 0;
+  z-index: 2;
+  padding: 6px;
+  background: var(--d2m-noir);
+  color: var(--d2m-blanc);
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* --- silhouettes -------------------------------------------------------- */
+
+.d2m-looks {
+  display: grid;
+  grid-template-columns: repeat(var(--colonnes, 3), minmax(0, 1fr));
+  gap: 10px;
+}
+
+.d2m-look__cadre {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--d2m-encre);
+}
+
+.d2m-look__cadre img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.d2m-look:hover .d2m-look__cadre img {
+  transform: scale(1.03);
+}
+
+.d2m-look__numero {
+  margin: 10px 0 3px;
+  font-size: 0.6875rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.d2m-look__pieces {
+  font-size: 0.625rem;
+  line-height: 1.5;
+  color: var(--d2m-gris);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.d2m-look__prix {
+  margin-top: 3px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+}
+
+/* --- bande des garanties ------------------------------------------------ */
+
+.d2m-garanties {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: var(--d2m-noir);
+  color: var(--d2m-blanc);
+}
+
+.d2m-garantie {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px var(--d2m-marge);
+  border-right: 1px solid #1d1d1d;
+}
+
+.d2m-garantie:last-child {
+  border-right: 0;
+}
+
+.d2m-garantie svg {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  fill: none;
+  stroke: currentcolor;
+  stroke-width: 1.2;
+}
+
+.d2m-garantie__titre {
+  font-size: 0.6875rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.d2m-garantie__note {
+  margin-top: 3px;
+  font-size: 0.6875rem;
+  color: #a5a5a5;
+}
+
+/* --- pied de page ------------------------------------------------------- */
+
+footer a:hover {
+  color: var(--d2m-rouge);
+}
+
+/* --- pages catalogue ---------------------------------------------------- */
+
+.product-title,
+.product-grid__card .product-title {
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* --- reduction mobile --------------------------------------------------- */
+
+@media screen and (max-width: 1100px) {
+  .d2m-drop {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+  }
+
+  .d2m-grille {
+    grid-template-columns: repeat(var(--colonnes-mobile, 2), minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .d2m-hero {
+    min-height: 420px;
+    align-items: flex-end;
+    padding-bottom: 34px;
+  }
+
+  .d2m-hero__voile {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.75) 55%, #000 100%);
+  }
+
+  .d2m-hero__fond img {
+    object-position: 62% center;
+  }
+
+  .d2m-looks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .d2m-garanties {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .d2m-garantie {
+    gap: 12px;
+    padding: 18px 16px;
+  }
+
+  .d2m-garantie:nth-child(-n + 2) {
+    border-bottom: 1px solid #1d1d1d;
+  }
+
+  .d2m-garantie:nth-child(2n) {
+    border-right: 0;
+  }
+}
+
+/* --- corrections d'assise sur Horizon ---------------------------------- */
+
+/*
+  Le fond de l'en-tete est peint par Horizon dans un degrade qui suppose deux rangees.
+  Avec une seule, la variable de hauteur reste vide et le degrade tombe : on repose donc
+  le noir directement sur les deux voiles.
+*/
+header-component .header__underlay-closed,
+header-component .header__underlay-open {
+  background: var(--d2m-noir);
+}
+
+/* Les legendes de silhouette s'empilent, chacune sur sa ligne. */
+.d2m-look__numero,
+.d2m-look__pieces,
+.d2m-look__prix,
+.d2m-carte__nom,
+.d2m-carte__prix,
+.d2m-carte__tailles {
+  display: block;
+}
+
+/* Le pied de page et les grilles suivent les memes marges laterales que les rayons. */
+footer .section,
+footer .shopify-section {
+  padding-inline: var(--d2m-marge);
+}
+
+.collection-wrapper,
+.product-grid-container {
+  padding-inline: var(--d2m-marge);
+}
+
+/*
+  Le titre de collection s'aligne sur la grille qui le suit. Il est rendu dans un bloc de
+  texte générique du thème, sans classe propre : on vise donc la section qui le porte.
+*/
+.custom-section-content,
+.collection-title {
+  /* la grille ajoute son propre retrait au conteneur : le titre en fait autant pour s'aligner */
+  padding-inline: calc(var(--d2m-marge) * 2);
+}
+
+@media screen and (max-width: 749px) {
+  .custom-section-content {
+    padding-inline: var(--d2m-marge);
+  }
+}
+
+/*
+  Repli tant que le script n'a pas tranche entre menu et tiroir : sur grand ecran on
+  montre le menu, ce qui evite de voir passer un bouton hamburger au chargement.
+*/
+@media screen and (min-width: 750px) {
+  #header-component:not([data-menu-style]) .header__drawer {
+    display: none;
+  }
+
+  #header-component:not([data-menu-style]) .header-menu {
+    display: flex;
+  }
+}
+
+/* Le rayon en cours de visite se signale en rouge dans le menu. */
+.menu-list__link--active,
+.menu-list__link:hover {
+  color: var(--d2m-rouge);
+}
+
+/*
+  Dans la rangee du pied, le champ d'inscription impose sa largeur et laisse les
+  colonnes voisines se comprimer jusqu'a couper les mots. On leur donne un plancher.
+*/
+footer .group-block-content > .group-block:first-child {
+  min-width: 240px;
+}
+
+footer .group-block-content > .group-block:nth-child(2) {
+  min-width: 285px;
+}
+
+/*
+  Le champ d'inscription porte une largeur intrinseque qui deborde sur les menus voisins.
+  On l'autorise a se compresser et on lui laisse toute la largeur de sa colonne.
+*/
+footer .email-signup-block,
+footer .email-signup__form,
+footer .email-signup__form > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+footer input[type='email'] {
+  width: 100%;
+  min-width: 0;
+}
+
+/*
+  En mobile les grilles vont d'un bord à l'autre. Les visuels produit sont sur fond blanc :
+  une marge latérale leur donnait l'air de flotter dans une bande vide. Seuls les textes
+  gardent leur retrait, sinon ils toucheraient l'écran.
+*/
+@media screen and (max-width: 749px) {
+  .d2m-drop {
+    padding-inline: 0;
+    gap: 26px;
+  }
+
+  .d2m-grille,
+  .d2m-looks {
+    gap: 2px;
+  }
+
+  .d2m-rayon__entete {
+    padding-inline: var(--d2m-marge);
+  }
+
+  .d2m-carte__nom,
+  .d2m-carte__prix,
+  .d2m-carte__tailles,
+  .d2m-look__numero,
+  .d2m-look__pieces,
+  .d2m-look__prix {
+    padding-inline: 12px;
+  }
+
+  .collection-wrapper,
+  .product-grid-container {
+    padding-inline: 0;
+  }
+
+  .collection-title {
+    padding-inline: var(--d2m-marge);
+  }
+}

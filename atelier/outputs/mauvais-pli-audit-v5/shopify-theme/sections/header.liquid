@@ -1,0 +1,28 @@
+<header class="sh-header">
+  {% if section.settings.announcement != blank %}<div class="sh-announcement">{{ section.settings.announcement | escape }}</div>{% endif %}
+  <div class="sh-header__row sh-container">
+    <details class="sh-header__menu">
+      <summary><span class="sh-header__menu-icon" aria-hidden="true">☰</span> <span>{{ 'navigation.menu' | t }}</span></summary>
+      <nav class="sh-header__panel" aria-label="{{ 'navigation.main' | t }}">
+        {% if section.settings.menu != blank %}
+          {% for link in section.settings.menu.links %}
+            <a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+            {% if link.links != blank %}<ul>{% for child in link.links %}<li><a href="{{ child.url }}">{{ child.title | escape }}</a></li>{% endfor %}</ul>{% endif %}
+          {% endfor %}
+        {% else %}<a href="{{ routes.all_products_collection_url }}">{{ 'navigation.collection' | t }}</a>{% endif %}
+      </nav>
+    </details>
+    <a href="{{ routes.root_url }}" class="sh-wordmark" aria-label="{{ shop.name | escape }}">{{ section.settings.wordmark | escape }}</a>
+    <div class="sh-header__actions">
+      <a href="{{ routes.search_url }}" class="sh-header__search">{{ 'navigation.search' | t }}</a>
+      <a href="{{ routes.cart_url }}" aria-label="{{ 'navigation.cart_count' | t: count: cart.item_count }}">{{ 'navigation.cart' | t }} <span class="sh-header__count">{{ cart.item_count }}</span></a>
+    </div>
+  </div>
+</header>
+{% stylesheet %}
+  .sh-header{position:relative;z-index:20;background:var(--cream);border-bottom:1px solid var(--line)}.sh-announcement{text-align:center;background:var(--ink);color:var(--cream);font-size:10px;letter-spacing:.1em;padding:9px 20px}.sh-header__row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;min-height:92px;gap:24px}.sh-header__row a:not(.sh-wordmark){text-decoration:none;font-size:12px}.sh-header__menu summary{list-style:none;font-size:12px;display:inline-flex;align-items:center;gap:10px;padding:14px 0}.sh-header__menu summary::-webkit-details-marker{display:none}.sh-header__menu-icon{font-size:17px}.sh-header__actions{display:flex;justify-content:flex-end;align-items:center;gap:26px}.sh-header__count{display:inline-flex;min-width:23px;height:23px;align-items:center;justify-content:center;margin-left:4px;border:1px solid var(--line);border-radius:50%;font-size:10px}.sh-header__panel{position:absolute;inset:100% 0 auto;background:var(--cream);padding:36px var(--gutter) 60px;box-shadow:0 30px 60px #0002;max-height:calc(100dvh - 130px);overflow-y:auto;display:grid;gap:14px}.sh-header__panel>a{font:36px/1.25 var(--serif)!important}.sh-header__panel ul{list-style:none;padding:0;display:grid;gap:10px}.sh-header__panel a:hover{color:var(--accent)}
+  @media(max-width:700px){.sh-header__row{min-height:76px;gap:12px}.sh-header__actions{gap:12px}.sh-header__search{display:none}.sh-header__menu summary>span:last-child{display:none}.sh-header__row .sh-wordmark{font-size:34px}.sh-header__row a:not(.sh-wordmark){font-size:11px}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.header","settings":[{"type":"text","id":"wordmark","label":"t:settings.wordmark","default":"mauvais pli"},{"type":"text","id":"announcement","label":"t:settings.announcement","default":"Le détail change tout."},{"type":"link_list","id":"menu","label":"t:settings.menu"}]}
+{% endschema %}

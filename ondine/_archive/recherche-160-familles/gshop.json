@@ -1,0 +1,422 @@
+[
+  {
+    "kw": "booster batterie voiture",
+    "url": "https://www.google.fr/search?q=booster%20batterie%20voiture&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "norauto",
+      "feu vert",
+      "carter-cash",
+      "roady",
+      "leclerc",
+      "lidl",
+      "castorama",
+      "leroy merlin",
+      "oscaro",
+      "mister-auto"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "cdiscount",
+      "manomano"
+    ],
+    "priceCount": 69,
+    "pMin": 6,
+    "p25": 39.9,
+    "pMed": 53.99,
+    "p75": 89.99,
+    "hasShopping": true,
+    "pickupSignals": 19
+  },
+  {
+    "kw": "polisseuse voiture",
+    "url": "https://www.google.fr/search?q=polisseuse%20voiture&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "norauto",
+      "feu vert",
+      "carter-cash",
+      "lidl",
+      "castorama",
+      "leroy merlin",
+      "leroymerlin",
+      "bricomarch",
+      "oscaro"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount",
+      "manomano"
+    ],
+    "priceCount": 71,
+    "pMin": 5.99,
+    "p25": 35.59,
+    "pMed": 54.95,
+    "p75": 79.99,
+    "hasShopping": true,
+    "pickupSignals": 12
+  },
+  {
+    "kw": "detecteur de metaux",
+    "url": "https://www.google.fr/search?q=detecteur%20de%20metaux&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "lidl",
+      "castorama",
+      "leroy merlin",
+      "leroymerlin",
+      "decathlon"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "manomano"
+    ],
+    "priceCount": 51,
+    "pMin": 8.99,
+    "p25": 53.11,
+    "pMed": 109,
+    "p75": 299,
+    "hasShopping": true,
+    "pickupSignals": 2
+  },
+  {
+    "kw": "pulseur souffleur chien",
+    "url": "https://www.google.fr/search?q=pulseur%20souffleur%20chien&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "leroymerlin",
+      "boulanger",
+      "maxi zoo",
+      "animalis",
+      "jardiland",
+      "zooplus"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount",
+      "manomano",
+      "ebay"
+    ],
+    "priceCount": 49,
+    "pMin": 18.99,
+    "p25": 64.69,
+    "pMed": 75.99,
+    "p75": 134.91,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "tondeuse finition barbier professionnelle",
+    "url": "https://www.google.fr/search?q=tondeuse%20finition%20barbier%20professionnelle&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "boulanger",
+      "nocibe"
+    ],
+    "marketplacesFound": [
+      "amazon"
+    ],
+    "priceCount": 73,
+    "pMin": 5.9,
+    "p25": 64.84,
+    "pMed": 98,
+    "p75": 138.5,
+    "hasShopping": true,
+    "pickupSignals": 3
+  },
+  {
+    "kw": "lampe uv ongles professionnelle",
+    "url": "https://www.google.fr/search?q=lampe%20uv%20ongles%20professionnelle&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "darty"
+    ],
+    "marketplacesFound": [
+      "amazon"
+    ],
+    "priceCount": 51,
+    "pMin": 6.45,
+    "p25": 31.01,
+    "pMed": 49.99,
+    "p75": 98.38,
+    "hasShopping": true,
+    "pickupSignals": 2
+  },
+  {
+    "kw": "ponceuse ongles electrique professionnelle",
+    "url": "https://www.google.fr/search?q=ponceuse%20ongles%20electrique%20professionnelle&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "darty"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "temu"
+    ],
+    "priceCount": 32,
+    "pMin": 6.45,
+    "p25": 49.95,
+    "pMed": 99,
+    "p75": 149,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "aerographe patisserie alimentaire",
+    "url": "https://www.google.fr/search?q=aerographe%20patisserie%20alimentaire&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "manomano"
+    ],
+    "priceCount": 54,
+    "pMin": 6.9,
+    "p25": 48.99,
+    "pMed": 82.56,
+    "p75": 117,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "machine tatouage rotative",
+    "url": "https://www.google.fr/search?q=machine%20tatouage%20rotative&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [],
+    "marketplacesFound": [
+      "amazon",
+      "manomano"
+    ],
+    "priceCount": 49,
+    "pMin": 5,
+    "p25": 39.99,
+    "pMed": 110,
+    "p75": 190.4,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "pompe brassage aquarium recifal",
+    "url": "https://www.google.fr/search?q=pompe%20brassage%20aquarium%20recifal&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "botanic"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress"
+    ],
+    "priceCount": 51,
+    "pMin": 5.99,
+    "p25": 21,
+    "pMed": 59.99,
+    "p75": 119,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "sondeur peche portable",
+    "url": "https://www.google.fr/search?q=sondeur%20peche%20portable&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "decathlon",
+      "darty"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount",
+      "manomano"
+    ],
+    "priceCount": 69,
+    "pMin": 5.9,
+    "p25": 62.99,
+    "pMed": 102.99,
+    "p75": 171.99,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "moulinet electrique peche",
+    "url": "https://www.google.fr/search?q=moulinet%20electrique%20peche&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "decathlon"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu"
+    ],
+    "priceCount": 40,
+    "pMin": 5.49,
+    "p25": 36.63,
+    "pMed": 73.39,
+    "p75": 500.94,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "materiel apiculture enfumoir",
+    "url": "https://www.google.fr/search?q=materiel%20apiculture%20enfumoir&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leroy merlin",
+      "cultura"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "manomano"
+    ],
+    "priceCount": 77,
+    "pMin": 5.29,
+    "p25": 12.99,
+    "pMed": 21.99,
+    "p75": 36.97,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "telescope astronomie debutant",
+    "url": "https://www.google.fr/search?q=telescope%20astronomie%20debutant&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "leclerc",
+      "leroy merlin",
+      "decathlon",
+      "boulanger",
+      "jardiland"
+    ],
+    "marketplacesFound": [
+      "amazon"
+    ],
+    "priceCount": 60,
+    "pMin": 8.9,
+    "p25": 59.36,
+    "pMed": 119.99,
+    "p75": 229,
+    "hasShopping": true,
+    "pickupSignals": 4
+  },
+  {
+    "kw": "camera thermique smartphone",
+    "url": "https://www.google.fr/search?q=camera%20thermique%20smartphone&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "lidl",
+      "leroy merlin"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "cdiscount",
+      "manomano"
+    ],
+    "priceCount": 33,
+    "pMin": 82.99,
+    "p25": 136.39,
+    "pMed": 149.99,
+    "p75": 255,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "microscope numerique usb",
+    "url": "https://www.google.fr/search?q=microscope%20numerique%20usb&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "lidl",
+      "leroy merlin",
+      "darty",
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress",
+      "temu",
+      "cdiscount",
+      "manomano"
+    ],
+    "priceCount": 66,
+    "pMin": 12,
+    "p25": 24.99,
+    "pMed": 42.56,
+    "p75": 90.99,
+    "hasShopping": true,
+    "pickupSignals": 0
+  },
+  {
+    "kw": "surjeteuse couture",
+    "url": "https://www.google.fr/search?q=surjeteuse%20couture&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "lidl",
+      "boulanger",
+      "darty",
+      "cultura"
+    ],
+    "marketplacesFound": [
+      "amazon"
+    ],
+    "priceCount": 28,
+    "pMin": 79,
+    "p25": 199,
+    "pMed": 269,
+    "p75": 549,
+    "hasShopping": true,
+    "pickupSignals": 1
+  },
+  {
+    "kw": "drone fpv kit debutant",
+    "url": "https://www.google.fr/search?q=drone%20fpv%20kit%20debutant&hl=fr&gl=fr",
+    "blocked": false,
+    "status": 200,
+    "chainsFound": [
+      "boulanger",
+      "darty",
+      "fnac"
+    ],
+    "marketplacesFound": [
+      "amazon",
+      "aliexpress"
+    ],
+    "priceCount": 57,
+    "pMin": 9.62,
+    "p25": 179.99,
+    "pMed": 276.22,
+    "p75": 429.9,
+    "hasShopping": true,
+    "pickupSignals": 2
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "nom": "003-symbole",
+    "lot": "pub",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-pub-003-symbole.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/cd3a29f0ff421045d7a6096f958b402e/unisex-heavy-blend-hoodie-black-front-6a88636ace476.png",
+    "local": "003-symbole.png"
+  },
+  {
+    "nom": "004-eloignement",
+    "lot": "pub",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-pub-004-eloignement.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/23f3932af0fcbc7d519ac5d31a1c2562/unisex-heavy-blend-hoodie-black-front-6a8863755ccbe.png",
+    "local": "004-eloignement.png"
+  },
+  {
+    "nom": "005-duo",
+    "lot": "pub",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-pub-005-duo.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/2616bdd0df97d211732bce984894df7f/unisex-heavy-blend-hoodie-black-front-6a8863b5bafbe.png",
+    "local": "005-duo.png"
+  },
+  {
+    "nom": "006-fuite",
+    "lot": "pub",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-pub-006-fuite.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/aedc62254d9506494af795629796181c/unisex-heavy-blend-hoodie-black-front-6a8863c0d75be.png",
+    "local": "006-fuite.png"
+  },
+  {
+    "nom": "007-symbole",
+    "lot": "pub",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-pub-007-symbole.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/cb5db95f98997d8f747bcee42013de7b/unisex-heavy-blend-hoodie-black-front-6a8863fee797e.png",
+    "local": "007-symbole.png"
+  },
+  {
+    "nom": "008-eloignement",
+    "lot": "pub",
+    "fichier_impression": "https://cdn.shopify.com/s/files/1/0981/1990/9704/t/2/assets/d2m-pub-008-eloignement.png",
+    "photo": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/48e9df0ffa2a8ac10c8905eb20b3e4ad/unisex-heavy-blend-hoodie-black-front-6a88640936266.png",
+    "local": "008-eloignement.png"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "numero": 1,
+    "style": "raw",
+    "scene": "avantApres",
+    "phrase": "don’t wait up",
+    "coulures": 0,
+    "fichier": "001-raw-avantApres.png"
+  },
+  {
+    "numero": 2,
+    "style": "peint",
+    "scene": "coupleSeul",
+    "phrase": "don’t wait up",
+    "coulures": 3,
+    "fichier": "002-peint-coupleSeul.png"
+  },
+  {
+    "numero": 3,
+    "style": "peint",
+    "scene": "effondreSeul",
+    "phrase": "dead to me",
+    "coulures": 4,
+    "fichier": "003-peint-effondreSeul.png"
+  },
+  {
+    "numero": 4,
+    "style": "raw",
+    "scene": "memoire",
+    "phrase": "she left twice",
+    "coulures": 1,
+    "fichier": "004-raw-memoire.png"
+  },
+  {
+    "numero": 5,
+    "style": "raw",
+    "scene": "fuite",
+    "phrase": "seen 3am",
+    "coulures": 1,
+    "fichier": "005-raw-fuite.png"
+  },
+  {
+    "numero": 6,
+    "style": "raw",
+    "scene": "attente",
+    "phrase": "i waited",
+    "coulures": 2,
+    "fichier": "006-raw-attente.png"
+  },
+  {
+    "numero": 7,
+    "style": "peint",
+    "scene": "croix",
+    "phrase": "end of it",
+    "coulures": 2,
+    "fichier": "007-peint-croix.png"
+  },
+  {
+    "numero": 8,
+    "style": "peint",
+    "scene": "avantApres",
+    "phrase": "told you so",
+    "coulures": 5,
+    "fichier": "008-peint-avantApres.png"
+  },
+  {
+    "numero": 9,
+    "style": "peint",
+    "scene": "coupleSeul",
+    "phrase": "don’t wait up",
+    "coulures": 5,
+    "fichier": "009-peint-coupleSeul.png"
+  },
+  {
+    "numero": 10,
+    "style": "raw",
+    "scene": "effondreSeul",
+    "phrase": "i waited",
+    "coulures": 1,
+    "fichier": "010-raw-effondreSeul.png"
+  },
+  {
+    "numero": 11,
+    "style": "raw",
+    "scene": "memoire",
+    "phrase": "still nothing",
+    "coulures": 2,
+    "fichier": "011-raw-memoire.png"
+  },
+  {
+    "numero": 12,
+    "style": "raw",
+    "scene": "fuite",
+    "phrase": "still nothing",
+    "coulures": 1,
+    "fichier": "012-raw-fuite.png"
+  },
+  {
+    "numero": 13,
+    "style": "raw",
+    "scene": "attente",
+    "phrase": "dead to me",
+    "coulures": 0,
+    "fichier": "013-raw-attente.png"
+  },
+  {
+    "numero": 14,
+    "style": "peint",
+    "scene": "croix",
+    "phrase": "delete this",
+    "coulures": 2,
+    "fichier": "014-peint-croix.png"
+  },
+  {
+    "numero": 15,
+    "style": "raw",
+    "scene": "avantApres",
+    "phrase": "no reply",
+    "coulures": 2,
+    "fichier": "015-raw-avantApres.png"
+  },
+  {
+    "numero": 16,
+    "style": "peint",
+    "scene": "coupleSeul",
+    "phrase": "delete this",
+    "coulures": 2,
+    "fichier": "016-peint-coupleSeul.png"
+  },
+  {
+    "numero": 17,
+    "style": "peint",
+    "scene": "effondreSeul",
+    "phrase": "don’t wait up",
+    "coulures": 2,
+    "fichier": "017-peint-effondreSeul.png"
+  },
+  {
+    "numero": 18,
+    "style": "raw",
+    "scene": "memoire",
+    "phrase": "i waited",
+    "coulures": 1,
+    "fichier": "018-raw-memoire.png"
+  },
+  {
+    "numero": 19,
+    "style": "peint",
+    "scene": "fuite",
+    "phrase": "left on read",
+    "coulures": 1,
+    "fichier": "019-peint-fuite.png"
+  },
+  {
+    "numero": 20,
+    "style": "raw",
+    "scene": "attente",
+    "phrase": "seen 3am",
+    "coulures": 2,
+    "fichier": "020-raw-attente.png"
+  },
+  {
+    "numero": 21,
+    "style": "raw",
+    "scene": "croix",
+    "phrase": "no one came",
+    "coulures": 1,
+    "fichier": "021-raw-croix.png"
+  },
+  {
+    "numero": 22,
+    "style": "peint",
+    "scene": "avantApres",
+    "phrase": "keep it",
+    "coulures": 3,
+    "fichier": "022-peint-avantApres.png"
+  },
+  {
+    "numero": 23,
+    "style": "raw",
+    "scene": "coupleSeul",
+    "phrase": "dead to me",
+    "coulures": 0,
+    "fichier": "023-raw-coupleSeul.png"
+  },
+  {
+    "numero": 24,
+    "style": "raw",
+    "scene": "effondreSeul",
+    "phrase": "seen 3am",
+    "coulures": 1,
+    "fichier": "024-raw-effondreSeul.png"
+  },
+  {
+    "numero": 25,
+    "style": "peint",
+    "scene": "memoire",
+    "phrase": "no reply",
+    "coulures": 5,
+    "fichier": "025-peint-memoire.png"
+  },
+  {
+    "numero": 26,
+    "style": "raw",
+    "scene": "fuite",
+    "phrase": "dead to me",
+    "coulures": 1,
+    "fichier": "026-raw-fuite.png"
+  },
+  {
+    "numero": 27,
+    "style": "raw",
+    "scene": "attente",
+    "phrase": "keep it",
+    "coulures": 1,
+    "fichier": "027-raw-attente.png"
+  },
+  {
+    "numero": 28,
+    "style": "peint",
+    "scene": "croix",
+    "phrase": "dead to me",
+    "coulures": 1,
+    "fichier": "028-peint-croix.png"
+  },
+  {
+    "numero": 29,
+    "style": "raw",
+    "scene": "avantApres",
+    "phrase": "left on read",
+    "coulures": 2,
+    "fichier": "029-raw-avantApres.png"
+  },
+  {
+    "numero": 30,
+    "style": "peint",
+    "scene": "coupleSeul",
+    "phrase": "told you so",
+    "coulures": 5,
+    "fichier": "030-peint-coupleSeul.png"
+  },
+  {
+    "numero": 31,
+    "style": "peint",
+    "scene": "effondreSeul",
+    "phrase": "delete this",
+    "coulures": 4,
+    "fichier": "031-peint-effondreSeul.png"
+  },
+  {
+    "numero": 32,
+    "style": "peint",
+    "scene": "memoire",
+    "phrase": "told you so",
+    "coulures": 5,
+    "fichier": "032-peint-memoire.png"
+  },
+  {
+    "numero": 33,
+    "style": "raw",
+    "scene": "fuite",
+    "phrase": "don’t wait up",
+    "coulures": 2,
+    "fichier": "033-raw-fuite.png"
+  },
+  {
+    "numero": 34,
+    "style": "peint",
+    "scene": "attente",
+    "phrase": "don’t wait up",
+    "coulures": 3,
+    "fichier": "034-peint-attente.png"
+  },
+  {
+    "numero": 35,
+    "style": "raw",
+    "scene": "croix",
+    "phrase": "was it me",
+    "coulures": 0,
+    "fichier": "035-raw-croix.png"
+  },
+  {
+    "numero": 36,
+    "style": "peint",
+    "scene": "avantApres",
+    "phrase": "no reply",
+    "coulures": 5,
+    "fichier": "036-peint-avantApres.png"
+  },
+  {
+    "numero": 37,
+    "style": "raw",
+    "scene": "coupleSeul",
+    "phrase": "dead to me",
+    "coulures": 2,
+    "fichier": "037-raw-coupleSeul.png"
+  },
+  {
+    "numero": 38,
+    "style": "peint",
+    "scene": "effondreSeul",
+    "phrase": "gone by morning",
+    "coulures": 4,
+    "fichier": "038-peint-effondreSeul.png"
+  },
+  {
+    "numero": 39,
+    "style": "raw",
+    "scene": "memoire",
+    "phrase": "told you so",
+    "coulures": 2,
+    "fichier": "039-raw-memoire.png"
+  },
+  {
+    "numero": 40,
+    "style": "raw",
+    "scene": "fuite",
+    "phrase": "gone by morning",
+    "coulures": 1,
+    "fichier": "040-raw-fuite.png"
+  },
+  {
+    "numero": 41,
+    "style": "peint",
+    "scene": "attente",
+    "phrase": "end of it",
+    "coulures": 3,
+    "fichier": "041-peint-attente.png"
+  },
+  {
+    "numero": 42,
+    "style": "peint",
+    "scene": "croix",
+    "phrase": "keep it",
+    "coulures": 1,
+    "fichier": "042-peint-croix.png"
+  }
+]

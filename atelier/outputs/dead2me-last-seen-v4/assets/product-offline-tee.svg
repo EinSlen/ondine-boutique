@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title">
+  <title id="title">Offline heavyweight boxy tee, front and back concept</title>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#2c2b2a"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee8dc"/><stop offset=".55" stop-color="#c8c1b5"/><stop offset="1" stop-color="#99938a"/></linearGradient>
+    <filter id="wash"><feTurbulence type="fractalNoise" baseFrequency=".033" numOctaves="4" seed="3" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="mono"/><feBlend in="SourceGraphic" in2="mono" mode="soft-light"/></filter>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <text x="60" y="83" font-family="Arial" font-size="25" letter-spacing="5" fill="#ede8de">03 / OFFLINE BOXY TEE</text>
+  <text x="1140" y="83" text-anchor="end" font-family="Arial" font-size="19" letter-spacing="3" fill="#ede8de">VINTAGE BONE</text>
+  <ellipse cx="332" cy="1260" rx="250" ry="35" fill="#000" opacity=".7" filter="url(#shadow)"/>
+  <ellipse cx="880" cy="1260" rx="250" ry="35" fill="#000" opacity=".7" filter="url(#shadow)"/>
+  <g filter="url(#wash)">
+    <g transform="translate(30 215)">
+      <path d="M210 155q88 50 180 0l105 48 105 174-115 64-58-86v670H174V355l-58 86L0 377l106-174z" fill="url(#cloth)" stroke="#837e76" stroke-width="4"/>
+      <path d="M210 155q88 96 180 0" fill="none" stroke="#817c74" stroke-width="8"/>
+      <path d="M174 1008h253" stroke="#7a756d" stroke-width="6"/>
+      <g transform="translate(240 412)"><path d="M0 0h43v43H8v-8H0z" fill="none" stroke="#191919" stroke-width="5"/><circle cx="56" cy="8" r="7" fill="#a52825"/></g>
+      <text x="260" y="483" text-anchor="middle" font-family="Arial" font-size="12" letter-spacing="4">OFFLINE</text>
+    </g>
+    <g transform="translate(585 215)">
+      <path d="M210 155q88 50 180 0l105 48 105 174-115 64-58-86v670H174V355l-58 86L0 377l106-174z" fill="url(#cloth)" stroke="#837e76" stroke-width="4"/>
+      <path d="M210 155q88 96 180 0" fill="none" stroke="#817c74" stroke-width="8"/>
+      <path d="M174 1008h253" stroke="#7a756d" stroke-width="6"/>
+      <g transform="translate(168 443)">
+        <text x="130" y="0" text-anchor="middle" font-family="Arial" font-size="14" letter-spacing="7" fill="#1b1b1b">CONNECTION LOST</text>
+        <text x="130" y="80" text-anchor="middle" font-family="Arial" font-size="68" font-weight="700" letter-spacing="-3" fill="#1b1b1b">03:17</text>
+        <path d="M10 119h240v42H10z" fill="none" stroke="#1b1b1b" stroke-width="4"/>
+        <path d="M18 127h178v26H18z" fill="#1b1b1b"/>
+        <circle cx="241" cy="190" r="8" fill="#a52825"/>
+        <text x="130" y="229" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="5" fill="#1b1b1b">DEAD2ME / 001</text>
+      </g>
+    </g>
+  </g>
+  <text x="60" y="1435" font-family="Arial" font-size="19" letter-spacing="3" fill="#ede8de">FRONT / EMBROIDERED STATUS</text>
+  <text x="1140" y="1435" text-anchor="end" font-family="Arial" font-size="19" letter-spacing="3" fill="#ede8de">BACK / SCREENPRINT</text>
+</svg>

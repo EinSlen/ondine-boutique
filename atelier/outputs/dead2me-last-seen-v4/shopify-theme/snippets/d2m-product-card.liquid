@@ -1,0 +1,17 @@
+{% liquid
+  assign card_image = product.featured_image
+  assign fallback_asset = 'product-last-seen-hoodie.svg'
+  if product.handle contains 'zip'
+    assign fallback_asset = 'product-last-seen-zip.svg'
+  elsif product.handle contains 'offline'
+    assign fallback_asset = 'product-offline-tee.svg'
+  elsif product.handle contains 'missed'
+    assign fallback_asset = 'product-missed-call-ls.svg'
+  endif
+%}
+<article class="product-card">
+  <a class="product-card-media" href="{{ product.url }}">
+    {% if card_image != blank %}{{ card_image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '500, 800, 1100, 1400', alt: product.title }}{% else %}<img src="{{ fallback_asset | asset_url }}" loading="lazy" width="1200" height="1500" alt="{{ product.title | escape }}">{% endif %}
+  </a>
+  <div class="product-card-info"><div><h3><a href="{{ product.url }}">{{ product.title }}</a></h3><p>{{ product.type }}</p></div><p>{{ product.price | money }}</p></div>
+</article>

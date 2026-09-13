@@ -1,0 +1,20 @@
+<section class="hero">
+  {% if section.settings.hero != blank %}{{ section.settings.hero | image_url: width: 2400 | image_tag: class: 'hero-image', loading: 'eager', widths: '800, 1200, 1800, 2400', alt: section.settings.hero.alt }}{% else %}<img class="hero-image" src="{{ 'campaign-last-seen.png' | asset_url }}" width="1536" height="1024" alt="Campagne LAST SEEN sous un pont la nuit">{% endif %}<div class="hero-shade"></div>
+  <div class="hero-copy"><p class="eyebrow"><span class="dot"></span>{{ section.settings.eyebrow | escape }}</p><h1>{{ section.settings.title | newline_to_br }}</h1><p class="hero-line">{{ section.settings.line | newline_to_br }}</p><a class="button button-light" href="#drop">{{ section.settings.button | escape }} ↘</a></div>
+</section>
+<div class="ticker">DEAD2ME — LAST SEEN 03:17 — MADE TO OUTLAST THE SIGNAL — DROP 001</div>
+<section class="home-drop" id="drop"><div class="section-head"><div><p class="kicker">01 / The drop</p><h2>Four pieces.<br>One signal.</h2></div><p>Des volumes boxy, une palette nocturne et un système graphique unique. Chaque pièce traduit l'absence avec une finition différente.</p></div>
+  <div class="product-grid">
+    {% if section.settings.collection != blank and section.settings.collection.products_count > 0 %}
+      {% for product in section.settings.collection.products limit: 4 %}{% render 'd2m-product-card', product: product %}{% endfor %}
+    {% else %}
+      {% assign fallback_names = 'Last Seen Hoodie|Last Seen Zip|Offline Boxy Tee|Missed Call Long Sleeve' | split: '|' %}{% assign fallback_prices = '99 €|109 €|55 €|65 €' | split: '|' %}{% assign fallback_images = 'product-last-seen-hoodie.svg|product-last-seen-zip.svg|product-offline-tee.svg|product-missed-call-ls.svg' | split: '|' %}
+      {% for name in fallback_names %}<article class="product-card"><div class="product-card-media"><img src="{{ fallback_images[forloop.index0] | asset_url }}" width="1200" height="1500" loading="lazy" alt="{{ name }}"></div><div class="product-card-info"><h3>{{ name }}</h3><p>{{ fallback_prices[forloop.index0] }}</p></div></article>{% endfor %}
+    {% endif %}
+  </div>
+</section>
+<section class="statement" id="story"><div><p class="kicker">02 / The concept</p><h2>Some people leave.<br>The signal stays.</h2><p>LAST SEEN part d'un instant universel : le dernier message, l'écran resté allumé, la présence devenue statut.</p></div><div class="status-mark" aria-hidden="true"><i></i></div></section>
+<section class="proof"><div class="section-head"><div><p class="kicker">03 / Product proof</p><h2>Built heavy.<br>Kept simple.</h2></div><p>Les caractéristiques finales doivent être confirmées après validation de l'échantillon physique.</p></div><div class="spec-grid"><article><strong>400</strong><h3>GSM target</h3><p>Fleece brossé pour les hoodies.</p></article><article><strong>240</strong><h3>GSM target</h3><p>Jersey compact pour les tees.</p></article><article><strong>03</strong><h3>Techniques</h3><p>Broderie, appliqué et sérigraphie.</p></article><article><strong>01</strong><h3>System</h3><p>Un code visuel sur tout le drop.</p></article></div></section>
+{% schema %}
+{"name":"D2M Home","settings":[{"type":"image_picker","id":"hero","label":"Hero image"},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Connection lost"},{"type":"textarea","id":"title","label":"Title","default":"LAST\nSEEN"},{"type":"textarea","id":"line","label":"Line","default":"You were here.\nThen you weren't."},{"type":"text","id":"button","label":"Button","default":"Voir le drop"},{"type":"collection","id":"collection","label":"Drop collection"}]}
+{% endschema %}

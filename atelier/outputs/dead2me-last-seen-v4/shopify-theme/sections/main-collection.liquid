@@ -1,0 +1,2 @@
+<section class="main-collection"><p class="kicker">Collection</p><h1 class="page-title">{{ collection.title }}</h1>{% if collection.description != blank %}<div>{{ collection.description }}</div>{% endif %}<div class="product-grid">{% paginate collection.products by 24 %}{% for product in collection.products %}{% render 'd2m-product-card', product: product %}{% else %}<p>No products yet.</p>{% endfor %}{{ paginate | default_pagination }}{% endpaginate %}</div></section>
+{% schema %}{"name":"Main collection","settings":[]}{% endschema %}

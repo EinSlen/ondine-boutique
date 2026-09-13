@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-09-10T14:08:33.927Z",
+  "baselineMode": true,
+  "scope": "Browser tests of actual section JavaScript and CSS with simulated Shopify HTML/API contracts. Liquid itself is validated separately. Not a real Shopify cart, checkout, supplier, physical-product or demand test.",
+  "sourceSha256": "cb80bc23c13b010a5fb463c848aad018deb4a6c8e894c27b2f531a41b0e84a52",
+  "checks": [
+    {
+      "name": "Variant updates size, price, ID, URL and focus",
+      "pass": true
+    },
+    {
+      "name": "Unavailable size cannot be added",
+      "pass": true
+    },
+    {
+      "name": "Variant HTTP 500 restores previous selection",
+      "pass": true
+    },
+    {
+      "name": "Variant Missing section restores previous selection",
+      "pass": true
+    },
+    {
+      "name": "Variant Network failure restores previous selection",
+      "pass": true
+    },
+    {
+      "name": "Variant timeout recovers after 12 seconds",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "Rapid option changes ignore obsolete response",
+      "pass": true
+    },
+    {
+      "name": "No add while option request is pending",
+      "pass": true
+    },
+    {
+      "name": "Add sends exact selected ID, quantity, properties, plan and locale route",
+      "pass": false,
+      "error": "page.waitForURL: Timeout 2500ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"https://studio.test/fr/cart\" until \"load\"\n  navigated to \"https://studio.test/fr/cart/add\"\n============================================================"
+    },
+    {
+      "name": "Duplicate submit sends only one request and locks options",
+      "pass": false,
+      "error": "page.waitForRequest: Timeout 2500ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request \"**/fr/cart/add.js\"\n============================================================"
+    },
+    {
+      "name": "Showcase blocks even programmatic submit",
+      "pass": true
+    },
+    {
+      "name": "Invalid quantity: minimum",
+      "pass": true
+    },
+    {
+      "name": "Invalid quantity: maximum",
+      "pass": true
+    },
+    {
+      "name": "Invalid quantity: increment",
+      "pass": true
+    },
+    {
+      "name": "Stock 422 is shown as text, warns of possible partial add",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "JSON error in HTTP 200 is not treated as success",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "Cart network error stays on page and does not auto-retry",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "Cart non-JSON error restores controls",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "Malformed success response is not reported as added",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "Cart timeout warns without an automatic second request",
+      "pass": false,
+      "error": "page.waitForFunction: TypeError: Cannot read properties of null (reading 'dataset')\n    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:48)\n    at predicate (eval at evaluate (:311:30), <anonymous>:7:27)\n    at next (eval at evaluate (:311:30), <anonymous>:29:33)\n    at eval (eval at evaluate (:311:30), <anonymous>:42:13)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    },
+    {
+      "name": "Error recovery link opens locale-aware cart",
+      "pass": false,
+      "error": "page.waitForFunction: Timeout 2500ms exceeded."
+    },
+    {
+      "name": "Responsive product controls and information accordion",
+      "pass": true
+    },
+    {
+      "name": "Liquid contains native fallback, route bindings and quantity rules (static contract)",
+      "pass": false
+    }
+  ],
+  "pass": false
+}

@@ -1,0 +1,14 @@
+{% liquid
+  assign fallback = 'sour-cherry-hoodie-chocolate.png'
+  if product.handle contains 'raw-club'
+    assign fallback = 'raw-club-hoodie.png'
+  elsif product.handle contains 'lucky-star'
+    assign fallback = 'lucky-star-zip.png'
+  elsif product.handle contains 'stray-dogs'
+    assign fallback = 'stray-dogs-tee.png'
+  elsif product.handle contains 'after-midnight'
+    assign fallback = 'after-midnight-knit.png'
+  endif
+%}
+<section class="theme-main-product"><div class="theme-product-image">{% if product.featured_image %}{{ product.featured_image | image_url: width: 1800 | image_tag: loading: 'eager', widths: '700,1100,1500,1800', alt: product.title }}{% else %}<img src="{{ fallback | asset_url }}" width="1536" height="1024" alt="{{ product.title | escape }}">{% endif %}</div><div class="theme-product-info"><p class="micro">DROP 01 / SOUR HOURS</p><h1>{{ product.title }}</h1><p class="theme-price">{{ product.price | money }}</p><div class="theme-description">{{ product.description }}</div>{% form 'product', product, class: 'theme-product-form' %}<label for="Variant-{{ section.id }}">Size</label><select id="Variant-{{ section.id }}" name="id">{% for variant in product.variants %}<option value="{{ variant.id }}" {% unless variant.available %}disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — Sold out{% endunless %}</option>{% endfor %}</select><button class="btn" type="submit" {% unless product.available %}disabled{% endunless %}>{% if product.available %}Add to bag{% else %}Sold out{% endif %}</button>{% endform %}</div></section>
+{% schema %}{"name":"Main product","settings":[]}{% endschema %}

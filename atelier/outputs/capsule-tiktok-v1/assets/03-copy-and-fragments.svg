@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 5400">
+  <g fill="#eef3f5">
+    <path d="M430 3180h1530v36H430zM2570 3180h1510v36H2570z" opacity=".22"/>
+    <rect x="710" y="1410" width="240" height="115" transform="rotate(-12 710 1410)" opacity=".7"/>
+    <rect x="1780" y="2100" width="290" height="96" transform="rotate(14 1780 2100)" opacity=".58"/>
+    <rect x="2680" y="1520" width="190" height="76" transform="rotate(-8 2680 1520)" opacity=".45"/>
+    <rect x="3780" y="2340" width="230" height="94" transform="rotate(16 3780 2340)" opacity=".65"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="205" font-weight="600" letter-spacing="2">
+    <text x="540" y="3500" fill="#f4f4f0">same night</text>
+    <text x="2520" y="3500" fill="#f4f4f0">different exits</text>
+  </g>
+  <g fill="#9ed9e8" opacity=".65">
+    <circle cx="600" cy="1220" r="22"/><circle cx="2050" cy="2620" r="14"/>
+    <circle cx="2900" cy="1260" r="18"/><circle cx="4000" cy="2840" r="12"/>
+  </g>
+</svg>

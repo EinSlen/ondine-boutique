@@ -1,0 +1,9 @@
+{% assign current_variant = product.selected_or_first_available_variant %}
+<section class="d2m-pdp">
+  <div class="d2m-pdp-media">{% if product.media.size > 0 %}{% for media in product.media %}{{ media.preview_image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '500,800,1100,1400', alt: media.alt }}{% endfor %}{% else %}<div class="d2m-product-empty">PHOTOS PRODUIT À AJOUTER APRÈS ÉCHANTILLON</div>{% endif %}</div>
+  <div class="d2m-pdp-copy"><span class="d2m-eyebrow">DROP 001</span><h1>{{ product.title }}</h1><div class="d2m-pdp-price">{{ current_variant.price | money }}</div><div class="d2m-rte">{{ product.description }}</div>
+    {% form 'product', product %}<label for="Variant-{{ section.id }}">TAILLE</label><select id="Variant-{{ section.id }}" name="id">{% for variant in product.variants %}<option value="{{ variant.id }}"{% if variant == current_variant %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — ÉPUISÉ{% endunless %}</option>{% endfor %}</select><button type="submit"{% unless current_variant.available %} disabled{% endunless %}>{% if current_variant.available %}AJOUTER AU PANIER{% else %}ÉPUISÉ{% endif %}</button>{% endform %}
+    <details open><summary>COUPE & MATIÈRE</summary><p>Coupe boxy, épaules descendues et matière lourde. Vérifier la fiche finale issue de l'échantillon avant publication.</p></details><details><summary>LIVRAISON & RETOURS</summary><p>Délais et politique à renseigner avant la mise en ligne.</p></details>
+  </div>
+</section>
+{% schema %}{"name":"Produit D2M","settings":[]}{% endschema %}

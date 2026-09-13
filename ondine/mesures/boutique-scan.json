@@ -1,0 +1,46 @@
+[
+  {
+    "domaine": "live2die.us",
+    "produits": 46,
+    "variantes": 81,
+    "epuisees": 56,
+    "ca_proxy": 2487,
+    "panier_moyen": 44.41,
+    "prix_median": 39.95,
+    "par_famille": {
+      "sweat": {
+        "n": 11,
+        "median": 73.95,
+        "min": 47.95,
+        "max": 86.95
+      },
+      "tee": {
+        "n": 26,
+        "median": 26.95,
+        "min": 26.95,
+        "max": 43.95
+      },
+      "sac": {
+        "n": 3,
+        "median": 26.95,
+        "min": 21.95,
+        "max": 39.95
+      },
+      "chaussure": {
+        "n": 2,
+        "median": 108.95,
+        "min": 79.95,
+        "max": 108.95
+      }
+    },
+    "ca_proxy_par_mois": {
+      "2026-08": 302,
+      "2026-07": 803,
+      "2026-05": 732,
+      "2026-04": 259,
+      "2025-11": 49,
+      "2026-02": 236,
+      "2025-12": 109
+    }
+  }
+]

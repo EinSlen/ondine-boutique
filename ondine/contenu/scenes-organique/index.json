@@ -1,0 +1,58 @@
+[
+  {
+    "numero": 1,
+    "scene": "duo",
+    "phrase": "dead to me",
+    "encre": "#6d0b10",
+    "lot": "organique"
+  },
+  {
+    "numero": 2,
+    "scene": "fuite",
+    "phrase": "she left twice",
+    "encre": "#a3141a",
+    "lot": "organique"
+  },
+  {
+    "numero": 3,
+    "scene": "symbole",
+    "phrase": "don’t wait up",
+    "encre": "#8e0f14",
+    "lot": "organique"
+  },
+  {
+    "numero": 4,
+    "scene": "eloignement",
+    "phrase": "nothing after",
+    "encre": "#6d0b10",
+    "lot": "organique"
+  },
+  {
+    "numero": 5,
+    "scene": "duo",
+    "phrase": "not my problem",
+    "encre": "#8e0f14",
+    "lot": "organique"
+  },
+  {
+    "numero": 6,
+    "scene": "fuite",
+    "phrase": "you did this",
+    "encre": "#a3141a",
+    "lot": "organique"
+  },
+  {
+    "numero": 7,
+    "scene": "symbole",
+    "phrase": "no one came",
+    "encre": "#6d0b10",
+    "lot": "organique"
+  },
+  {
+    "numero": 8,
+    "scene": "eloignement",
+    "phrase": "end of it",
+    "encre": "#8e0f14",
+    "lot": "organique"
+  }
+]

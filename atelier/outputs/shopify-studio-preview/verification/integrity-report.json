@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-09-09T18:46:27.088Z",
+  "themeId": "gid://shopify/OnlineStoreTheme/189335208264",
+  "role": "UNPUBLISHED",
+  "paginatedComplete": true,
+  "files": [
+    {
+      "filename": "config/settings_data.json",
+      "match": true
+    },
+    {
+      "filename": "config/settings_schema.json",
+      "match": true
+    },
+    {
+      "filename": "layout/password.liquid",
+      "match": true
+    },
+    {
+      "filename": "layout/theme.liquid",
+      "match": true
+    },
+    {
+      "filename": "locales/en.default.json",
+      "match": true
+    },
+    {
+      "filename": "locales/en.default.schema.json",
+      "match": true
+    },
+    {
+      "filename": "locales/fr.json",
+      "match": true
+    },
+    {
+      "filename": "locales/fr.schema.json",
+      "match": true
+    },
+    {
+      "filename": "sections/catalog.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/footer-group.json",
+      "match": true
+    },
+    {
+      "filename": "sections/footer.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/header-group.json",
+      "match": true
+    },
+    {
+      "filename": "sections/header.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/hero.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/lookbook.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-404.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-cart.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-collection.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-contact.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-page.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-password.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-product.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/main-search.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/story.liquid",
+      "match": true
+    },
+    {
+      "filename": "sections/studio-home.liquid",
+      "match": true
+    },
+    {
+      "filename": "snippets/product-card.liquid",
+      "match": true
+    },
+    {
+      "filename": "snippets/studio-gate.liquid",
+      "match": true
+    },
+    {
+      "filename": "snippets/theme-base.liquid",
+      "match": true
+    },
+    {
+      "filename": "templates/404.json",
+      "match": true
+    },
+    {
+      "filename": "templates/cart.json",
+      "match": true
+    },
+    {
+      "filename": "templates/collection.json",
+      "match": true
+    },
+    {
+      "filename": "templates/index.json",
+      "match": true
+    },
+    {
+      "filename": "templates/page.contact.json",
+      "match": true
+    },
+    {
+      "filename": "templates/page.json",
+      "match": true
+    },
+    {
+      "filename": "templates/password.json",
+      "match": true
+    },
+    {
+      "filename": "templates/product.json",
+      "match": true
+    },
+    {
+      "filename": "templates/search.json",
+      "match": true
+    }
+  ],
+  "passed": true
+}

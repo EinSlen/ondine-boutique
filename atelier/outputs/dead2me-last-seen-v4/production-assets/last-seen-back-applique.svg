@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1050">
+  <rect x="24" y="24" width="852" height="1002" fill="#d4d0c7" stroke="#111" stroke-width="10" stroke-dasharray="28 16"/>
+  <path d="M88 96h246v246H151v-58H88z" fill="none" stroke="#111" stroke-width="25"/><circle cx="402" cy="124" r="31" fill="#a72d27"/>
+  <text x="88" y="512" font-family="Arial Black,Arial,sans-serif" font-size="119" font-weight="900" letter-spacing="-5">LAST SEEN</text>
+  <text x="88" y="650" font-family="Arial,Helvetica,sans-serif" font-size="90" letter-spacing="28">03:17</text>
+  <line x1="88" y1="726" x2="812" y2="726" stroke="#111" stroke-width="10"/>
+  <text x="88" y="822" font-family="Arial,Helvetica,sans-serif" font-size="43" letter-spacing="10">YOU WERE HERE.</text>
+  <text x="88" y="903" font-family="Arial,Helvetica,sans-serif" font-size="32" letter-spacing="7">DEAD2ME / DROP 001</text>
+</svg>

@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "name": "Two current concepts",
+      "pass": true
+    },
+    {
+      "name": "Search by subject",
+      "pass": true
+    },
+    {
+      "name": "Unknown search safely empty",
+      "pass": true
+    },
+    {
+      "name": "Category filter",
+      "pass": true
+    },
+    {
+      "name": "Size required",
+      "pass": true
+    },
+    {
+      "name": "Selection added",
+      "pass": true
+    },
+    {
+      "name": "Selection persists",
+      "pass": true
+    },
+    {
+      "name": "Dialog opens",
+      "pass": true
+    },
+    {
+      "name": "Quantity updates",
+      "pass": true
+    },
+    {
+      "name": "Export valid",
+      "pass": true
+    },
+    {
+      "name": "Escape closes",
+      "pass": true
+    },
+    {
+      "name": "Unknown product handled",
+      "pass": true
+    },
+    {
+      "name": "Help page",
+      "pass": true
+    },
+    {
+      "name": "Selection across pages",
+      "pass": true
+    },
+    {
+      "name": "Remove item",
+      "pass": true
+    },
+    {
+      "name": "No overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390",
+      "pass": true
+    },
+    {
+      "name": "No overflow 320",
+      "pass": true
+    },
+    {
+      "name": "Images load",
+      "pass": true
+    },
+    {
+      "name": "No JS errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title">
+  <title id="title">Last Seen heavyweight hoodie, front and back concept</title>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#d9d5cd"/><stop offset="1" stop-color="#b6b0a6"/></linearGradient>
+    <linearGradient id="cotton" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4c4b48"/><stop offset=".52" stop-color="#272725"/><stop offset="1" stop-color="#111"/></linearGradient>
+    <filter id="wash"><feTurbulence type="fractalNoise" baseFrequency=".028" numOctaves="4" seed="11" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="mono"/><feBlend in="SourceGraphic" in2="mono" mode="soft-light"/></filter>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <text x="60" y="83" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="5" fill="#111">01 / LAST SEEN HOODIE</text>
+  <text x="1140" y="83" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="3" fill="#111">WASHED CHARCOAL</text>
+  <ellipse cx="332" cy="1270" rx="250" ry="35" fill="#111" opacity=".16" filter="url(#shadow)"/>
+  <ellipse cx="880" cy="1270" rx="250" ry="35" fill="#111" opacity=".16" filter="url(#shadow)"/>
+  <g filter="url(#wash)">
+    <g transform="translate(35 160)">
+      <path d="M211 164q77-104 174 0l5 126H201z" fill="#1b1b1a" stroke="#696761" stroke-width="3"/>
+      <path d="M121 270 23 431l67 55 104-131v727H427V355l102 131 69-55-101-161-111-52H229z" fill="url(#cotton)" stroke="#121212" stroke-width="5"/>
+      <path d="M194 270q102 63 233 0" fill="none" stroke="#67645f" stroke-width="3" opacity=".5"/>
+      <path d="M214 879q92-38 190 0v98H214z" fill="#1e1e1d" stroke="#5b5954" stroke-width="3"/>
+      <path d="M121 1068h306v23H121z" fill="#131313"/>
+      <g transform="translate(278 444)">
+        <path d="M0 0h42v42H8v-8H0z" fill="none" stroke="#c7c3ba" stroke-width="5"/>
+        <circle cx="54" cy="7" r="6" fill="#a62925"/>
+      </g>
+      <text x="300" y="510" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3" fill="#d3cfc6">03:17</text>
+    </g>
+    <g transform="translate(585 160)">
+      <path d="M211 164q77-104 174 0l5 126H201z" fill="#1b1b1a" stroke="#696761" stroke-width="3"/>
+      <path d="M121 270 23 431l67 55 104-131v727H427V355l102 131 69-55-101-161-111-52H229z" fill="url(#cotton)" stroke="#121212" stroke-width="5"/>
+      <path d="M194 270q102 63 233 0" fill="none" stroke="#67645f" stroke-width="3" opacity=".5"/>
+      <path d="M121 1068h306v23H121z" fill="#131313"/>
+      <g transform="translate(164 455)">
+        <path d="M0 0h274v300H34v-20H0z" fill="#c9c5bc" stroke="#131313" stroke-width="5" stroke-dasharray="13 7"/>
+        <path d="M28 29h78v78H48V91H28z" fill="none" stroke="#1d1d1c" stroke-width="8"/>
+        <circle cx="128" cy="42" r="10" fill="#9b2925"/>
+        <text x="28" y="158" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" letter-spacing="2" fill="#171717">LAST SEEN</text>
+        <text x="28" y="207" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="9" fill="#171717">03:17</text>
+        <line x1="28" y1="235" x2="238" y2="235" stroke="#171717" stroke-width="3"/>
+        <text x="28" y="271" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3" fill="#171717">YOU WERE HERE.</text>
+      </g>
+    </g>
+  </g>
+  <text x="60" y="1435" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="3" fill="#111">FRONT / SMALL EMBROIDERY</text>
+  <text x="1140" y="1435" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="3" fill="#111">BACK / RAW-EDGE APPLIQUÉ</text>
+</svg>

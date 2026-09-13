@@ -1,0 +1,64 @@
+{
+  "url": "file:///C:/Users/Valentin/Desktop/Ondine/side-habit-store-v8/comparaison.html",
+  "errors": [],
+  "references": [
+    {
+      "key": "nude",
+      "loaded": true,
+      "active": "true",
+      "title": "Juicy Cherry Tee White",
+      "description": "Notre rose devient une affiche verticale : sujet très grand, titre fin tout en bas, patine sur l’ensemble. Elle reprend surtout la couleur rouge, pas le langage visuel de la référence."
+    },
+    {
+      "key": "cold",
+      "loaded": true,
+      "active": "true",
+      "title": "Dogs Tee White",
+      "description": "La colombe accumule plumes, ruban et texture vieillie. Les détails fins et le grand titre donnent un registre de tee musical assez différent de cette composition noire et blanche."
+    },
+    {
+      "key": "scuffers",
+      "loaded": true,
+      "active": "true",
+      "title": "Raw Blue Hoodie",
+      "description": "Nos deux hauts cherchent tous les deux à attirer l’attention avec une grande illustration. Ce hoodie montre un autre rôle dans une tenue : le volume, une couleur et un marquage plus calme."
+    },
+    {
+      "key": "wasted",
+      "loaded": true,
+      "active": "true",
+      "title": "T-Shirt Howl",
+      "description": "Le registre vintage illustré existe bien chez une marque du comparatif : il serait faux de dire que notre colombe n’a aucun lien avec cet univers. Mais cela ne suffit pas à valider ce sujet ou le thème concert que nous avions choisi."
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "localLinks": [
+    {
+      "href": "index.html",
+      "exists": true
+    },
+    {
+      "href": "../benchmark-pieces-v7/index.html",
+      "exists": true
+    }
+  ],
+  "supplierDisclosure": true,
+  "passed": true
+}

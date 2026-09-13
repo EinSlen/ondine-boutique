@@ -1,0 +1,6 @@
+query InstalledProviderLocations {
+  locations(first:20, includeLegacy:true, includeInactive:true) {
+    nodes {id name isActive fulfillmentService {id serviceName inventoryManagement}}
+    pageInfo {hasNextPage endCursor}
+  }
+}

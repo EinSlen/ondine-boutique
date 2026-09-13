@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-09-11T18:55:17.397Z",
+  "scope": "Local concept gallery; not Shopify or supplier validation",
+  "viewports": [
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pieces": 6,
+      "images": 6,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "documentWidth": 768,
+      "pieces": 6,
+      "images": 6,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "documentWidth": 390,
+      "pieces": 6,
+      "images": 6,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "documentWidth": 320,
+      "pieces": 6,
+      "images": 6,
+      "pass": true
+    }
+  ],
+  "zooms": [
+    {
+      "piece": 1,
+      "pass": true
+    },
+    {
+      "piece": 2,
+      "pass": true
+    },
+    {
+      "piece": 3,
+      "pass": true
+    },
+    {
+      "piece": 4,
+      "pass": true
+    },
+    {
+      "piece": 5,
+      "pass": true
+    },
+    {
+      "piece": 6,
+      "pass": true
+    }
+  ],
+  "referenceImages": [
+    {
+      "url": "https://coldcultureworldwide.com/cdn/shop/files/dogs-tee-white-7647022.jpg?v=1774297093&width=900",
+      "loaded": true
+    },
+    {
+      "url": "https://nude-project.com/cdn/shop/files/JUICY_CHERRY_TEE_WHITE_back.webp?v=1786017707&width=900",
+      "loaded": true
+    },
+    {
+      "url": "https://scuffers.com/cdn/shop/files/RAW_BLUE_HOODIE_1.jpg?height=1200&v=1756902308&width=900",
+      "loaded": true
+    },
+    {
+      "url": "https://scuffers.com/cdn/shop/files/8435661927953.2_1.jpg?height=1200&v=1756903073&width=900",
+      "loaded": true
+    }
+  ],
+  "errors": [],
+  "keyboardOpen": true,
+  "details": 6,
+  "textEnlargement": {
+    "width": 390,
+    "documentWidth": 390
+  },
+  "localFileWorks": true,
+  "pass": true
+}

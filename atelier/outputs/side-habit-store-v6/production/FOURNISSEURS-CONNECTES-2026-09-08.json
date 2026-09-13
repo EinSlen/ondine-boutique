@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-09-08",
+  "method": "Shopify Admin read-only locations query with includeLegacy and includeInactive; all pages retrieved",
+  "services": [
+    { "locationName": "Printful", "isActive": true, "serviceName": "Printful" },
+    { "locationName": "Printify", "isActive": true, "serviceName": "Printify" }
+  ],
+  "limitations": ["Does not establish variant synchronization", "Does not establish account-specific availability, prices or delivery times", "Does not establish billing setup or ability to fulfill a test order"],
+  "userConstraints": { "sampleOrderBudget": 0, "keepExistingProviders": true, "noOrdersPlaced": true },
+  "publicCatalogueCandidates": [
+    { "model": "AS Colour 5082", "provider": "Printful", "url": "https://www.printful.com/custom/mens/t-shirts/oversized-faded-t-shirt-ascolour-5082", "status": "Public listing verified; not yet selected or synced" },
+    { "model": "AS Colour 5082", "provider": "Printify", "url": "https://printify.com/app/products/1457/as-colour/unisex-heavy-faded-tee", "status": "Public listing verified; actual print provider and delivery region not selected" },
+    { "model": "AS Colour 5161", "provider": "Printful", "url": "https://www.printful.com/custom/products/all/unisex-oversized-hoodie-as-colour-5161", "status": "Public listing verified; not yet selected or synced" }
+  ]
+}

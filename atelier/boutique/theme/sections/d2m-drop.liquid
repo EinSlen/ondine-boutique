@@ -1,0 +1,188 @@
+{%- comment -%}
+  Les rayons du drop, deux par rangee comme sur la maquette.
+  Chaque bloc « rayon » lit une collection : titres, prix et tailles viennent donc du
+  catalogue et ne peuvent pas se desynchroniser. Le bloc « silhouettes » compose ses
+  legendes et son total a partir des deux produits portes sur la photo.
+{%- endcomment -%}
+
+<div class="d2m d2m-drop" {{ section.shopify_attributes }}>
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+
+      {%- when 'rayon' -%}
+        {%- assign rayon = collections[block.settings.collection] -%}
+        <section class="d2m-rayon" {{ block.shopify_attributes }}>
+          <div class="d2m-rayon__entete">
+            <h2 class="d2m-rayon__titre">{{ block.settings.titre | default: rayon.title }}</h2>
+            {%- if block.settings.montrer_tout and rayon != blank -%}
+              <a class="d2m-rayon__tout" href="{{ rayon.url }}">
+                {{- block.settings.texte_tout -}}
+                <span aria-hidden="true"> &#8599;</span>
+              </a>
+            {%- endif -%}
+          </div>
+
+          <div
+            class="d2m-grille"
+            style="--colonnes: {{ block.settings.colonnes }}; --colonnes-mobile: {{ block.settings.colonnes_mobile }};"
+          >
+            {%- for produit in rayon.products limit: block.settings.nombre -%}
+              {%- assign dos = produit.images[1] -%}
+              <a class="d2m-carte" href="{{ produit.url }}">
+                <span class="d2m-carte__cadre">
+                  {%- if produit.featured_image != blank -%}
+                    {{
+                      produit.featured_image
+                      | image_url: width: 900
+                      | image_tag:
+                        widths: '220, 340, 480, 700, 900',
+                        sizes: '(max-width: 749px) 46vw, 22vw',
+                        loading: 'lazy',
+                        alt: produit.featured_image.alt | default: produit.title
+                    }}
+                  {%- endif -%}
+                  {%- if dos != blank -%}
+                    {{
+                      dos
+                      | image_url: width: 900
+                      | image_tag:
+                        widths: '220, 340, 480, 700, 900',
+                        sizes: '(max-width: 749px) 46vw, 22vw',
+                        loading: 'lazy',
+                        class: 'd2m-carte__dos',
+                        alt: ''
+                    }}
+                  {%- endif -%}
+                  {%- unless produit.available -%}
+                    <span class="d2m-carte__epuise">{{ 'products.product.sold_out' | t }}</span>
+                  {%- endunless -%}
+                </span>
+
+                <span class="d2m-carte__nom">{{ produit.title }}</span>
+                <span class="d2m-carte__prix">{{ produit.price | money }}</span>
+
+                {%- if block.settings.montrer_tailles -%}
+                  {%- assign tailles = '' -%}
+                  {%- for option in produit.options_with_values -%}
+                    {%- if option.name == 'Size' or option.name == 'Taille' -%}
+                      {%- assign tailles = option.values | join: ' - ' -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                  {%- if tailles != '' -%}
+                    <span class="d2m-carte__tailles">{{ tailles }}</span>
+                  {%- endif -%}
+                {%- endif -%}
+              </a>
+            {%- endfor -%}
+          </div>
+        </section>
+
+      {%- when 'silhouettes' -%}
+        <section class="d2m-rayon" {{ block.shopify_attributes }}>
+          <div class="d2m-rayon__entete">
+            <h2 class="d2m-rayon__titre">{{ block.settings.titre }}</h2>
+            {%- if block.settings.mention != blank -%}
+              <span class="d2m-rayon__tout">{{ block.settings.mention }}</span>
+            {%- endif -%}
+          </div>
+
+          <div class="d2m-looks">
+            {%- for i in (1..3) -%}
+              {%- assign cle_image = 'image_' | append: i -%}
+              {%- assign cle_haut = 'haut_' | append: i -%}
+              {%- assign cle_bas = 'bas_' | append: i -%}
+              {%- assign cle_titre = 'titre_' | append: i -%}
+              {%- assign image = block.settings[cle_image] -%}
+              {%- assign haut = block.settings[cle_haut] -%}
+              {%- assign bas = block.settings[cle_bas] -%}
+              {%- if image != blank -%}
+                {%- assign total = 0 -%}
+                {%- if haut != blank %}{% assign total = total | plus: haut.price %}{% endif -%}
+                {%- if bas != blank %}{% assign total = total | plus: bas.price %}{% endif -%}
+                <a class="d2m-look" href="{{ haut.url | default: bas.url | default: '#' }}">
+                  <span class="d2m-look__cadre">
+                    {{
+                      image
+                      | image_url: width: 900
+                      | image_tag:
+                        widths: '260, 400, 600, 900',
+                        sizes: '(max-width: 749px) 46vw, 18vw',
+                        loading: 'lazy',
+                        alt: image.alt | default: block.settings[cle_titre]
+                    }}
+                  </span>
+                  <span class="d2m-look__numero">{{ block.settings[cle_titre] }}</span>
+                  {%- if haut != blank or bas != blank -%}
+                    <span class="d2m-look__pieces">
+                      {{- haut.title -}}
+                      {%- if haut != blank and bas != blank %} + {% endif -%}
+                      {{- bas.title -}}
+                    </span>
+                    <span class="d2m-look__prix">{{ total | money }}</span>
+                  {%- endif -%}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </section>
+
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "D2M rayons",
+  "tag": "div",
+  "max_blocks": 6,
+  "blocks": [
+    {
+      "type": "rayon",
+      "name": "Rayon",
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Collection" },
+        { "type": "text", "id": "titre", "label": "Titre affiche" },
+        { "type": "range", "id": "colonnes", "label": "Colonnes", "min": 2, "max": 6, "step": 1, "default": 4 },
+        {
+          "type": "select",
+          "id": "colonnes_mobile",
+          "label": "Colonnes en mobile",
+          "options": [
+            { "value": "1", "label": "1" },
+            { "value": "2", "label": "2" }
+          ],
+          "default": "2"
+        },
+        { "type": "range", "id": "nombre", "label": "Produits affiches", "min": 2, "max": 12, "step": 1, "default": 4 },
+        { "type": "checkbox", "id": "montrer_tailles", "label": "Afficher les tailles", "default": false },
+        { "type": "checkbox", "id": "montrer_tout", "label": "Afficher le lien vers la collection", "default": true },
+        { "type": "text", "id": "texte_tout", "label": "Texte du lien", "default": "View all" }
+      ]
+    },
+    {
+      "type": "silhouettes",
+      "name": "Silhouettes",
+      "settings": [
+        { "type": "text", "id": "titre", "label": "Titre", "default": "Looks" },
+        { "type": "text", "id": "mention", "label": "Mention a droite", "default": "Curated outfits" },
+        { "type": "header", "content": "Silhouette 1" },
+        { "type": "image_picker", "id": "image_1", "label": "Photo" },
+        { "type": "text", "id": "titre_1", "label": "Titre", "default": "Look 01" },
+        { "type": "product", "id": "haut_1", "label": "Haut" },
+        { "type": "product", "id": "bas_1", "label": "Bas" },
+        { "type": "header", "content": "Silhouette 2" },
+        { "type": "image_picker", "id": "image_2", "label": "Photo" },
+        { "type": "text", "id": "titre_2", "label": "Titre", "default": "Look 02" },
+        { "type": "product", "id": "haut_2", "label": "Haut" },
+        { "type": "product", "id": "bas_2", "label": "Bas" },
+        { "type": "header", "content": "Silhouette 3" },
+        { "type": "image_picker", "id": "image_3", "label": "Photo" },
+        { "type": "text", "id": "titre_3", "label": "Titre", "default": "Look 03" },
+        { "type": "product", "id": "haut_3", "label": "Haut" },
+        { "type": "product", "id": "bas_3", "label": "Bas" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "D2M rayons" }]
+}
+{% endschema %}

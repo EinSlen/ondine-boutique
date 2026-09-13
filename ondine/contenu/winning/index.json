@@ -1,0 +1,110 @@
+[
+  {
+    "numero": 1,
+    "fond": "clair",
+    "phrase": "ya winning?",
+    "fichier": "001-clair.png"
+  },
+  {
+    "numero": 2,
+    "fond": "sombre",
+    "phrase": "not winning",
+    "fichier": "002-sombre.png"
+  },
+  {
+    "numero": 3,
+    "fond": "clair",
+    "phrase": "not winning",
+    "fichier": "003-clair.png"
+  },
+  {
+    "numero": 4,
+    "fond": "clair",
+    "phrase": "losing again",
+    "fichier": "004-clair.png"
+  },
+  {
+    "numero": 5,
+    "fond": "clair",
+    "phrase": "no wins today",
+    "fichier": "005-clair.png"
+  },
+  {
+    "numero": 6,
+    "fond": "clair",
+    "phrase": "still losing",
+    "fichier": "006-clair.png"
+  },
+  {
+    "numero": 7,
+    "fond": "sombre",
+    "phrase": "losing again",
+    "fichier": "007-sombre.png"
+  },
+  {
+    "numero": 8,
+    "fond": "sombre",
+    "phrase": "not winning",
+    "fichier": "008-sombre.png"
+  },
+  {
+    "numero": 9,
+    "fond": "sombre",
+    "phrase": "are ya winning, son?",
+    "fichier": "009-sombre.png"
+  },
+  {
+    "numero": 10,
+    "fond": "sombre",
+    "phrase": "losing again",
+    "fichier": "010-sombre.png"
+  },
+  {
+    "numero": 11,
+    "fond": "clair",
+    "phrase": "no wins today",
+    "fichier": "011-clair.png"
+  },
+  {
+    "numero": 12,
+    "fond": "clair",
+    "phrase": "still losing",
+    "fichier": "012-clair.png"
+  },
+  {
+    "numero": 13,
+    "fond": "sombre",
+    "phrase": "no wins today",
+    "fichier": "013-sombre.png"
+  },
+  {
+    "numero": 14,
+    "fond": "clair",
+    "phrase": "ya winning?",
+    "fichier": "014-clair.png"
+  },
+  {
+    "numero": 15,
+    "fond": "sombre",
+    "phrase": "no wins today",
+    "fichier": "015-sombre.png"
+  },
+  {
+    "numero": 16,
+    "fond": "clair",
+    "phrase": "are ya winning, son?",
+    "fichier": "016-clair.png"
+  },
+  {
+    "numero": 17,
+    "fond": "sombre",
+    "phrase": "are ya winning, son?",
+    "fichier": "017-sombre.png"
+  },
+  {
+    "numero": 18,
+    "fond": "clair",
+    "phrase": "no wins today",
+    "fichier": "018-clair.png"
+  }
+]

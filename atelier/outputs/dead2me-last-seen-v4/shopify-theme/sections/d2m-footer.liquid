@@ -1,0 +1,7 @@
+<footer class="footer">
+  <div class="footer-signup"><div><p class="kicker"><span class="dot"></span> Status update</p><h2>{{ section.settings.heading | escape }}</h2></div>{% form 'customer' %}<input type="hidden" name="contact[tags]" value="newsletter"><input type="email" name="contact[email]" placeholder="your@email.com" required aria-label="Email"><button type="submit">Notify me ↗</button>{% endform %}</div>
+  <div class="footer-bottom"><a class="footer-logo" href="{{ routes.root_url }}">{{ shop.name | default: 'DEAD2ME' }}</a><div class="footer-links"><a href="{{ routes.all_products_collection_url }}">Shop</a>{% if shop.privacy_policy %}<a href="{{ shop.privacy_policy.url }}">Privacy</a>{% endif %}{% if shop.refund_policy %}<a href="{{ shop.refund_policy.url }}">Returns</a>{% endif %}</div><p class="footer-copy">© {{ 'now' | date: '%Y' }} {{ shop.name }}<br>Paris, France</p></div>
+</footer>
+{% schema %}
+{"name":"D2M Footer","settings":[{"type":"textarea","id":"heading","label":"Heading","default":"Be there before it goes."}]}
+{% endschema %}

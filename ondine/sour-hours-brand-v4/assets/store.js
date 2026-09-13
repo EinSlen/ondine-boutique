@@ -1,0 +1,57 @@
+(() => {
+  'use strict';
+  const products=window.SOUR_PRODUCTS;
+  const grid=document.getElementById('product-grid');
+  const productDialog=document.getElementById('product-dialog');
+  const bagDialog=document.getElementById('bag-dialog');
+  const money=value=>new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(value);
+  const productById=id=>products.find(product=>product.id===id);
+  let activeProduct=null,selectedSize=null,toastTimer,displayedProducts=products;
+  const searchDialog=document.getElementById('search-dialog');
+  const wornImages={'raw-hours-hoodie':'campaign.png','daily-curve-jeans':'campaign.png','double-cherry-tee':'look-cherry.png','afterhours-zip':'look-cherry.png','sidewalk-longsleeve':'look-sidewalk.png','off-duty-track-pants':'look-sidewalk.png'};
+  let bag=[];
+  try {
+    const saved=JSON.parse(localStorage.getItem('sour-hours-v4-selection')||'[]');
+    if(Array.isArray(saved))bag=saved.filter(row=>row&&productById(row.id)?.sizes.includes(row.size)&&Number.isInteger(row.quantity)&&row.quantity>0&&row.quantity<=20).slice(0,50);
+  }catch{bag=[];}
+  const persist=()=>{try{localStorage.setItem('sour-hours-v4-selection',JSON.stringify(bag));}catch{}updateBagCount();};
+  function updateBagCount(){document.querySelectorAll('.bag-count').forEach(node=>node.textContent=bag.reduce((sum,row)=>sum+row.quantity,0));}
+  function toast(message){const node=document.getElementById('toast');node.textContent=message;node.classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('visible'),3000);}
+  function renderProducts(list){displayedProducts=list;const sort=document.getElementById('catalog-sort').value;const sorted=[...list];if(sort==='price-up')sorted.sort((a,b)=>a.price-b.price);if(sort==='price-down')sorted.sort((a,b)=>b.price-a.price);grid.innerHTML=sorted.map((product,index)=>`<article class="product-card"><button class="product-picture" type="button" data-product="${product.id}" aria-label="Explorer ${product.name}"><img src="assets/${product.id}.png" alt="Visualisation de ${product.name}, ${product.color}" loading="lazy"><span class="card-tag">${product.tag}</span><span class="card-open" aria-hidden="true">+</span></button><div class="product-meta"><div><h3><button class="product-name" type="button" data-product="${product.id}">${product.name}</button></h3><p><span class="swatch" style="--color:${product.hex}"></span>${product.color}</p></div><span class="price">${money(product.price)}</span></div></article>${index===3&&list.length===8&&sort==='studio'?'<article class="editorial-tile"><img src="assets/look-sidewalk.png" alt="Silhouette Sidewalk portée, rayures beurre et pantalon chocolat" loading="lazy"><div class="editorial-tile-copy"><span class="eyebrow">SOUR HOURS / STREET NOTES</span><h3>Prendre<br><em>son temps.</em></h3><button type="button" class="text-link" data-product="sidewalk-longsleeve">Découvrir Sidewalk ↗</button></div></article>':''}`).join('');document.getElementById('result-count').textContent=`${list.length} pièce${list.length>1?'s':''}`;}
+  document.getElementById('catalog-sort').addEventListener('change',()=>renderProducts(displayedProducts));
+  function setImageView(view){if(!activeProduct)return;const image=document.getElementById('detail-image'),wrap=document.querySelector('.detail-image-wrap');wrap.classList.toggle('is-detail',view==='detail');wrap.classList.toggle('is-worn',view==='worn');image.src=`assets/${view==='worn'?wornImages[activeProduct.id]:activeProduct.id+'.png'}`;image.alt=`${view==='worn'?'Visualisation portée':view==='detail'?'Détail du visuel':'Visualisation de la pièce'} — ${activeProduct.name}`;document.querySelectorAll('[data-image-view]').forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.imageView===view));button.hidden=button.dataset.imageView==='worn'&&!wornImages[activeProduct.id];});}
+  document.querySelectorAll('[data-image-view]').forEach(button=>button.addEventListener('click',()=>setImageView(button.dataset.imageView)));
+  document.querySelectorAll('[data-product-step]').forEach(button=>button.addEventListener('click',()=>{if(activeProduct)openProduct(products[(products.indexOf(activeProduct)+Number(button.dataset.productStep)+products.length)%products.length].id);}));
+  function openProduct(id){
+    const product=productById(id);if(!product)return;activeProduct=product;selectedSize=null;
+    document.getElementById('detail-image').src=`assets/${product.id}.png`;
+    document.getElementById('detail-image').alt=`Visualisation de ${product.name}, ${product.color}`;
+    document.getElementById('detail-category').textContent=`${product.code} / ${product.family}`;
+    document.getElementById('product-title').textContent=product.name;
+    document.getElementById('detail-story').textContent=product.story;
+    document.getElementById('detail-price').textContent=money(product.price);
+    document.getElementById('detail-color').textContent=`Coloris : ${product.color}`;
+    document.getElementById('detail-production').textContent=product.production;
+    document.getElementById('detail-specs').replaceChildren(...product.specs.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+    const sizes=document.getElementById('size-options');sizes.replaceChildren(...product.sizes.map(size=>{const button=document.createElement('button');button.type='button';button.className='size-option';button.textContent=size;button.setAttribute('aria-pressed','false');button.addEventListener('click',()=>{selectedSize=size;sizes.querySelectorAll('button').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));const add=document.querySelector('.add-to-bag');add.disabled=false;add.textContent='Ajouter à ma sélection +';});return button;}));
+    const add=document.querySelector('.add-to-bag');add.disabled=true;add.textContent='Choisir une taille';
+    if(searchDialog.open)searchDialog.close();setImageView('full');if(!productDialog.open)productDialog.showModal();productDialog.scrollTop=0;
+  }
+  document.addEventListener('click',event=>{const card=event.target.closest('[data-product]');if(card)openProduct(card.dataset.product);const close=event.target.closest('[data-close-dialog]');if(close)close.closest('dialog').close();const bagButton=event.target.closest('[data-open-bag]');if(bagButton){renderBag();bagDialog.showModal();}});
+  document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('click',event=>{if(event.target===dialog){const box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();}}));
+  document.querySelector('.add-to-bag').addEventListener('click',()=>{if(!activeProduct||!activeProduct.sizes.includes(selectedSize))return;const row=bag.find(row=>row.id===activeProduct.id&&row.size===selectedSize);if(row&&row.quantity>=20){toast('Maximum 20 exemplaires par taille dans cette sélection.');return;}if(row)row.quantity++;else bag.push({id:activeProduct.id,size:selectedSize,quantity:1});persist();productDialog.close();toast(`${activeProduct.name} ajouté à ta sélection`);});
+  document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));renderProducts(button.dataset.filter==='all'?products:products.filter(product=>product.category===button.dataset.filter));}));
+  document.querySelectorAll('[data-look]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(other=>other.setAttribute('aria-pressed','false'));const ids=button.dataset.look.split(',');renderProducts(products.filter(product=>ids.includes(product.id)));document.getElementById('collection').scrollIntoView({behavior:'smooth'});toast(`Les ${ids.length} pièces du look sont affichées.`);}));
+  const normalize=text=>text.toLocaleLowerCase('fr').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  function renderSearch(){const query=normalize(document.getElementById('search-input').value.trim());const found=products.filter(product=>normalize([product.name,product.color,product.family,product.tag,product.story].join(' ')).includes(query));document.getElementById('search-count').textContent=found.length?`${found.length} pièce${found.length>1?'s':''} à découvrir`:'Aucune pièce trouvée. Essaie une couleur ou une catégorie.';document.getElementById('search-results').innerHTML=found.map(product=>`<button type="button" class="search-result" data-product="${product.id}"><img src="assets/${product.id}.png" alt=""><span><strong>${product.name}</strong><small>${product.color} · ${money(product.price)}</small></span></button>`).join('');}
+  document.querySelector('[data-open-search]').addEventListener('click',()=>{renderSearch();searchDialog.showModal();document.getElementById('search-input').focus();});
+  document.getElementById('search-input').addEventListener('input',renderSearch);
+  function renderBag(){
+    const container=document.getElementById('bag-items');container.replaceChildren();
+    if(!bag.length){const message=document.createElement('p');message.className='bag-empty';message.textContent='Tout commence par une pièce.';container.append(message);}
+    bag.forEach((row,index)=>{const product=productById(row.id);const article=document.createElement('article');article.className='bag-row';article.innerHTML=`<img src="assets/${product.id}.png" alt="${product.name}"><div><h3>${product.name}</h3><p>${row.size} · ${money(product.price)}</p><div class="bag-row-controls"><button type="button" data-action="minus" aria-label="Diminuer la quantité de ${product.name}">−</button><span>${row.quantity}</span><button type="button" data-action="plus" aria-label="Augmenter la quantité de ${product.name}" ${row.quantity>=20?'disabled':''}>+</button><button type="button" class="remove" data-action="remove">Retirer</button></div></div>`;article.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(!button)return;if(button.dataset.action==='remove'){bag.splice(index,1);}else if(button.dataset.action==='minus'){row.quantity--;if(!row.quantity)bag.splice(index,1);}else if(row.quantity<20){row.quantity++;}persist();renderBag();});container.append(article);});
+    document.getElementById('bag-total').textContent=money(bag.reduce((sum,row)=>sum+row.quantity*productById(row.id).price,0));document.getElementById('export-selection').disabled=!bag.length;
+  }
+  document.getElementById('export-selection').addEventListener('click',()=>{if(!bag.length)return;const text=['SOUR HOURS — SÉLECTION DE COLLECTION',`Date : ${new Date().toLocaleDateString('fr-FR')}`,'Prix cibles, visuels de conception. Ceci n’est pas une commande.','',...bag.map(row=>{const product=productById(row.id);return `${product.code} | ${product.name} | ${product.color} | ${row.size} | Qté ${row.quantity} | ${money(product.price*row.quantity)}`;}),'',`Total indicatif : ${money(bag.reduce((sum,row)=>sum+row.quantity*productById(row.id).price,0))}`].join('\n');const url=URL.createObjectURL(new Blob(['\uFEFF',text],{type:'text/plain;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='sour-hours-ma-selection.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+  renderProducts(products);updateBagCount();
+})();

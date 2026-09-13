@@ -1,0 +1,122 @@
+[
+  {
+    "numero": 1,
+    "scene": "duo",
+    "encre": "#3a3f45",
+    "phrase": "dead to me",
+    "fichiers": [
+      "001-duo-devant.png",
+      "001-duo-apercu.png"
+    ]
+  },
+  {
+    "numero": 2,
+    "scene": "symbole",
+    "encre": "#4a4038",
+    "phrase": "no reply",
+    "fichiers": [
+      "002-symbole-devant.png",
+      "002-symbole-apercu.png"
+    ]
+  },
+  {
+    "numero": 3,
+    "scene": "seul",
+    "encre": "#2b2b2b",
+    "phrase": "you first",
+    "fichiers": [
+      "003-seul-devant.png",
+      "003-seul-apercu.png"
+    ]
+  },
+  {
+    "numero": 4,
+    "scene": "repetition",
+    "encre": "#4a4038",
+    "phrase": "still nothing",
+    "fichiers": [
+      "004-repetition-devant.png",
+      "004-repetition-apercu.png"
+    ]
+  },
+  {
+    "numero": 5,
+    "scene": "duo",
+    "encre": "#1a1a1a",
+    "phrase": "she left twice",
+    "fichiers": [
+      "005-duo-devant.png",
+      "005-duo-apercu.png"
+    ]
+  },
+  {
+    "numero": 6,
+    "scene": "symbole",
+    "encre": "#1a1a1a",
+    "phrase": "last seen online",
+    "fichiers": [
+      "006-symbole-devant.png",
+      "006-symbole-apercu.png"
+    ]
+  },
+  {
+    "numero": 7,
+    "scene": "seul",
+    "encre": "#4a4038",
+    "phrase": "read at 4am",
+    "fichiers": [
+      "007-seul-devant.png",
+      "007-seul-apercu.png"
+    ]
+  },
+  {
+    "numero": 8,
+    "scene": "repetition",
+    "encre": "#3a3f45",
+    "phrase": "don’t wait up",
+    "fichiers": [
+      "008-repetition-devant.png",
+      "008-repetition-apercu.png"
+    ]
+  },
+  {
+    "numero": 9,
+    "scene": "duo",
+    "encre": "#3a3f45",
+    "phrase": "gone by morning",
+    "fichiers": [
+      "009-duo-devant.png",
+      "009-duo-apercu.png"
+    ]
+  },
+  {
+    "numero": 10,
+    "scene": "symbole",
+    "encre": "#4a4038",
+    "phrase": "nothing after",
+    "fichiers": [
+      "010-symbole-devant.png",
+      "010-symbole-apercu.png"
+    ]
+  },
+  {
+    "numero": 11,
+    "scene": "seul",
+    "encre": "#4a4038",
+    "phrase": "told you so",
+    "fichiers": [
+      "011-seul-devant.png",
+      "011-seul-apercu.png"
+    ]
+  },
+  {
+    "numero": 12,
+    "scene": "repetition",
+    "encre": "#1a1a1a",
+    "phrase": "not my problem",
+    "fichiers": [
+      "012-repetition-devant.png",
+      "012-repetition-apercu.png"
+    ]
+  }
+]

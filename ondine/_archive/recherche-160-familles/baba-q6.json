@@ -1,0 +1,7 @@
+[
+  { "tag": "labelprinter", "kw": "industrial thermal transfer label printer", "frKw": "etiqueteuse industrielle transfert", "kg": 1.5 },
+  { "tag": "hvacgauge", "kw": "refrigeration manifold gauge set hvac", "frKw": "manometre frigoriste", "kg": 1.5 },
+  { "tag": "pipecam", "kw": "pipe inspection camera endoscope drain", "frKw": "camera inspection canalisation", "kg": 1.8 },
+  { "tag": "earthtester", "kw": "earth resistance tester ground clamp", "frKw": "testeur de terre telluromètre", "kg": 1.0 },
+  { "tag": "labpsu", "kw": "adjustable dc power supply laboratory", "frKw": "alimentation laboratoire reglable", "kg": 3.0 }
+]

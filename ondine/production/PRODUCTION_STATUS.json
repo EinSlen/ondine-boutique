@@ -1,0 +1,19 @@
+{
+  "supplier": "Printful",
+  "shopify_updated_with_final_reference_images": [
+    "SPLIT FIGURES ZIP",
+    "SEATED FIGURE ZIP",
+    "TABLE ALONE ZIP",
+    "AFTERMATH ZIP",
+    "RUN AWAY TEE"
+  ],
+  "recommended_blanks": {
+    "graphic_zip_hoodies": "Gildan 18600",
+    "pullover_hoodie": "Gildan 18500",
+    "tees": "Cotton Heritage MC1087",
+    "void_wide_leg_joggers": "All-Over Print Unisex Wide-Leg Joggers",
+    "static_wide_leg_pants": "All-Over Print Unisex Wide-Leg Pants",
+    "no_signal_track_pants": "All-Over Print Unisex Track Pants"
+  },
+  "provider_step_not_executable_here": "Create/sync the products in the Printful editor and map Shopify variants; no direct Printful connector is available in this ChatGPT session."
+}

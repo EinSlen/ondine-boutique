@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-09-09T18:46:52.078Z",
+  "url": "https://0rsiku-r1.myshopify.com/?preview_theme_id=189335208264",
+  "errors": [],
+  "tests": [
+    {
+      "name": "cookie-refusal-keyboard",
+      "passed": true
+    },
+    {
+      "name": "both-images-render",
+      "passed": true
+    },
+    {
+      "name": "no-liquid-error",
+      "passed": true
+    },
+    {
+      "name": "worn-link",
+      "passed": true
+    },
+    {
+      "name": "accordion-toggles",
+      "passed": true
+    },
+    {
+      "name": "accordion-toggles",
+      "passed": true
+    },
+    {
+      "name": "accordion-toggles",
+      "passed": true
+    },
+    {
+      "name": "accordion-toggles",
+      "passed": true
+    },
+    {
+      "name": "no-purchase-or-data-form",
+      "passed": true
+    },
+    {
+      "name": "showcase-route-/collections/all",
+      "passed": true
+    },
+    {
+      "name": "showcase-route-/search?q=tee",
+      "passed": true
+    },
+    {
+      "name": "showcase-route-/cart",
+      "passed": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "httpStatus": 200,
+  "finalUrl": "https://0rsiku-r1.myshopify.com/",
+  "title": "Call me later — Le studio / aperçu",
+  "studioPresent": true,
+  "imageUrls": [
+    {
+      "src": "https://0rsiku-r1.myshopify.com/cdn/shop/files/call-me-later-tee-back-concept.png?v=1788886633&width=900",
+      "width": 320
+    },
+    {
+      "src": "https://0rsiku-r1.myshopify.com/cdn/shop/files/call-me-later-tee-worn-concept.png?v=1788886684&width=900",
+      "width": 320
+    }
+  ],
+  "passed": true
+}

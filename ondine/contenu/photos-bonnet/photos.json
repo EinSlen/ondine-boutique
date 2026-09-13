@@ -1,0 +1,18 @@
+[
+  {
+    "nom": "001-bandeau-lin",
+    "produit": 458,
+    "variante": 11948,
+    "photos": [
+      "https://printful-upload.s3-accelerate.amazonaws.com/tmp/7e665e5d9b2dc2f9f7fab41862072c73/all-over-print-beanie-white-front-6a88ad414c99e.png"
+    ]
+  },
+  {
+    "nom": "002-bandeau-terre",
+    "produit": 458,
+    "variante": 11948,
+    "photos": [
+      "https://printful-upload.s3-accelerate.amazonaws.com/tmp/1ca2fe619ae2d13f218b9ccb9e3418a3/all-over-print-beanie-white-front-6a88ad4ba115d.png"
+    ]
+  }
+]

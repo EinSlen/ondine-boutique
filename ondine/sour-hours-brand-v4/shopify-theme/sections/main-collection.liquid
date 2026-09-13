@@ -1,0 +1,15 @@
+<section class="sh-collection sh-container sh-section">
+  <div class="sh-collection__top"><h1>{{ collection.title | escape }}</h1>{% if section.settings.show_description and collection.description != blank %}<div class="sh-rte">{{ collection.description }}</div>{% endif %}</div>
+  {% paginate collection.products by section.settings.count %}
+    <div class="sh-collection__toolbar"><p class="sh-note">{{ 'collection.count' | t: count: collection.products_count }}</p><form method="get"><label class="visually-hidden" for="CollectionSort">{{ 'collection.sort' | t }}</label><select id="CollectionSort" name="sort_by">{% assign sort_value = collection.sort_by | default: collection.default_sort_by %}{% for option in collection.sort_options %}<option value="{{ option.value | escape }}"{% if option.value == sort_value %} selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select><button type="submit" class="sh-button sh-button--outline">{{ 'general.apply' | t }}</button></form></div>
+    {% if collection.products_count > 0 %}<div class="sh-grid">{% for product in collection.products %}{% render 'product-card', product: product %}{% endfor %}</div>{% else %}<div class="sh-empty"><p>{{ 'general.collection_empty' | t }}</p></div>{% endif %}
+    {% if paginate.pages > 1 %}<nav class="sh-pagination" aria-label="{{ 'general.pagination' | t }}">{{ paginate | default_pagination }}</nav>{% endif %}
+  {% endpaginate %}
+</section>
+{% stylesheet %}
+  .sh-collection__top{display:flex;justify-content:space-between;gap:36px;align-items:end;padding-bottom:45px}.sh-collection__top h1{font-size:clamp(46px,7vw,90px)}.sh-collection__top .sh-rte{max-width:360px;font-size:13px}.sh-collection__toolbar{display:flex;justify-content:space-between;gap:18px;align-items:center;border-top:1px solid var(--line);padding:22px 0 32px}.sh-collection__toolbar form{display:flex;gap:8px}.sh-collection__toolbar select{max-width:260px;font-size:11px}.sh-collection__toolbar .sh-button{font-size:11px;min-height:42px;padding:8px 16px}
+  @media(max-width:650px){.sh-collection__top{display:block}.sh-collection__top .sh-rte{margin-top:24px}.sh-collection__toolbar{align-items:start}.sh-collection__toolbar form{flex-wrap:wrap;justify-content:flex-end;max-width:200px}.sh-collection__toolbar select{width:100%}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.collection","settings":[{"type":"checkbox","id":"show_description","label":"t:settings.show_description","default":true},{"type":"range","id":"count","label":"t:settings.count","min":8,"max":48,"step":4,"default":24}]}
+{% endschema %}

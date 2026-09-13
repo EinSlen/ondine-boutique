@@ -1,0 +1,334 @@
+## Validation Summary
+
+**Overall Status:** ✅ VALID
+**Total Files:** 38
+
+## Detailed Results
+
+### File 1
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** config/settings_data.json passed all checks.
+
+### File 2
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** config/settings_schema.json passed all checks.
+
+### File 3
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** layout/password.liquid passed all checks.
+
+### File 4
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** layout/theme.liquid passed all checks.
+
+### File 5
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** locales/en.default.json passed all checks.
+
+### File 6
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** locales/en.default.schema.json passed all checks.
+
+### File 7
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** locales/fr.json passed all checks.
+
+### File 8
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** locales/fr.schema.json passed all checks.
+
+### File 9
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/catalog.liquid passed all checks.
+
+### File 10
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/footer-group.json passed all checks.
+
+### File 11
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/footer.liquid passed all checks.
+
+### File 12
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/header-group.json passed all checks.
+
+### File 13
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/header.liquid passed all checks.
+
+### File 14
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/hero.liquid passed all checks.
+
+### File 15
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/lookbook.liquid passed all checks.
+
+### File 16
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-404.liquid passed all checks.
+
+### File 17
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-cart.liquid passed all checks.
+
+### File 18
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-collection.liquid passed all checks.
+
+### File 19
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-contact.liquid passed all checks.
+
+### File 20
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-page.liquid passed all checks.
+
+### File 21
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-password.liquid passed all checks.
+
+### File 22
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-product.liquid passed all checks.
+
+### File 23
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/main-search.liquid passed all checks.
+
+### File 24
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/story.liquid passed all checks.
+
+### File 25
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** sections/studio-home.liquid passed all checks.
+
+### File 26
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/product-card.liquid passed all checks.
+
+### File 27
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/studio-capsule.liquid passed all checks.
+
+### File 28
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/studio-gate.liquid passed all checks.
+
+### File 29
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** snippets/theme-base.liquid passed all checks.
+
+### File 30
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/404.json passed all checks.
+
+### File 31
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/cart.json passed all checks.
+
+### File 32
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/collection.json passed all checks.
+
+### File 33
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/index.json passed all checks.
+
+### File 34
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/page.contact.json passed all checks.
+
+### File 35
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/page.json passed all checks.
+
+### File 36
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/password.json passed all checks.
+
+### File 37
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/product.json passed all checks.
+
+### File 38
+**Artifact ID:** cml-studio-theme-0909
+**Revision:** 4
+*Use same ID & increment revision when retrying on an improvement of this artifact*
+
+**Status:** ✅ SUCCESS
+**Details:** templates/search.json passed all checks.
+
+
+
+(node:19268) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("file%3A///C%3A/Users/Valentin/Documents/Codex/2026-08-24/repr/outputs/shopify-studio-preview/verification/shopify-loader.mjs", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+Loaded resource from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\manifest_theme.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\translations.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\theme_settings.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\theme_block.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\default_setting_values.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\section.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\targetted_block_entry.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\setting.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\settings.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\theme_block_entry.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\preset.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\app_block_entry.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\preset_blocks.json
+Loaded schema from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\local_block_entry.json
+Loaded resource from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\tags.json
+Loaded resource from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\filters.json
+Loaded resource from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\shopify_system_translations.json
+Loaded resource from C:\Users\Valentin\AppData\Local\theme-liquid-docs-nodejs\Cache\objects.json

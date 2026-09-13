@@ -1,0 +1,7 @@
+[
+  { "tag": "electester", "kw": "electrical installation tester multifunction", "frKw": "testeur installation electrique", "kg": 1.2 },
+  { "tag": "petdryer", "kw": "professional pet grooming dryer blower", "frKw": "sechoir chien professionnel toilettage", "kg": 5.0 },
+  { "tag": "laserlevel", "kw": "rotary laser level self leveling", "frKw": "niveau laser rotatif chantier", "kg": 1.5 },
+  { "tag": "vettondeuse", "kw": "professional animal clipper veterinary", "frKw": "tondeuse veterinaire professionnelle", "kg": 0.8 },
+  { "tag": "otoscope", "kw": "veterinary otoscope diagnostic set", "frKw": "otoscope veterinaire", "kg": 0.5 }
+]

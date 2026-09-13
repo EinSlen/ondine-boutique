@@ -1,0 +1,1282 @@
+{
+  "checkedAt": "2026-09-10 14:14:23 UTC",
+  "scope": "First 10 catalogue search results plus the existing CML product read individually. Not an exhaustive catalogue audit.",
+  "catalogueSearch": {
+    "returned": 10,
+    "hasNextPage": true,
+    "endCursor": "eyJsYXN0X2lkIjoxMDIzMzY4NjU1NzAwMCwibGFzdF92YWx1ZSI6IjEwMjMzNjg2NTU3MDAwIn0=",
+    "autoPaginated": false
+  },
+  "locations": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Location/111592538440",
+        "name": "Emplacement de la boutique",
+        "isActive": true,
+        "fulfillmentService": null
+      },
+      {
+        "id": "gid://shopify/Location/111595585864",
+        "name": "Printful",
+        "isActive": true,
+        "fulfillmentService": {
+          "id": "gid://shopify/FulfillmentService/71547650376?id=true",
+          "serviceName": "Printful",
+          "inventoryManagement": true
+        }
+      },
+      {
+        "id": "gid://shopify/Location/111740682568",
+        "name": "Printify",
+        "isActive": true,
+        "fulfillmentService": {
+          "id": "gid://shopify/FulfillmentService/71568785736?id=true",
+          "serviceName": "Printify",
+          "inventoryManagement": false
+        }
+      }
+    ],
+    "pageInfo": {
+      "hasNextPage": false,
+      "endCursor": "eyJsYXN0X2lkIjoxMTE3NDA2ODI1NjgsImxhc3RfdmFsdWUiOiJQcmludGlmeSJ9"
+    }
+  },
+  "summary": {
+    "products": 11,
+    "variants": 52,
+    "linkedToFulfillmentService": 0,
+    "costsPresent": 0,
+    "allSelectedVariantsRead": true,
+    "allSelectedLevelsRead": true,
+    "active": [
+      {
+        "id": "gid://shopify/Product/10233685999944",
+        "title": "SPLIT FIGURES ZIP",
+        "untracked": 5
+      },
+      {
+        "id": "gid://shopify/Product/10233686163784",
+        "title": "SEATED FIGURE ZIP",
+        "untracked": 5
+      },
+      {
+        "id": "gid://shopify/Product/10233686393160",
+        "title": "TABLE ALONE ZIP",
+        "untracked": 5
+      },
+      {
+        "id": "gid://shopify/Product/10233686524232",
+        "title": "AFTERMATH ZIP",
+        "untracked": 5
+      },
+      {
+        "id": "gid://shopify/Product/10233686557000",
+        "title": "RUN AWAY TEE",
+        "untracked": 5
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/10220187812168",
+      "title": "Sweat à capuche, tirage unique, L",
+      "status": "DRAFT",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53880981389640",
+          "title": "L",
+          "sku": "D2M-AOP-HOOD-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170056008",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10220187844936",
+      "title": "Sweat col rond",
+      "status": "DRAFT",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53880981422408",
+          "title": "XS",
+          "sku": "D2M-AOP-CREW-XS",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170088776",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981455176",
+          "title": "S",
+          "sku": "D2M-AOP-CREW-S",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170121544",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981487944",
+          "title": "M",
+          "sku": "D2M-AOP-CREW-M",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170154312",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981520712",
+          "title": "L",
+          "sku": "D2M-AOP-CREW-L",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170187080",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981553480",
+          "title": "XL",
+          "sku": "D2M-AOP-CREW-XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170219848",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981586248",
+          "title": "2XL",
+          "sku": "D2M-AOP-CREW-2XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170252616",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981619016",
+          "title": "3XL",
+          "sku": "D2M-AOP-CREW-3XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170285384",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10220187877704",
+      "title": "Sweat à capuche imprimé",
+      "status": "DRAFT",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53880981651784",
+          "title": "S",
+          "sku": "D2M-DTF-HOOD-S",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170318152",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981684552",
+          "title": "M",
+          "sku": "D2M-DTF-HOOD-M",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170350920",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981717320",
+          "title": "L",
+          "sku": "D2M-DTF-HOOD-L",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170383688",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981750088",
+          "title": "XL",
+          "sku": "D2M-DTF-HOOD-XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170416456",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981782856",
+          "title": "2XL",
+          "sku": "D2M-DTF-HOOD-2XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170449224",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10220187910472",
+      "title": "T-shirt heavyweight",
+      "status": "DRAFT",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53880981815624",
+          "title": "S",
+          "sku": "D2M-TEE-HW-S",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170481992",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981848392",
+          "title": "M",
+          "sku": "D2M-TEE-HW-M",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170514760",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981881160",
+          "title": "L",
+          "sku": "D2M-TEE-HW-L",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170547528",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981913928",
+          "title": "XL",
+          "sku": "D2M-TEE-HW-XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170580296",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880981946696",
+          "title": "2XL",
+          "sku": "D2M-TEE-HW-2XL",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170613064",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10220187943240",
+      "title": "Bonnet",
+      "status": "DRAFT",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53880981979464",
+          "title": "S",
+          "sku": "D2M-AOP-BEANIE-S",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170645832",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880982012232",
+          "title": "M",
+          "sku": "D2M-AOP-BEANIE-M",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170678600",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53880982045000",
+          "title": "L",
+          "sku": "D2M-AOP-BEANIE-L",
+          "inventoryPolicy": "CONTINUE",
+          "inventoryItemId": "gid://shopify/InventoryItem/55492170711368",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10233685999944",
+      "title": "SPLIT FIGURES ZIP",
+      "status": "ACTIVE",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53917010264392",
+          "title": "S",
+          "sku": "D2M-SFZ-S",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609451848",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010297160",
+          "title": "M",
+          "sku": "D2M-SFZ-M",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609484616",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010329928",
+          "title": "L",
+          "sku": "D2M-SFZ-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609517384",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010362696",
+          "title": "XL",
+          "sku": "D2M-SFZ-XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609550152",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010395464",
+          "title": "XXL",
+          "sku": "D2M-SFZ-XXL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609582920",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10233686163784",
+      "title": "SEATED FIGURE ZIP",
+      "status": "ACTIVE",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53917010559304",
+          "title": "S",
+          "sku": "D2M-SF2-S",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609746760",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010592072",
+          "title": "M",
+          "sku": "D2M-SF2-M",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609779528",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010624840",
+          "title": "L",
+          "sku": "D2M-SF2-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609812296",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010657608",
+          "title": "XL",
+          "sku": "D2M-SF2-XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609845064",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010690376",
+          "title": "XXL",
+          "sku": "D2M-SF2-XXL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533609877832",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10233686393160",
+      "title": "TABLE ALONE ZIP",
+      "status": "ACTIVE",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53917010952520",
+          "title": "S",
+          "sku": "D2M-TAZ-S",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610139976",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917010985288",
+          "title": "M",
+          "sku": "D2M-TAZ-M",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610172744",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011018056",
+          "title": "L",
+          "sku": "D2M-TAZ-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610205512",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011050824",
+          "title": "XL",
+          "sku": "D2M-TAZ-XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610238280",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011083592",
+          "title": "XXL",
+          "sku": "D2M-TAZ-XXL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610271048",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10233686524232",
+      "title": "AFTERMATH ZIP",
+      "status": "ACTIVE",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53917011214664",
+          "title": "S",
+          "sku": "D2M-AFZ-S",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610402120",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011247432",
+          "title": "M",
+          "sku": "D2M-AFZ-M",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610434888",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011280200",
+          "title": "L",
+          "sku": "D2M-AFZ-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610467656",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011312968",
+          "title": "XL",
+          "sku": "D2M-AFZ-XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610500424",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011345736",
+          "title": "XXL",
+          "sku": "D2M-AFZ-XXL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610533192",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10233686557000",
+      "title": "RUN AWAY TEE",
+      "status": "ACTIVE",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/53917011378504",
+          "title": "S",
+          "sku": "D2M-RAT-S",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610565960",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011411272",
+          "title": "M",
+          "sku": "D2M-RAT-M",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610598728",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011444040",
+          "title": "L",
+          "sku": "D2M-RAT-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610631496",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011476808",
+          "title": "XL",
+          "sku": "D2M-RAT-XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610664264",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/53917011509576",
+          "title": "XXL",
+          "sku": "D2M-RAT-XXL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55533610697032",
+          "tracked": false,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10273301299528",
+      "title": "Call me later — Tee",
+      "status": "DRAFT",
+      "allVariantsRead": true,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54025001926984",
+          "title": "S / Bone",
+          "sku": "CML-5082-BONE-S",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55644948103496",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54025001959752",
+          "title": "M / Bone",
+          "sku": "CML-5082-BONE-M",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55644948136264",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54025001992520",
+          "title": "L / Bone",
+          "sku": "CML-5082-BONE-L",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55644948169032",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54025002025288",
+          "title": "XL / Bone",
+          "sku": "CML-5082-BONE-XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55644948201800",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54025002058056",
+          "title": "2XL / Bone",
+          "sku": "CML-5082-BONE-2XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55644948234568",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54025002090824",
+          "title": "3XL / Bone",
+          "sku": "CML-5082-BONE-3XL",
+          "inventoryPolicy": "DENY",
+          "inventoryItemId": "gid://shopify/InventoryItem/55644948267336",
+          "tracked": true,
+          "unitCost": null,
+          "allInventoryLevelsRead": true,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique",
+              "service": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publishedSalesState": [
+    {
+      "id": "gid://shopify/Product/10233685999944",
+      "title": "SPLIT FIGURES ZIP",
+      "status": "ACTIVE",
+      "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/split-figures-zip",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/53917010264392",
+            "title": "S",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010297160",
+            "title": "M",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010329928",
+            "title": "L",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010362696",
+            "title": "XL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010395464",
+            "title": "XXL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMDM5NTQ2NCwibGFzdF92YWx1ZSI6NX0="
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/10233686163784",
+      "title": "SEATED FIGURE ZIP",
+      "status": "ACTIVE",
+      "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/seated-figure-zip",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/53917010559304",
+            "title": "S",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010592072",
+            "title": "M",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010624840",
+            "title": "L",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010657608",
+            "title": "XL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010690376",
+            "title": "XXL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMDY5MDM3NiwibGFzdF92YWx1ZSI6NX0="
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/10233686393160",
+      "title": "TABLE ALONE ZIP",
+      "status": "ACTIVE",
+      "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/table-alone-zip",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/53917010952520",
+            "title": "S",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917010985288",
+            "title": "M",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011018056",
+            "title": "L",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011050824",
+            "title": "XL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011083592",
+            "title": "XXL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMTA4MzU5MiwibGFzdF92YWx1ZSI6NX0="
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/10233686524232",
+      "title": "AFTERMATH ZIP",
+      "status": "ACTIVE",
+      "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/aftermath-zip",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/53917011214664",
+            "title": "S",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011247432",
+            "title": "M",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011280200",
+            "title": "L",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011312968",
+            "title": "XL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011345736",
+            "title": "XXL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMTM0NTczNiwibGFzdF92YWx1ZSI6NX0="
+        }
+      }
+    },
+    {
+      "id": "gid://shopify/Product/10233686557000",
+      "title": "RUN AWAY TEE",
+      "status": "ACTIVE",
+      "onlineStoreUrl": "https://0rsiku-r1.myshopify.com/products/run-away-tee",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/53917011378504",
+            "title": "S",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011411272",
+            "title": "M",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011444040",
+            "title": "L",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011476808",
+            "title": "XL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          },
+          {
+            "id": "gid://shopify/ProductVariant/53917011509576",
+            "title": "XXL",
+            "availableForSale": true,
+            "inventoryQuantity": 0
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1MzkxNzAxMTUwOTU3NiwibGFzdF92YWx1ZSI6NX0="
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "No supplier account was accessed.",
+    "No manual-production workflow was ruled out.",
+    "No real checkout was attempted.",
+    "Null unit cost means unavailable, not zero cost.",
+    "No status, inventory, supplier, theme or publication changed."
+  ]
+}

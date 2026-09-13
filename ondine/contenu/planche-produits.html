@@ -1,0 +1,50 @@
+<!doctype html><meta charset="utf-8"><title>dead2me, les produits</title>
+<style>body{background:#0b0b0b;color:#eee;font-family:system-ui,sans-serif;padding:24px}
+h1{font-size:20px;margin-bottom:4px}p.i{color:#8a8a8a;font-size:13px;margin-top:0;max-width:840px;line-height:1.6}
+h2{font-size:14px;color:#ddd;border-bottom:1px solid #2a2a2a;padding-bottom:7px;margin-top:34px}
+h2 span{color:#777;font-weight:400;font-size:13px}
+.g{display:flex;flex-wrap:wrap;gap:14px}figure{margin:0;width:300px}
+img{width:100%;background:#141414;border:1px solid #242424;display:block}
+figcaption{font-size:12px;color:#8a8a8a;margin-top:6px;line-height:1.5}
+code{background:#191919;padding:1px 5px;border-radius:3px;color:#9c9;font-size:11px}</style>
+<h1>dead2me, les visuels sur les vrais produits</h1>
+<p class="i">Vraies photos produit generees par API. Deux regimes : sur un vetement noir, l encre claire est imprimee 
+directement sur le tissu sans aucun fond ; sur un objet imprime integralement, le fichier a un fond, puisque c est l encre 
+qui fait toute la couleur de l objet. 243 produits sur 532 sont fabricables en Union europeenne, 229 compatibles avec notre 
+encre. Couts hors remise d abonnement, prix de vente a fixer.</p>
+<h2>Sweat imprime INTEGRALEMENT, etage A <span>&mdash; ref 388 &mdash; 38,95 EUR &mdash; le motif couvre tout, personne du creneau ne fait ca</span></h2><div class="g">
+<figure><img src="photos-aop-sweat/001-memoire-manuscrit-sombre-1.png"><figcaption><code>001-memoire-manuscrit-sombre-1</code></figcaption></figure>
+<figure><img src="photos-aop-sweat/001-memoire-manuscrit-sombre.png"><figcaption><code>001-memoire-manuscrit-sombre</code></figcaption></figure>
+</div>
+<h2>T-shirt lourd Comfort Colors 1717, noir <span>&mdash; ref 586 &mdash; 13,09 EUR &mdash; image placee, fichier sans fond</span></h2><div class="g">
+<figure><img src="photos-tee/013-bloc-sombre.png"><figcaption><code>013-bloc-sombre</code></figcaption></figure>
+<figure><img src="photos-tee/017-memoire-bloc-sombre.png"><figcaption><code>017-memoire-bloc-sombre</code></figcaption></figure>
+<figure><img src="photos-tee/024-memoire-horodate-sombre.png"><figcaption><code>024-memoire-horodate-sombre</code></figcaption></figure>
+</div>
+<h2>Sweat a capuche Gildan 18500, noir <span>&mdash; ref 146 &mdash; 19,02 EUR &mdash; image placee, fichier sans fond</span></h2><div class="g">
+<figure><img src="photos-sweat/001-barre-sombre.png"><figcaption><code>001-barre-sombre</code></figcaption></figure>
+<figure><img src="photos-sweat/026-memoire-barre-sombre.png"><figcaption><code>026-memoire-barre-sombre</code></figcaption></figure>
+</div>
+<h2>Bandana imprime integralement <span>&mdash; ref 630 &mdash; 8,76 EUR &mdash; taille unique, zero retour</span></h2><div class="g">
+<figure><img src="photos-bandana/001-memoire-manuscrit-sombre.png"><figcaption><code>001-memoire-manuscrit-sombre</code></figcaption></figure>
+<figure><img src="photos-bandana/002-foule-barre-sombre.png"><figcaption><code>002-foule-barre-sombre</code></figcaption></figure>
+</div>
+<h2>Bonnet imprime integralement <span>&mdash; ref 458 &mdash; 13,27 EUR &mdash; taille unique, texte sur la bande frontale</span></h2><div class="g">
+<figure><img src="photos-bonnet/001-bandeau-lin.png"><figcaption><code>001-bandeau-lin</code></figcaption></figure>
+<figure><img src="photos-bonnet/002-bandeau-terre.png"><figcaption><code>002-bandeau-terre</code></figcaption></figure>
+</div>
+<h2>Cabas imprime integralement <span>&mdash; ref 84 &mdash; 14,32 EUR &mdash; surface sure 0,78 sinon la phrase est coupee</span></h2><div class="g">
+<figure><img src="photos-tote/001-barre-lin.png"><figcaption><code>001-barre-lin</code></figcaption></figure>
+<figure><img src="photos-tote/002-angle-terre.png"><figcaption><code>002-angle-terre</code></figcaption></figure>
+</div>
+<h2>Chaussettes sublimees <span>&mdash; ref 186 &mdash; 9,19 EUR &mdash; format bandeau</span></h2><div class="g">
+<figure><img src="photos-chaussettes/001-bandeau-lin.png"><figcaption><code>001-bandeau-lin</code></figcaption></figure>
+</div>
+<h2>Tongs sublimees, LE SEUL chaussant fabricable en UE <span>&mdash; ref 359 &mdash; 11,75 EUR &mdash; aucune basket ne part d Europe</span></h2><div class="g">
+<figure><img src="photos-tongs/001-barre-lin.png"><figcaption><code>001-barre-lin</code></figcaption></figure>
+</div>
+<h2>Poster satine 20x30 <span>&mdash; ref 171 &mdash; 7,49 EUR &mdash; la piece vendue declinee en affiche</span></h2><div class="g">
+<figure><img src="photos-poster/001-memoire-manuscrit-sombre.png"><figcaption><code>001-memoire-manuscrit-sombre</code></figcaption></figure>
+</div>
+<h2>Etendre a un autre produit</h2>
+<p class="i"><code>node outils/photos-tout.mjs --produit 630 --zones</code> montre les emplacements d un produit.<br><code>--mode couvrir</code> remplit chaque panneau, <code>--mode placer</code> pose le dessin centre.<br>Sur un objet qui s enroule, generer le fichier avec <code>--sur 0.78</code>.<br>Le tableau complet des 243 produits UE par categorie est dans <code>PRODUITS.md</code> section 2 bis.</p>

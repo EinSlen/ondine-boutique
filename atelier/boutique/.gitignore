@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.shopify/
+node_modules/
+*cookies*
+*credentials*
+*.log

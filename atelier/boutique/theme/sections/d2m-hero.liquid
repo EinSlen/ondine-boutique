@@ -1,0 +1,109 @@
+{%- comment -%}
+  Bandeau d'ouverture du drop.
+  Le texte est en HTML plutot qu'incruste dans l'image : il reste net sur ecran fin,
+  se traduit, et se recadre tout seul en mobile. La photo n'est plus qu'un fond.
+  Le nombre de pieces se compte sur la collection pour ne jamais mentir sur le stock.
+{%- endcomment -%}
+
+{%- assign drop = collections[section.settings.collection] -%}
+{%- if section.settings.compter_pieces and drop != blank -%}
+  {%- assign pieces = drop.all_products_count -%}
+{%- endif -%}
+
+{%- if section.settings.police_titre != blank -%}
+  <style>
+    {{ section.settings.police_titre | font_face: font_display: 'swap' }}
+
+    #shopify-section-{{ section.id }} .d2m-hero__titre {
+      font-family: {{ section.settings.police_titre.family }}, {{ section.settings.police_titre.fallback_families }};
+      font-weight: {{ section.settings.police_titre.weight }};
+    }
+  </style>
+{%- endif -%}
+
+<section class="d2m d2m-hero" {{ section.shopify_attributes }}>
+  {%- if section.settings.image != blank -%}
+    <div class="d2m-hero__fond">
+      {%- if section.settings.image_mobile != blank -%}
+        {%- comment -%}
+          Deux cadrages : le panoramique laisse la place au titre sur grand ecran,
+          le portrait garde la silhouette entiere sur telephone.
+        {%- endcomment -%}
+        <picture>
+          <source
+            media="(max-width: 749px)"
+            srcset="{{ section.settings.image_mobile | image_url: width: 900 }}"
+          >
+          {{
+            section.settings.image
+            | image_url: width: 2600
+            | image_tag:
+              widths: '900, 1400, 1900, 2600',
+              sizes: '100vw',
+              alt: section.settings.image.alt | default: shop.name,
+              fetchpriority: 'high'
+          }}
+        </picture>
+      {%- else -%}
+        {{
+          section.settings.image
+          | image_url: width: 2600
+          | image_tag:
+            widths: '900, 1400, 1900, 2600',
+            sizes: '100vw',
+            alt: section.settings.image.alt | default: shop.name,
+            fetchpriority: 'high'
+        }}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+  <div class="d2m-hero__voile"></div>
+
+  <div class="d2m-hero__texte">
+    <h1 class="d2m-hero__titre">
+      {{ section.settings.ligne_1 }}<br>
+      <em>{{ section.settings.ligne_2 }}</em><br>
+      {{ section.settings.ligne_3 }}
+    </h1>
+
+    {%- if section.settings.accroche != blank -%}
+      <p class="d2m-hero__accroche">
+        {{ section.settings.accroche | replace: '[pieces]', pieces }}
+      </p>
+    {%- endif -%}
+
+    {%- if section.settings.lien_texte != blank -%}
+      <a class="d2m-bouton" href="{{ section.settings.lien | default: drop.url | default: routes.all_products_collection_url }}">
+        {{ section.settings.lien_texte }}
+        <span aria-hidden="true">&rarr;</span>
+      </a>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "D2M bandeau",
+  "tag": "section",
+  "settings": [
+    { "type": "font_picker", "id": "police_titre", "label": "Police du titre", "default": "anton_n4" },
+    { "type": "image_picker", "id": "image", "label": "Photo de fond" },
+    { "type": "image_picker", "id": "image_mobile", "label": "Photo de fond, mobile" },
+    { "type": "text", "id": "ligne_1", "label": "Ligne 1", "default": "Phase 001" },
+    { "type": "text", "id": "ligne_2", "label": "Ligne 2 (en rouge)", "default": "Drop 001" },
+    { "type": "text", "id": "ligne_3", "label": "Ligne 3", "default": "No restocks." },
+    {
+      "type": "text",
+      "id": "accroche",
+      "label": "Accroche",
+      "info": "[pieces] est remplace par le nombre de pieces de la collection.",
+      "default": "[pieces] pieces. 1 time."
+    },
+    { "type": "collection", "id": "collection", "label": "Collection du drop" },
+    { "type": "checkbox", "id": "compter_pieces", "label": "Compter les pieces automatiquement", "default": true },
+    { "type": "text", "id": "lien_texte", "label": "Bouton", "default": "Shop drop 001" },
+    { "type": "url", "id": "lien", "label": "Lien du bouton" }
+  ],
+  "presets": [{ "name": "D2M bandeau" }]
+}
+{% endschema %}

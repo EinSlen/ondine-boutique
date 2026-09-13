@@ -1,0 +1,57 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Price,Variant Inventory Policy,Variant Fulfillment Service,Variant Requires Shipping,Variant Taxable,Status
+sour-cherry-hoodie,Sour Cherry Hoodie,"<p>Washed chocolate boxy hoodie with chest embroidery and tactile chenille back crest.</p><ul><li>400 GSM target</li><li>Oversized boxy fit</li><li>Embroidery, chenille and appliqué</li></ul>",SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,Hoodie,"Drop 01,hoodie,boxy,chenille,prototype",false,Size,XS,SH-SCH-XS,89,deny,manual,true,true,draft
+sour-cherry-hoodie,,,,,,,,Size,S,SH-SCH-S,89,deny,manual,true,true,draft
+sour-cherry-hoodie,,,,,,,,Size,M,SH-SCH-M,89,deny,manual,true,true,draft
+sour-cherry-hoodie,,,,,,,,Size,L,SH-SCH-L,89,deny,manual,true,true,draft
+sour-cherry-hoodie,,,,,,,,Size,XL,SH-SCH-XL,89,deny,manual,true,true,draft
+sour-cherry-hoodie,,,,,,,,Size,XXL,SH-SCH-XXL,89,deny,manual,true,true,draft
+raw-club-hoodie,Raw Club Hoodie,<p>Washed forest boxy hoodie with a tonal raw-edge appliqué across the chest.</p><ul><li>400 GSM target</li><li>Oversized boxy fit</li><li>Raw-edge appliqué</li></ul>,SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,Hoodie,"Drop 01,hoodie,boxy,applique,prototype",false,Size,XS,SH-RCH-XS,89,deny,manual,true,true,draft
+raw-club-hoodie,,,,,,,,Size,S,SH-RCH-S,89,deny,manual,true,true,draft
+raw-club-hoodie,,,,,,,,Size,M,SH-RCH-M,89,deny,manual,true,true,draft
+raw-club-hoodie,,,,,,,,Size,L,SH-RCH-L,89,deny,manual,true,true,draft
+raw-club-hoodie,,,,,,,,Size,XL,SH-RCH-XL,89,deny,manual,true,true,draft
+raw-club-hoodie,,,,,,,,Size,XXL,SH-RCH-XXL,89,deny,manual,true,true,draft
+lucky-star-zip,Lucky Star Zip,<p>Washed midnight-navy boxy zip hoodie with cream star appliqué and muted-red stitching.</p><ul><li>400 GSM target</li><li>Metal zip</li><li>Raw-edge appliqué</li></ul>,SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,Zip Hoodie,"Drop 01,zip,boxy,star,prototype",false,Size,XS,SH-LSZ-XS,95,deny,manual,true,true,draft
+lucky-star-zip,,,,,,,,Size,S,SH-LSZ-S,95,deny,manual,true,true,draft
+lucky-star-zip,,,,,,,,Size,M,SH-LSZ-M,95,deny,manual,true,true,draft
+lucky-star-zip,,,,,,,,Size,L,SH-LSZ-L,95,deny,manual,true,true,draft
+lucky-star-zip,,,,,,,,Size,XL,SH-LSZ-XL,95,deny,manual,true,true,draft
+lucky-star-zip,,,,,,,,Size,XXL,SH-LSZ-XXL,95,deny,manual,true,true,draft
+stray-dogs-tee,Stray Dogs Tee,<p>Vintage-bone heavyweight boxy tee with embroidered chest mascot and two-colour back print.</p><ul><li>240 GSM target</li><li>Oversized boxy fit</li><li>Embroidery and screenprint</li></ul>,SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,T-Shirt,"Drop 01,tee,boxy,mascot,prototype",false,Size,XS,SH-SDT-XS,45,deny,manual,true,true,draft
+stray-dogs-tee,,,,,,,,Size,S,SH-SDT-S,45,deny,manual,true,true,draft
+stray-dogs-tee,,,,,,,,Size,M,SH-SDT-M,45,deny,manual,true,true,draft
+stray-dogs-tee,,,,,,,,Size,L,SH-SDT-L,45,deny,manual,true,true,draft
+stray-dogs-tee,,,,,,,,Size,XL,SH-SDT-XL,45,deny,manual,true,true,draft
+stray-dogs-tee,,,,,,,,Size,XXL,SH-SDT-XXL,45,deny,manual,true,true,draft
+after-midnight-knit,After Midnight Knit,"<p>Chocolate boxy jacquard sweater with moons, stars and muted-red dice.</p><ul><li>Jacquard knit target</li><li>Boxy fit</li><li>Three yarn colours</li></ul>",SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,Sweater,"Drop 01,knit,jacquard,moon,prototype",false,Size,S,SH-AMK-S,89,deny,manual,true,true,draft
+after-midnight-knit,,,,,,,,Size,M,SH-AMK-M,89,deny,manual,true,true,draft
+after-midnight-knit,,,,,,,,Size,L,SH-AMK-L,89,deny,manual,true,true,draft
+after-midnight-knit,,,,,,,,Size,XL,SH-AMK-XL,89,deny,manual,true,true,draft
+after-midnight-knit,,,,,,,,Size,XXL,SH-AMK-XXL,89,deny,manual,true,true,draft
+night-shift-racing-jersey,Night Shift Racing Jersey,<p>Oxblood and black boxy racing jersey with contrast panels and number 17 appliqué.</p><ul><li>300 GSM interlock target</li><li>Boxy jersey fit</li><li>Embroidery and appliqué</li></ul>,SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,Jersey,"Drop 01,jersey,racing,football,applique,prototype",false,Size,XS,SH-NSR-XS,69,deny,manual,true,true,draft
+night-shift-racing-jersey,,,,,,,,Size,S,SH-NSR-S,69,deny,manual,true,true,draft
+night-shift-racing-jersey,,,,,,,,Size,M,SH-NSR-M,69,deny,manual,true,true,draft
+night-shift-racing-jersey,,,,,,,,Size,L,SH-NSR-L,69,deny,manual,true,true,draft
+night-shift-racing-jersey,,,,,,,,Size,XL,SH-NSR-XL,69,deny,manual,true,true,draft
+night-shift-racing-jersey,,,,,,,,Size,XXL,SH-NSR-XXL,69,deny,manual,true,true,draft
+broken-halo-longsleeve,Broken Halo Longsleeve,"<p>Mineral-washed black heavyweight long sleeve with distressed architectural screen print.</p><ul><li>260 GSM target</li><li>Oversized boxy fit</li><li>Front, back and sleeve screen print</li></ul>",SOUR HOURS,Apparel & Accessories > Clothing > Shirts & Tops,Long Sleeve T-Shirt,"Drop 01,longsleeve,washed,screenprint,prototype",false,Size,XS,SH-BHL-XS,59,deny,manual,true,true,draft
+broken-halo-longsleeve,,,,,,,,Size,S,SH-BHL-S,59,deny,manual,true,true,draft
+broken-halo-longsleeve,,,,,,,,Size,M,SH-BHL-M,59,deny,manual,true,true,draft
+broken-halo-longsleeve,,,,,,,,Size,L,SH-BHL-L,59,deny,manual,true,true,draft
+broken-halo-longsleeve,,,,,,,,Size,XL,SH-BHL-XL,59,deny,manual,true,true,draft
+broken-halo-longsleeve,,,,,,,,Size,XXL,SH-BHL-XXL,59,deny,manual,true,true,draft
+night-work-denim,Night Work Denim,<p>Washed-black baggy carpenter jeans with utility details and minimal embroidery.</p><ul><li>13 oz denim target</li><li>Wide baggy fit</li><li>Reinforced seams and red bartacks</li></ul>,SOUR HOURS,Apparel & Accessories > Clothing > Pants,Jeans,"Drop 01,denim,jeans,baggy,carpenter,prototype",false,Size,28,SH-NWD-28,89,deny,manual,true,true,draft
+night-work-denim,,,,,,,,Size,30,SH-NWD-30,89,deny,manual,true,true,draft
+night-work-denim,,,,,,,,Size,32,SH-NWD-32,89,deny,manual,true,true,draft
+night-work-denim,,,,,,,,Size,34,SH-NWD-34,89,deny,manual,true,true,draft
+night-work-denim,,,,,,,,Size,36,SH-NWD-36,89,deny,manual,true,true,draft
+night-work-denim,,,,,,,,Size,38,SH-NWD-38,89,deny,manual,true,true,draft
+pit-lane-track-pants,Pit Lane Track Pants,"<p>Black wide-leg track pants with oxblood panels, cream piping and zip pockets.</p><ul><li>Heavy interlock target</li><li>Wide straight fit</li><li>Adjustable hems</li></ul>",SOUR HOURS,Apparel & Accessories > Clothing > Pants,Track Pants,"Drop 01,trackpants,racing,wideleg,prototype",false,Size,XS,SH-PLT-XS,79,deny,manual,true,true,draft
+pit-lane-track-pants,,,,,,,,Size,S,SH-PLT-S,79,deny,manual,true,true,draft
+pit-lane-track-pants,,,,,,,,Size,M,SH-PLT-M,79,deny,manual,true,true,draft
+pit-lane-track-pants,,,,,,,,Size,L,SH-PLT-L,79,deny,manual,true,true,draft
+pit-lane-track-pants,,,,,,,,Size,XL,SH-PLT-XL,79,deny,manual,true,true,draft
+pit-lane-track-pants,,,,,,,,Size,XXL,SH-PLT-XXL,79,deny,manual,true,true,draft
+midnight-balaclava,Midnight Balaclava,<p>Dense black rib-knit balaclava with oxblood contour and broken-halo emblem.</p><ul><li>One-size target</li><li>Custom knit or full-print prototype</li><li>Comfort and visibility must be sample tested</li></ul>,SOUR HOURS,Apparel & Accessories > Clothing Accessories > Headwear,Balaclava,"Drop 01,balaclava,headwear,accessory,prototype",false,Size,One Size,SH-MBA-ONE-SIZE,39,deny,manual,true,true,draft
+broken-halo-earrings,Broken Halo Earrings,"<p>Compact silver-tone hoop earrings with an oxidised architectural drop.</p><ul><li>Pair</li><li>925 silver target</li><li>Material, weight and closure require sample approval</li></ul>",SOUR HOURS,Apparel & Accessories > Jewelry > Earrings,Earrings,"Drop 01,jewelry,earrings,silver,accessory,prototype",false,Format,Pair,SH-BHE-PAIR,49,deny,manual,true,true,draft
+night-shift-scarf,Night Shift Scarf,"<p>Double-sided black, oxblood and cream football scarf with knitted-in graphics.</p><ul><li>Jacquard knit</li><li>Three yarn colours</li><li>One size</li></ul>",SOUR HOURS,Apparel & Accessories > Clothing Accessories > Scarves & Shawls,Scarf,"Drop 01,scarf,jacquard,football,accessory,prototype",false,Size,One Size,SH-NSS-ONE-SIZE,39,deny,manual,true,true,draft

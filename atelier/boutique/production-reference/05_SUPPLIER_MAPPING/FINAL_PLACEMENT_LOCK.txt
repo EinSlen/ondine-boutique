@@ -1,0 +1,65 @@
+D2M / DEAD2ME — FINAL PLACEMENT LOCK
+=====================================
+
+TARGET SUPPLIER: PRINTFUL
+
+GRAPHIC ZIP HOODIES
+Blank: Gildan 18600 Unisex Heavy Blend Zip Hoodie
+Technique: DTG
+Front: reproduce the exact proportions shown in 00_FINAL_REFERENCE_MOCKUPS.
+Sleeves: burgundy splatter must be separate LEFT SLEEVE and RIGHT SLEEVE placements.
+D2M logo: small, lower-right front/pocket area, approximately 6–8 cm wide.
+Do not enlarge the logo. Do not recenter the story graphic over the zipper.
+
+SPLIT FIGURES ZIP
+- Black blank.
+- White figures stay on opposite sides of the zipper.
+- Burgundy burst stays on the right-side figure.
+- Sparse sleeve/pocket splatter.
+- Small D2M lower-right.
+
+SEATED FIGURE ZIP
+- Sport Grey blank.
+- Exact seated office-chair figure with the long object.
+- Main figure mostly LEFT of the zipper.
+- Burgundy head/chest burst retained.
+- Sparse splatter on sleeves/body.
+- Small D2M lower-right.
+
+TABLE ALONE ZIP
+- Sport Grey blank.
+- Table/group LEFT, lone seated figure RIGHT.
+- Sparse burgundy droplets.
+- Small D2M lower-right.
+
+AFTERMATH ZIP
+- Sport Grey blank.
+- Standing hands-on-head figure LEFT.
+- Kneeling/slumped figure RIGHT.
+- Burgundy burst retained on the right figure.
+- Sparse sleeve/body splatter.
+- Small D2M lower-right.
+
+RUN AWAY TEE
+Blank: Cotton Heritage MC1087 Men's Box Tee
+Technique: DTG
+Color: White
+Main graphic: centered across upper chest, same scale as final reference.
+D2M logo: small, lower-right hem area, approximately 6–8 cm wide.
+Keep splatter sparse.
+
+LOGO ESSENTIALS
+D2M mini logo: 8–10 cm wide.
+Large D2M back logo: 28–32 cm wide.
+Use the exact black/burgundy brush logo in 02_LOGO_ESSENTIALS.
+
+BOTTOMS
+VOID: Printful All-Over Print Unisex Wide-Leg Joggers.
+STATIC: Printful All-Over Print Unisex Wide-Leg Pants.
+NO SIGNAL: Printful All-Over Print Unisex Track Pants.
+Use 04_BOTTOMS_AOP inside Printful's official cut-panel templates.
+
+RULE
+00_FINAL_REFERENCE_MOCKUPS controls the LOOK.
+Printful's official template controls the SAFE PRINT AREA.
+Never change the motif identity, logo size, or composition just to fill the printable area.

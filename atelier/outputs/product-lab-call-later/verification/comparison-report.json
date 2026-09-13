@@ -1,0 +1,95 @@
+{
+  "images": [
+    {
+      "alt": "Nude Project — Juicy Cherry Tee White, photo officielle",
+      "loaded": true
+    },
+    {
+      "alt": "Cold Culture — Dogs Tee White, photo officielle",
+      "loaded": true
+    },
+    {
+      "alt": "Wasted Paris — T-Shirt Howl, photo officielle",
+      "loaded": true
+    },
+    {
+      "alt": "Jaded London — Make Noise Spliced Cropped T-Shirt, photo officielle",
+      "loaded": true
+    },
+    {
+      "alt": "Nude Project — Beast Zip-Up Hoodie Ash, photo officielle",
+      "loaded": true
+    },
+    {
+      "alt": "Scuffers — Raw Blue Hoodie, photo officielle",
+      "loaded": true
+    },
+    {
+      "alt": "Nude Project — Juicy Cherry Tee White, photographie officielle utilisée comme référence d’analyse",
+      "loaded": true
+    },
+    {
+      "alt": "Prototype généré Call me later : téléphone rouge brillant et slogan noir sur tee écru.",
+      "loaded": true
+    }
+  ],
+  "selections": [
+    {
+      "number": "01",
+      "title": "01 / Nude Project",
+      "oneSelected": true,
+      "source": "https://nude-project.com/products/juicy-cherry-tee-white"
+    },
+    {
+      "number": "02",
+      "title": "02 / Cold Culture",
+      "oneSelected": true,
+      "source": "https://coldcultureworldwide.com/products/dogs-tee-white"
+    },
+    {
+      "number": "03",
+      "title": "03 / Wasted Paris",
+      "oneSelected": true,
+      "source": "https://wasted.fr/products/howl-t-shirt-faded-black"
+    },
+    {
+      "number": "04",
+      "title": "04 / Jaded London",
+      "oneSelected": true,
+      "source": "https://jadedldn.com/en-fr/products/make-noise-spliced-cropped-t-shirt"
+    },
+    {
+      "number": "05",
+      "title": "05 / Nude Project",
+      "oneSelected": true,
+      "source": "https://nude-project.com/products/beast-zip-up-hoodie-ash"
+    },
+    {
+      "number": "06",
+      "title": "06 / Scuffers",
+      "oneSelected": true,
+      "source": "https://scuffers.com/products/raw-blue-hoodie"
+    }
+  ],
+  "keyboard": true,
+  "widths": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

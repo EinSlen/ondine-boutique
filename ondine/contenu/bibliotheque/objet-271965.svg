@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="109.83009mm"
+   width="76.770966mm"
+   viewBox="0 0 272.02311 389.16175"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cowboy-smoking.svg"
+   inkscape:export-filename="/home/algot/Documents/runeman.org/clipart/cowboy-smoking.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title3462">Smoking Cowboy</title>
+  <defs
+     id="defs8">
+    <filter
+       inkscape:label="Combined Lighting"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       style="color-interpolation-filters:sRGB"
+       id="filter3358">
+      <feGaussianBlur
+         stdDeviation="6"
+         in="SourceGraphic"
+         result="result0"
+         id="feGaussianBlur3360" />
+      <feDiffuseLighting
+         lighting-color="#ffffff"
+         diffuseConstant="1"
+         surfaceScale="4"
+         result="result5"
+         id="feDiffuseLighting3362">
+        <feDistantLight
+           elevation="45"
+           azimuth="235"
+           id="feDistantLight3364" />
+      </feDiffuseLighting>
+      <feComposite
+         k1="1.4"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="arithmetic"
+         id="feComposite3366"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="6"
+         id="feGaussianBlur3368" />
+      <feSpecularLighting
+         specularExponent="25"
+         specularConstant="1"
+         surfaceScale="4"
+         lighting-color="#ffffff"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting3370">
+        <feDistantLight
+           azimuth="235"
+           elevation="45"
+           id="feDistantLight3372" />
+      </feSpecularLighting>
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         in2="result1"
+         result="result4"
+         id="feComposite3374"
+         k1="0"
+         k4="0" />
+      <feComposite
+         operator="in"
+         result="result2"
+         in2="SourceGraphic"
+         in="result4"
+         id="feComposite3376" />
+    </filter>
+    <filter
+       inkscape:label="Combined Lighting"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       style="color-interpolation-filters:sRGB"
+       id="filter3378">
+      <feGaussianBlur
+         stdDeviation="6"
+         in="SourceGraphic"
+         result="result0"
+         id="feGaussianBlur3380" />
+      <feDiffuseLighting
+         lighting-color="#ffffff"
+         diffuseConstant="1"
+         surfaceScale="4"
+         result="result5"
+         id="feDiffuseLighting3382">
+        <feDistantLight
+           elevation="45"
+           azimuth="235"
+           id="feDistantLight3384" />
+      </feDiffuseLighting>
+      <feComposite
+         k1="1.4"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="arithmetic"
+         id="feComposite3386"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="6"
+         id="feGaussianBlur3388" />
+      <feSpecularLighting
+         specularExponent="25"
+         specularConstant="1"
+         surfaceScale="4"
+         lighting-color="#ffffff"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting3390">
+        <feDistantLight
+           azimuth="235"
+           elevation="45"
+           id="feDistantLight3392" />
+      </feSpecularLighting>
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         in2="result1"
+         result="result4"
+         id="feComposite3394"
+         k1="0"
+         k4="0" />
+      <feComposite
+         operator="in"
+         result="result2"
+         in2="SourceGraphic"
+         in="result4"
+         id="feComposite3396" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-48.046941"
+     inkscape:cy="201.9993"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3208"
+       originx="-92.75135"
+       originy="-392.77117" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Smoking Cowboy</dc:title>
+        <dc:date>20170-02-05</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Algot Runeman</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Algot Runeman</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>runeman.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>cowboy-smoking.svg</dc:identifier>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3450"
+     transform="matrix(0.47297781,0,0,0.47297781,-183.42137,81.673884)">
+    <path
+       transform="matrix(0.74509978,0,0,0.74509978,121.3325,114.79742)"
+       inkscape:connector-curvature="0"
+       id="path3210"
+       d="m 410,362.3622 0,80 60,0 0,-80 z"
+       style="fill:#d4aa00;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3358)" />
+    <path
+       transform="matrix(0.74509978,0,0,0.74509978,121.3325,114.79742)"
+       inkscape:transform-center-y="-26.968888"
+       inkscape:transform-center-x="16.230157"
+       sodipodi:nodetypes="sccss"
+       inkscape:connector-curvature="0"
+       id="path3212"
+       d="m 388.97402,365.78811 c 2.46925,6.61272 21.30596,-1.74855 21.30596,-1.74855 l -13.20612,-55.23662 c 0,0 -21.25955,-1.07117 -20.32771,5.84018 1.65551,12.27856 4.39905,30.17901 12.22787,51.14499 z"
+       style="fill:#d4aa00;fill-rule:evenodd;stroke:#000000;stroke-width:1.05407524px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3378)" />
+    <path
+       d="m 464.23098,380.76569 -1.73669,0.28017 -0.5866,1.65845 -1.7005,-0.45042 -1.21044,1.27649 -1.37028,-1.10314 -1.62499,0.67379 -0.80312,-1.56511 -1.75856,-0.0454 -0.0971,-1.75646 -1.58806,-0.75675 0.62571,-1.6441 -1.14297,-1.33724 1.24033,-1.24746 -0.50025,-1.68651 1.64049,-0.63513 0.22897,-1.74418 1.75698,0.087 0.9186,-1.50026 1.56969,0.79414 1.44938,-0.99693 1.11098,1.36393 1.72957,-0.32122 0.46017,1.69789 1.71069,0.41003 -0.27021,1.73827 1.39602,1.07038 -0.95386,1.47808 0.83996,1.54565 -1.47258,0.96233 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="0.87540875"
+       sodipodi:arg1="0.66596924"
+       sodipodi:r2="6.220274"
+       sodipodi:r1="7.2768383"
+       sodipodi:cy="376.2699"
+       sodipodi:cx="458.50906"
+       sodipodi:sides="15"
+       id="path3216"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.14450009;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3218"
+       d="m 426.3874,384.69192 45.3104,1e-5 -5.26866,-5.79552 -34.77309,0 z"
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:0.74509978px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3222"
+       d="m 436.69068,371.58392 0,7.47694 5.62987,0 0,-7.47694 z"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.45877087px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       transform="matrix(0.6870578,0,0,0.6870578,137.25529,18.581057)"
+       id="g3428">
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 441.23463,476.07018 c 0,0 -12.87039,16.30166 -11.31371,25.45584 0.92247,5.42465 5.83772,12.56059 11.31371,12.02082 4.42577,-0.43625 7.17545,-6.86771 7.07107,-11.31371 -0.0875,-3.72575 -5.17893,-5.65903 -6.36396,-9.19239 -1.8003,-5.36791 -0.70711,-16.97056 -0.70711,-16.97056 z"
+         id="path3398"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssssc" />
+      <path
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 431.33514,511.76866 5.65685,-24.74873 7.07107,23.33452 -7.07107,-13.43503 z"
+         id="path3426"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 89.682203,69.169274 c 0,0 1.28764,5.24031 0.70711,7.77817 -0.30647,1.33977 -1.83746,2.1908 -2.12132,3.53554 -0.39248,1.85932 -0.20429,3.98938 0.7071,5.65685 0.8829,1.61536 4.24264,3.53554 4.24264,3.53554 l 2.12132,4.24264 -0.7071,4.24264 -2.82843,14.142126 c 0,0 -1.83028,5.4295 -0.70711,7.77818 0.36664,0.76668 1.30795,1.16794 2.12132,1.41421 0.90236,0.27321 2.82843,0 2.82843,0 l 2.82843,-2.12132 2.828417,-0.70711 4.24265,9.8995 -39.597977,9.19239 1.41421,4.94974 42.426407,-9.89949 -1.41422,2.82843 -0.7071,1.41421 2.82842,2.82843 3.53554,-0.70711 1.41421,2.12132 c 0,0 -2.14321,3.64314 -2.12132,5.65686 0.0276,2.53844 0.72631,5.64785 2.82843,7.07106 2.53731,1.71784 9.19239,0 9.19239,0 l 7.07106,12.02082 c 0,0 -18.44796,17.95758 -24.74873,28.99138 -7.91004,13.85192 -14.923197,29.31609 -15.556347,45.25483 -0.3381,8.51124 6.36396,24.74874 6.36396,24.74874 l 8.485277,0.7071 -7.778177,18.38478 0,9.8995 c 0,0 -14.7809,-8.00738 -22.62741,-7.07107 -4.09406,0.48854 -10.6066,6.36396 -10.6066,6.36396 l -2.82843,4.24264 -9.8995,-19.79899 -5.65685,-3.53553 -7.07107,0 -14.84924,-4.24264 -9.8995,-2.12133 c 0,0 -4.7002,0.9498 -5.65685,2.82843 -1.3011805,2.55522 1.41421,8.48528 1.41421,8.48528 0,0 -6.0626055,1.1009 -7.0710645,3.53554 -1.14094,2.75448 2.828424,8.48528 2.828424,8.48528 0,0 -3.629742,1.24311 -4.242638,2.82843 -1.05131,2.71933 2.121321,8.48528 2.121321,8.48528 0,0 -4.460994,1.56773 -4.94974797,3.53553 -0.762274,3.06903 4.24264097,8.48528 4.24264097,8.48528 l 15.5563545,9.19239 12.02081,9.19239 8.48528,6.36396 2.82843,15.55635 c 0,0 1.70514,9.84341 5.65685,11.31371 14.59683,5.43101 49.49748,14.84924 49.49748,14.84924 l -5.65686,7.07107 179.241157,0.58578 c 0,0 4.90268,-107.18738 -5.29289,-158.27059 -1.90213,-9.53029 -7.13708,-18.09508 -11.31371,-26.87006 -3.44414,-7.23603 -7.0314,-14.43943 -11.31371,-21.21321 -4.23201,-6.6942 -8.97094,-13.09347 -14.14213,-19.09188 -2.1765,-2.52467 -7.60501,-3.78078 -7.07107,-7.07107 0.16885,-1.04048 2.37418,-0.46302 2.82843,-1.41421 4.26366,-8.92805 -6.36396,-28.99138 -6.36396,-28.99138 l -4.24264,0 c 0,0 -0.24912,-8.81276 -2.82843,-12.02081 -4.0956,-5.09395 -17.67767,-8.48529 -17.67767,-8.48529 l 0,2.12133 -2.82843,0 -3.53553,-8.485286 4.24264,-21.2132 -83.4386,-19.79899 z"
+     id="path3185"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csssccccssccccccccccccssccssccccscccccccscscscscccccscccssssssccsccccccc" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 91.096413,69.169274 -27.57716,0 c 0,0 -15.472,2.38514 -22.62742,0 -1.11803,-0.37268 -2.30138,-1.06723 -2.82843,-2.12132 -0.63246,-1.26491 -1.2187,-3.52516 0,-4.24264 6.66733,-3.92521 22.62742,-9.19239 22.62742,-9.19239 l 24.04163,-5.65685 7.07107,0 c 0,0 4.78508,-30.31107 12.727917,-42.4264096 0,0 32.30524,-7.3959 48.08326,-4.24264 16.438,3.28516 44.54773,23.3345196 44.54773,23.3345196 1.22517,10.34872 -3.53553,42.42641 -3.53553,42.42641 l 28.28427,14.14213 c 0,0 18.03398,6.85576 16.97056,14.14214 -0.25924,1.77624 -3.15842,2.0058 -4.94975,2.12132 -14.66836,0.94591 -42.4264,-12.02081 -42.4264,-12.02081 z"
+     id="path3187"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccssscccsssccsscc" />
+</svg>

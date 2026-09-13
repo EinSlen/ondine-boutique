@@ -1,0 +1,2963 @@
+[
+  {
+    "cle": "01-tableau-de-bord",
+    "url": "https://www.printful.com/dashboard",
+    "quoi": "point de départ",
+    "urlFinale": "https://www.printful.com/dashboard",
+    "titre": "My Printful | Printful",
+    "interactifs": [
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-text-ellipsis pf-px-48",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-custom-control-input",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "classes": "header__link dropdown-toggle pf-btn-unstyled pf-d-md-flex",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "classes": "header__link customer-notifications__icon dropdown-toggle pf-px-0",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "classes": "dropdown-toggle header__link pf-d-md-flex pf-flex-column",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "New order",
+        "classes": "pf-btn pf-btn-primary pf-d-none pf-d-md-block",
+        "attrs": {
+          "data-test": "new-order-QWpKc8PEToXxD5Z"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "sidebar__logo-wrapper pf-d-flex pf-align-items-center pf-px-24",
+        "attrs": {
+          "data-test": "logo-hPqJQfxownT7aiA"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "sidebar__collapse-toggle pf-d-flex pf-p-4 pf-align-items-center",
+        "attrs": {
+          "data-testid": "dashboard-sidebar-desktop--more-toggle",
+          "aria-label": "Collapse sidebar"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Home"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Orders"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Product catalog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "My products"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Stores"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "More"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Start",
+        "classes": "pf-w-100 pf-btn pf-mt-12 pf-btn-primary",
+        "attrs": {
+          "id": "design_products-action"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Start",
+        "classes": "pf-w-100 pf-btn pf-mt-12 pf-btn-secondary",
+        "attrs": {
+          "id": "add_billing-action"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "pf-btn-unstyled",
+        "attrs": {
+          "data-test": "ZmWNg0HJki3AZky"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Watch video",
+        "classes": "pf-ui-body pf-btn pf-w-100 pf-btn-secondary",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Get 30% off",
+        "classes": "pf-btn pf-btn-secondary pf-w-100 pf-w-sm-auto",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "See Printful plans",
+        "classes": "pf-ui-body pf-btn pf-btn-secondary pf-w-100",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "pf-btn-unstyled",
+        "attrs": {
+          "data-test": "bMNNhNtOjGhwBFy"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Discover",
+        "classes": "pf-ui-body pf-btn pf-btn-secondary pf-w-100",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Services",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-services"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Integrations",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-integrations"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-shipping"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-policies"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "classes": "pf-p-0 pf-m-0 footer-link cookie-first-trigger",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Feature requests",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-feature-requests"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-blog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "FAQ",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-faq"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-recent-updates"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printful Help Center",
+        "classes": "pf-zendesk-chat pf-position-relative pf-cursor-pointer pf-d-flex",
+        "attrs": {
+          "id": "pf-zendesk-chat",
+          "type": "button"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "02-produits-synchronises",
+    "url": "https://www.printful.com/dashboard/sync",
+    "quoi": "la liste des produits liés à Shopify, et le bouton qui rattache un produit existant",
+    "urlFinale": "https://www.printful.com/dashboard/store",
+    "titre": "Stores | Printful",
+    "interactifs": [
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-text-ellipsis pf-px-48",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-custom-control-input",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "classes": "header__link dropdown-toggle pf-btn-unstyled pf-d-md-flex",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "classes": "header__link customer-notifications__icon dropdown-toggle pf-px-0",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "classes": "dropdown-toggle header__link pf-d-md-flex pf-flex-column",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "New order",
+        "classes": "pf-btn pf-btn-primary pf-d-none pf-d-md-block",
+        "attrs": {
+          "data-test": "new-order-QWpKc8PEToXxD5Z"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "sidebar__logo-wrapper pf-d-flex pf-align-items-center pf-px-24",
+        "attrs": {
+          "data-test": "logo-hPqJQfxownT7aiA"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "sidebar__collapse-toggle pf-d-flex pf-p-4 pf-align-items-center",
+        "attrs": {
+          "data-testid": "dashboard-sidebar-desktop--more-toggle",
+          "aria-label": "Collapse sidebar"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Home"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Orders"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Product catalog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "My products"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Stores"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "More"
+        }
+      },
+      {
+        "tag": "i",
+        "texte": "",
+        "classes": "pf-i pf-i-close pf-i-24 pf-text-gray-400",
+        "attrs": {
+          "role": "button"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Go to My products",
+        "classes": "pf-w-100 pf-w-sm-auto pf-btn pf-btn-primary",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "dropdown-toggle pf-btn-square dropdown-toggle pf-btn-square",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "role": "button",
+          "data-testid": "dropdownToggle"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Choose platform",
+        "classes": "pf-btn pf-btn-primary pf-btn-block",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "Connect via API",
+        "classes": "pf-btn pf-btn-secondary pf-btn-block",
+        "attrs": {
+          "data-test": "btn-primary-9jFKRfKPqsXX7yz"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Services",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-services"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Integrations",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-integrations"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-shipping"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-policies"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "classes": "pf-p-0 pf-m-0 footer-link cookie-first-trigger",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Feature requests",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-feature-requests"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-blog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "FAQ",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-faq"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-recent-updates"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printful Help Center",
+        "classes": "pf-zendesk-chat pf-position-relative pf-cursor-pointer pf-d-flex",
+        "attrs": {
+          "id": "pf-zendesk-chat",
+          "type": "button"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "03-ajout-produit",
+    "url": "https://www.printful.com/dashboard/product-templates",
+    "quoi": "les gabarits, s’il y en a",
+    "urlFinale": "https://www.printful.com/dashboard/product-templates",
+    "titre": "My products | Printful",
+    "interactifs": [
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-text-ellipsis pf-px-48",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-custom-control-input",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "classes": "header__link dropdown-toggle pf-btn-unstyled pf-d-md-flex",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "classes": "header__link customer-notifications__icon dropdown-toggle pf-px-0",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "classes": "dropdown-toggle header__link pf-d-md-flex pf-flex-column",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "New order",
+        "classes": "pf-btn pf-btn-primary pf-d-none pf-d-md-block",
+        "attrs": {
+          "data-test": "new-order-QWpKc8PEToXxD5Z"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "sidebar__logo-wrapper pf-d-flex pf-align-items-center pf-px-24",
+        "attrs": {
+          "data-test": "logo-hPqJQfxownT7aiA"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "sidebar__collapse-toggle pf-d-flex pf-p-4 pf-align-items-center",
+        "attrs": {
+          "data-testid": "dashboard-sidebar-desktop--more-toggle",
+          "aria-label": "Collapse sidebar"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Home"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Orders"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Product catalog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "My products"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "Stores"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-position-absolute sidebar__link--href outside-click-sidebar",
+        "attrs": {
+          "aria-label": "More"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Create product",
+        "classes": "pf-btn pf-btn-primary",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Product templates",
+        "classes": "mvp-link pf-py-8 pf-px-12 pf-rounded",
+        "attrs": {
+          "id": "unpublished"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Published",
+        "classes": "mvp-link pf-py-8 pf-px-12 pf-rounded",
+        "attrs": {
+          "id": "published"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Create product",
+        "classes": "pf-btn pf-btn-primary pf-mt-32 pf-w-100",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Knit Beanie | Otto Cap 82-480"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Knit Beanie | Otto Cap 82-480",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Unisex Crew Neck Sweatshirt | Gildan 18000"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Unisex Crew Neck Sweatshirt | Gildan 18000",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Classic Dad Hat | Yupoong 6245CM"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Classic Dad Hat | Yupoong 6245CM",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Black Glossy Mug"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Black Glossy Mug",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Kiss-Cut Stickers"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Kiss-Cut Stickers",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Eco-friendly",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Eco Tote Bag | Econscious EC8000"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Eco Tote Bag | Econscious EC8000",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Unisex Premium Pullover Hoodie | Cotton Heritage M2580"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Unisex Premium Pullover Hoodie | Cotton Heritage M2580",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "White Ceramic Mug with Color Inside"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "White Ceramic Mug with Color Inside",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Under Armour® Dad Hat"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Under Armour® Dad Hat",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Men's Heavyweight Long Sleeve T-Shirt | Cotton Heritage MC1186"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Men's Heavyweight Long Sleeve T-Shirt | Cotton Heritage MC1186",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Women's Heavyweight Garment Dye Tee | Bella + Canvas 6110GD"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Women's Heavyweight Garment Dye Tee | Bella + Canvas 6110GD",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Adidas Fundamental Alliance Cap | AH607"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Adidas Fundamental Alliance Cap | AH607",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Women's Luxe fitted tee | TriDri TD653"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Women's Luxe fitted tee | TriDri TD653",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Unisex Garment-Dyed Heavyweight Cotton Tee | American Apparel 1301GD"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Unisex Garment-Dyed Heavyweight Cotton Tee | American Apparel 1301GD",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "pf-d-block pf-position-relative pf-mb-12 catalog-product-card__image",
+        "attrs": {
+          "aria-label": "Unisex Oversized Boxy Tee | Bella+Canvas 3010"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "catalog-product-card__favorites pf-bg-white pf-rounded-circle pf-px-4",
+        "attrs": {
+          "aria-label": "Add to favorites"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Unisex Oversized Boxy Tee | Bella+Canvas 3010",
+        "classes": "pf-mb-8 pf-m-0 pf-ui-body pf-text-gray-700",
+        "attrs": {}
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "splide__arrow splide__arrow--prev",
+        "attrs": {
+          "aria-label": "Previous slide"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "splide__pagination__page is-active",
+        "attrs": {
+          "type": "button",
+          "role": "tab",
+          "aria-label": "Go to page 1"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "splide__pagination__page",
+        "attrs": {
+          "type": "button",
+          "role": "tab",
+          "aria-label": "Go to page 2"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "splide__pagination__page",
+        "attrs": {
+          "type": "button",
+          "role": "tab",
+          "aria-label": "Go to page 3"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "splide__pagination__page",
+        "attrs": {
+          "type": "button",
+          "role": "tab",
+          "aria-label": "Go to page 4"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "splide__arrow splide__arrow--next",
+        "attrs": {
+          "aria-label": "Next slide"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Services",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-services"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Integrations",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-integrations"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-shipping"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-policies"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "classes": "pf-p-0 pf-m-0 footer-link cookie-first-trigger",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Feature requests",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-feature-requests"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-blog"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "FAQ",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-faq"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "classes": "pf-p-0 pf-m-0 footer-link",
+        "attrs": {
+          "id": "footer-link-recent-updates"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Printful Help Center",
+        "classes": "pf-zendesk-chat pf-position-relative pf-cursor-pointer pf-d-flex",
+        "attrs": {
+          "id": "pf-zendesk-chat",
+          "type": "button"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "04-catalogue",
+    "url": "https://www.printful.com/dashboard/catalog",
+    "quoi": "la recherche de blank, on y cherchera Gildan 18600",
+    "urlFinale": "https://www.printful.com/dashboard/catalog",
+    "titre": "Page not found | 404",
+    "interactifs": [
+      {
+        "tag": "a",
+        "texte": "Buying in bulk? Orders $500+ ship free: FREESHIPPING",
+        "classes": "pf-bold color_dark-blue",
+        "attrs": {
+          "id": "js--top-banner-message"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "pf-d-none pf-ml-12 pf-btn-unstyled pf-d-flex",
+        "attrs": {
+          "id": "js--top-banner-tooltip",
+          "type": "button",
+          "data-toggle": "tooltip",
+          "data-trigger": "click hover",
+          "data-placement": "bottom",
+          "aria-label": "More information",
+          "data-original-title": "Taxes are calculated after the coupon is applied. The discount code only applies"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "country-banner__close-button pf-btn-unstyled pf-d-flex",
+        "attrs": {
+          "id": "js--close-action",
+          "aria-label": "Close top banner"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "site-header__logo",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-text-ellipsis pf-px-48",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-custom-control-input",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "classes": "header__link dropdown-toggle pf-btn-unstyled pf-d-md-flex",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "classes": "header__link customer-notifications__icon dropdown-toggle pf-px-0",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "classes": "dropdown-toggle header__link pf-d-md-flex pf-flex-column",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Products",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-1"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sell with Printful",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-5310"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design creation",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4023"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Resources",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4025"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Pricing",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4028"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Enterprise",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-1551"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Take me home",
+        "classes": "pf-btn pf-btn-secondary",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Print on demand",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-print-on-demand",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Connect your store",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-connect-your-store",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sell online without inventory",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sell-online-without-inventory",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Grow your enterprise",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-grow-your-enterprise",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Product catalog",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-product-catalog",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design your own",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-design-your-own",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Quality",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-quality",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design Maker",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-design-maker",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Hire an expert",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-hire-an-expert",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-blog",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Printful Academy",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-printful-academy",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Newsroom",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-newsroom",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Help Center",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-help-center",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-shipping",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Returns",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-returns",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-policies",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Accessibility Statement",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-accessibility-statement",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Gift Cards",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-gift-cards",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sitemap",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sitemap",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Our story",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-our-story",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Contacts",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-contacts",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Legal Imprint",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-legal-imprint",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sustainability & Responsibility",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sustainability-amp-responsibility",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Affiliate Program",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-affiliate-program",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Referral Program",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-referral-program",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Careers",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-careers",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Privacy Policy",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-privacy-policy",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "classes": "footer-link cookie-first-trigger",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "IRS Form 8937",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-irs-form-8937",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-recent-updates",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "22 Trending Products to Sell Online",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-22-trending-products-to-sell-online",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Top 8 Quality T-Shirts for Printing",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-top-8-quality-t-shirts-for-printing",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "How to Start a Clothing Brand in 2025",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-how-to-start-a-clothing-brand-in-2025",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "How to Start a POD Business in 9 Steps",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-how-to-start-a-pod-business-in-9-steps",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "14 Emerging Print-on-Demand Business Ideas",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-14-emerging-print-on-demand-business-ideas",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "36 Company Swag Ideas to Make Your Brand Stand Out",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-36-company-swag-ideas-to-make-your-brand-stand-out",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "05-recherche-blank",
+    "quoi": "résultat de recherche pour un blank précis",
+    "urlFinale": "https://www.printful.com/dashboard/catalog?search=Gildan%2018600",
+    "titre": "Page not found | 404",
+    "interactifs": [
+      {
+        "tag": "a",
+        "texte": "Buying in bulk? Orders $500+ ship free: FREESHIPPING",
+        "classes": "pf-bold color_dark-blue",
+        "attrs": {
+          "id": "js--top-banner-message"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "pf-d-none pf-ml-12 pf-btn-unstyled pf-d-flex",
+        "attrs": {
+          "id": "js--top-banner-tooltip",
+          "type": "button",
+          "data-toggle": "tooltip",
+          "data-trigger": "click hover",
+          "data-placement": "bottom",
+          "aria-label": "More information",
+          "data-original-title": "Taxes are calculated after the coupon is applied. The discount code only applies"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "country-banner__close-button pf-btn-unstyled pf-d-flex",
+        "attrs": {
+          "id": "js--close-action",
+          "aria-label": "Close top banner"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "site-header__logo",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-text-ellipsis pf-px-48",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-custom-control-input",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "classes": "header__link dropdown-toggle pf-btn-unstyled pf-d-md-flex",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "classes": "header__link customer-notifications__icon dropdown-toggle pf-px-0",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "classes": "dropdown-toggle header__link pf-d-md-flex pf-flex-column",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Products",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-1"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sell with Printful",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-5310"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design creation",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4023"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Resources",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4025"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Pricing",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4028"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Enterprise",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-1551"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Take me home",
+        "classes": "pf-btn pf-btn-secondary",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Print on demand",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-print-on-demand",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Connect your store",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-connect-your-store",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sell online without inventory",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sell-online-without-inventory",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Grow your enterprise",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-grow-your-enterprise",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Product catalog",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-product-catalog",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design your own",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-design-your-own",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Quality",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-quality",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design Maker",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-design-maker",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Hire an expert",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-hire-an-expert",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-blog",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Printful Academy",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-printful-academy",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Newsroom",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-newsroom",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Help Center",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-help-center",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-shipping",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Returns",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-returns",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-policies",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Accessibility Statement",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-accessibility-statement",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Gift Cards",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-gift-cards",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sitemap",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sitemap",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Our story",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-our-story",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Contacts",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-contacts",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Legal Imprint",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-legal-imprint",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sustainability & Responsibility",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sustainability-amp-responsibility",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Affiliate Program",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-affiliate-program",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Referral Program",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-referral-program",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Careers",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-careers",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Privacy Policy",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-privacy-policy",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "classes": "footer-link cookie-first-trigger",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "IRS Form 8937",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-irs-form-8937",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-recent-updates",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "22 Trending Products to Sell Online",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-22-trending-products-to-sell-online",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Top 8 Quality T-Shirts for Printing",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-top-8-quality-t-shirts-for-printing",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "How to Start a Clothing Brand in 2025",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-how-to-start-a-clothing-brand-in-2025",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "How to Start a POD Business in 9 Steps",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-how-to-start-a-pod-business-in-9-steps",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "14 Emerging Print-on-Demand Business Ideas",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-14-emerging-print-on-demand-business-ideas",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "36 Company Swag Ideas to Make Your Brand Stand Out",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-36-company-swag-ideas-to-make-your-brand-stand-out",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      }
+    ]
+  },
+  {
+    "cle": "06-rattachement",
+    "quoi": "écran de rattachement à un produit Shopify existant, atteint à la main",
+    "urlFinale": "https://www.printful.com/dashboard/catalog?search=Gildan%2018600",
+    "titre": "Page not found | 404",
+    "interactifs": [
+      {
+        "tag": "a",
+        "texte": "Buying in bulk? Orders $500+ ship free: FREESHIPPING",
+        "classes": "pf-bold color_dark-blue",
+        "attrs": {
+          "id": "js--top-banner-message"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "pf-d-none pf-ml-12 pf-btn-unstyled pf-d-flex",
+        "attrs": {
+          "id": "js--top-banner-tooltip",
+          "type": "button",
+          "data-toggle": "tooltip",
+          "data-trigger": "click hover",
+          "data-placement": "bottom",
+          "aria-label": "More information",
+          "data-original-title": "Taxes are calculated after the coupon is applied. The discount code only applies"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "",
+        "classes": "country-banner__close-button pf-btn-unstyled pf-d-flex",
+        "attrs": {
+          "id": "js--close-action",
+          "aria-label": "Close top banner"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "site-header__logo",
+        "attrs": {}
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-text-ellipsis pf-px-48",
+        "attrs": {
+          "id": "sitewide-search-input",
+          "type": "search",
+          "placeholder": "Search Printful"
+        }
+      },
+      {
+        "tag": "input",
+        "texte": "",
+        "classes": "pf-custom-control-input",
+        "attrs": {
+          "id": "hidden-sitewide-search-input",
+          "aria-label": "Search Printful"
+        }
+      },
+      {
+        "tag": "button",
+        "texte": "Preferences",
+        "classes": "header__link dropdown-toggle pf-btn-unstyled pf-d-md-flex",
+        "attrs": {
+          "type": "button",
+          "data-toggle": "dropdown",
+          "data-test": "preferences-link-h0cguh0FXTIG6MD",
+          "aria-label": "Show preferences"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Notifications",
+        "classes": "header__link customer-notifications__icon dropdown-toggle pf-px-0",
+        "attrs": {
+          "id": "toggle-customer-notifications",
+          "data-toggle": "dropdown",
+          "aria-label": "Notifications",
+          "data-test": "btn-MhHAtTNfXTetQ6N"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "valentin",
+        "classes": "dropdown-toggle header__link pf-d-md-flex pf-flex-column",
+        "attrs": {
+          "data-toggle": "dropdown",
+          "data-test": "dropdown-W1V4q6TC1MPiyaF"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Products",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-1"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sell with Printful",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-5310"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design creation",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4023"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Resources",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4025"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Pricing",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-4028"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Enterprise",
+        "classes": "pf-mx-16 pf-mx-md-0 pf-mr-md-16 pf-py-12",
+        "attrs": {
+          "id": "navigation-menu-1551"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Take me home",
+        "classes": "pf-btn pf-btn-secondary",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "Print on demand",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-print-on-demand",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Connect your store",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-connect-your-store",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sell online without inventory",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sell-online-without-inventory",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Grow your enterprise",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-grow-your-enterprise",
+          "data-main-category": "Sell with Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Product catalog",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-product-catalog",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design your own",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-design-your-own",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Quality",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-quality",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Design Maker",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-design-maker",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Hire an expert",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-hire-an-expert",
+          "data-main-category": "Create custom products "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Blog",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-blog",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Printful Academy",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-printful-academy",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Newsroom",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-newsroom",
+          "data-main-category": "Explore "
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Help Center",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-help-center",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Shipping",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-shipping",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Returns",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-returns",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Policies",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-policies",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Accessibility Statement",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-accessibility-statement",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Gift Cards",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-gift-cards",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sitemap",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sitemap",
+          "data-main-category": "Resources"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Our story",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-our-story",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Contacts",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-contacts",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Legal Imprint",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-legal-imprint",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Sustainability & Responsibility",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-sustainability-amp-responsibility",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Affiliate Program",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-affiliate-program",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Referral Program",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-referral-program",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Careers",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-careers",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Privacy Policy",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-privacy-policy",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Your Privacy Choices",
+        "classes": "footer-link cookie-first-trigger",
+        "attrs": {
+          "id": "footer-link-your-privacy-choices",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "IRS Form 8937",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-irs-form-8937",
+          "data-main-category": "About Printful"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Recent updates",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-recent-updates",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "22 Trending Products to Sell Online",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-22-trending-products-to-sell-online",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "Top 8 Quality T-Shirts for Printing",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-top-8-quality-t-shirts-for-printing",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "How to Start a Clothing Brand in 2025",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-how-to-start-a-clothing-brand-in-2025",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "How to Start a POD Business in 9 Steps",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-how-to-start-a-pod-business-in-9-steps",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "14 Emerging Print-on-Demand Business Ideas",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-14-emerging-print-on-demand-business-ideas",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "36 Company Swag Ideas to Make Your Brand Stand Out",
+        "classes": "footer-link",
+        "attrs": {
+          "id": "footer-link-36-company-swag-ideas-to-make-your-brand-stand-out",
+          "data-main-category": "Latest updates"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {}
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Instagram"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Facebook"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Youtube"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "LinkedIn"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "X"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "Pinterest"
+        }
+      },
+      {
+        "tag": "a",
+        "texte": "",
+        "classes": "",
+        "attrs": {
+          "aria-label": "TikTok"
+        }
+      }
+    ]
+  }
+]
