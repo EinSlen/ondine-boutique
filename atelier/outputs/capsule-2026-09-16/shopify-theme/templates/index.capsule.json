@@ -4,8 +4,8 @@
     "capsule": {
       "type": "capsule-home",
       "settings": {
-        "women_image": "shopify://shop_images/capsule-femme-concept-2026-09-16.png",
-        "men_image": "shopify://shop_images/capsule-homme-concept-2026-09-16.png"
+        "hero_image": "shopify://shop_images/capsule-editorial-hero-v2.png",
+        "pieces_image": "shopify://shop_images/capsule-editorial-pieces-v2.png"
       }
     }
   },
