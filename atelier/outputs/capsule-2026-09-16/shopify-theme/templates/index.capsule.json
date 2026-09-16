@@ -1,0 +1,15 @@
+{
+  "layout": "capsule",
+  "sections": {
+    "capsule": {
+      "type": "capsule-home",
+      "settings": {
+        "women_image": "shopify://shop_images/capsule-femme-concept-2026-09-16.png",
+        "men_image": "shopify://shop_images/capsule-homme-concept-2026-09-16.png"
+      }
+    }
+  },
+  "order": [
+    "capsule"
+  ]
+}
