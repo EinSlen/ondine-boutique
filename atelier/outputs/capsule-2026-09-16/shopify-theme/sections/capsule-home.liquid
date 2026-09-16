@@ -1,0 +1,49 @@
+<div class="capsule">
+  <header class="capsule-nav">
+    <a class="capsule-wordmark" href="#collection">{{ 'capsule.universe' | t }}</a>
+    <nav aria-label="{{ 'capsule.navigation' | t }}"><a href="#femme">{{ 'capsule.women' | t }}</a><a href="#homme">{{ 'capsule.men' | t }}</a></nav>
+    <span class="capsule-status">{{ 'capsule.soon' | t }}</span>
+  </header>
+  <main id="collection">
+    <div class="capsule-intro">
+      <p class="capsule-kicker">{{ 'capsule.eyebrow' | t }}</p>
+      <h1>{{ section.settings.heading | escape | newline_to_br }}</h1>
+      <div class="capsule-intro-bottom"><p>{{ section.settings.intro | escape }}</p><a href="#femme">{{ 'capsule.explore' | t }} <span aria-hidden="true">↘</span></a></div>
+    </div>
+    <section id="femme" class="capsule-chapter">
+      <div class="capsule-chapter-title"><span>01</span><h2>{{ 'capsule.women' | t }}</h2><p>{{ section.settings.women_text | escape }}</p></div>
+      {% if section.settings.women_image != blank %}
+        {{ section.settings.women_image | image_url: width: 2000 | image_tag: loading: 'eager', widths: '480,750,1100,1500,2000', sizes: '(min-width: 1200px) 1120px, 94vw', class: 'capsule-board' }}
+      {% endif %}
+    </section>
+    <section id="homme" class="capsule-chapter capsule-men">
+      <div class="capsule-chapter-title"><span>02</span><h2>{{ 'capsule.men' | t }}</h2><p>{{ section.settings.men_text | escape }}</p></div>
+      {% if section.settings.men_image != blank %}
+        {{ section.settings.men_image | image_url: width: 2000 | image_tag: loading: 'lazy', widths: '480,750,1100,1500,2000', sizes: '(min-width: 1200px) 1120px, 94vw', class: 'capsule-board' }}
+      {% endif %}
+    </section>
+    <div class="capsule-notice"><p>{{ 'capsule.preview' | t }}</p><p>{{ 'capsule.concepts' | t }}</p></div>
+  </main>
+  <footer class="capsule-footer"><span>{{ 'capsule.universe' | t }}</span><a href="#collection">{{ 'capsule.top' | t }} ↑</a></footer>
+</div>
+{% stylesheet %}
+html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#f4f0e9;color:#35251f}.capsule{font-family:Arial,Helvetica,sans-serif}.capsule *{box-sizing:border-box}.capsule a{color:inherit;text-decoration:none}.capsule a:focus-visible{outline:2px solid #713347;outline-offset:6px}.capsule-nav{padding:24px 4vw;border-bottom:1px solid #35251f33;display:flex;align-items:center;justify-content:space-between;gap:24px}.capsule-wordmark{font-family:Georgia,serif;font-size:23px;font-style:italic}.capsule-nav nav{display:flex;gap:28px;font-size:13px}.capsule-status,.capsule-kicker{font-size:10px;letter-spacing:.16em;text-transform:uppercase}.capsule-status{border:1px solid #35251f55;border-radius:30px;padding:10px 14px}.capsule-intro{padding:75px 7vw 65px;max-width:1500px;margin:auto}.capsule-kicker{margin:0 0 22px}.capsule h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(48px,7.2vw,110px);line-height:1.02;letter-spacing:-.055em;margin:0 0 34px;max-width:1050px}.capsule-intro-bottom{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}.capsule-intro-bottom p{font-size:15px;line-height:1.7;max-width:390px;margin:0}.capsule-intro-bottom a{font-size:12px;border-bottom:1px solid;padding-bottom:8px;white-space:nowrap}.capsule-intro-bottom a span{margin-left:30px}.capsule-chapter{padding:40px 4vw 65px;max-width:1250px;margin:0 auto;border-top:1px solid #35251f33}.capsule-chapter-title{display:grid;grid-template-columns:35px 1fr 280px;gap:15px;align-items:center;margin-bottom:28px}.capsule-chapter-title>span{font-size:11px}.capsule h2{font-family:Georgia,serif;font-size:43px;font-weight:400;margin:0;letter-spacing:-.04em}.capsule-chapter-title p{font-size:12px;line-height:1.6;margin:0}.capsule-board{display:block;width:100%;height:auto;border-radius:2px}.capsule-notice{text-align:center;padding:40px 24px 65px}.capsule-notice p:first-child{font-family:Georgia,serif;font-size:28px;margin:0 0 12px}.capsule-notice p:last-child{font-size:12px;line-height:1.7;max-width:500px;margin:auto;color:#685950}.capsule-footer{border-top:1px solid #35251f33;padding:25px 4vw;display:flex;justify-content:space-between;font-size:11px}@media(max-width:650px){.capsule-nav{padding:20px 5vw;flex-wrap:wrap;gap:15px}.capsule-wordmark{font-size:21px}.capsule-status{display:none}.capsule-nav nav{gap:20px}.capsule-intro{padding:50px 5vw}.capsule-intro-bottom{align-items:flex-start;flex-direction:column}.capsule-chapter{padding:25px 3vw 35px}.capsule-chapter-title{grid-template-columns:24px 1fr}.capsule-chapter-title p{grid-column:2}.capsule h2{font-size:35px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "Collection homme & femme",
+  "settings": [
+    {"type":"textarea","id":"heading","label":"Titre","default":"Mêmes nuances.\nChacun son allure."},
+    {"type":"textarea","id":"intro","label":"Introduction","default":"Chocolat, bleu ciel et bordeaux. Des lignes près du corps, des rayures fines, des pièces à superposer."},
+    {"type":"image_picker","id":"women_image","label":"Planche femme"},
+    {"type":"textarea","id":"women_text","label":"Texte femme","default":"Dentelle délicate, hauts ajustés et jeux de superpositions."},
+    {"type":"image_picker","id":"men_image","label":"Planche homme"},
+    {"type":"textarea","id":"men_text","label":"Texte homme","default":"Henleys, maille et rayures. La même palette, une allure masculine."}
+  ],
+  "locales": {
+    "fr":{"capsule":{"universe":"Homme & Femme","navigation":"Collections","women":"Femme","men":"Homme","soon":"Collection en préparation","eyebrow":"L'esprit des années 2000","explore":"Explorer la collection","preview":"Premiers aperçus.","concepts":"Visuels de création. Les modèles définitifs, matières et coupes seront précisés avant l’ouverture des ventes.","top":"Retour en haut"}},
+    "en":{"capsule":{"universe":"Homme & Femme","navigation":"Collections","women":"Women","men":"Men","soon":"Collection in preparation","eyebrow":"A 2000s spirit","explore":"Explore the collection","preview":"A first look.","concepts":"Design concepts. Final garments, fabrics and fits will be specified before sales open.","top":"Back to top"}}
+  },
+  "presets":[{"name":"Collection homme & femme"}]
+}
+{% endschema %}
