@@ -1,0 +1,15 @@
+{
+  "layout": "capsule",
+  "sections": {
+    "capsule": {
+      "type": "capsule-home",
+      "settings": {
+        "hero_image": "shopify://shop_images/capsule-editorial-hero-v2.png",
+        "pieces_image": "shopify://shop_images/capsule-editorial-pieces-v2.png"
+      }
+    }
+  },
+  "order": [
+    "capsule"
+  ]
+}
