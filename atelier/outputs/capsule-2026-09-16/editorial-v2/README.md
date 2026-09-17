@@ -8,7 +8,7 @@ Changements : grand visuel de campagne, huit cartes de pièces, filtres femme/ho
 
 Vérifications : les cinq fichiers principaux passent Theme Check, de même que le template d’accueil. L’option documentée OPT_OUT_INSTRUMENTATION=true empêche l’envoi du code au service de télémétrie. Le contrôle utilise les schémas embarqués lorsque le téléchargement de documentation n’est pas accessible.
 Dans Chrome, contrôle du visuel d’accueil, des huit images, absence de débordement horizontal à 1363 px, filtre Homme (4 pièces), ajout aux favoris (1 pièce), filtre favoris et ouverture de la fiche Henley chocolat.
-Responsive CSS prévu à 600 et 900 px. Le contrôle visuel par iframe de 390 px a été refusé par Shopify ; le fichier temporaire de vérification a été supprimé. Pas de validation sur iPhone réel.
+Responsive CSS prévu à 600 et 900 px. Le contrôle visuel par iframe de 390 px a été refusé par Shopify ; le fichier temporaire templates/index.capsule-check.liquid reste présent et sans lien depuis la boutique : themeFilesDelete a été bloqué par la politique du connecteur (suppression de thème interdite). Pas de validation sur iPhone réel.
 
 Images créées avec l’outil intégré de génération d’images à partir des deux planches de collection :
 - Hero : mise en scène éditoriale d’un portant, vêtements chocolat, ciel et bordeaux, sans modèle, texte ni marque. CDN : https://cdn.shopify.com/s/files/1/0981/1990/9704/files/capsule-editorial-hero-v2.png
