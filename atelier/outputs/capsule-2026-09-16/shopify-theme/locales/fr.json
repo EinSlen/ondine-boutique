@@ -148,7 +148,7 @@
     "view": "Voir la pièce",
     "save": "Garder en favoris",
     "remove": "Retirer des favoris",
-    "empty": "Aucun favori pour le moment. Touchez le cœur d’une pièce pour la retrouver ici.",
+    "empty": "Aucun favori pour le moment. Enregistrez une pièce pour la retrouver ici.",
     "concept": "Aperçu de collection",
     "close": "Fermer",
     "details": "Les détails",
@@ -193,5 +193,21 @@
     "desc_6": "Une maille chocolat portée sur un débardeur bleu ciel. Le contraste de deux nuances et un jeu de superposition.",
     "desc_7": "Rayures chocolat et crème, patte de boutonnage et manches longues. Une proposition simple à associer au denim.",
     "desc_8": "Un haut bordeaux à manches courtes porté sur des manches grises. Deux longueurs et deux couleurs qui se répondent."
+  },
+  "boutique": {
+    "contact": "Contact",
+    "contact_title": "On vous écoute.",
+    "contact_copy": "Une question sur une pièce ou sur la collection ? Écrivez-nous ici.",
+    "name": "Votre nom",
+    "email": "Votre adresse e-mail",
+    "message": "Votre message",
+    "send": "Envoyer le message",
+    "sent": "Votre message a bien été envoyé.",
+    "question": "Une question sur cette pièce ?",
+    "concept_image": "Visuel de création généré — modèle en développement.",
+    "size_title": "Coupe et tailles",
+    "size_copy": "Le guide des mesures et les tailles disponibles seront ajoutés après validation du modèle définitif.",
+    "delivery_title": "Livraison et retours",
+    "related": "À associer"
   }
 }
