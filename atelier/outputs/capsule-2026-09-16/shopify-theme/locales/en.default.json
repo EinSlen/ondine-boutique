@@ -148,7 +148,7 @@
     "view": "View piece",
     "save": "Save to favourites",
     "remove": "Remove from favourites",
-    "empty": "No saved pieces yet. Tap a heart to find it here.",
+    "empty": "No favourites yet. Save a piece to find it here.",
     "concept": "Collection preview",
     "close": "Close",
     "details": "The details",
@@ -193,5 +193,21 @@
     "desc_6": "Chocolate knitwear over a sky-blue tank. Two shades and a play on layers.",
     "desc_7": "Chocolate and cream stripes, a button placket and long sleeves.",
     "desc_8": "A short-sleeve burgundy henley over grey long sleeves. Two lengths and two shades."
+  },
+  "boutique": {
+    "contact": "Contact",
+    "contact_title": "We’re listening.",
+    "contact_copy": "A question about a piece or the collection? Write to us here.",
+    "name": "Your name",
+    "email": "Your email address",
+    "message": "Your message",
+    "send": "Send message",
+    "sent": "Your message has been sent.",
+    "question": "A question about this piece?",
+    "concept_image": "Generated design visual — garment in development.",
+    "size_title": "Fit and sizes",
+    "size_copy": "Measurements and available sizes will be added once the final garment is approved.",
+    "delivery_title": "Delivery and returns",
+    "related": "Wear it with"
   }
 }
