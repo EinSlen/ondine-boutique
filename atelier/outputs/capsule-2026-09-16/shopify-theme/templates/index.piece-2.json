@@ -1,0 +1,17 @@
+{
+  "layout": "capsule",
+  "sections": {
+    "capsule": {
+      "type": "capsule-home",
+      "settings": {
+        "hero_image": "shopify://shop_images/capsule-campagne-portee-v3.png",
+        "pieces_image": "shopify://shop_images/capsule-modeles-portes-v3.png",
+        "mode": "piece",
+        "piece": 2
+      }
+    }
+  },
+  "order": [
+    "capsule"
+  ]
+}
