@@ -1,0 +1,343 @@
+{
+  "checkedAt": "2026-09-24",
+  "store": "0rsiku-r1.myshopify.com",
+  "result": "blocked_not_synced",
+  "fulfillmentServices": [
+    {
+      "id": "gid://shopify/FulfillmentService/manual",
+      "serviceName": "Manuel",
+      "handle": "manual",
+      "inventoryManagement": false,
+      "location": {
+        "id": "gid://shopify/Location/111592538440",
+        "name": "Emplacement de la boutique",
+        "isActive": true,
+        "fulfillsOnlineOrders": true
+      }
+    },
+    {
+      "id": "gid://shopify/FulfillmentService/71547650376?id=true",
+      "serviceName": "Printful",
+      "handle": "printful",
+      "inventoryManagement": true,
+      "location": {
+        "id": "gid://shopify/Location/111595585864",
+        "name": "Printful",
+        "isActive": true,
+        "fulfillsOnlineOrders": true
+      }
+    },
+    {
+      "id": "gid://shopify/FulfillmentService/71568785736?id=true",
+      "serviceName": "Printify",
+      "handle": "printify",
+      "inventoryManagement": false,
+      "location": {
+        "id": "gid://shopify/Location/111740682568",
+        "name": "Printify",
+        "isActive": true,
+        "fulfillsOnlineOrders": true
+      }
+    }
+  ],
+  "products": [
+    {
+      "piece": 1,
+      "id": "gid://shopify/Product/10301814112584",
+      "title": "Henley dentelle",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132001374536",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769257509192",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NTA1MTU5MiwibGFzdF92YWx1ZSI6NTkyMzAzNzUwNTE1OTJ9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMTM3NDUzNiwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 2,
+      "id": "gid://shopify/Product/10301814178120",
+      "title": "Duo chocolat & ciel",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132001440072",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769257574728",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NTExNzEyOCwibGFzdF92YWx1ZSI6NTkyMzAzNzUxMTcxMjh9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMTQ0MDA3MiwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 3,
+      "id": "gid://shopify/Product/10301814276424",
+      "title": "Rayures près du corps",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132001669448",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769257804104",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NTM0NjUwNCwibGFzdF92YWx1ZSI6NTkyMzAzNzUzNDY1MDR9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMTY2OTQ0OCwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 4,
+      "id": "gid://shopify/Product/10301814309192",
+      "title": "Caraco bordeaux",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132001734984",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769257869640",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NTQxMjA0MCwibGFzdF92YWx1ZSI6NTkyMzAzNzU0MTIwNDB9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMTczNDk4NCwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 5,
+      "id": "gid://shopify/Product/10301814374728",
+      "title": "Henley chocolat",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132001800520",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769257935176",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NTQ3NzU3NiwibGFzdF92YWx1ZSI6NTkyMzAzNzU0Nzc1NzZ9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMTgwMDUyMCwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 6,
+      "id": "gid://shopify/Product/10301814440264",
+      "title": "Maille & ciel",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132002488648",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769258623304",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NjE2NTcwNCwibGFzdF92YWx1ZSI6NTkyMzAzNzYxNjU3MDR9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMjQ4ODY0OCwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 7,
+      "id": "gid://shopify/Product/10301814571336",
+      "title": "Henley à rayures",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132002718024",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769258852680",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NjM5NTA4MCwibGFzdF92YWx1ZSI6NTkyMzAzNzYzOTUwODB9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMjcxODAyNCwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    },
+    {
+      "piece": 8,
+      "id": "gid://shopify/Product/10301814636872",
+      "title": "Bordeaux en deux temps",
+      "status": "DRAFT",
+      "variants": {
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/54132002783560",
+            "sku": null,
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/55769258918216",
+              "tracked": false,
+              "inventoryLevels": {
+                "nodes": [
+                  {
+                    "location": {
+                      "id": "gid://shopify/Location/111592538440",
+                      "name": "Emplacement de la boutique"
+                    }
+                  }
+                ],
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "endCursor": "eyJsYXN0X2lkIjo1OTIzMDM3NjQ2MDYxNiwibGFzdF92YWx1ZSI6NTkyMzAzNzY0NjA2MTZ9"
+                }
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "eyJsYXN0X2lkIjo1NDEzMjAwMjc4MzU2MCwibGFzdF92YWx1ZSI6MX0="
+        }
+      }
+    }
+  ],
+  "blockers": [
+    "No verified supplier catalog/variant ID for these eight garment concepts.",
+    "Supplier account not authenticated. Printful Google sign-in returned 502 Bad Gateway / connection refused; fresh Printful page still showed Sign in.",
+    "No Printful/Printify connector found in plugin directory. Shopify access alone cannot configure supplier production."
+  ],
+  "mutationsPerformed": [],
+  "notes": [
+    "Do not assign a supplier location as a substitute for mapping a real catalog variant and production specifications.",
+    "Drafts retained. No orders, billing, shipping, publication or inventory changes."
+  ]
+}
