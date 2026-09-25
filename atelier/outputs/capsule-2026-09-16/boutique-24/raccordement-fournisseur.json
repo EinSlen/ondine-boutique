@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-24",
+  "checkedAt": "2026-09-25",
   "store": "0rsiku-r1.myshopify.com",
-  "result": "blocked_not_synced",
+  "result": "store_connected_garments_not_mapped",
   "fulfillmentServices": [
     {
       "id": "gid://shopify/FulfillmentService/manual",
@@ -331,13 +331,43 @@
     }
   ],
   "blockers": [
-    "No verified supplier catalog/variant ID for these eight garment concepts.",
-    "Supplier account not authenticated. Printful Google sign-in returned 502 Bad Gateway / connection refused; fresh Printful page still showed Sign in.",
-    "No Printful/Printify connector found in plugin directory. Shopify access alone cannot configure supplier production."
+    "No verified supplier catalog/variant IDs or production specifications for the eight garment concepts.",
+    "Global Shopify product import was rejected by automatic approval review because its scope could include the legacy catalog beyond the intended eight pieces. Dialog canceled; no import confirmed.",
+    "No exact matches found in the consulted Printful women's long-sleeve, tank-top and knitwear categories with USA selling-region default. This is not an exhaustive worldwide catalog assessment."
   ],
   "mutationsPerformed": [],
   "notes": [
     "Do not assign a supplier location as a substitute for mapping a real catalog variant and production specifications.",
-    "Drafts retained. No orders, billing, shipping, publication or inventory changes."
-  ]
+    "Drafts retained. No orders, billing, shipping, publication or inventory changes.",
+    "Authentication blocker resolved on 2026-09-25. Products and fulfillmentServices above remain the 2026-09-24 Shopify snapshot.",
+    "Connecting the store does not establish production readiness. Match real garments and variants, verify delivered cost and samples before enabling sale."
+  ],
+  "shopifySnapshotCheckedAt": "2026-09-24",
+  "printfulVerification": {
+    "checkedAt": "2026-09-25",
+    "authenticated": true,
+    "storeId": 18641093,
+    "legacyDisplayName": "dead2me",
+    "status": "Live",
+    "verifiedWebsite": "http://0rsiku-r1.myshopify.com/",
+    "publishedProductsView": "empty",
+    "storeSettingsChanged": false
+  },
+  "catalogReview": {
+    "checkedAt": "2026-09-25",
+    "region": "USA default; not changed",
+    "candidate": {
+      "piece": 6,
+      "name": "Unisex Knitted Cardigan",
+      "url": "https://www.printful.com/dashboard/custom/womens/knitwear/knitted-cardigan",
+      "exactMatch": false,
+      "basePriceDisplayedEUR": 44.75,
+      "franceEligible": true,
+      "franceShippingQuoteVerified": false,
+      "composition": "55% cotton / 45% polyester",
+      "sizes": "2XS–3XL",
+      "production": "7–12 business days Jan–Oct; 9–16 Nov–Dec",
+      "status": "Alternative only. No design saved, variant mapped or sample purchased."
+    }
+  }
 }
