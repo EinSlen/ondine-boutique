@@ -394,5 +394,43 @@
     "shopifyMutationsPerformed": [],
     "supplierContactsSent": 0,
     "samplesPurchased": 0
+  },
+  "launchPreparation": {
+    "checkedAt": "2026-09-26",
+    "primaryDomain": "0rsiku-r1.myshopify.com",
+    "customBrandDomain": "awaiting_user_brand_name",
+    "paymentsVerification": "API access denied: missing read_shopify_payments/read_shopify_payments_accounts; activation unknown",
+    "hoodie": {
+      "productId": "gid://shopify/Product/10304633635144",
+      "status": "DRAFT",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "color": "Noir",
+      "provisionalPriceEUR": 34.9,
+      "inventoryTracked": true,
+      "inventory": 0,
+      "supplierMapping": null,
+      "supplierUrl": "https://eprolo.com/app/product/I-Love-Milfs-Hoodie-Men-Women-Fashion-Hoodie",
+      "supplierBaseUSD": 5.97,
+      "franceShipping": {
+        "method": "YUN Standard",
+        "USD": 8.89,
+        "estimatedDays": "8–12",
+        "productPlusShippingUSD": 14.86,
+        "additionalEUTaxMinimumUSD": 3.5,
+        "processingBusinessDays": "2–3",
+        "source": "Public supplier calculator, France selected; indicative, not checkout quote"
+      },
+      "photo": "https://cdn.shopify.com/s/files/1/0981/1990/9704/files/hoodie-i-love-milfs-fournisseur.jpg?v=1790396018"
+    },
+    "supplierAuth": "Google option selected; sign-in success not verified",
+    "storePublished": false,
+    "domainPurchased": false
   }
 }
