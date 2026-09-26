@@ -369,5 +369,30 @@
       "production": "7–12 business days Jan–Oct; 9–16 Nov–Dec",
       "status": "Alternative only. No design saved, variant mapped or sample purchased."
     }
+  },
+  "sourcingReview": {
+    "checkedAt": "2026-09-26",
+    "reportPath": "atelier/outputs/capsule-2026-09-16/sourcing-2026-09-26.md",
+    "result": "existing_garment_candidates_found_not_approved_or_synced",
+    "prioritySupplier": "EPROLO",
+    "prioritySampleCandidates": [
+      1,
+      4,
+      5
+    ],
+    "secondaryCandidates": [
+      3,
+      8
+    ],
+    "unresolvedExactGarments": [
+      2,
+      6,
+      7
+    ],
+    "exactMatchesValidated": 0,
+    "deliveredFranceQuotesValidated": 0,
+    "shopifyMutationsPerformed": [],
+    "supplierContactsSent": 0,
+    "samplesPurchased": 0
   }
 }
