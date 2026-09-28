@@ -432,5 +432,24 @@
     "supplierAuth": "Google option selected; sign-in success not verified",
     "storePublished": false,
     "domainPurchased": false
+  },
+  "brandUpdate": {
+    "checkedAt": "2026-09-28",
+    "approvedName": "VELNUIT",
+    "productVendorsUpdated": 9,
+    "draftThemeId": "189335208264",
+    "themeLocalesUpdated": [
+      "fr.json",
+      "en.default.json"
+    ],
+    "domain": {
+      "requested": "velnuit.com",
+      "registrar": "Porkbun",
+      "observedStatus": "unavailable",
+      "purchased": false
+    },
+    "shopAdminName": "dead2me",
+    "shopAdminAccess": "login_required",
+    "published": false
   }
 }
