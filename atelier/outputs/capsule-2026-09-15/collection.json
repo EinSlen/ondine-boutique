@@ -1,0 +1,190 @@
+{
+  "project": "Ondine",
+  "date": "2026-09-15",
+  "baseCommit": "ffc0e34d34c29e0600ef7e699dd2266daf0e9fc6",
+  "brandApproved": false,
+  "collectionApproved": false,
+  "pieces": [
+    {
+      "id": "01",
+      "name": "Galop",
+      "category": "tee",
+      "view": "dos",
+      "board": "assets/01-hauts.png",
+      "design": "Deux chevaux dessinés marine et rouge oxyde.",
+      "candidate": "AS Colour 5082",
+      "candidateUrl": "https://www.printful.com/custom/mens/t-shirts/oversized-faded-t-shirt-ascolour-5082",
+      "sourceStatus": "mockup uniquement ; extraction isolée rejetée",
+      "open": [
+        "coloris et tailles compte",
+        "dessin séparé utilisable",
+        "gabarit dos",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "02",
+      "name": "Contrevent",
+      "category": "tee",
+      "view": "face",
+      "board": "assets/01-hauts.png",
+      "design": "Iris dessiné ivoire, lignes de vent et disque rouge.",
+      "candidate": "AS Colour 5082",
+      "candidateUrl": "https://www.printful.com/custom/mens/t-shirts/oversized-faded-t-shirt-ascolour-5082",
+      "sourceStatus": "mockup uniquement",
+      "open": [
+        "coloris et tailles compte",
+        "dessin séparé",
+        "gabarit face",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "03",
+      "name": "Galop",
+      "category": "hoodie",
+      "view": "face",
+      "board": "assets/01-hauts.png",
+      "design": "Paire de chevaux claire, impression plate sur la poitrine.",
+      "candidate": "AS Colour 5161",
+      "candidateUrl": "https://www.printful.com/custom/mens/hoodies/unisex-oversized-hoodie-as-colour-5161",
+      "sourceStatus": "mockup uniquement ; composition distincte du tee",
+      "open": [
+        "marine non confirmé sur la fiche publique",
+        "tailles compte",
+        "dessin séparé poitrine",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "04",
+      "name": "Rayure",
+      "category": "manches longues",
+      "view": "face",
+      "board": "assets/01-hauts.png",
+      "design": "Fines rayures marine/ivoire, col marine et iris rouge sur coton ample.",
+      "candidate": null,
+      "candidateUrl": null,
+      "sourceStatus": "mockup et module géométrique de rayures d'étude",
+      "open": [
+        "support coton ample rayé",
+        "col contrastant",
+        "dessin séparé iris",
+        "gabarits et raccords",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "05",
+      "name": "Ligne",
+      "category": "pantalon",
+      "view": "face",
+      "board": "assets/02-bas-accessoires.png",
+      "design": "Pantalon jersey ample ivoire, doubles rayures marine et taille élastiquée.",
+      "candidate": "Printful All-Over Print Unisex Cotton Wide-Leg Pants #309CO",
+      "candidateUrl": "https://www.printful.com/custom/mens/bottoms/all-over-print-unisex-cotton-wide-leg-pants",
+      "sourceStatus": "sources/motif-rayures.svg ; module de 20 mm, lignes de 0,45 mm, paramètres d'étude",
+      "open": [
+        "compte et livraison France",
+        "mesures et tombé",
+        "gabarits panneaux",
+        "raccords rayures",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "06",
+      "name": "Galop",
+      "category": "casquette",
+      "view": "trois-quarts",
+      "board": "assets/02-bas-accessoires.png",
+      "design": "Bordeaux et cheval clair simplifié.",
+      "candidate": "Otto Cap 18-1248",
+      "candidateUrl": "https://www.printful.com/custom/collections/bestsellers/vintage-cap-otto-cap-18-1248",
+      "sourceStatus": "simulation de broderie uniquement",
+      "open": [
+        "coloris Maroon dans le compte",
+        "dessin simplifié",
+        "zone et numérisation broderie",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "07",
+      "name": "Contour",
+      "category": "cagoule",
+      "view": "trois-quarts",
+      "board": "assets/02-bas-accessoires.png",
+      "design": "Cagoule tricotée marine avec ouverture visage et bordure bordeaux.",
+      "candidate": null,
+      "candidateUrl": null,
+      "sourceStatus": "mockup de construction uniquement",
+      "open": [
+        "fournisseur et support tricoté",
+        "composition matière",
+        "patron et mesures",
+        "personnalisation de la bordure",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    },
+    {
+      "id": "08",
+      "name": "Croissant",
+      "category": "boucles d'oreilles",
+      "view": "paire",
+      "board": "assets/02-bas-accessoires.png",
+      "design": "Petites créoles à pendentifs plats asymétriques en croissant, aspect argenté satiné.",
+      "candidate": null,
+      "candidateUrl": null,
+      "sourceStatus": "mockup uniquement",
+      "open": [
+        "fournisseur et SKU",
+        "formes personnalisables",
+        "alliage",
+        "attaches et dimensions",
+        "coût livré France"
+      ],
+      "creativeStatus": "proposition_non_validee",
+      "productionReady": false,
+      "supplierAccountConfirmed": false,
+      "shopifyProductId": null,
+      "price": null
+    }
+  ]
+}
+

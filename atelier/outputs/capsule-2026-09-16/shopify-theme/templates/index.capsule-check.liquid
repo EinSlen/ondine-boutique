@@ -1,0 +1,6 @@
+{% layout none %}
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>390 / 360 / 768</title>
+<style>body{margin:0;background:#ddd;font:14px Arial}nav{padding:10px;text-align:center}label{margin:0 12px}iframe{display:block;width:390px;height:844px;margin:auto;border:0;background:white}body:has(#small:checked) iframe{width:360px}body:has(#tablet:checked) iframe{width:768px}</style></head>
+<body><nav><label><input type="radio" name="width" id="mobile" checked>390 px</label><label><input type="radio" name="width" id="small">360 px</label><label><input type="radio" name="width" id="tablet">768 px</label></nav><iframe title="Collection" src="{{ routes.root_url }}?view=capsule&amp;pb=0"></iframe></body></html>

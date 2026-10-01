@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "studio": {
+      "type": "studio-home",
+      "settings": {
+        "eyebrow": "LE STUDIO / PREMIÈRE ÉTUDE",
+        "heading": "Call me\nlater.",
+        "intro": "<p>Pour les messages auxquels tu as répondu dans ta tête. Un téléphone rouge. Un cordon qui s’emmêle. Une idée à porter.</p>",
+        "product_image": "shopify://shop_images/call-me-later-tee-back-concept.png",
+        "worn_image": "shopify://shop_images/call-me-later-tee-worn-concept.png",
+        "story_heading": "J’ai répondu.\nDans ma tête.",
+        "story": "<p>On connaît tous ce message qu’on laisse de côté. Le sujet de cette pièce : ce petit décalage entre le monde qui appelle et l’envie de prendre son temps.</p><p>Un dessin pop sur une base écrue, pensé pour garder le reste de la tenue simple.</p>"
+      }
+    }
+  },
+  "order": [
+    "studio"
+  ]
+}
+

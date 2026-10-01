@@ -1,0 +1,22 @@
+<section class="sh-hero">
+  <div class="sh-hero__copy">
+    <p class="sh-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+    <h1>{{ section.settings.heading | escape | newline_to_br }}</h1>
+    <div class="sh-rte">{{ section.settings.text }}</div>
+    {% assign hero_link = section.settings.link | default: routes.all_products_collection_url %}
+    <a class="sh-button sh-button--light" href="{{ hero_link }}">{{ section.settings.button_label | escape }} <span aria-hidden="true">↗</span></a>
+    <p class="sh-hero__index">{{ section.settings.index | escape }}</p>
+  </div>
+  <div class="sh-hero__visual">
+    {% if section.settings.image != blank %}{{ section.settings.image | image_url: width: 2000 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '480, 750, 1100, 1500, 2000', sizes: '(max-width: 750px) 100vw, 64vw' }}{% else %}<div class="sh-hero__empty"><span aria-hidden="true">SH / 01</span><p>{{ 'general.image_pending' | t }}</p></div>{% endif %}
+    {% if section.settings.caption != blank %}<p class="sh-hero__caption">{{ section.settings.caption | escape }}</p>{% endif %}
+  </div>
+</section>
+{% stylesheet %}
+  .sh-hero{display:grid;grid-template-columns:minmax(0,36fr) minmax(0,64fr);min-height:min(720px,75vw)}.sh-hero__copy{background:var(--accent);color:var(--cream);padding:clamp(36px,5vw,90px) var(--gutter);display:flex;align-items:flex-start;flex-direction:column;justify-content:center}.sh-hero__copy .sh-eyebrow{font-size:10px;margin-bottom:50px}.sh-hero h1{font-size:clamp(48px,5.1vw,86px);line-height:.92;letter-spacing:-.065em}.sh-hero__copy .sh-rte{font-size:13px;line-height:1.7;max-width:28ch;margin-top:26px}.sh-hero__copy .sh-button{margin-top:30px}.sh-hero__index{font-size:10px;letter-spacing:.12em;margin-top:55px}.sh-hero__visual{position:relative;background:#e2dfd4;min-width:0;min-height:520px}.sh-hero__visual>img{width:100%;height:100%;object-fit:cover}.sh-hero__caption{position:absolute;bottom:20px;left:20px;right:20px;width:fit-content;max-width:calc(100% - 40px);background:var(--cream);color:var(--ink);padding:7px 10px;font-size:10px}.sh-hero__empty{height:100%;display:grid;align-content:center;justify-items:center;gap:24px;padding:30px;text-align:center}.sh-hero__empty>span{font-size:clamp(70px,10vw,180px);font-weight:900;letter-spacing:-.09em;color:var(--accent)}.sh-hero__empty>p{font-size:12px}
+  @media(max-width:1000px){.sh-hero{grid-template-columns:minmax(0,43fr) minmax(0,57fr)}.sh-hero__copy{padding:42px 28px}.sh-hero h1{font-size:clamp(42px,5.7vw,65px)}}
+  @media(max-width:750px){.sh-hero{grid-template-columns:1fr;min-height:0}.sh-hero__visual{grid-row:1;min-height:0;aspect-ratio:5/4}.sh-hero__copy{padding:34px var(--gutter) 40px}.sh-hero__copy .sh-eyebrow{margin-bottom:24px}.sh-hero h1{font-size:clamp(52px,12vw,80px)}.sh-hero__copy .sh-rte{max-width:42ch;margin-top:18px}.sh-hero__index{margin-top:30px}.sh-hero__empty>span{font-size:24vw}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.hero","settings":[{"type":"text","id":"eyebrow","label":"t:settings.eyebrow","default":"SIDE HABIT / VESTIAIRE 01"},{"type":"textarea","id":"heading","label":"t:settings.heading","default":"SORTIR\nDU CADRE."},{"type":"richtext","id":"text","label":"t:settings.text","default":"<p>Des volumes libres. Des couleurs qui se répondent. Le détail qui te ressemble.</p>"},{"type":"text","id":"button_label","label":"t:settings.button_label","default":"Explorer le vestiaire"},{"type":"url","id":"link","label":"t:settings.link"},{"type":"image_picker","id":"image","label":"t:settings.image"},{"type":"text","id":"caption","label":"t:settings.caption","default":"Direction visuelle — prototypes à valider"},{"type":"text","id":"index","label":"t:settings.collection_index","default":"EVERYDAY / OFF SCRIPT"}],"presets":[{"name":"t:sections.hero"}]}
+{% endschema %}

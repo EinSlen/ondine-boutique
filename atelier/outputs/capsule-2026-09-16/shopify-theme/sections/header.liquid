@@ -1,0 +1,24 @@
+<header class="sh-header">
+  {% if settings.showcase_mode %}<div class="sh-announcement sh-announcement--preview">{{ 'showcase.banner' | t }}</div>{% elsif section.settings.announcement != blank %}<div class="sh-announcement">{{ section.settings.announcement | escape }}</div>{% endif %}
+  <div class="sh-header__row sh-container">
+    {% if settings.showcase_mode %}
+      <a href="{{ routes.root_url }}" class="sh-wordmark">{{ section.settings.wordmark | escape }}</a>
+      <nav class="sh-header__desktop" aria-label="{{ 'navigation.main' | t }}"><a href="{{ routes.root_url }}#piece">{{ 'studio.nav_piece' | t }}</a><a href="{{ routes.root_url }}#porte">{{ 'studio.nav_idea' | t }}</a><a href="{{ routes.root_url }}#details">{{ 'studio.nav_details' | t }}</a></nav>
+      <div class="sh-header__actions"><a href="{{ routes.root_url }}#piece">{{ 'studio.edition_short' | t }} ↗</a></div>
+    {% else %}
+    <details class="sh-header__menu"><summary><span aria-hidden="true">☰</span><span class="visually-hidden">{{ 'navigation.menu' | t }}</span></summary><nav class="sh-header__panel" aria-label="{{ 'navigation.mobile' | t }}">{% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% if link.links != blank %}<ul>{% for child in link.links %}<li><a href="{{ child.url }}">{{ child.title | escape }}</a></li>{% endfor %}</ul>{% endif %}{% endfor %}{% else %}<a href="{{ routes.all_products_collection_url }}">{{ 'navigation.collection' | t }}</a>{% endif %}<a href="{{ routes.search_url }}">{{ 'navigation.search' | t }}</a></nav></details>
+    <a href="{{ routes.root_url }}" class="sh-wordmark" aria-label="{{ shop.name | escape }}">{{ section.settings.wordmark | escape }}</a>
+    <nav class="sh-header__desktop" aria-label="{{ 'navigation.main' | t }}">{% if section.settings.menu != blank %}{% for link in section.settings.menu.links limit: 5 %}<a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% endfor %}{% else %}<a href="{{ routes.all_products_collection_url }}">{{ 'navigation.collection' | t }}</a>{% endif %}</nav>
+    <div class="sh-header__actions"><a href="{{ routes.search_url }}" class="sh-header__search">{{ 'navigation.search' | t }}</a><a href="{{ routes.cart_url }}" aria-label="{{ 'navigation.cart_count' | t: count: cart.item_count }}">{{ 'navigation.cart' | t }} <span>({{ cart.item_count }})</span></a></div>
+    {% endif %}
+  </div>
+</header>
+{% stylesheet %}
+  .sh-header{position:relative;z-index:20;background:var(--cream);border-bottom:1px solid var(--line)}.sh-announcement{text-align:center;background:var(--ink);color:var(--cream);font-size:10px;letter-spacing:.06em;padding:8px 18px}.sh-announcement--preview{background:var(--butter);color:var(--ink)}.sh-header__row{display:flex;align-items:center;min-height:85px;gap:32px}.sh-header__row a:not(.sh-wordmark){text-decoration:none;font-size:11px}.sh-header__menu{display:none}.sh-header__desktop{display:flex;justify-content:center;align-items:center;gap:22px;flex:1}.sh-header__desktop a[aria-current=page]{text-decoration:underline}.sh-header__actions{display:flex;align-items:center;gap:22px;margin-left:auto}.sh-header__menu summary{list-style:none;padding:12px 3px;font-size:22px}.sh-header__menu summary::-webkit-details-marker{display:none}.sh-header__panel{position:absolute;inset:100% 0 auto;background:var(--cream);padding:32px var(--gutter) 50px;box-shadow:0 30px 60px #0002;max-height:calc(100dvh - 130px);overflow-y:auto;display:grid;gap:18px}.sh-header__panel>a{font-size:30px!important;font-weight:800;text-transform:uppercase}.sh-header__panel ul{list-style:none;padding:0;display:grid;gap:10px}.sh-header__panel a:hover{color:var(--accent)}
+  @media(max-width:1000px){.sh-header__desktop{gap:14px}.sh-header__row{gap:20px}.sh-header__search{display:none}}
+  @media(max-width:750px){.sh-header__desktop{display:none}.sh-header__menu{display:block}.sh-header__row{min-height:72px;gap:17px}.sh-header__actions{gap:12px}.sh-header__row .sh-wordmark{font-size:30px}.sh-header__row a:not(.sh-wordmark){font-size:10px}.sh-announcement{font-size:9px;letter-spacing:0}}
+  @media(max-width:360px){.sh-header__row{gap:12px}.sh-header__row .sh-wordmark{font-size:26px}}
+{% endstylesheet %}
+{% schema %}
+{"name":"t:sections.header","settings":[{"type":"text","id":"wordmark","label":"t:settings.wordmark","default":"SIDE HABIT"},{"type":"text","id":"announcement","label":"t:settings.announcement"},{"type":"link_list","id":"menu","label":"t:settings.menu"}]}
+{% endschema %}

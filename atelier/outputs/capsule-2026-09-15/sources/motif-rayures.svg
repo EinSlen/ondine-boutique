@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20mm" height="20mm" viewBox="0 0 20 20">
+  <title>Ondine — module de doubles rayures, étude du 15 septembre 2026</title>
+  <desc>Module vectoriel répétable de 20 mm. Fond ivoire proposé, deux lignes marine de 0,45 mm. Dessin de travail, pas un patron fournisseur validé.</desc>
+  <rect width="20" height="20" fill="#ede8dc"/>
+  <path d="M8.5 0V20 M10.5 0V20" fill="none" stroke="#233342" stroke-width="0.45"/>
+</svg>

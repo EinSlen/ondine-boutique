@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-15",
+  "expectedShop": "0rsiku-r1.myshopify.com",
+  "shopConnectionConfirmed": true,
+  "applicationsRead": {
+    "query": "query OndineSupplierApplications { appInstallations(first: 50) { nodes { id app { title handle } } pageInfo { hasNextPage endCursor } } }",
+    "validated": true,
+    "success": false,
+    "error": "access denied",
+    "path": "appInstallations"
+  },
+  "providerConnectorSearch": {
+    "query": "Printful Printify",
+    "returnedPlugins": 0
+  },
+  "providerAccountConfirmed": false,
+  "shopifyMutationsPerformed": false
+}
+

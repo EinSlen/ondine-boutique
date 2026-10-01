@@ -1,0 +1,66 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": "Header",
+    "footer": "Footer",
+    "hero": "Editorial hero",
+    "catalog": "Featured collection",
+    "story": "Brand story",
+    "lookbook": "Shoppable lookbook",
+    "look": "Look",
+    "collection": "Collection",
+    "product": "Product",
+    "detail": "Product details",
+    "cart": "Cart",
+    "search": "Search",
+    "page": "Page",
+    "contact": "Contact form",
+    "not_found": "404 page",
+    "colors": "Colors",
+    "launch": "Launch",
+    "password": "Password page",
+    "studio": "Product study — studio"
+  },
+  "settings": {
+    "wordmark": "Wordmark",
+    "show_masthead": "Show the opening wordmark",
+    "composition": "Photo composition",
+    "split": "Two editorial panels",
+    "inset": "Overlapping portrait",
+    "announcement": "Announcement",
+    "menu": "Menu",
+    "text": "Text",
+    "heading": "Heading",
+    "eyebrow": "Eyebrow",
+    "button_label": "Button label",
+    "link": "Product or collection link",
+    "image": "Image",
+    "secondary_image": "Second portrait image",
+    "secondary_link": "Second photo link",
+    "secondary_link_label": "Second photo link label",
+    "caption": "Image caption",
+    "collection_index": "Collection index",
+    "tone": "Image background",
+    "warm": "Warm",
+    "cool": "Cool",
+    "bottom_line": "Bottom line",
+    "collection": "Collection",
+    "count": "Product count",
+    "show_description": "Show description",
+    "page": "Page",
+    "color_cream": "Background",
+    "color_ink": "Text and buttons",
+    "color_accent": "Accent",
+    "color_butter": "Secondary color",
+    "showcase_mode": "Showcase mode (no buy button)",
+    "showcase_info": "Does not block other channels or direct cart access. Keep products in draft and check store protection before launch."
+  }
+}

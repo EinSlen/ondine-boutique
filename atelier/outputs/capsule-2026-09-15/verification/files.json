@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-15",
+  "checks": [
+    {
+      "check": "local HTML links and anchors",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "check": "8 distinct concepts, no asserted production availability or prices",
+      "pass": true
+    },
+    {
+      "check": "rayure SVG parses as XML",
+      "pass": true
+    }
+  ],
+  "images": [
+    {
+      "path": "assets/01-hauts.png",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB",
+      "hasAlpha": false,
+      "sha256": "fca434ef43983d9b59098fa468a55a38e2d3a3da232691de5ffc485495686a5b",
+      "use": "concept_board_only"
+    },
+    {
+      "path": "assets/02-bas-accessoires.png",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB",
+      "hasAlpha": false,
+      "sha256": "91e79a0a3b037ae5174b67f19249f4eb27e7614d7e647d7e0647f0f7d251af81",
+      "use": "concept_board_only"
+    },
+    {
+      "path": "verification/galop-extraction-rejetee.png",
+      "width": 1231,
+      "height": 1277,
+      "mode": "RGB",
+      "hasAlpha": false,
+      "sha256": "97c03ba56aaa192134e9322df9c6b07a42830e9d714fe62014ab9740d1429ec6",
+      "use": "rejected_for_production"
+    }
+  ],
+  "creativeApproval": false,
+  "productionReady": false,
+  "limitations": [
+    "No browser rendering test performed.",
+    "Both generated boards were visually inspected.",
+    "Extracted artwork is RGB with a painted checkerboard, not transparent.",
+    "Supplier account, templates and physical results are unverified."
+  ]
+}

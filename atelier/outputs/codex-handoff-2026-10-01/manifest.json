@@ -1,0 +1,443 @@
+{
+  "preparedAt": "2026-10-01",
+  "baseCommit": "539ef622657a0c7fb5cee1e5dbb7068640a0cf01",
+  "textFiles": [
+    {
+      "sourcePath": "AGENTS.md",
+      "targetPath": "AGENTS.md",
+      "status": "missing",
+      "bytes": 562,
+      "gitBlobSha": "87a5ecc1e32061f40c7d421f9cf732026e66a9bd"
+    },
+    {
+      "sourcePath": "CODEX_HANDOFF.md",
+      "targetPath": "CODEX_HANDOFF.md",
+      "status": "missing",
+      "bytes": 11616,
+      "gitBlobSha": "1ac6df9d88f4a721fd017c5cdf09453a8bb00ce5"
+    },
+    {
+      "sourcePath": "REPRISE-15-SEPTEMBRE.md",
+      "targetPath": "REPRISE-15-SEPTEMBRE.md",
+      "status": "missing",
+      "bytes": 1849,
+      "gitBlobSha": "e9653ee996b0c58684463e5097b424396f9f5615"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/FABRICATION.md",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/FABRICATION.md",
+      "status": "missing",
+      "bytes": 5800,
+      "gitBlobSha": "51674e3e83dc5d128130d83bc54dcfab9d29c77a"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/PROMPTS.md",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/PROMPTS.md",
+      "status": "missing",
+      "bytes": 8215,
+      "gitBlobSha": "1fe6b5b6ee3dc38d8bd6c638270bd76ef3bce37e"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/README.md",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/README.md",
+      "status": "missing",
+      "bytes": 5606,
+      "gitBlobSha": "aa5b201c7fc5635bf2433613e6b4c03d3a72dbf8"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/collection.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/collection.json",
+      "status": "missing",
+      "bytes": 6322,
+      "gitBlobSha": "c5a76fa3c26e6c67b993bd4cd0122d698cdbe956"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/index.html",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/index.html",
+      "status": "missing",
+      "bytes": 7965,
+      "gitBlobSha": "63d889b45c22351ceeac648d5d22e7435be03ad0"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/sources/motif-rayures.svg",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/sources/motif-rayures.svg",
+      "status": "missing",
+      "bytes": 471,
+      "gitBlobSha": "885361b1c9501e7b671337800f8d54c89c030b33"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/verification/access-check.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/verification/access-check.json",
+      "status": "missing",
+      "bytes": 567,
+      "gitBlobSha": "21de4354ad85c313ea41a81cef9902efc5a24d50"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/verification/files.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/verification/files.json",
+      "status": "missing",
+      "bytes": 1490,
+      "gitBlobSha": "f016e5e6691fb0f0b9f26590e57cdd93e191a9e7"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/boutique-24/catalogue.json",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/boutique-24/catalogue.json",
+      "status": "different",
+      "bytes": 6328,
+      "gitBlobSha": "789d85a5f20602f8fba984693c17a755d53bc897"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v2/index-before.json",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/editorial-v2/index-before.json",
+      "status": "different",
+      "bytes": 1246,
+      "gitBlobSha": "4ed6189a933e89db8452ca5623bcf6de13904ef9"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v3/README.md",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/editorial-v3/README.md",
+      "status": "different",
+      "bytes": 5350,
+      "gitBlobSha": "e8e38116d323189f0ba33950668f512076a12f4c"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v3/update.py",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/editorial-v3/update.py",
+      "status": "missing",
+      "bytes": 2748,
+      "gitBlobSha": "05af39e5283e71b2e2c74d2fe027924c4843ba50"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/config/settings_data.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/config/settings_data.json",
+      "status": "missing",
+      "bytes": 549,
+      "gitBlobSha": "ed05d7c09aaae0a1976308fc7419476c6173f480"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/config/settings_schema.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/config/settings_schema.json",
+      "status": "missing",
+      "bytes": 1173,
+      "gitBlobSha": "1fad5107bafb1c0a0509321a9abb69224bb4ce38"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/layout/password.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/layout/password.liquid",
+      "status": "missing",
+      "bytes": 344,
+      "gitBlobSha": "28df21f3969b0caad2a142a701d31b7f98e4a83b"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/layout/theme.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/layout/theme.liquid",
+      "status": "missing",
+      "bytes": 1441,
+      "gitBlobSha": "7957ea94b6b5aef439d05e3a0803c6c6e777296b"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/locales/en.default.json",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/shopify-theme/locales/en.default.json",
+      "status": "different",
+      "bytes": 9495,
+      "gitBlobSha": "ee89dfc9aece987a8d8201dcb82c5e8b58b6db48"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/locales/en.default.schema.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/locales/en.default.schema.json",
+      "status": "missing",
+      "bytes": 2158,
+      "gitBlobSha": "17ab918211acfbda938dbd8f7a76233f2549cf41"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/locales/fr.json",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/shopify-theme/locales/fr.json",
+      "status": "different",
+      "bytes": 10572,
+      "gitBlobSha": "8d45e5c420ffdcedb4774453ebad849bae059f92"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/locales/fr.schema.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/locales/fr.schema.json",
+      "status": "missing",
+      "bytes": 2360,
+      "gitBlobSha": "175ec39f45c5ce1e014c45ad6e0ec7174e655feb"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/catalog.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/catalog.liquid",
+      "status": "missing",
+      "bytes": 1809,
+      "gitBlobSha": "d18a4fb35af3d89f0832bffd93e960b6192d5998"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/footer-group.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/footer-group.json",
+      "status": "missing",
+      "bytes": 602,
+      "gitBlobSha": "c5c9b9488b518ac5356efa63d29e8826bb310207"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/footer.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/footer.liquid",
+      "status": "missing",
+      "bytes": 4394,
+      "gitBlobSha": "8859a8428e648f9b2d449e50c32d96f46f0f5515"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/header-group.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/header-group.json",
+      "status": "missing",
+      "bytes": 564,
+      "gitBlobSha": "65396e2d3e0307a61e803d043bf25b365e27a17d"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/header.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/header.liquid",
+      "status": "missing",
+      "bytes": 4665,
+      "gitBlobSha": "419a47d740a0d172e85c5d51f1c002055e30d417"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/hero.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/hero.liquid",
+      "status": "missing",
+      "bytes": 3848,
+      "gitBlobSha": "129362540c03c6e39ab285144e234126857abefb"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/lookbook.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/lookbook.liquid",
+      "status": "missing",
+      "bytes": 4735,
+      "gitBlobSha": "bf75a8d2630a550921df656a1d594695d2ea2592"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-404.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-404.liquid",
+      "status": "missing",
+      "bytes": 586,
+      "gitBlobSha": "feea95a825113113bf636a8315220afc294fd2ce"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-cart.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-cart.liquid",
+      "status": "missing",
+      "bytes": 5284,
+      "gitBlobSha": "158d79e6ffca26254515a8c1850ee60ebeb54a8d"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-collection.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-collection.liquid",
+      "status": "missing",
+      "bytes": 7126,
+      "gitBlobSha": "aa880397c1c3f8855ed4f47500980d3b70f7ab4c"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-contact.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-contact.liquid",
+      "status": "missing",
+      "bytes": 1383,
+      "gitBlobSha": "4d44b47c769487e669dd430369e53c4191bbd15f"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-page.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-page.liquid",
+      "status": "missing",
+      "bytes": 382,
+      "gitBlobSha": "0dacfd69aab8bbd9c56c5ffaae1029a956417ca9"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-password.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-password.liquid",
+      "status": "missing",
+      "bytes": 1051,
+      "gitBlobSha": "4c5adec898ab6cd160670fc538f05eff8d035118"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-product.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-product.liquid",
+      "status": "missing",
+      "bytes": 11442,
+      "gitBlobSha": "4f465fb8e89a50666d3305f7b9c6d805f84cf8cf"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-search.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/main-search.liquid",
+      "status": "missing",
+      "bytes": 1670,
+      "gitBlobSha": "0de41c213983da44dc16c7d189c3635d78e5079f"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/story.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/story.liquid",
+      "status": "missing",
+      "bytes": 2600,
+      "gitBlobSha": "acb9dda1c4d9e48c2143b16ac18123d4c3bc7de3"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/studio-home.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/sections/studio-home.liquid",
+      "status": "missing",
+      "bytes": 9397,
+      "gitBlobSha": "7a248144a2030ac94e1e26b9bd78ac19d41b5799"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/snippets/product-card.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/snippets/product-card.liquid",
+      "status": "missing",
+      "bytes": 2338,
+      "gitBlobSha": "8fda428960749d02962df79f627cfd14829d8191"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/snippets/studio-gate.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/snippets/studio-gate.liquid",
+      "status": "missing",
+      "bytes": 424,
+      "gitBlobSha": "8f3a7a98a27b068f2aef02f4ab8b31d33a0cf8e8"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/snippets/theme-base.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/snippets/theme-base.liquid",
+      "status": "missing",
+      "bytes": 4860,
+      "gitBlobSha": "1e0a2f20dc143b3939123b76ea489f4d800cb227"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/404.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/404.json",
+      "status": "missing",
+      "bytes": 483,
+      "gitBlobSha": "bbdbbc728154b13820fa3ad2401d8d33e7e33969"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/cart.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/cart.json",
+      "status": "missing",
+      "bytes": 484,
+      "gitBlobSha": "b51e3476469cf40539f8d17a7f6f5e335266a767"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/collection.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/collection.json",
+      "status": "missing",
+      "bytes": 490,
+      "gitBlobSha": "d99c6e1510d38c985518462f5c8a7dc6960f2d35"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/index.capsule-check.liquid",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/index.capsule-check.liquid",
+      "status": "missing",
+      "bytes": 843,
+      "gitBlobSha": "47dd9a0e1fb252a37c94131d5fd2cce0d93a90b4"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/index.capsule.json",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/shopify-theme/templates/index.capsule.json",
+      "status": "different",
+      "bytes": 679,
+      "gitBlobSha": "0f584af36a6ed39157a7039eaf92f55b8c2c0257"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/index.json",
+      "targetPath": "atelier/outputs/codex-handoff-2026-10-01/local-variants/atelier/outputs/capsule-2026-09-16/shopify-theme/templates/index.json",
+      "status": "different",
+      "bytes": 680,
+      "gitBlobSha": "74d973d16c3a0a6d8addd75ffbe70505a041cdcb"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/page.contact.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/page.contact.json",
+      "status": "missing",
+      "bytes": 487,
+      "gitBlobSha": "a221e19cff1306395065a3efbfecd0029abea229"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/page.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/page.json",
+      "status": "missing",
+      "bytes": 484,
+      "gitBlobSha": "bb973d3da89feddc85ab9be2d3c865ef0703dad4"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/password.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/password.json",
+      "status": "missing",
+      "bytes": 512,
+      "gitBlobSha": "1649ede8d726cbb033024b44fea4b2ccb0983875"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/product.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/product.json",
+      "status": "missing",
+      "bytes": 487,
+      "gitBlobSha": "a97ecd482d6a456b0aa760385aae6390401eceb9"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/search.json",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/shopify-theme/templates/search.json",
+      "status": "missing",
+      "bytes": 486,
+      "gitBlobSha": "12b9b344f37c90a5928ca05742d77e5e30262eb0"
+    }
+  ],
+  "binaryFiles": [
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/assets/01-hauts.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/assets/01-hauts.png",
+      "status": "missing",
+      "bytes": 2110277,
+      "gitBlobSha": "5720ad8003eca600c0e0c4a8495d69ff0100a6e6",
+      "transferStatus": "not_committed"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/assets/02-bas-accessoires.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/assets/02-bas-accessoires.png",
+      "status": "missing",
+      "bytes": 1779909,
+      "gitBlobSha": "e964b1072e92871cbd8fb0423c754ff0ef5d4867",
+      "transferStatus": "not_committed"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-15/verification/galop-extraction-rejetee.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-15/verification/galop-extraction-rejetee.png",
+      "status": "missing",
+      "bytes": 2528838,
+      "gitBlobSha": "69ce8b3380e2b59160232155d765b60b2a672ae7",
+      "transferStatus": "not_committed"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v2/assets/hero.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/editorial-v2/assets/hero.png",
+      "status": "missing",
+      "bytes": 282112,
+      "gitBlobSha": "a75e82e3b583c4acda99d15b1ce37379c455b7f7",
+      "transferStatus": "not_committed"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v2/assets/pieces.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/editorial-v2/assets/pieces.png",
+      "status": "missing",
+      "bytes": 79360,
+      "gitBlobSha": "9ef12b22f79e0139d73296782a469322dde376cf",
+      "transferStatus": "not_committed"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v3/assets/campagne-portee.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/editorial-v3/assets/campagne-portee.png",
+      "status": "missing",
+      "bytes": 2255331,
+      "gitBlobSha": "b57f1f6a201e16c68c8819361f91835fba28e1fe",
+      "transferStatus": "not_committed"
+    },
+    {
+      "sourcePath": "atelier/outputs/capsule-2026-09-16/editorial-v3/assets/modeles-portes.png",
+      "targetPath": "atelier/outputs/capsule-2026-09-16/editorial-v3/assets/modeles-portes.png",
+      "status": "missing",
+      "bytes": 2223435,
+      "gitBlobSha": "baaaf7c2b58835d4654ac3e11e1ad3acb531d958",
+      "transferStatus": "not_committed"
+    }
+  ],
+  "note": "Snapshot of local files; not a verified export of the live Shopify theme. Existing remote differences are retained, local variants saved separately."
+}
