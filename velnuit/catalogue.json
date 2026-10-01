@@ -1,0 +1,416 @@
+{
+  "verified_at": "2026-10-01",
+  "brand": "VELNUIT",
+  "supplier": "EPROLO",
+  "supplier_location_id": "gid://shopify/Location/112454959432",
+  "scope": "Neuf fiches VELNUIT, toutes en brouillon. État Shopify observé, pas une vérification du catalogue privé EPROLO.",
+  "products": [
+    {
+      "id": "gid://shopify/Product/10301814112584",
+      "handle": "henley-dentelle",
+      "title": "Henley dentelle",
+      "status": "DRAFT",
+      "description_html": "<p>Encolure arrondie, petits boutons et une touche de dentelle crème. Une silhouette ajustée dans une nuance chocolat.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "femme",
+        "piece-1",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132001374536",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814178120",
+      "handle": "duo-chocolat-ciel",
+      "title": "Duo chocolat & ciel",
+      "status": "DRAFT",
+      "description_html": "<p>Un boléro chocolat à nouer sur un caraco bleu ciel. Le contraste des couleurs et le petit motif floral font le détail.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "femme",
+        "piece-2",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132001440072",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814276424",
+      "handle": "rayures-pres-du-corps",
+      "title": "Rayures près du corps",
+      "status": "DRAFT",
+      "description_html": "<p>Des rayures fines chocolat et crème, une encolure dégagée et des manches longues. L’esprit des années 2000.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "femme",
+        "piece-3",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132001669448",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814309192",
+      "handle": "caraco-bordeaux",
+      "title": "Caraco bordeaux",
+      "status": "DRAFT",
+      "description_html": "<p>Une ligne fluide et des bordures en dentelle dans un bordeaux profond. À glisser sous une maille ou à porter seul.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "femme",
+        "piece-4",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132001734984",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814374728",
+      "handle": "henley-chocolat",
+      "title": "Henley chocolat",
+      "status": "DRAFT",
+      "description_html": "<p>Lignes côtelées, col boutonné et contraste crème au bord du vêtement. Une silhouette masculine près du corps.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "homme",
+        "piece-5",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132001800520",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814440264",
+      "handle": "maille-ciel",
+      "title": "Maille & ciel",
+      "status": "DRAFT",
+      "description_html": "<p>Une maille chocolat portée sur un débardeur bleu ciel. Le contraste de deux nuances et un jeu de superposition.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "homme",
+        "piece-6",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132002488648",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814571336",
+      "handle": "henley-a-rayures",
+      "title": "Henley à rayures",
+      "status": "DRAFT",
+      "description_html": "<p>Rayures chocolat et crème, patte de boutonnage et manches longues. Une proposition simple à associer au denim.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "homme",
+        "piece-7",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132002718024",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10301814636872",
+      "handle": "bordeaux-en-deux-temps",
+      "title": "Bordeaux en deux temps",
+      "status": "DRAFT",
+      "description_html": "<p>Un haut bordeaux à manches courtes porté sur des manches grises. Deux longueurs et deux couleurs qui se répondent.</p><p>Création en développement. Composition, mesures, tailles, prix et fabrication à confirmer avant commercialisation. Le visuel de collection est une illustration de concept.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "fabrication-a-valider",
+        "homme",
+        "piece-8",
+        "prix-a-confirmer"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54132002783560",
+          "title": "Default Title",
+          "sku": null,
+          "shopify_price_eur": "0.00",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": false,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10304633635144",
+      "handle": "sweat-a-capuche-i-love-milfs",
+      "title": "Sweat à capuche I Love Milfs",
+      "status": "DRAFT",
+      "description_html": "<p>Un sweat unisexe à slogan, avec capuche et manches longues. Une coupe décontractée à porter avec un jean ample.</p><p>Matière indiquée par le fournisseur : polyester.</p><h2>Guide des tailles</h2><table>\n<thead><tr>\n<th>Taille</th>\n<th>Tour de poitrine du vêtement (cm)</th>\n<th>Longueur (cm)</th>\n<th>Épaules (cm)</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>96</td>\n<td>65</td>\n<td>43</td>\n</tr>\n<tr>\n<td>M</td>\n<td>102</td>\n<td>68</td>\n<td>45</td>\n</tr>\n<tr>\n<td>L</td>\n<td>108</td>\n<td>71</td>\n<td>47</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>114</td>\n<td>74</td>\n<td>49</td>\n</tr>\n<tr>\n<td>2XL</td>\n<td>120</td>\n<td>77</td>\n<td>51</td>\n</tr>\n<tr>\n<td>3XL</td>\n<td>126</td>\n<td>79</td>\n<td>53</td>\n</tr>\n</tbody>\n</table><p>Mesures du fournisseur. Une variation de 1 à 3 cm est possible.</p>",
+      "tags": [
+        "capsule-2026-09-16",
+        "echantillon-a-valider",
+        "eprolo-a-raccorder",
+        "femme",
+        "homme",
+        "humour",
+        "prix-a-confirmer",
+        "unisex"
+      ],
+      "supplier_product_url": null,
+      "supplier_product_id": null,
+      "delivered_cost_france_eur": null,
+      "supplier_mapping_verified": false,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54140904603976",
+          "title": "S / Noir",
+          "sku": null,
+          "shopify_price_eur": "34.90",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": true,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54140904636744",
+          "title": "M / Noir",
+          "sku": null,
+          "shopify_price_eur": "34.90",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": true,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54140904669512",
+          "title": "L / Noir",
+          "sku": null,
+          "shopify_price_eur": "34.90",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": true,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54140904702280",
+          "title": "XL / Noir",
+          "sku": null,
+          "shopify_price_eur": "34.90",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": true,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54140904735048",
+          "title": "2XL / Noir",
+          "sku": null,
+          "shopify_price_eur": "34.90",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": true,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54140904767816",
+          "title": "3XL / Noir",
+          "sku": null,
+          "shopify_price_eur": "34.90",
+          "price_verified": false,
+          "inventory_policy": "DENY",
+          "inventory_tracked": true,
+          "shopify_inventory": 0,
+          "locations": [
+            {
+              "id": "gid://shopify/Location/111592538440",
+              "name": "Emplacement de la boutique"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

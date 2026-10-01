@@ -1,0 +1,15 @@
+{
+  "type": "footer",
+  "name": "Pied de page",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "tagline": "Chocolat, ciel et nuits qui durent."
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

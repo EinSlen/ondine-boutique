@@ -1,0 +1,20 @@
+<footer class="vn-footer sh-container">
+  <div class="vn-footer__top"><p>{{ section.settings.tagline | escape }}</p>
+    <nav aria-label="{{ 'navigation.footer' | t }}">
+      {% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% endfor %}{% else %}<a href="{{ routes.root_url }}pages/contact">{{ 'velnuit.contact' | t }}</a>{% endif %}
+      {% for policy in shop.policies %}{% if policy.body != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}
+    </nav>
+    {% if localization.available_languages.size > 1 or localization.available_countries.size > 1 %}
+      {% form 'localization', class: 'vn-localization' %}
+        {% if localization.available_languages.size > 1 %}<label for="FooterLanguage-{{ section.id }}">{{ 'general.language' | t }}</label><select id="FooterLanguage-{{ section.id }}" name="language_code">{% for language in localization.available_languages %}<option value="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} selected{% endif %}>{{ language.endonym_name | escape }}</option>{% endfor %}</select>{% endif %}
+        {% if localization.available_countries.size > 1 %}<label for="FooterCountry-{{ section.id }}">{{ 'general.country' | t }}</label><select id="FooterCountry-{{ section.id }}" name="country_code">{% for country in localization.available_countries %}<option value="{{ country.iso_code }}"{% if country.iso_code == localization.country.iso_code %} selected{% endif %}>{{ country.name | escape }} · {{ country.currency.iso_code }}</option>{% endfor %}</select>{% endif %}
+        <button class="sh-button sh-button--outline" type="submit">{{ 'general.apply' | t }}</button>
+      {% endform %}
+    {% endif %}
+  </div>
+  <a class="vn-footer__wordmark" href="{{ routes.root_url }}">{{ settings.brand_name | default: shop.name | escape }}</a>
+  <div class="vn-footer__bottom"><span>© {{ 'now' | date: '%Y' }} {{ settings.brand_name | default: shop.name | escape }}{% if settings.showcase_mode %} · {{ 'velnuit.preview_short' | t }}{% endif %}</span><a href="#MainContent">{{ 'velnuit.back_top' | t }} ↑</a></div>
+</footer>
+{% schema %}
+{"name":"Pied de page","settings":[{"type":"text","id":"tagline","label":"Phrase de marque","default":"Chocolat, ciel et nuits qui durent."},{"type":"link_list","id":"menu","label":"Menu d’informations"}]}
+{% endschema %}

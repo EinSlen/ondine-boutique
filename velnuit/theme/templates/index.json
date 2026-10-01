@@ -1,0 +1,153 @@
+{
+  "sections": {
+    "hero": {
+      "type": "velnuit-hero",
+      "settings": {
+        "image": "shopify://shop_images/capsule-campagne-portee-v3.png",
+        "image_is_concept": true,
+        "eyebrow": "COLLECTION 01 / CHOCOLAT & CIEL",
+        "heading": "Les nuits passent.\nLe style reste.",
+        "text": "<p>Dentelle, fines rayures et jeux de superposition. Le chocolat rencontre le bleu ciel.</p>",
+        "button": "Découvrir la capsule"
+      }
+    },
+    "capsule": {
+      "type": "velnuit-capsule",
+      "settings": {
+        "heading": "Chocolat & ciel.",
+        "sheet": "shopify://shop_images/capsule-modeles-portes-v3.png"
+      },
+      "blocks": {
+        "piece_1": {
+          "type": "piece",
+          "settings": {
+            "title": "Henley dentelle",
+            "category": "femme",
+            "cell": 1,
+            "text": "<p>Encolure arrondie, petits boutons et une touche de dentelle crème. Une silhouette ajustée dans une nuance chocolat.</p>"
+          }
+        },
+        "piece_2": {
+          "type": "piece",
+          "settings": {
+            "title": "Duo chocolat & ciel",
+            "category": "femme",
+            "cell": 2,
+            "text": "<p>Un boléro chocolat à nouer sur un caraco bleu ciel. Le contraste des couleurs et le petit motif floral font le détail.</p>"
+          }
+        },
+        "piece_3": {
+          "type": "piece",
+          "settings": {
+            "title": "Rayures près du corps",
+            "category": "femme",
+            "cell": 3,
+            "text": "<p>Des rayures fines chocolat et crème, une encolure dégagée et des manches longues. L’esprit des années 2000.</p>"
+          }
+        },
+        "piece_4": {
+          "type": "piece",
+          "settings": {
+            "title": "Caraco bordeaux",
+            "category": "femme",
+            "cell": 4,
+            "text": "<p>Une ligne fluide et des bordures en dentelle dans un bordeaux profond. À glisser sous une maille ou à porter seul.</p>"
+          }
+        },
+        "piece_5": {
+          "type": "piece",
+          "settings": {
+            "title": "Henley chocolat",
+            "category": "homme",
+            "cell": 5,
+            "text": "<p>Lignes côtelées, col boutonné et contraste crème au bord du vêtement. Une silhouette masculine près du corps.</p>"
+          }
+        },
+        "piece_6": {
+          "type": "piece",
+          "settings": {
+            "title": "Maille & ciel",
+            "category": "homme",
+            "cell": 6,
+            "text": "<p>Une maille chocolat portée sur un débardeur bleu ciel. Le contraste de deux nuances et un jeu de superposition.</p>"
+          }
+        },
+        "piece_7": {
+          "type": "piece",
+          "settings": {
+            "title": "Henley à rayures",
+            "category": "homme",
+            "cell": 7,
+            "text": "<p>Rayures chocolat et crème, patte de boutonnage et manches longues. Une proposition simple à associer au denim.</p>"
+          }
+        },
+        "piece_8": {
+          "type": "piece",
+          "settings": {
+            "title": "Bordeaux en deux temps",
+            "category": "homme",
+            "cell": 8,
+            "text": "<p>Un haut bordeaux à manches courtes porté sur des manches grises. Deux longueurs et deux couleurs qui se répondent.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "piece_1",
+        "piece_2",
+        "piece_3",
+        "piece_4",
+        "piece_5",
+        "piece_6",
+        "piece_7",
+        "piece_8"
+      ]
+    },
+    "women": {
+      "type": "velnuit-collection",
+      "settings": {
+        "eyebrow": "LE VESTIAIRE / FEMME",
+        "heading": "Femme.",
+        "collection": "collection-01-femme",
+        "count": 4
+      }
+    },
+    "men": {
+      "type": "velnuit-collection",
+      "settings": {
+        "eyebrow": "LE VESTIAIRE / HOMME",
+        "heading": "Homme.",
+        "collection": "collection-01-homme",
+        "count": 4
+      }
+    },
+    "story": {
+      "type": "velnuit-story",
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "velnuit-newsletter",
+      "settings": {
+        "enabled": false,
+        "heading": "On se retrouve ici."
+      }
+    },
+    "hoodie": {
+      "type": "velnuit-supplier-piece",
+      "settings": {
+        "image": "shopify://shop_images/hoodie-i-love-milfs-fournisseur.jpg",
+        "heading": "Sweat à capuche I Love Milfs",
+        "text": "<p>Un sweat unisexe à slogan, avec capuche et manches longues. Une coupe décontractée à porter avec un jean ample.</p><p>Matière indiquée par le fournisseur : polyester.</p>",
+        "size_guide": "<table>\n<thead><tr>\n<th>Taille</th>\n<th>Tour de poitrine du vêtement (cm)</th>\n<th>Longueur (cm)</th>\n<th>Épaules (cm)</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>96</td>\n<td>65</td>\n<td>43</td>\n</tr>\n<tr>\n<td>M</td>\n<td>102</td>\n<td>68</td>\n<td>45</td>\n</tr>\n<tr>\n<td>L</td>\n<td>108</td>\n<td>71</td>\n<td>47</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>114</td>\n<td>74</td>\n<td>49</td>\n</tr>\n<tr>\n<td>2XL</td>\n<td>120</td>\n<td>77</td>\n<td>51</td>\n</tr>\n<tr>\n<td>3XL</td>\n<td>126</td>\n<td>79</td>\n<td>53</td>\n</tr>\n</tbody>\n</table><p>Mesures du fournisseur. Une variation de 1 à 3 cm est possible.</p>"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "capsule",
+    "hoodie",
+    "women",
+    "men",
+    "story",
+    "newsletter"
+  ]
+}

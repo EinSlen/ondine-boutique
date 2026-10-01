@@ -2,7 +2,11 @@
 
 Sauvegarde de travail du 13 septembre 2026, préparée pour reprendre le projet depuis le web. **Ce dépôt n’est pas une boutique finalisée et ses designs ne sont pas approuvés.**
 
-## Commencer ici
+## Reprise actuelle — VELNUIT / EPROLO
+
+Le 1er octobre 2026, l’utilisateur a confirmé la poursuite des nouveaux produits VELNUIT / EPROLO. Voir [velnuit/README.md](velnuit/README.md) pour le nouveau thème, les données vérifiées et les éléments encore nécessaires. Les documents ci-dessous décrivent l’archive de septembre et ne sont pas l’état courant de Shopify.
+
+## Commencer ici (archive)
 
 1. Lire [REPRISE-CHATGPT.md](REPRISE-CHATGPT.md) : demandes, refus récents et état réel.
 2. Consulter [l’audit de 30 pièces](atelier/outputs/benchmark-pieces-v7/references.json) et ses [observations](atelier/outputs/benchmark-pieces-v7/observations.js).

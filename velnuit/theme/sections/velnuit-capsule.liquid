@@ -1,0 +1,20 @@
+{% if settings.showcase_mode %}
+<section class="vn-capsule sh-container sh-section" id="capsule" data-vn-capsule aria-labelledby="CapsuleTitle-{{ section.id }}">
+  <div class="vn-section-head"><div><p class="sh-eyebrow">{{ 'velnuit.preview_short' | t }} / 01</p><h2 id="CapsuleTitle-{{ section.id }}">{{ section.settings.heading | escape }}</h2></div><p>{{ 'velnuit.concept_notice' | t }}</p></div>
+  <div class="vn-filters" role="group" aria-label="{{ 'velnuit.filter' | t }}"><button type="button" data-vn-filter="all" aria-pressed="true">{{ 'velnuit.all' | t }}</button><button type="button" data-vn-filter="femme" aria-pressed="false">{{ 'velnuit.women' | t }}</button><button type="button" data-vn-filter="homme" aria-pressed="false">{{ 'velnuit.men' | t }}</button><span role="status" aria-live="polite" data-vn-count>{{ section.blocks.size }} {{ 'velnuit.pieces' | t }}</span></div>
+  <div class="vn-concept-grid">
+    {% for block in section.blocks %}{% assign cell = block.settings.cell | minus: 1 %}{% assign col = cell | modulo: 4 %}{% assign row = cell | divided_by: 4 %}
+    <article class="vn-concept" data-vn-category="{{ block.settings.category }}" {{ block.shopify_attributes }}>
+      {% if block.settings.image != blank %}<div class="vn-concept__image">{{ block.settings.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '320,480,640,900', sizes: '(max-width: 700px) 45vw, 23vw', alt: block.settings.title }}</div>
+      {% elsif section.settings.sheet != blank %}<div class="vn-concept__sprite" style="--col:{{ col }};--row:{{ row }}">{{ section.settings.sheet | image_url: width: 2000 | image_tag: loading: 'lazy', alt: block.settings.title }}</div>{% endif %}
+      <p class="vn-concept__category">{% if block.settings.category == 'femme' %}{{ 'velnuit.women' | t }}{% else %}{{ 'velnuit.men' | t }}{% endif %} / {{ block.settings.cell }}</p><h3>{{ block.settings.title | escape }}</h3>
+      <details><summary>{{ 'velnuit.see_details' | t }} <span aria-hidden="true">+</span></summary><div class="sh-rte">{{ block.settings.text }}<p class="vn-concept__notice">{{ 'velnuit.product_pending' | t }}</p></div></details>
+    </article>{% endfor %}
+  </div>
+</section>
+{% elsif request.design_mode %}
+<div class="sh-container sh-section sh-note">{{ 'velnuit.concept_editor' | t }}</div>
+{% endif %}
+{% schema %}
+{"name":"Capsule en préparation","settings":[{"type":"text","id":"heading","label":"Titre","default":"Chocolat & ciel."},{"type":"image_picker","id":"sheet","label":"Planche de concepts (4 colonnes × 2 lignes)"}],"max_blocks":8,"blocks":[{"type":"piece","name":"Pièce","settings":[{"type":"text","id":"title","label":"Nom"},{"type":"select","id":"category","label":"Catégorie","default":"femme","options":[{"value":"femme","label":"Femme"},{"value":"homme","label":"Homme"}]},{"type":"range","id":"cell","label":"Case de la planche","min":1,"max":8,"step":1,"default":1},{"type":"image_picker","id":"image","label":"Photo individuelle (prioritaire)"},{"type":"richtext","id":"text","label":"Description du concept"}]}],"presets":[{"name":"Capsule en préparation"}]}
+{% endschema %}

@@ -1,0 +1,37 @@
+<section class="sh-collection sh-container sh-section">
+  <div class="sh-collection__top"><div><p class="sh-eyebrow">{{ 'collection.eyebrow' | t }}</p><h1>{{ collection.title | escape }}</h1></div>{% if section.settings.show_description and collection.description != blank %}<div class="sh-rte">{{ collection.description }}</div>{% endif %}</div>
+  {% paginate collection.products by section.settings.count %}
+    <form action="{{ collection.url }}" method="get" class="sh-filters">
+      <div class="sh-collection__toolbar"><p class="sh-note">{{ 'collection.count' | t: count: collection.products_count }}</p><div class="sh-sort"><label class="visually-hidden" for="CollectionSort-{{ section.id }}">{{ 'collection.sort' | t }}</label><select id="CollectionSort-{{ section.id }}" name="sort_by">{% assign sort_value = collection.sort_by | default: collection.default_sort_by %}{% for option in collection.sort_options %}<option value="{{ option.value | escape }}"{% if option.value == sort_value %} selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select><button type="submit" class="sh-button sh-button--outline">{{ 'general.apply' | t }}</button></div></div>
+      {% if collection.filters.size > 0 %}
+        <div class="sh-filter-groups">
+          {% for filter in collection.filters %}
+            <details class="sh-filter"><summary>{{ filter.label | escape }} <span aria-hidden="true">+</span></summary><div class="sh-filter__body">
+              {% case filter.type %}
+                {% when 'boolean', 'list' %}
+                  {% for value in filter.values %}<label class="sh-filter__value" for="Filter-{{ section.id }}-{{ filter.param_name | handleize }}-{{ forloop.index }}"><input type="checkbox" name="{{ value.param_name }}" value="{{ value.value | escape }}" id="Filter-{{ section.id }}-{{ filter.param_name | handleize }}-{{ forloop.index }}"{% if value.active %} checked{% elsif value.count == 0 %} disabled{% endif %}><span>{{ value.label | escape }}</span><span class="sh-muted">{{ value.count }}</span></label>{% endfor %}
+                {% when 'price_range' %}
+                  <div class="sh-filter__price"><label>{{ 'collection.min_price' | t }} ({{ cart.currency.iso_code }})<input type="number" name="{{ filter.min_value.param_name }}" min="0" max="{{ filter.range_max | divided_by: 100.0 }}" step="0.01"{% if filter.min_value.value != nil %} value="{{ filter.min_value.value | divided_by: 100.0 }}"{% endif %} placeholder="0"></label><label>{{ 'collection.max_price' | t }} ({{ cart.currency.iso_code }})<input type="number" name="{{ filter.max_value.param_name }}" min="0" max="{{ filter.range_max | divided_by: 100.0 }}" step="0.01"{% if filter.max_value.value != nil %} value="{{ filter.max_value.value | divided_by: 100.0 }}"{% endif %} placeholder="{{ filter.range_max | divided_by: 100.0 }}"></label></div>
+              {% endcase %}
+              <button type="submit" class="sh-button sh-button--outline">{{ 'general.apply' | t }}</button>
+            </div></details>
+          {% endfor %}
+        </div>
+        <div class="sh-active-filters"><a href="{{ collection.url }}?sort_by={{ sort_value | url_encode }}">{{ 'collection.clear_filters' | t }}</a>{% for filter in collection.filters %}{% if filter.type == 'price_range' %}{% if filter.min_value.value != nil or filter.max_value.value != nil %}<a href="{{ filter.url_to_remove }}">{{ filter.label | escape }} ×</a>{% endif %}{% else %}{% for value in filter.active_values %}<a href="{{ value.url_to_remove }}">{{ filter.label | escape }}: {{ value.label | escape }} ×</a>{% endfor %}{% endif %}{% endfor %}</div>
+      {% endif %}
+    </form>
+    {% if collection.products_count > 0 %}<div class="sh-grid">{% for product in collection.products %}{% render 'product-card', product: product %}{% endfor %}</div>{% else %}<div class="sh-empty"><p>{{ 'general.collection_empty' | t }}</p><a href="{{ collection.url }}">{{ 'collection.clear_filters' | t }}</a></div>{% endif %}
+    {% if paginate.pages > 1 %}<nav class="sh-pagination" aria-label="{{ 'general.pagination' | t }}">{{ paginate | default_pagination }}</nav>{% endif %}
+  {% endpaginate %}
+</section>
+{% stylesheet %}
+  .sh-collection__top{display:flex;justify-content:space-between;gap:36px;align-items:end;padding-bottom:42px}.sh-collection__top h1{font-size:clamp(42px,6.5vw,84px);margin-top:20px}.sh-collection__top .sh-rte{max-width:360px;font-size:13px}.sh-collection__toolbar{display:flex;justify-content:space-between;gap:18px;align-items:center;border-top:1px solid var(--line);padding:20px 0}.sh-sort{display:flex;gap:8px}.sh-sort select{max-width:260px;font-size:11px}.sh-sort .sh-button{font-size:11px;min-height:44px;padding:8px 16px}.sh-filters{margin-bottom:32px}.sh-filter-groups{display:flex;gap:10px;flex-wrap:wrap}.sh-filter{position:relative;min-width:130px}.sh-filter summary{display:flex;justify-content:space-between;gap:30px;padding:12px 16px;border:1px solid var(--line);font-size:11px;list-style:none}.sh-filter summary::-webkit-details-marker{display:none}.sh-filter[open] summary{background:var(--ink);color:var(--cream)}.sh-filter__body{position:absolute;z-index:6;left:0;top:100%;background:var(--cream);width:300px;max-width:calc(100vw - 36px);padding:20px;border:1px solid var(--line);box-shadow:0 12px 24px #0002;max-height:400px;overflow:auto}.sh-filter__value{display:flex;align-items:center;gap:9px;margin-bottom:12px;font-size:12px}.sh-filter__value input{width:17px;height:17px;accent-color:var(--accent)}.sh-filter__value .sh-muted{margin-left:auto}.sh-filter__body>.sh-button{width:100%;margin-top:16px}.sh-filter__price{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:11px}.sh-filter__price input{width:100%;margin-top:8px}.sh-active-filters{display:flex;flex-wrap:wrap;gap:10px;padding-top:18px;font-size:11px}.sh-active-filters a{padding:6px 10px;border:1px solid var(--line);text-decoration:none}
+  @media(max-width:650px){.sh-collection__top{display:block}.sh-collection__top .sh-rte{margin-top:24px}.sh-collection__toolbar{align-items:start}.sh-sort{flex-wrap:wrap;justify-content:flex-end;max-width:190px}.sh-sort select{width:100%}.sh-filter-groups{display:grid;grid-template-columns:1fr 1fr}.sh-filter{min-width:0}.sh-filter:nth-child(even) .sh-filter__body{left:auto;right:0}.sh-filter summary{gap:12px}.sh-filter__body{width:280px}}
+{% endstylesheet %}
+{% javascript %}
+  document.addEventListener('toggle',event=>{if(!event.target.matches('.sh-filter')||!event.target.open)return;document.querySelectorAll('.sh-filter[open]').forEach(filter=>{if(filter!==event.target)filter.open=false})},true);
+  document.addEventListener('keydown',event=>{if(event.key==='Escape')document.querySelectorAll('.sh-filter[open]').forEach(filter=>{filter.open=false;filter.querySelector('summary').focus()})});
+{% endjavascript %}
+{% schema %}
+{"name":"t:sections.collection","settings":[{"type":"checkbox","id":"show_description","label":"t:settings.show_description","default":true},{"type":"range","id":"count","label":"t:settings.count","min":8,"max":48,"step":4,"default":24}]}
+{% endschema %}
