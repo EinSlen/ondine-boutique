@@ -4,7 +4,9 @@
   "sections": {
     "header": {
       "type": "header",
-      "settings": {}
+      "settings": {
+        "menu": "velnuit-main"
+      }
     }
   },
   "order": [

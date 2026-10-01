@@ -5,7 +5,8 @@
     "footer": {
       "type": "footer",
       "settings": {
-        "tagline": "Chocolat, ciel et nuits qui durent."
+        "tagline": "Chocolat, ciel et nuits qui durent.",
+        "menu": "velnuit-footer"
       }
     }
   },
