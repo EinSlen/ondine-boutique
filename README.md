@@ -4,7 +4,7 @@ Sauvegarde de travail du 13 septembre 2026, préparée pour reprendre le projet 
 
 ## Reprise actuelle — VELNUIT / EPROLO
 
-Le 1er octobre 2026, l’utilisateur a confirmé la poursuite des nouveaux produits VELNUIT / EPROLO. Voir [velnuit/README.md](velnuit/README.md) pour le nouveau thème, les données vérifiées et les éléments encore nécessaires. Les documents ci-dessous décrivent l’archive de septembre et ne sont pas l’état courant de Shopify.
+Le 1er octobre 2026, l’utilisateur a confirmé la poursuite des nouveaux produits VELNUIT / EPROLO. Voir [velnuit/README.md](velnuit/README.md) pour le nouveau thème, les données vérifiées et les éléments encore nécessaires. Le thème VELNUIT est installé en copie non publiée ; voir [le compte rendu de livraison](VELNUIT-ETAT-2026-10-01.md) pour l’aperçu, les contrôles et les limites fournisseur. Les documents ci-dessous décrivent l’archive de septembre et ne sont pas l’état courant de Shopify.
 
 ## Commencer ici (archive)
 
