@@ -172,6 +172,8 @@
     "supplier_image": "Photo fournisseur · rendu physique non vérifié",
     "unisex": "UNISEXE / LE SWEAT À SLOGAN",
     "size_guide": "Guide des tailles",
-    "product_question": "Une question sur cette pièce ?"
+    "product_question": "Une question sur cette pièce ?",
+    "delivery": "Livraison",
+    "product_help": "Informations sur la pièce"
   }
 }

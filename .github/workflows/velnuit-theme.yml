@@ -43,3 +43,30 @@ jobs:
           name: VELNUIT-shopify-theme
           path: velnuit/theme/*.zip
           if-no-files-found: error
+
+  storefront-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            velnuit
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install Chromium test runner
+        run: |
+          npm install --prefix "$RUNNER_TEMP/velnuit-browser" --no-save playwright@1.56.1
+          "$RUNNER_TEMP/velnuit-browser/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Check installed Shopify preview on desktop and mobile
+        env:
+          NODE_PATH: ${{ runner.temp }}/velnuit-browser/node_modules
+        run: node velnuit/tools/storefront-smoke.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: VELNUIT-browser-check
+          path: velnuit/browser-report/
+          if-no-files-found: warn

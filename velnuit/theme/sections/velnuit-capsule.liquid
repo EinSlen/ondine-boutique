@@ -1,5 +1,6 @@
 {% if settings.showcase_mode %}
 <section class="vn-capsule sh-container sh-section" id="capsule" data-vn-capsule aria-labelledby="CapsuleTitle-{{ section.id }}">
+  <span id="capsule-femme" class="vn-anchor" aria-hidden="true"></span><span id="capsule-homme" class="vn-anchor" aria-hidden="true"></span>
   <div class="vn-section-head"><div><p class="sh-eyebrow">{{ 'velnuit.preview_short' | t }} / 01</p><h2 id="CapsuleTitle-{{ section.id }}">{{ section.settings.heading | escape }}</h2></div><p>{{ 'velnuit.concept_notice' | t }}</p></div>
   <div class="vn-filters" role="group" aria-label="{{ 'velnuit.filter' | t }}"><button type="button" data-vn-filter="all" aria-pressed="true">{{ 'velnuit.all' | t }}</button><button type="button" data-vn-filter="femme" aria-pressed="false">{{ 'velnuit.women' | t }}</button><button type="button" data-vn-filter="homme" aria-pressed="false">{{ 'velnuit.men' | t }}</button><span role="status" aria-live="polite" data-vn-count>{{ section.blocks.size }} {{ 'velnuit.pieces' | t }}</span></div>
   <div class="vn-concept-grid">

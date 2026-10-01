@@ -35,6 +35,11 @@
       <a class="sh-product__check-cart sh-note" href="{{ routes.cart_url }}" data-check-cart hidden>{{ 'product.check_cart' | t }} ↗</a>
     {% endform %}
     {% if product.description != blank %}<div class="sh-product__description sh-rte">{{ product.description }}</div>{% endif %}
+    <nav class="vn-product-help" aria-label="{{ 'velnuit.product_help' | t }}">
+      {% if settings.size_guide_page != blank %}<a href="{{ settings.size_guide_page.url }}">{{ 'velnuit.size_guide' | t }}</a>{% endif %}
+      {% if settings.delivery_page != blank %}<a href="{{ settings.delivery_page.url }}">{{ 'velnuit.delivery' | t }}</a>{% endif %}
+      <a href="{{ routes.root_url }}pages/contact">{{ 'velnuit.contact' | t }}</a>
+    </nav>
     {% for block in section.blocks %}<details class="sh-product__detail" {{ block.shopify_attributes }}><summary>{{ block.settings.title | escape }}<span aria-hidden="true">+</span></summary><div class="sh-rte">{{ block.settings.content }}{% if block.settings.page != blank %}{{ block.settings.page.content }}{% endif %}</div></details>{% endfor %}
   </div>
 </section>

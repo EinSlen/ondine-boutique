@@ -172,6 +172,8 @@
     "supplier_image": "Supplier photo · physical result not verified",
     "unisex": "UNISEX / THE SLOGAN HOODIE",
     "size_guide": "Size guide",
-    "product_question": "A question about this piece?"
+    "product_question": "A question about this piece?",
+    "delivery": "Delivery",
+    "product_help": "Product information"
   }
 }

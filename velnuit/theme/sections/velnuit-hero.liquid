@@ -1,7 +1,17 @@
+{% liquid
+  assign hero_link = section.settings.link
+  if hero_link == blank
+    if settings.showcase_mode
+      assign hero_link = '#capsule'
+    else
+      assign hero_link = routes.all_products_collection_url
+    endif
+  endif
+%}
 <section class="vn-hero" aria-labelledby="HeroTitle-{{ section.id }}">
   {% if section.settings.image != blank %}{{ section.settings.image | image_url: width: 2200 | image_tag: widths: '600,1000,1500,2200', sizes: '100vw', loading: 'eager', fetchpriority: 'high', class: 'vn-hero__image' }}{% endif %}
   <div class="vn-hero__shade"></div>
-  <div class="vn-hero__content"><p class="sh-eyebrow">{{ section.settings.eyebrow | escape }}</p><h1 id="HeroTitle-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1><div class="sh-rte">{{ section.settings.text }}</div><a class="sh-button vn-button-sky" href="{{ section.settings.link | default: '#capsule' }}">{{ section.settings.button | escape }} <span aria-hidden="true">↘</span></a></div>
+  <div class="vn-hero__content"><p class="sh-eyebrow">{{ section.settings.eyebrow | escape }}</p><h1 id="HeroTitle-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1><div class="sh-rte">{{ section.settings.text }}</div><a class="sh-button vn-button-sky" href="{{ hero_link }}">{{ section.settings.button | escape }} <span aria-hidden="true">↘</span></a></div>
   {% if settings.showcase_mode and section.settings.image_is_concept %}<p class="vn-hero__caption">{{ 'velnuit.concept_image' | t }}</p>{% endif %}
 </section>
 {% schema %}

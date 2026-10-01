@@ -24,6 +24,43 @@
     ]
   },
   {
+    "name": "Pages et référencement",
+    "settings": [
+      {
+        "type": "text",
+        "id": "home_title",
+        "label": "Titre de l’accueil",
+        "default": "Chocolat & ciel"
+      },
+      {
+        "type": "textarea",
+        "id": "home_description",
+        "label": "Description pour les moteurs de recherche",
+        "default": "Découvrez VELNUIT : un vestiaire chocolat, bleu ciel et bordeaux. Dentelle, fines rayures et jeux de superposition."
+      },
+      {
+        "type": "page",
+        "id": "size_guide_page",
+        "label": "Guide des tailles"
+      },
+      {
+        "type": "page",
+        "id": "delivery_page",
+        "label": "Livraison"
+      },
+      {
+        "type": "page",
+        "id": "faq_page",
+        "label": "Questions fréquentes"
+      },
+      {
+        "type": "page",
+        "id": "about_page",
+        "label": "À propos"
+      }
+    ]
+  },
+  {
     "name": "t:sections.launch",
     "settings": [
       {

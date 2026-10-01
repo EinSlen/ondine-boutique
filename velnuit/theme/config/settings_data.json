@@ -5,7 +5,13 @@
     "color_cream": "#faf7f0",
     "color_ink": "#32231d",
     "color_accent": "#733747",
-    "color_butter": "#c7dce7"
+    "color_butter": "#c7dce7",
+    "home_title": "Chocolat & ciel",
+    "home_description": "Découvrez VELNUIT : un vestiaire chocolat, bleu ciel et bordeaux. Dentelle, fines rayures et jeux de superposition.",
+    "size_guide_page": "velnuit-guide-des-tailles",
+    "delivery_page": "velnuit-livraison",
+    "faq_page": "velnuit-faq",
+    "about_page": "velnuit-a-propos"
   },
   "presets": {}
 }

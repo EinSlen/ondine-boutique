@@ -1,0 +1,9 @@
+{%- if settings.showcase_mode and link.type == 'collection_link' and link.object.handle == 'collection-01-femme' -%}
+  {{- routes.root_url -}}#capsule-femme
+{%- elsif settings.showcase_mode and link.type == 'collection_link' and link.object.handle == 'collection-01-homme' -%}
+  {{- routes.root_url -}}#capsule-homme
+{%- elsif settings.showcase_mode == false and link.url == '/#capsule' -%}
+  {{- routes.all_products_collection_url -}}
+{%- else -%}
+  {{- link.url -}}
+{%- endif -%}

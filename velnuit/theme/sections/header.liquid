@@ -4,15 +4,15 @@
     <details class="vn-menu" data-mobile-menu>
       <summary><span aria-hidden="true">☰</span><span class="visually-hidden">{{ 'navigation.menu' | t }}</span></summary>
       <nav class="vn-menu__panel" aria-label="{{ 'navigation.mobile' | t }}">
-        {% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}<a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% if link.links != blank %}<ul>{% for child in link.links %}<li><a href="{{ child.url }}">{{ child.title | escape }}</a>{% if child.links != blank %}<ul>{% for grandchild in child.links %}<li><a href="{{ grandchild.url }}">{{ grandchild.title | escape }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}</ul>{% endif %}{% endfor %}
-        {% else %}<a href="{{ routes.root_url }}#capsule">{{ 'velnuit.capsule' | t }}</a>{% endif %}
+        {% if section.settings.menu != blank %}{% for link in section.settings.menu.links %}{% capture link_url %}{% render 'navigation-url', link: link %}{% endcapture %}<a href="{{ link_url | strip | escape }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% if link.links != blank %}<ul>{% for child in link.links %}<li><a href="{{ child.url }}">{{ child.title | escape }}</a>{% if child.links != blank %}<ul>{% for grandchild in child.links %}<li><a href="{{ grandchild.url }}">{{ grandchild.title | escape }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}</ul>{% endif %}{% endfor %}
+        {% else %}<a href="{% if settings.showcase_mode %}{{ routes.root_url }}#capsule{% else %}{{ routes.all_products_collection_url }}{% endif %}">{{ 'velnuit.capsule' | t }}</a>{% endif %}
         <a href="{{ routes.search_url }}">{{ 'navigation.search' | t }}</a>
-        <a href="{{ routes.root_url }}pages/contact">{{ 'velnuit.contact' | t }}</a>
+        {% if section.settings.menu == blank %}<a href="{{ routes.root_url }}pages/contact">{{ 'velnuit.contact' | t }}</a>{% endif %}
       </nav>
     </details>
     <nav class="vn-nav" aria-label="{{ 'navigation.main' | t }}">
-      {% if section.settings.menu != blank %}{% for link in section.settings.menu.links limit: 4 %}<a href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% endfor %}
-      {% else %}<a href="{{ routes.root_url }}#capsule">{{ 'velnuit.capsule' | t }}</a><a href="{{ routes.root_url }}#esprit">{{ 'velnuit.story' | t }}</a>{% endif %}
+      {% if section.settings.menu != blank %}{% for link in section.settings.menu.links limit: 4 %}{% capture link_url %}{% render 'navigation-url', link: link %}{% endcapture %}<a href="{{ link_url | strip | escape }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>{% endfor %}
+      {% else %}<a href="{% if settings.showcase_mode %}{{ routes.root_url }}#capsule{% else %}{{ routes.all_products_collection_url }}{% endif %}">{{ 'velnuit.capsule' | t }}</a><a href="{{ routes.root_url }}#esprit">{{ 'velnuit.story' | t }}</a>{% endif %}
     </nav>
     <a class="vn-wordmark" href="{{ routes.root_url }}">{{ settings.brand_name | default: shop.name | escape }}</a>
     <div class="vn-header__actions"><a class="vn-search" href="{{ routes.search_url }}">{{ 'navigation.search' | t }}</a><a href="{{ routes.cart_url }}" aria-label="{{ 'navigation.cart_count' | t: count: cart.item_count }}">{{ 'navigation.cart' | t }} <span>({{ cart.item_count }})</span></a></div>
