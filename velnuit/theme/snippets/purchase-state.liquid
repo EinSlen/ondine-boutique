@@ -1,0 +1,13 @@
+{%- liquid
+  assign pending = false
+  assign pending_tags = 'fabrication-a-valider,eprolo-a-raccorder,prix-a-confirmer,fournisseur-non-synchronise,concept-non-fabrique' | split: ','
+  if product.price <= 0
+    assign pending = true
+  endif
+  for pending_tag in pending_tags
+    if product.tags contains pending_tag
+      assign pending = true
+    endif
+  endfor
+-%}
+{%- if pending -%}pending{%- else -%}ready{%- endif -%}

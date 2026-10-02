@@ -1,0 +1,153 @@
+{% capture purchase_state %}{% render 'purchase-state', product: product %}{% endcapture %}
+{% assign purchase_state = purchase_state | strip %}
+{% assign purchase_blocked = settings.showcase_mode %}
+{% if purchase_state == 'pending' %}{% assign purchase_blocked = true %}{% endif %}
+{% liquid
+  assign selected_variant = product.selected_or_first_available_variant
+  assign main_image = selected_variant.featured_image | default: product.featured_image
+  assign main_image_alt = main_image.alt | default: product.title
+  assign product_form_id = 'ProductForm-' | append: section.id
+%}
+<section class="sh-product sh-container sh-section" data-sh-product data-showcase="{{ purchase_blocked }}" data-section-id="{{ section.id }}" data-product-url="{{ product.url }}" data-cart-url="{{ routes.cart_url }}" data-error="{{ 'product.option_error' | t | escape }}" data-adding="{{ 'product.adding' | t | escape }}" data-add-error="{{ 'product.add_error' | t | escape }}" data-check-hint="{{ 'product.check_cart_hint' | t | escape }}">
+  <div class="sh-product__media">
+    {% if main_image != blank %}<div class="sh-product__image sh-product__image--main">{{ main_image | image_url: width: 1800 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '480, 750, 1000, 1400, 1800', sizes: '(max-width: 800px) 100vw, 55vw', alt: main_image_alt }}</div>{% else %}<div class="sh-product__image sh-product__image--main">{{ 'product-1' | placeholder_svg_tag: 'sh-placeholder' }}</div>{% endif %}
+    {% for media in product.media %}{% unless media.preview_image.id == main_image.id %}<div class="sh-product__image">{% case media.media_type %}{% when 'image' %}{{ media | image_url: width: 1000 | image_tag: loading: 'lazy', widths: '480, 750, 1000', sizes: '(max-width: 800px) 45vw, 26vw' }}{% when 'video' %}{{ media | video_tag: controls: true, preload: 'none', image_size: '800x' }}{% when 'external_video' %}{{ media | external_video_tag: loading: 'lazy' }}{% when 'model' %}{{ media | model_viewer_tag: reveal: 'interaction', toggleable: true }}{% endcase %}</div>{% endunless %}{% endfor %}
+  </div>
+  <div class="sh-product__info">
+    <a class="sh-product__back sh-note" href="{{ routes.all_products_collection_url }}">← {{ 'navigation.collection' | t }}</a>
+    {% if product.type != blank %}<p class="sh-eyebrow">{{ product.type | escape }}</p>{% endif %}
+    <h1>{{ product.title | escape }}</h1>
+    <div class="sh-product__price" aria-live="polite">{% if purchase_state == 'pending' %}{{ 'velnuit.price_pending' | t }}{% elsif selected_variant != blank %}{{ selected_variant.price | money_with_currency }}{% else %}{{ 'product.unavailable' | t }}{% endif %}</div>
+    {% if purchase_blocked %}<p class="sh-showcase-note">{{ 'showcase.product' | t }}</p>{% endif %}
+    {% if cart.taxes_included %}<p class="sh-note sh-muted">{{ 'product.taxes_included' | t }}</p>{% endif %}
+    {% if shop.shipping_policy.body != blank %}<p class="sh-note sh-muted"><a href="{{ shop.shipping_policy.url }}">{{ 'product.shipping_policy' | t }}</a></p>{% endif %}
+    {% unless product.has_only_default_variant %}
+      <div class="sh-product__options js-only">
+        {% for option in product.options_with_values %}<div class="sh-form-field"><label for="Option-{{ section.id }}-{{ option.position }}">{{ option.name | escape }}</label><select id="Option-{{ section.id }}-{{ option.position }}" data-option-select data-option-position="{{ option.position }}">{% for option_value in option.values %}<option value="{{ option_value.id }}" data-product-url="{{ option_value.product_url }}"{% if option_value.selected %} selected{% endif %}>{{ option_value | escape }}{% unless option_value.available %} — {{ 'product.sold_out' | t }}{% endunless %}</option>{% endfor %}</select></div>{% endfor %}
+      </div>
+      <noscript><form method="get" action="{{ product.url }}" class="sh-product__no-js"><label for="VariantNoJS-{{ section.id }}">{{ 'product.variant' | t }}</label><select id="VariantNoJS-{{ section.id }}" name="variant">{% for variant in product.variants %}<option value="{{ variant.id }}"{% if variant.id == selected_variant.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title | escape }} — {{ variant.price | money }}{% unless variant.available %} — {{ 'product.sold_out' | t }}{% endunless %}</option>{% endfor %}</select><button class="sh-button sh-button--outline" type="submit">{{ 'general.apply' | t }}</button></form></noscript>
+    {% endunless %}
+    {% form 'product', product, id: product_form_id, class: 'sh-product__form' %}
+      {{ form.errors | default_errors }}
+      <input type="hidden" name="id" value="{{ selected_variant.id }}" data-variant-id{% if purchase_blocked or selected_variant.available == false or selected_variant == blank %} disabled{% endif %}>
+      <div class="sh-product__buy"><div><label class="visually-hidden" for="Quantity-{{ section.id }}">{{ 'product.quantity' | t }}</label><input id="Quantity-{{ section.id }}" type="number" name="quantity" value="{{ selected_variant.quantity_rule.min | default: 1 }}" min="{{ selected_variant.quantity_rule.min | default: 1 }}" step="{{ selected_variant.quantity_rule.increment | default: 1 }}"{% if selected_variant.quantity_rule.max != blank %} max="{{ selected_variant.quantity_rule.max }}"{% endif %} inputmode="numeric" required></div><button type="submit" name="add" class="sh-button" data-add-button{% if purchase_blocked or selected_variant.available == false or selected_variant == blank %} disabled{% endif %}>{% if purchase_blocked %}{{ 'velnuit.not_ready' | t }}{% elsif selected_variant == blank %}{{ 'product.unavailable' | t }}{% elsif selected_variant.available %}{{ 'product.add_to_cart' | t }}{% else %}{{ 'product.sold_out' | t }}{% endif %}</button></div>
+      <p class="sh-error sh-note" data-option-status role="status" aria-live="polite" aria-atomic="true"></p>
+      <a class="sh-product__check-cart sh-note" href="{{ routes.cart_url }}" data-check-cart hidden>{{ 'product.check_cart' | t }} ↗</a>
+    {% endform %}
+    {% if product.description != blank %}<div class="sh-product__description sh-rte">{{ product.description }}</div>{% endif %}
+    <nav class="vn-product-help" aria-label="{{ 'velnuit.product_help' | t }}">
+      {% if settings.size_guide_page != blank %}<a href="{{ settings.size_guide_page.url }}">{{ 'velnuit.size_guide' | t }}</a>{% endif %}
+      {% if settings.delivery_page != blank %}<a href="{{ settings.delivery_page.url }}">{{ 'velnuit.delivery' | t }}</a>{% endif %}
+      <a href="{{ routes.root_url }}pages/contact">{{ 'velnuit.contact' | t }}</a>
+    </nav>
+    {% for block in section.blocks %}<details class="sh-product__detail" {{ block.shopify_attributes }}><summary>{{ block.settings.title | escape }}<span aria-hidden="true">+</span></summary><div class="sh-rte">{{ block.settings.content }}{% if block.settings.page != blank %}{{ block.settings.page.content }}{% endif %}</div></details>{% endfor %}
+  </div>
+</section>
+{% unless purchase_blocked %}<script type="application/ld+json">{{ product | structured_data }}</script>{% endunless %}
+{% stylesheet %}
+  .sh-product{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:7%;padding-top:40px}.sh-product__media{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start}.sh-product__image{background:white;overflow:hidden}.sh-product__image--main{grid-column:1/-1;aspect-ratio:4/5}.sh-product__image img{width:100%;height:100%;object-fit:contain}.sh-product__image iframe,.sh-product__image model-viewer{width:100%;height:100%;min-height:260px}.sh-product__info{position:sticky;top:32px;align-self:start;padding-top:12px}.sh-product__back{display:inline-block;margin-bottom:40px;text-decoration:none}.sh-product__info>.sh-eyebrow{margin-bottom:15px}.sh-product h1{font-size:clamp(38px,4.8vw,70px);line-height:1.03}.sh-product__price{font-size:21px;margin:22px 0 8px}.sh-product__info>.sh-showcase-note{margin-top:20px}.sh-product__options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:30px}.sh-product__options .sh-form-field{margin:0}.sh-product__options select{width:100%}.sh-product__buy{display:flex;gap:12px;margin-top:22px}.sh-product__buy input{height:52px;width:75px}.sh-product__buy .sh-button{flex:1}.sh-product__description{padding-block:30px;font-size:13px;line-height:1.8}.sh-product__detail{border-top:1px solid var(--line)}.sh-product__detail:last-child{border-bottom:1px solid var(--line)}.sh-product__detail summary{display:flex;justify-content:space-between;gap:16px;padding-block:20px;list-style:none;font-size:12px}.sh-product__detail summary::-webkit-details-marker{display:none}.sh-product__detail[open] summary>span{transform:rotate(45deg)}.sh-product__detail>.sh-rte{padding-bottom:22px;font-size:12px}.sh-product__form noscript select{width:100%;margin-block:12px}
+  @media(max-width:800px){.sh-product{display:block;padding-top:20px}.sh-product__info{position:static;padding-top:32px}.sh-product__back{margin-bottom:26px}.sh-product h1{font-size:46px}.sh-product__media{gap:10px}}
+{% endstylesheet %}
+{% javascript %}
+  const shOptionRequests=new WeakMap();
+  const shCartRequests=new Set();
+  function shRestoreOptions(section){
+    section.querySelectorAll('[data-option-select]').forEach(element=>{const original=Array.from(element.options).find(option=>option.defaultSelected);if(original)element.value=original.value});
+  }
+  function shUpdateAddButton(section){
+    const variant=section.querySelector('[data-variant-id]');
+    const form=section.querySelector('.sh-product__form');
+    section.querySelector('[data-add-button]').disabled=section.dataset.showcase==='true'||!variant||variant.disabled||!variant.value||section.getAttribute('aria-busy')==='true'||form?.dataset.submitting==='true';
+  }
+  document.addEventListener('change',async event=>{
+    const select=event.target.closest('[data-option-select]');
+    if(!select)return;
+    const section=select.closest('[data-sh-product]');
+    if(!section)return;
+    if(section.querySelector('.sh-product__form')?.dataset.submitting==='true'){shRestoreOptions(section);return}
+    shOptionRequests.get(section)?.abort();
+    const controller=new AbortController();shOptionRequests.set(section,controller);
+    let timedOut=false;
+    const timeout=setTimeout(()=>{timedOut=true;controller.abort()},12000);
+    const button=section.querySelector('[data-add-button]');
+    const status=section.querySelector('[data-option-status]');
+    button.disabled=true;section.setAttribute('aria-busy','true');status.textContent='';
+    const selected=Array.from(section.querySelectorAll('[data-option-select]')).map(element=>element.value);
+    const selectedOption=select.selectedOptions[0];
+    const nextUrl=new URL(selectedOption.dataset.productUrl||section.dataset.productUrl,location.origin);
+    nextUrl.searchParams.set('option_values',selected.join(','));
+    const requestUrl=new URL(nextUrl);requestUrl.searchParams.set('section_id',section.dataset.sectionId);
+    try{
+      const response=await fetch(requestUrl,{signal:controller.signal});
+      if(!response.ok)throw new Error('section');
+      const html=await response.text();
+      if(controller.signal.aborted)return;
+      const parsed=new DOMParser().parseFromString(html,'text/html');
+      const replacement=parsed.querySelector('[data-sh-product]');
+      if(!replacement)throw new Error('missing-section');
+      const focusPosition=select.dataset.optionPosition;
+      section.replaceWith(replacement);
+      history.replaceState({},'',nextUrl);
+      replacement.querySelector('[data-option-position="'+focusPosition+'"]')?.focus({preventScroll:true});
+    }catch(error){
+      if(error.name==='AbortError'&&!timedOut)return;
+      shRestoreOptions(section);
+      status.textContent=section.dataset.error;
+      const variant=section.querySelector('[data-variant-id]');button.disabled=section.dataset.showcase==='true'||!variant||variant.disabled||!variant.value;
+    }finally{
+      clearTimeout(timeout);
+      if(shOptionRequests.get(section)===controller){section.removeAttribute('aria-busy');shOptionRequests.delete(section);shUpdateAddButton(section)}
+    }
+  });
+  document.addEventListener('submit',async event=>{
+    if(!event.target.matches('.sh-product__form'))return;
+    const form=event.target;
+    const variant=form.querySelector('[data-variant-id]');
+    const section=form.closest('[data-sh-product]');
+    event.preventDefault();
+    if(section.dataset.showcase==='true'||!variant||variant.disabled||!variant.value||section.getAttribute('aria-busy')==='true'||form.dataset.submitting==='true'||!form.reportValidity())return;
+    const endpoint=new URL(form.action,location.origin);
+    if(endpoint.origin!==location.origin)return;
+    endpoint.pathname=endpoint.pathname.replace(/\/$/,'')+'.js';
+    const payload=new FormData(form);
+    const button=form.querySelector('[data-add-button]');
+    const status=form.querySelector('[data-option-status]');
+    const checkCart=form.querySelector('[data-check-cart]');
+    const controls=Array.from(section.querySelectorAll('[data-option-select],input[name="quantity"]'));
+    const disabledBefore=controls.map(control=>control.disabled);
+    const label=button.textContent;
+    const controller=new AbortController();shCartRequests.add(controller);
+    const timeout=setTimeout(()=>controller.abort(),15000);
+    form.dataset.submitting='true';form.setAttribute('aria-busy','true');button.disabled=true;button.textContent=section.dataset.adding;status.textContent='';checkCart.hidden=true;
+    controls.forEach(control=>{control.disabled=true});
+    let navigating=false;
+    try{
+      const response=await fetch(endpoint,{method:'POST',body:payload,headers:{Accept:'application/json'},credentials:'same-origin',signal:controller.signal});
+      const result=await response.json();
+      if(!response.ok||result.status>=400){
+        const description=typeof result.description==='string'?result.description:section.dataset.addError;
+        status.textContent=description+' '+section.dataset.checkHint;checkCart.hidden=false;return;
+      }
+      if(!result.id&&!result.items?.length)throw new Error('missing-cart-item');
+      navigating=true;location.assign(section.dataset.cartUrl);
+    }catch(error){
+      if(!section.isConnected)return;
+      status.textContent=section.dataset.addError+' '+section.dataset.checkHint;checkCart.hidden=false;
+    }finally{
+      clearTimeout(timeout);shCartRequests.delete(controller);
+      if(!navigating){
+        delete form.dataset.submitting;form.removeAttribute('aria-busy');button.textContent=label;
+        controls.forEach((control,index)=>{control.disabled=disabledBefore[index]});
+        shUpdateAddButton(section);
+      }
+    }
+  });
+  window.addEventListener('pagehide',()=>{shCartRequests.forEach(controller=>controller.abort())});
+  window.addEventListener('pageshow',event=>{
+    if(event.persisted){location.reload();return}
+    document.querySelectorAll('[data-sh-product]').forEach(shUpdateAddButton);
+  });
+{% endjavascript %}
+{% schema %}
+{"name":"t:sections.product","settings":[],"blocks":[{"type":"detail","name":"t:sections.detail","settings":[{"type":"text","id":"title","label":"t:settings.heading","default":"Informations"},{"type":"richtext","id":"content","label":"t:settings.text"},{"type":"page","id":"page","label":"t:settings.page"}]}]}
+{% endschema %}

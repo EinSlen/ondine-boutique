@@ -1,0 +1,15 @@
+{% if section.settings.enabled %}
+<section class="vn-newsletter sh-container sh-section" aria-labelledby="NewsletterTitle-{{ section.id }}"><h2 id="NewsletterTitle-{{ section.id }}">{{ section.settings.heading | escape }}</h2><p>{{ 'velnuit.newsletter_intro' | t }}</p>
+  {% assign newsletter_form_id = 'Newsletter-' | append: section.id %}
+  {% form 'customer', id: newsletter_form_id %}
+    {% if form.posted_successfully? %}<p role="status">{{ 'velnuit.newsletter_success' | t }}</p>{% endif %}
+    {{ form.errors | default_errors }}<input type="hidden" name="contact[tags]" value="newsletter">
+    <label class="visually-hidden" for="NewsletterEmail-{{ section.id }}">{{ 'contact.email' | t }}</label><input id="NewsletterEmail-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" placeholder="{{ 'contact.email' | t }}" required value="{{ form.email | escape }}"><button class="sh-button" type="submit">{{ 'velnuit.newsletter_button' | t }}</button>
+    <label class="vn-consent"><input type="checkbox" required>{{ 'velnuit.newsletter_consent' | t }}</label>
+    {% if shop.privacy_policy.body != blank %}<a class="sh-note" href="{{ shop.privacy_policy.url }}">{{ 'velnuit.privacy' | t }}</a>{% endif %}
+  {% endform %}
+</section>
+{% endif %}
+{% schema %}
+{"name":"Newsletter","settings":[{"type":"checkbox","id":"enabled","label":"Activer le formulaire","default":false},{"type":"text","id":"heading","label":"Titre","default":"On se retrouve ici."}],"presets":[{"name":"Newsletter"}]}
+{% endschema %}

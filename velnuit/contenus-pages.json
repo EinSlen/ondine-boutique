@@ -1,0 +1,30 @@
+[
+  {
+    "title": "À propos de VELNUIT",
+    "handle": "velnuit-a-propos",
+    "isPublished": true,
+    "body": "<p>Chocolat, bleu ciel, bordeaux. VELNUIT imagine un vestiaire où les couleurs se répondent, du matin aux nuits qui durent.</p><h2>Chocolat &amp; ciel</h2><p>Une première capsule autour des fines rayures, de la dentelle et des superpositions. Des silhouettes femme et homme, à associer au denim ou à une maille.</p><h2>La première sélection</h2><p>La collection se prépare. Les images de la capsule présentent des idées de tenues ; les caractéristiques des vêtements retenus seront précisées sur chaque fiche avant l’ouverture des commandes.</p><p><a href=\"/#capsule\">Découvrir la capsule</a> · <a href=\"/pages/contact\">Nous contacter</a></p>",
+    "templateSuffix": ""
+  },
+  {
+    "title": "Guide des tailles VELNUIT",
+    "handle": "velnuit-guide-des-tailles",
+    "isPublished": true,
+    "body": "<p>La taille d’un vêtement peut varier selon le modèle. Pour choisir, compare ses mesures avec une pièce qui te va déjà.</p><h2>Prendre les mesures</h2><ol><li>Pose ton vêtement à plat, sans l’étirer.</li><li>Mesure sa poitrine, sa longueur et sa largeur d’épaules.</li><li>Compare avec le tableau de la pièce : un tour de poitrine correspond à deux fois la largeur à plat.</li></ol><h2>Sweat à capuche I Love Milfs</h2><p>Le tableau ci-dessous indique les mesures du vêtement, en centimètres. La poitrine est un tour complet.</p><table>\n<thead><tr>\n<th>Taille</th>\n<th>Tour de poitrine du vêtement (cm)</th>\n<th>Longueur (cm)</th>\n<th>Épaules (cm)</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>96</td>\n<td>65</td>\n<td>43</td>\n</tr>\n<tr>\n<td>M</td>\n<td>102</td>\n<td>68</td>\n<td>45</td>\n</tr>\n<tr>\n<td>L</td>\n<td>108</td>\n<td>71</td>\n<td>47</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>114</td>\n<td>74</td>\n<td>49</td>\n</tr>\n<tr>\n<td>2XL</td>\n<td>120</td>\n<td>77</td>\n<td>51</td>\n</tr>\n<tr>\n<td>3XL</td>\n<td>126</td>\n<td>79</td>\n<td>53</td>\n</tr>\n</tbody>\n</table><p>Mesures du fournisseur. Une variation de 1 à 3 cm est possible.</p><p>Ces mesures proviennent du fournisseur. Elles ne correspondent pas aux mensurations du corps.</p><h2>Les autres pièces</h2><p>Leurs tableaux seront ajoutés lorsque les modèles de la capsule seront confirmés.</p><p>Une question ? <a href=\"/pages/contact\">Écris-nous</a> avec le nom de la pièce.</p>",
+    "templateSuffix": ""
+  },
+  {
+    "title": "Livraison VELNUIT",
+    "handle": "velnuit-livraison",
+    "isPublished": true,
+    "body": "<p>Les commandes VELNUIT ne sont pas encore ouvertes.</p><h2>Destinations et frais</h2><p>Les pays desservis et les frais de livraison seront indiqués ici avant l’ouverture. Le montant applicable à une commande sera présenté avant le paiement.</p><h2>Préparation et transport</h2><p>Les délais dépendront des modèles retenus et de la destination. Aucun délai de livraison n’est annoncé à ce stade.</p><h2>Suivi de commande</h2><p>Les informations de suivi seront précisées à l’ouverture de la boutique.</p><p>Pour une question sur la collection, <a href=\"/pages/contact\">contacte-nous</a>.</p>",
+    "templateSuffix": ""
+  },
+  {
+    "title": "Questions fréquentes VELNUIT",
+    "handle": "velnuit-faq",
+    "isPublished": true,
+    "body": "<details open><summary>Quand ouvre la collection ?</summary><p>La première sélection est en préparation. La date d’ouverture sera annoncée lorsqu’elle sera confirmée.</p></details><details><summary>Peut-on déjà commander ?</summary><p>Les commandes ne sont pas encore ouvertes. L’aperçu te permet de découvrir la direction de la collection.</p></details><details><summary>Que représentent les photos ?</summary><p>Les visuels Chocolat &amp; ciel présentent des concepts de tenues. La photo du sweat à slogan provient du fournisseur. Chaque fiche précisera les photos et les caractéristiques de la pièce retenue avant sa mise en vente.</p></details><details><summary>Comment choisir ma taille ?</summary><p>Compare les mesures du vêtement avec celles d’une pièce qui te va. Les coupes peuvent varier d’un modèle à l’autre. Consulte le <a href=\"/pages/velnuit-guide-des-tailles\">guide des tailles</a>.</p></details><details><summary>Quels sont les frais et délais de livraison ?</summary><p>Ils seront confirmés avant l’ouverture. Retrouve les informations disponibles sur la page <a href=\"/pages/velnuit-livraison\">Livraison</a>.</p></details><details><summary>Comment vous contacter ?</summary><p>Utilise notre <a href=\"/pages/contact\">formulaire de contact</a> en indiquant la pièce qui t’intéresse.</p></details>",
+    "templateSuffix": ""
+  }
+]

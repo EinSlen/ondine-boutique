@@ -1,0 +1,72 @@
+name: VELNUIT theme
+
+on:
+  pull_request:
+    paths:
+      - 'velnuit/**'
+      - '.github/workflows/velnuit-theme.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'velnuit/**'
+      - '.github/workflows/velnuit-theme.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            velnuit
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify structure, translations and JavaScript
+        run: node velnuit/tools/verify-theme.mjs
+      - name: Install Shopify CLI
+        run: npm install --global @shopify/cli@3
+      - name: Check Liquid and Shopify theme rules
+        working-directory: velnuit/theme
+        run: shopify theme check --fail-level error
+      - name: Package Shopify theme
+        working-directory: velnuit/theme
+        run: shopify theme package
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VELNUIT-shopify-theme
+          path: velnuit/theme/*.zip
+          if-no-files-found: error
+
+  storefront-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            velnuit
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install Chromium test runner
+        run: |
+          npm install --prefix "$RUNNER_TEMP/velnuit-browser" --no-save playwright@1.56.1
+          "$RUNNER_TEMP/velnuit-browser/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Check installed Shopify preview on desktop and mobile
+        env:
+          NODE_PATH: ${{ runner.temp }}/velnuit-browser/node_modules
+        run: node velnuit/tools/storefront-smoke.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: VELNUIT-browser-check
+          path: velnuit/browser-report/
+          if-no-files-found: warn

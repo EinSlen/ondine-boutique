@@ -1,0 +1,104 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "VELNUIT",
+    "theme_version": "1.0.0",
+    "theme_author": "VELNUIT",
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://help.shopify.com"
+  },
+  {
+    "name": "Identité",
+    "settings": [
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Nom de la marque",
+        "default": "VELNUIT"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Icône du navigateur"
+      }
+    ]
+  },
+  {
+    "name": "Pages et référencement",
+    "settings": [
+      {
+        "type": "text",
+        "id": "home_title",
+        "label": "Titre de l’accueil",
+        "default": "Chocolat & ciel"
+      },
+      {
+        "type": "textarea",
+        "id": "home_description",
+        "label": "Description pour les moteurs de recherche",
+        "default": "Découvrez VELNUIT : un vestiaire chocolat, bleu ciel et bordeaux. Dentelle, fines rayures et jeux de superposition."
+      },
+      {
+        "type": "page",
+        "id": "size_guide_page",
+        "label": "Guide des tailles"
+      },
+      {
+        "type": "page",
+        "id": "delivery_page",
+        "label": "Livraison"
+      },
+      {
+        "type": "page",
+        "id": "faq_page",
+        "label": "Questions fréquentes"
+      },
+      {
+        "type": "page",
+        "id": "about_page",
+        "label": "À propos"
+      }
+    ]
+  },
+  {
+    "name": "t:sections.launch",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "showcase_mode",
+        "label": "t:settings.showcase_mode",
+        "info": "t:settings.showcase_info",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "t:sections.colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_cream",
+        "label": "t:settings.color_cream",
+        "default": "#faf7f0"
+      },
+      {
+        "type": "color",
+        "id": "color_ink",
+        "label": "t:settings.color_ink",
+        "default": "#32231d"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "t:settings.color_accent",
+        "default": "#733747"
+      },
+      {
+        "type": "color",
+        "id": "color_butter",
+        "label": "t:settings.color_butter",
+        "default": "#c7dce7"
+      }
+    ]
+  }
+]
