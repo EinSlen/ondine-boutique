@@ -1,44 +1,59 @@
-# Livraison VELNUIT — 1er octobre 2026
+# État VELNUIT — 1er octobre 2026
 
-Le thème **VELNUIT — Chocolat & ciel — 01 octobre** est installé et **non publié** dans Shopify.
+L’avant-première VELNUIT est installée, ses pages utiles sont publiées et les contrôles navigateur sont réussis. **La vente n’est pas ouverte.** Le thème VELNUIT reste non publié ; le domaine public utilise encore le thème principal DEAD2ME.
 
-- [Aperçu Shopify](https://0rsiku-r1.myshopify.com/?preview_theme_id=190185144648)
+- [Aperçu VELNUIT](https://0rsiku-r1.myshopify.com/?preview_theme_id=190185144648)
 - [Éditeur du thème](https://0rsiku-r1.myshopify.com/admin/themes/190185144648/editor)
 - [Changements GitHub — PR #1](https://github.com/EinSlen/ondine-boutique/pull/1)
-- [Contrôle Shopify réussi](https://github.com/EinSlen/ondine-boutique/actions/runs/36856737529)
-- [Archive importable](https://github.com/EinSlen/ondine-boutique/actions/runs/36856737529/artifacts/11158623671)
+- [Contrôles réussis](https://github.com/EinSlen/ondine-boutique/actions/runs/36859476065)
+- [ZIP Shopify](https://github.com/EinSlen/ondine-boutique/actions/runs/36859476065/artifacts/11160826733)
+- [Captures et résultats navigateur](https://github.com/EinSlen/ondine-boutique/actions/runs/36859476065/artifacts/11160881779)
 
-L’aperçu utilise les restrictions d’accès déjà appliquées à la boutique. Aucun mot de passe ou jeton n’a été récupéré.
+## Site installé et vérifié
 
-## Réalisé et vérifié
+Thème `190185144648` : campagne Chocolat & ciel, huit concepts, filtres Femme/Homme, sweat fournisseur et mesures, collections natives, variantes, panier, recherche, contact et localisation. Les liens Femme/Homme affichent leurs concepts dans l’avant-première et leurs collections lorsque les ventes sont ouvertes. Les collections vides sont masquées sur l’accueil en avant-première. Titre et description de l’accueil utilisent VELNUIT.
 
-Accueil VELNUIT avec la campagne Chocolat & ciel, huit concepts filtrables Femme/Homme, présentation du sweat fournisseur et son tableau de mesures. Routes Shopify pour collections, recherche, produit, panier, contact, pages et localisation. Menus `velnuit-main` et `velnuit-footer` créés et utilisés uniquement dans cette copie du thème.
+Quatre pages sont **publiées**, finalisées pour l’avant-première et reliées au menu `velnuit-footer` utilisé par le nouveau thème :
 
-Quatre nouvelles pages sont créées en **brouillon** :
+| Page | Identifiant | URL |
+| --- | --- | --- |
+| À propos | 157134618952 | /pages/velnuit-a-propos |
+| Guide des tailles | 157134651720 | /pages/velnuit-guide-des-tailles |
+| Livraison | 157134684488 | /pages/velnuit-livraison |
+| FAQ | 157134717256 | /pages/velnuit-faq |
 
-| Page | Identifiant Shopify |
+Le formulaire Contact existant est conservé. Le guide inclut les mesures fournisseur du sweat. La page Livraison ne promet ni les anciens tarifs ni un délai inconnu.
+
+Commit de code vérifié : `68567c7f3e0cd1daf36960a21963a1d2f5f24313`.
+- Structure/traductions/JavaScript : réussite, 44 fichiers source.
+- Shopify Theme Check : **0 erreur**, 81 avertissements de classes CSS communes définies hors des sections.
+- Relecture Shopify : **43 fichiers installables identiques aux sources**, JSON comparé sans les commentaires générés.
+- Chromium : **22 vérifications réussies**, en 1440 × 1000 et 390 × 844. Accueil, images réellement chargées, filtres, navigation Femme/mobile, absence de débordement horizontal, quatre pages, champs Contact, panier vide, recherche et 404. Le sweat brouillon reste inaccessible à l’achat.
+- Aucune commande ni soumission du formulaire : livraison des messages, paiement, variantes d’un produit actif et traitement EPROLO ne sont pas validés par ce test.
+
+## Vérification de l’ouverture
+
+| Élément | État observé |
 | --- | --- |
-| À propos de VELNUIT | 157134618952 |
-| Guide des tailles VELNUIT | 157134651720 |
-| Livraison VELNUIT | 157134684488 |
-| Questions fréquentes VELNUIT | 157134717256 |
+| HTTPS | Activé |
+| Mot de passe storefront | Désactivé ; ancien thème public |
+| Marché | France actif |
+| Catalogue VELNUIT | 9 brouillons, 14 variantes |
+| Concepts | 8 fiches à 0 €, fournisseur exact non confirmé |
+| Sweat | Photo et 6 tailles ; prix saisi 34,90 € non validé, stock 0 |
+| EPROLO | Service et emplacement présents, liaison des variantes non confirmée par les données accessibles |
+| Livraison | Ancien profil général ; 3 emplacements sans tarifs, dont EPROLO |
+| Paiement | Lecture du compte Shopify Payments refusée par les droits de la connexion ; activation et encaissement non vérifiables ici |
+| Légal | Identité du vendeur non fournie ; anciennes pages/politique DEAD2ME et CGV incomplètes |
 
-Les brouillons ne sont pas liés dans le menu public. Le formulaire Contact existant est accessible.
+Le profil général conserve France 7,99 € / gratuit à partir de 65 € / Express 10,99 €, UE 22 €, international 29 €. Ces tarifs ne sont pas validés pour les nouveaux produits. Seul l’emplacement de la boutique appartient au groupe avec tarifs. Les coûts et délais EPROLO demeurent inconnus.
 
-Contrôles de structure, traductions, réglages et JavaScript réussis. **Shopify Theme Check : zéro erreur** ; les avertissements concernent les classes CSS communes définies hors du fichier de section. Le ZIP a été produit et conservé comme artefact GitHub.
+Le SIRET n’est pas nécessaire pour développer le site. L’ouverture de ventes professionnelles nécessite la formalisation applicable au vendeur et des informations légales exactes ; aucun nom, adresse, numéro ni médiateur n’a été inventé.
 
-Le commit de code vérifié est `cc3ec31e29ef5f980df01aec31a9b90c761d290d`. Une relecture Shopify confirme que les **42 fichiers** du thème livrés correspondent à ces sources (JSON comparé après retrait des commentaires générés par Shopify). Les images déjà présentes dans Shopify sont conservées par référence. Aucun rendu visuel ni parcours navigateur complet n’a pu être testé avec les outils de cette session.
+[Étapes concrètes restantes dans Shopify](velnuit/OUVERTURE.md). [Vérification fournisseur](velnuit/EPROLO.md).
 
-## État EPROLO
+## Limite du nettoyage et de la publication
 
-EPROLO est présent comme service de traitement et emplacement de stock. Les neuf fiches VELNUIT et quatorze variantes vérifiées restent en brouillon, uniquement rattachées à l’emplacement de la boutique. Aucun métachamp accessible ne fournit le lien fournisseur. La recherche Shopify associée à EPROLO ne retrouve que le sweat.
+La connexion Shopify bloque la suppression et la publication de thèmes, et les écritures sur le thème principal. Le nettoyage `themeFilesDelete` de la copie a été refusé comme action destructive. Ses **21 fichiers historiques hérités** restent présents, sans être utilisés par le nouvel accueil ou la navigation ; d’anciennes vues `?view=` sont encore disponibles. Le ZIP propre contient seulement VELNUIT. Aucun contournement n’a été tenté.
 
-Les huit concepts restent à 0 € avec une seule variante provisoire ; le sweat a six tailles et un prix saisi de 34,90 €, non validé. **Références EPROLO, coûts livrés France, disponibilité et délais ne sont pas confirmés.** Le catalogue privé EPROLO n’est pas accessible via les outils disponibles, et la recherche de plugin EPROLO n’a donné aucun résultat. [Détail de la vérification](velnuit/EPROLO.md).
-
-Avant d’ouvrir les ventes, compléter les correspondances de variantes dans EPROLO, les prix, les photos finales et les données du vendeur. Les textes historiques DEAD2ME ne décrivent pas cette nouvelle activité.
-
-## Limite du nettoyage
-
-L’outil Shopify a bloqué `themeFilesDelete` en le classant comme suppression destructive (« Theme deletion is blocked — it could take down the live storefront »), même si la cible était la nouvelle copie non publiée. Les **21 fichiers historiques hérités** restent donc présents dans cette copie. Ils ne sont pas utilisés par le nouvel accueil ou la nouvelle navigation ; certaines anciennes vues `?view=` restent techniquement disponibles. Aucun contournement du blocage n’a été tenté. Le ZIP fourni ne contient que le nouveau thème.
-
-Le thème principal DEAD2ME et les anciens produits n’ont pas été modifiés. Aucun achat, changement de forfait, commande fournisseur, publication de thème ou activation de produit n’a été effectué.
+Les sources GitHub ne sont pas encore fusionnées dans main. Aucun achat, commande fournisseur, changement de forfait ou activation de produit n’a été effectué.
