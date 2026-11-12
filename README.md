@@ -2,6 +2,16 @@
 
 Sauvegarde de travail du 13 septembre 2026, préparée pour reprendre le projet depuis le web. **Ce dépôt n’est pas une boutique finalisée et ses designs ne sont pas approuvés.**
 
+## Mise à jour du 12 novembre 2026
+
+Ajout des boutiques lancées depuis la sauvegarde de septembre, copiées depuis `Desktop/Ondine` :
+
+- `ondine/kapsulcam/` : boutique KapsulCam (mini caméra POV 4K, lancée le 15/10/2026) : thème, scripts Shopify, politiques, échanges fournisseur, pubs Google et Meta, vidéos finales.
+- `ondine/plafondceleste/` : boutique Plafond Céleste (projecteurs de plafond et lune photo) : thème Horizon, SEO, kit légal de lancement, calcul des marges, pubs et vidéos Higgsfield finales.
+- [`decisions/`](decisions/README.md) : les fiches de décisions de chaque projet, avec les choix et les refus de Valentin.
+
+Seules les vidéos finales sont versionnées. Les rushs, générations brutes, clips de banque d’images et pubs de concurrents sont listés dans [`ondine/VIDEOS-NON-VERSIONNEES.md`](ondine/VIDEOS-NON-VERSIONNEES.md). Les jetons d’accès (`outils/.env`, `.mcp.json`) et le profil de navigateur ne sont pas dans le dépôt.
+
 ## Commencer ici
 
 1. Lire [REPRISE-CHATGPT.md](REPRISE-CHATGPT.md) : demandes, refus récents et état réel.
