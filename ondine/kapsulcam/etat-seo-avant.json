@@ -1,0 +1,119 @@
+{
+ "date": "2026-10-15T08:34:36.700Z",
+ "pages": [
+  {
+   "id": "gid://shopify/Page/155824488776",
+   "handle": "contact",
+   "title": "Contact",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/155827568968",
+   "handle": "a-propos",
+   "title": "À propos",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/155827601736",
+   "handle": "guide-des-tailles",
+   "title": "Guide des tailles",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/155827634504",
+   "handle": "livraison",
+   "title": "Livraison",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/155827667272",
+   "handle": "retours",
+   "title": "Retours et remboursements",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/155827700040",
+   "handle": "faq",
+   "title": "Questions fréquentes",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/156109996360",
+   "handle": "remboursement",
+   "title": "Politique de remboursement",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/157134618952",
+   "handle": "velnuit-a-propos",
+   "title": "À propos de VELNUIT",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/157134651720",
+   "handle": "velnuit-guide-des-tailles",
+   "title": "Guide des tailles VELNUIT",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/157134684488",
+   "handle": "velnuit-livraison",
+   "title": "Livraison VELNUIT",
+   "isPublished": true
+  },
+  {
+   "id": "gid://shopify/Page/157134717256",
+   "handle": "velnuit-faq",
+   "title": "Questions fréquentes VELNUIT",
+   "isPublished": true
+  }
+ ],
+ "collections": [
+  {
+   "id": "gid://shopify/Collection/670330618184",
+   "handle": "frontpage",
+   "title": "Page d’accueil"
+  },
+  {
+   "id": "gid://shopify/Collection/670334517576",
+   "handle": "tirages-uniques",
+   "title": "Tirages uniques"
+  },
+  {
+   "id": "gid://shopify/Collection/670334550344",
+   "handle": "serie-ouverte",
+   "title": "Série ouverte"
+  },
+  {
+   "id": "gid://shopify/Collection/670694670664",
+   "handle": "still-here",
+   "title": "NOTHING LASTS"
+  },
+  {
+   "id": "gid://shopify/Collection/670746968392",
+   "handle": "bottoms",
+   "title": "BOTTOMS"
+  },
+  {
+   "id": "gid://shopify/Collection/670806409544",
+   "handle": "logo-essentials",
+   "title": "LOGO ESSENTIALS"
+  },
+  {
+   "id": "gid://shopify/Collection/670806475080",
+   "handle": "graphic-pieces",
+   "title": "GRAPHIC PIECES"
+  },
+  {
+   "id": "gid://shopify/Collection/672679788872",
+   "handle": "collection-01-femme",
+   "title": "Femme — Chocolat & ciel"
+  },
+  {
+   "id": "gid://shopify/Collection/672679821640",
+   "handle": "collection-01-homme",
+   "title": "Homme — Chocolat & ciel"
+  }
+ ],
+ "articles": []
+}

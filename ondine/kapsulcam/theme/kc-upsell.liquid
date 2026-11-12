@@ -1,0 +1,53 @@
+{%- comment -%} Cart drawer upsell: upgrade a single camera to the Pack Complet (same colour), or offer the card + tripod kit with the Duo. {%- endcomment -%}
+{%- assign kit = all_products['kit-carte-perche'] -%}
+{%- assign up_from = '' -%}{%- assign up_to = nil -%}{%- assign up_qty = 1 -%}{%- assign has_kit = false -%}{%- assign has_duo = false -%}
+{%- for item in cart.items -%}
+  {%- if item.product.handle == 'kit-carte-perche' -%}{%- assign has_kit = true -%}{%- endif -%}
+  {%- if item.product.handle == 'kapsulcam-4k' -%}
+    {%- if item.variant.option2 contains 'Duo' -%}{%- assign has_duo = true -%}{%- endif -%}
+    {%- unless item.variant.option2 contains 'Pack' or item.variant.option2 contains 'Duo' or up_to -%}
+      {%- for v in item.product.variants -%}
+        {%- if v.option1 == item.variant.option1 and v.option2 contains 'Pack' -%}{%- assign up_to = v -%}{%- endif -%}
+      {%- endfor -%}
+      {%- if up_to -%}{%- assign up_from = item.key -%}{%- assign up_qty = item.quantity -%}{%- assign up_diff = up_to.price | minus: item.variant.price -%}{%- endif -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if up_to -%}
+  <div class="kc-up" style="margin:0 0 14px;border:1px solid #e4e4e1;background:#f3f3f1;border-radius:14px;padding:12px;display:flex;gap:12px;align-items:center;letter-spacing:0">
+    {%- if kit -%}<img src="{{ kit.featured_media | image_url: width: 120 }}" alt="Carte microSD 64 Go et perche-trépied" width="56" height="56" style="border-radius:8px;background:#fff;object-fit:cover">{%- endif -%}
+    <div style="flex:1;line-height:1.3">
+      <b style="display:block;font-size:14px">Passez au Pack Complet</b>
+      <span style="font-size:12.5px;opacity:.75">Carte microSD 64 Go et perche-trépied incluses · +{{ up_diff | money }}</span>
+    </div>
+    <button type="button" data-kc-swap="{{ up_from }}" data-kc-to="{{ up_to.id }}" data-kc-qty="{{ up_qty }}" style="border:0;border-radius:99px;background:#111;color:#fff;font-weight:600;font-size:13px;padding:10px 14px;cursor:pointer">Passer au Pack</button>
+  </div>
+{%- elsif kit and has_duo and has_kit == false -%}
+  <div class="kc-up" style="margin:0 0 14px;border:1px solid #e4e4e1;background:#f3f3f1;border-radius:14px;padding:12px;display:flex;gap:12px;align-items:center;letter-spacing:0">
+    <img src="{{ kit.featured_media | image_url: width: 120 }}" alt="Carte microSD 64 Go et perche-trépied" width="56" height="56" style="border-radius:8px;background:#fff;object-fit:cover">
+    <div style="flex:1;line-height:1.3">
+      <b style="display:block;font-size:14px">Pensez à la carte microSD</b>
+      <span style="font-size:12.5px;opacity:.75">Kit carte 64 Go + perche-trépied · {{ kit.price | money }}</span>
+    </div>
+    <button type="button" data-kc-up="{{ kit.selected_or_first_available_variant.id }}" style="border:0;border-radius:99px;background:#111;color:#fff;font-weight:600;font-size:13px;padding:10px 14px;cursor:pointer">Ajouter</button>
+  </div>
+{%- endif -%}
+<script>
+  if (!window.kcUpsell) {
+    window.kcUpsell = true;
+    const root = window.Shopify && Shopify.routes ? Shopify.routes.root : '/';
+    const post = (url, body) => fetch(root + url, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(body) }).then((x) => x.json()).catch(() => null);
+    const refresh = (r, id) => { const d = document.querySelector('cart-drawer'); if (r && r.sections && d && d.renderContents) d.renderContents({ ...r, id }); else location.reload(); };
+    document.addEventListener('click', async (e) => {
+      const add = e.target.closest('[data-kc-up]');
+      const swap = e.target.closest('[data-kc-swap]');
+      if (!add && !swap) return;
+      const b = add || swap;
+      b.disabled = true; b.textContent = '...';
+      if (swap) await post('cart/change.js', { id: swap.dataset.kcSwap, quantity: 0 });
+      const id = Number(add ? add.dataset.kcUp : swap.dataset.kcTo);
+      const qty = swap ? Number(swap.dataset.kcQty) || 1 : 1;
+      refresh(await post('cart/add.js', { items: [{ id, quantity: qty }], sections: 'cart-drawer,cart-icon-bubble', sections_url: location.pathname }), id);
+    });
+  }
+</script>

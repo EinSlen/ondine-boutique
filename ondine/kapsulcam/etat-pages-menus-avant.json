@@ -1,0 +1,361 @@
+{
+ "pages": {
+  "nodes": [
+   {
+    "id": "gid://shopify/Page/155824488776",
+    "handle": "contact",
+    "title": "Contact",
+    "isPublished": true,
+    "body": "<p>Une question sur une commande, une taille ou une sortie ? Écris-nous avec le formulaire ci-dessous, nous répondons rapidement.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/155827568968",
+    "handle": "a-propos",
+    "title": "À propos",
+    "isPublished": true,
+    "body": "<p>D2M est une marque de streetwear construite sur des images simples : des scènes courtes, du noir, de l’écru, une seule teinte de rouge.</p>\n<p>NOTHING LASTS est la première sortie. Douze pièces, chacune pensée comme une composition frontale. Sur les sweats zippés, la fermeture traverse le dessin au lieu de le contourner.</p>\n<p>Tout est imprimé à la commande en Europe. Rien n’est stocké, rien n’est réimprimé. Quand une sortie se termine, elle se termine.</p>\n<p>Conçu en France.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/155827601736",
+    "handle": "guide-des-tailles",
+    "title": "Guide des tailles",
+    "isPublished": true,
+    "body": "<p>Les hauts vont du S au XXL. Les bas vont du 2XS au 3XL.</p>\n<p>Toutes les pièces sont coupées large : épaules tombantes sur les t-shirts et les sweats, jambe droite et ample sur les bas. Pour un porté ajusté, prends ta taille habituelle. Pour le tombé des photos, prends une taille au-dessus.</p>\n<p>Le tableau de mesures complet sera publié quand le vêtement de production sera arrêté. Nous préférons l’absence de chiffres à des chiffres que nous ne pourrions pas tenir.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/155827634504",
+    "handle": "livraison",
+    "title": "Livraison",
+    "isPublished": true,
+    "body": "<p>Chaque pièce est imprimée à la commande : le délai total est celui de la fabrication, puis du transport. Les options et les prix exacts pour ton adresse s’affichent au moment du paiement.</p>\n<p>France : standard 7,99 €, offerte à partir de 65 €. Express 10,99 €.</p>\n<p>Union européenne : standard 22 €.</p>\n<p>Reste du monde : standard 29 €.</p>\n<p>Le numéro de suivi est envoyé par courriel dès que le colis quitte l’atelier.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/155827667272",
+    "handle": "retours",
+    "title": "Retours et remboursements",
+    "isPublished": true,
+    "body": "<p><strong>Droit de rétractation.</strong> Tu disposes de 14 jours à compter de la réception pour te rétracter, sous réserve des exceptions prévues par la loi. Contacte-nous depuis la page Contact avec ton numéro de commande.</p>\n<p>La pièce doit revenir dans un état permettant sa remise en vente : essayée, non portée, non lavée. Les frais de retour restent à ta charge, sauf si la pièce est arrivée abîmée ou n’était pas celle commandée.</p>\n<p>Une fois le retour reçu et vérifié, le remboursement est effectué sur le moyen de paiement d’origine sous 14 jours.</p>\n<p><strong>Pièce abîmée ou erreur.</strong> Envoie-nous une photo dans les 14 jours suivant la réception : nous remplaçons ou remboursons intégralement, frais de retour compris.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/155827700040",
+    "handle": "faq",
+    "title": "Questions fréquentes",
+    "isPublished": true,
+    "body": "<p><strong>C’est quoi NOTHING LASTS ?</strong><br>La première sortie D2M : douze pièces, des silhouettes simples, beaucoup de vide et une seule teinte de rouge. Sur les sweats zippés, la fermeture fait partie de la composition.</p>\n<p><strong>Y aura-t-il des réassorts ?</strong><br>Non. Quand une sortie se termine, elle ne revient pas. Une pièce peut réapparaître sous une autre forme dans une sortie suivante, jamais à l’identique.</p>\n<p><strong>Quelles tailles ?</strong><br>Hauts du S au XXL, bas du 2XS au 3XL, coupés large. Le tableau de mesures sera ajouté au guide des tailles dès que le vêtement de production sera arrêté.</p>\n<p><strong>Où est-ce fabriqué ?</strong><br>Imprimé à la commande en Europe, puis expédié depuis là.</p>\n<p><strong>Combien de temps pour recevoir ma commande ?</strong><br>Le temps de fabrication, puis celui du transport. L’estimation pour ton adresse s’affiche au moment du paiement, et le suivi arrive par courriel.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/156109963592",
+    "handle": "cgv",
+    "title": "Conditions générales de vente",
+    "isPublished": false,
+    "body": "<h2>1. Identité du vendeur</h2>\n<p>La boutique dead2me est éditée par __VENDEUR__, entrepreneur individuel immatriculé sous le numéro SIRET __SIRET__, dont le siège est situé __ADRESSE__. Contact : par le formulaire de la page Contact.</p>\n\n<h2>2. Objet</h2>\n<p>Les présentes conditions régissent la vente de vêtements imprimés à la commande, proposés sur la boutique dead2me à des consommateurs. Toute commande implique leur acceptation.</p>\n\n<h2>3. Produits</h2>\n<p>Chaque pièce est imprimée à la commande. Les visuels de présentation sont des représentations : de légères différences de teinte ou de placement d'impression peuvent exister, sans constituer un défaut. Les caractéristiques essentielles de chaque pièce figurent sur sa fiche.</p>\n\n<h2>4. Prix</h2>\n<p>Les prix sont indiqués en euros, toutes taxes comprises, hors frais de livraison. Les frais de livraison applicables sont affichés avant la validation de la commande. Le vendeur se réserve le droit de modifier ses prix à tout moment, le prix applicable étant celui affiché au moment de la commande.</p>\n\n<h2>5. Commande</h2>\n<p>La commande est ferme après validation du paiement. Un courriel de confirmation récapitulant la commande est envoyé à l'adresse indiquée. Le vendeur se réserve le droit d'annuler toute commande présentant un litige de paiement ou un caractère manifestement anormal.</p>\n\n<h2>6. Paiement</h2>\n<p>Le paiement s'effectue en ligne au moment de la commande, par les moyens proposés au tunnel de paiement. Les données bancaires ne transitent jamais par le vendeur.</p>\n\n<h2>7. Livraison</h2>\n<p>Les délais annoncés se composent du temps de fabrication et du temps de transport. Ils sont indicatifs. En cas de retard supérieur à trente jours après la date de livraison annoncée, le client peut annuler sa commande et obtenir le remboursement intégral.</p>\n\n<h2>8. Droit de rétractation</h2>\n<p>Conformément aux articles L221-18 et suivants du code de la consommation, le client dispose de quatorze jours à compter de la réception pour exercer son droit de rétractation, sans avoir à motiver sa décision. Les frais de retour restent à sa charge. Le remboursement intervient au plus tard quatorze jours après récupération du bien ou preuve de son expédition.</p>\n<p>Le formulaire type de rétractation peut être demandé par la page Contact.</p>\n\n<h2>9. Garanties légales</h2>\n<p>Toutes les pièces bénéficient de la garantie légale de conformité (articles L217-3 et suivants du code de la consommation) et de la garantie contre les vices cachés (articles 1641 et suivants du code civil). En cas de défaut, le client peut demander la réparation ou le remplacement, puis à défaut la réduction du prix ou la résolution de la vente.</p>\n\n<h2>10. Propriété intellectuelle</h2>\n<p>Les visuels, motifs, textes et éléments graphiques de la boutique sont protégés. Toute reproduction, même partielle, est interdite sans autorisation écrite.</p>\n\n<h2>11. Données personnelles</h2>\n<p>Les données collectées servent au traitement des commandes et, si le client y consent, à l'envoi d'informations sur les sorties. Le client dispose d'un droit d'accès, de rectification, d'effacement et de portabilité, exerçable par la page Contact. Le détail figure dans la politique de confidentialité.</p>\n\n<h2>12. Médiation et litiges</h2>\n<p>En cas de litige non résolu directement, le client peut recourir gratuitement au médiateur de la consommation : __MEDIATEUR__. Il peut également utiliser la plateforme européenne de règlement en ligne des litiges. À défaut d'accord, les tribunaux français sont compétents.</p>\n\n<h2>13. Droit applicable</h2>\n<p>Les présentes conditions sont soumises au droit français.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/156109996360",
+    "handle": "remboursement",
+    "title": "Politique de remboursement",
+    "isPublished": true,
+    "body": "<h2>Rétractation</h2>\n<p>Tu disposes de quatorze jours à compter de la réception pour changer d'avis, sans avoir à te justifier. Écris-nous par la page Contact avec ton numéro de commande, et nous t'indiquons l'adresse de retour.</p>\n\n<h2>État de la pièce</h2>\n<p>La pièce doit revenir dans un état permettant sa remise en vente : essayée, non portée au-delà de l'essayage, non lavée, avec ses étiquettes. Une pièce visiblement portée ou abîmée peut faire l'objet d'un remboursement partiel.</p>\n\n<h2>Frais de retour</h2>\n<p>Les frais de retour sont à ta charge, sauf si la pièce est arrivée abîmée, défectueuse, ou n'était pas celle commandée : dans ce cas nous prenons le retour à notre charge.</p>\n\n<h2>Remboursement</h2>\n<p>Une fois le retour reçu et vérifié, le remboursement est effectué sur le moyen de paiement d'origine, au plus tard quatorze jours après. Les frais de livraison initiaux sont remboursés au tarif standard.</p>\n\n<h2>Pièce abîmée ou erreur</h2>\n<p>Envoie-nous une photo dans les quatorze jours suivant la réception. Nous remplaçons la pièce ou la remboursons intégralement, frais de retour compris, sans que tu aies à la renvoyer à tes frais.</p>\n\n<h2>Échanges</h2>\n<p>Chaque pièce étant imprimée à la commande, nous ne pratiquons pas l'échange direct : demande le remboursement, puis repasse commande dans la taille voulue tant que la sortie est ouverte.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/157134618952",
+    "handle": "velnuit-a-propos",
+    "title": "À propos de VELNUIT",
+    "isPublished": true,
+    "body": "<p>Chocolat, bleu ciel, bordeaux. VELNUIT imagine un vestiaire où les couleurs se répondent, du matin aux nuits qui durent.</p><h2>Chocolat &amp; ciel</h2><p>Une première capsule autour des fines rayures, de la dentelle et des superpositions. Des silhouettes femme et homme, à associer au denim ou à une maille.</p><h2>La première sélection</h2><p>La collection se prépare. Les images de la capsule présentent des idées de tenues ; les caractéristiques des vêtements retenus seront précisées sur chaque fiche avant l’ouverture des commandes.</p><p><a href=\"/#capsule\">Découvrir la capsule</a> · <a href=\"/pages/contact\">Nous contacter</a></p>"
+   },
+   {
+    "id": "gid://shopify/Page/157134651720",
+    "handle": "velnuit-guide-des-tailles",
+    "title": "Guide des tailles VELNUIT",
+    "isPublished": true,
+    "body": "<p>La taille d’un vêtement peut varier selon le modèle. Pour choisir, compare ses mesures avec une pièce qui te va déjà.</p><h2>Prendre les mesures</h2><ol>\n<li>Pose ton vêtement à plat, sans l’étirer.</li>\n<li>Mesure sa poitrine, sa longueur et sa largeur d’épaules.</li>\n<li>Compare avec le tableau de la pièce : un tour de poitrine correspond à deux fois la largeur à plat.</li>\n</ol><h2>Sweat à capuche I Love Milfs</h2><p>Le tableau ci-dessous indique les mesures du vêtement, en centimètres. La poitrine est un tour complet.</p><table>\n<thead><tr>\n<th>Taille</th>\n<th>Tour de poitrine du vêtement (cm)</th>\n<th>Longueur (cm)</th>\n<th>Épaules (cm)</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>S</td>\n<td>96</td>\n<td>65</td>\n<td>43</td>\n</tr>\n<tr>\n<td>M</td>\n<td>102</td>\n<td>68</td>\n<td>45</td>\n</tr>\n<tr>\n<td>L</td>\n<td>108</td>\n<td>71</td>\n<td>47</td>\n</tr>\n<tr>\n<td>XL</td>\n<td>114</td>\n<td>74</td>\n<td>49</td>\n</tr>\n<tr>\n<td>2XL</td>\n<td>120</td>\n<td>77</td>\n<td>51</td>\n</tr>\n<tr>\n<td>3XL</td>\n<td>126</td>\n<td>79</td>\n<td>53</td>\n</tr>\n</tbody>\n</table><p>Mesures du fournisseur. Une variation de 1 à 3 cm est possible.</p><p>Ces mesures proviennent du fournisseur. Elles ne correspondent pas aux mensurations du corps.</p><h2>Les autres pièces</h2><p>Leurs tableaux seront ajoutés lorsque les modèles de la capsule seront confirmés.</p><p>Une question ? <a href=\"/pages/contact\">Écris-nous</a> avec le nom de la pièce.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/157134684488",
+    "handle": "velnuit-livraison",
+    "title": "Livraison VELNUIT",
+    "isPublished": true,
+    "body": "<p>Les commandes VELNUIT ne sont pas encore ouvertes.</p><h2>Destinations et frais</h2><p>Les pays desservis et les frais de livraison seront indiqués ici avant l’ouverture. Le montant applicable à une commande sera présenté avant le paiement.</p><h2>Préparation et transport</h2><p>Les délais dépendront des modèles retenus et de la destination. Aucun délai de livraison n’est annoncé à ce stade.</p><h2>Suivi de commande</h2><p>Les informations de suivi seront précisées à l’ouverture de la boutique.</p><p>Pour une question sur la collection, <a href=\"/pages/contact\">contacte-nous</a>.</p>"
+   },
+   {
+    "id": "gid://shopify/Page/157134717256",
+    "handle": "velnuit-faq",
+    "title": "Questions fréquentes VELNUIT",
+    "isPublished": true,
+    "body": "<details open><summary>Quand ouvre la collection ?</summary><p>La première sélection est en préparation. La date d’ouverture sera annoncée lorsqu’elle sera confirmée.</p></details><details><summary>Peut-on déjà commander ?</summary><p>Les commandes ne sont pas encore ouvertes. L’aperçu te permet de découvrir la direction de la collection.</p></details><details><summary>Que représentent les photos ?</summary><p>Les visuels Chocolat &amp; ciel présentent des concepts de tenues. La photo du sweat à slogan provient du fournisseur. Chaque fiche précisera les photos et les caractéristiques de la pièce retenue avant sa mise en vente.</p></details><details><summary>Comment choisir ma taille ?</summary><p>Compare les mesures du vêtement avec celles d’une pièce qui te va. Les coupes peuvent varier d’un modèle à l’autre. Consulte le <a href=\"/pages/velnuit-guide-des-tailles\">guide des tailles</a>.</p></details><details><summary>Quels sont les frais et délais de livraison ?</summary><p>Ils seront confirmés avant l’ouverture. Retrouve les informations disponibles sur la page <a href=\"/pages/velnuit-livraison\">Livraison</a>.</p></details><details><summary>Comment vous contacter ?</summary><p>Utilise notre <a href=\"/pages/contact\">formulaire de contact</a> en indiquant la pièce qui t’intéresse.</p></details>"
+   }
+  ]
+ },
+ "menus": {
+  "nodes": [
+   {
+    "id": "gid://shopify/Menu/304627056968",
+    "handle": "main-menu",
+    "title": "Menu principal",
+    "items": [
+     {
+      "title": "STILL HERE",
+      "url": "/en/collections/still-here",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670694670664"
+     },
+     {
+      "title": "ABOUT",
+      "url": "/en/pages/a-propos",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827568968"
+     },
+     {
+      "title": "CONTACT",
+      "url": "/en/pages/contact",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155824488776"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/304627089736",
+    "handle": "footer",
+    "title": "Pied de page",
+    "items": [
+     {
+      "title": "Guide des tailles",
+      "url": "/en/pages/guide-des-tailles",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827601736"
+     },
+     {
+      "title": "Livraison",
+      "url": "/en/pages/livraison",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827634504"
+     },
+     {
+      "title": "Retours et remboursements",
+      "url": "/en/pages/retours",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827667272"
+     },
+     {
+      "title": "Questions fréquentes",
+      "url": "/en/pages/faq",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827700040"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/304627122504",
+    "handle": "customer-account-main-menu",
+    "title": "Menu principal du compte client",
+    "items": [
+     {
+      "title": "Commandes",
+      "url": "https://shopify.com/98119909704/account/orders",
+      "type": "CUSTOMER_ACCOUNT_PAGE",
+      "resourceId": "gid://shopify/CustomerAccountPage/137033122120"
+     },
+     {
+      "title": "Profil",
+      "url": "https://shopify.com/98119909704/account/profile",
+      "type": "CUSTOMER_ACCOUNT_PAGE",
+      "resourceId": "gid://shopify/CustomerAccountPage/137033154888"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/305302045000",
+    "handle": "d2m-main",
+    "title": "D2M principal",
+    "items": [
+     {
+      "title": "Boutique",
+      "url": "/en/collections/still-here",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670694670664"
+     },
+     {
+      "title": "NOTHING LASTS",
+      "url": "/en/collections/still-here",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670694670664"
+     },
+     {
+      "title": "À propos",
+      "url": "/en/pages/a-propos",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827568968"
+     },
+     {
+      "title": "Contact",
+      "url": "/en/pages/contact",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155824488776"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/305302077768",
+    "handle": "d2m-shop",
+    "title": "D2M boutique",
+    "items": [
+     {
+      "title": "Toutes les pièces",
+      "url": "/en/collections/still-here",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670694670664"
+     },
+     {
+      "title": "Logo essentials",
+      "url": "/en/collections/logo-essentials",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670806409544"
+     },
+     {
+      "title": "Graphic pieces",
+      "url": "/en/collections/graphic-pieces",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670806475080"
+     },
+     {
+      "title": "Bottoms",
+      "url": "/en/collections/bottoms",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/670746968392"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/305302110536",
+    "handle": "d2m-info",
+    "title": "D2M infos",
+    "items": [
+     {
+      "title": "À propos",
+      "url": "/en/pages/a-propos",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827568968"
+     },
+     {
+      "title": "Livraison",
+      "url": "/en/pages/livraison",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827634504"
+     },
+     {
+      "title": "Retours",
+      "url": "/en/pages/retours",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827667272"
+     },
+     {
+      "title": "Guide des tailles",
+      "url": "/en/pages/guide-des-tailles",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827601736"
+     },
+     {
+      "title": "Contact",
+      "url": "/en/pages/contact",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155824488776"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/305302143304",
+    "handle": "d2m-legal",
+    "title": "D2M mentions",
+    "items": [
+     {
+      "title": "FAQ",
+      "url": "/en/pages/faq",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155827700040"
+     },
+     {
+      "title": "Remboursement",
+      "url": "/en/pages/remboursement",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/156109996360"
+     },
+     {
+      "title": "Confidentialité",
+      "url": "/policies/privacy-policy",
+      "type": "HTTP",
+      "resourceId": null
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/307772031304",
+    "handle": "velnuit-main",
+    "title": "VELNUIT principal",
+    "items": [
+     {
+      "title": "Femme",
+      "url": "/en/collections/collection-01-femme",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/672679788872"
+     },
+     {
+      "title": "Homme",
+      "url": "/en/collections/collection-01-homme",
+      "type": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/672679821640"
+     },
+     {
+      "title": "La capsule",
+      "url": "/#capsule",
+      "type": "HTTP",
+      "resourceId": null
+     },
+     {
+      "title": "Contact",
+      "url": "/en/pages/contact",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155824488776"
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/Menu/307772064072",
+    "handle": "velnuit-footer",
+    "title": "VELNUIT informations",
+    "items": [
+     {
+      "title": "À propos",
+      "url": "/en/pages/velnuit-a-propos",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/157134618952"
+     },
+     {
+      "title": "Guide des tailles",
+      "url": "/en/pages/velnuit-guide-des-tailles",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/157134651720"
+     },
+     {
+      "title": "Livraison",
+      "url": "/en/pages/velnuit-livraison",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/157134684488"
+     },
+     {
+      "title": "Questions fréquentes",
+      "url": "/en/pages/velnuit-faq",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/157134717256"
+     },
+     {
+      "title": "Contact",
+      "url": "/en/pages/contact",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/155824488776"
+     }
+    ]
+   }
+  ]
+ }
+}

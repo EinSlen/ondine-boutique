@@ -1,0 +1,72 @@
+{%- comment -%} Four full-screen scenes (sea, trail, snow, road): looping video, floating camera, big condensed titles. {%- endcomment -%}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&display=swap" rel="stylesheet">
+<style>
+  .kc-sc{position:relative;min-height:max(640px,100vh);overflow:hidden;color:#fff;display:flex;align-items:center;letter-spacing:0;background:#04192b}
+  .kc-sc video,.kc-sc .kc-sc-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .kc-sc::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,25,43,.88) 0%,rgba(4,25,43,.45) 45%,rgba(4,25,43,.1) 70%),linear-gradient(0deg,rgba(4,25,43,.9) 0%,rgba(4,25,43,0) 35%)}
+  .kc-sc--r::after{background:linear-gradient(270deg,rgba(4,25,43,.88) 0%,rgba(4,25,43,.45) 45%,rgba(4,25,43,.1) 70%),linear-gradient(0deg,rgba(4,25,43,.9) 0%,rgba(4,25,43,0) 35%)}
+  .kc-sc-in{position:relative;z-index:2;width:100%;max-width:1280px;margin:0 auto;padding:110px 28px 90px;display:flex}
+  .kc-sc--r .kc-sc-in{justify-content:flex-end}
+  .kc-sc-txt{max-width:640px}
+  .kc-sc--r .kc-sc-txt{order:2}
+  .kc-sc-k{font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:14px;color:#E8D5B0;margin-bottom:14px}
+  .kc-sc h2{font-family:'Barlow Condensed',Barlow,sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(64px,10vw,150px);line-height:.88;margin:0;color:#fff;text-shadow:0 6px 40px rgba(0,0,0,.45)}
+  .kc-sc h2 span{color:#E8D5B0;display:block;font-size:.5em;line-height:1;margin-top:10px}
+  .kc-sc p{font-size:clamp(17px,1.5vw,21px);line-height:1.5;max-width:470px;margin:22px 0 28px;opacity:.92}
+  .kc-sc a.kc-sc-cta{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#04192B;text-decoration:none;font-weight:800;border-radius:12px;padding:16px 26px;font-size:16px;transition:transform .15s}
+  .kc-sc a.kc-sc-cta:hover{transform:translateY(-2px)}
+  .kc-sc-cam{position:relative;display:grid;place-items:center;min-height:min(62vh,560px)}
+  .kc-sc-cam::before{content:"";position:absolute;width:62%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(232,213,176,.5),rgba(232,213,176,0) 68%);filter:blur(16px)}
+  .kc-sc-cam img{position:relative;height:min(56vh,500px)!important;width:auto!important;max-width:none;filter:drop-shadow(0 40px 50px rgba(0,0,0,.6));animation:kcFloat 6s ease-in-out infinite}
+  @keyframes kcFloat{0%,100%{transform:translateY(0) rotate(var(--r,-6deg))}50%{transform:translateY(-18px) rotate(calc(var(--r,-6deg) + 2deg))}}
+  .kc-sc-specs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+  .kc-sc-specs span{border:1px solid rgba(255,255,255,.35);background:rgba(4,25,43,.35);backdrop-filter:blur(6px);border-radius:99px;padding:7px 14px;font-weight:700;font-size:14px}
+  @media(max-width:749px){
+    .kc-sc{min-height:100svh;align-items:flex-end}
+    .kc-sc::after,.kc-sc--r::after{background:linear-gradient(0deg,rgba(4,25,43,.95) 0%,rgba(4,25,43,.55) 45%,rgba(4,25,43,.15) 75%)}
+    .kc-sc-in{grid-template-columns:1fr;padding:80px 22px 56px;gap:0}
+    .kc-sc--r .kc-sc-txt{order:0}
+    .kc-sc-cam{min-height:0;height:30vh;order:-1;margin-bottom:6px}
+    .kc-sc-cam img{height:28vh!important}
+  }
+  @media(prefers-reduced-motion:reduce){.kc-sc-cam img{animation:none}}
+</style>
+{%- assign scenes = "mer|01 · La mer|La mer|à hauteur d'yeux|Surf, snorkeling, piscine : glissée dans son caisson étanche 30 m, elle vous suit sous l'eau comme sur la vague.|Étanche 30 m,Caisson inclus|-7deg;vtt|02 · Le trail|Le trail|sans lâcher le guidon|Sur le guidon, la poitrine ou le casque : chaque descente, chaque saut, filmé exactement comme vous l'avez vécu.|Support guidon,Collier magnétique|6deg;neige|03 · La neige|La neige|jusqu'au dernier virage|Clipsée sur la veste ou le casque, elle garde chaque virage de la journée, du premier télésiège au coucher du soleil.|Clip inclus,36 g|-5deg;moto|04 · La route|La route|droit devant|Sur le casque, la route défile à hauteur d'yeux. Un appui pour filmer, les deux mains sur le guidon.|4K,90 min d'autonomie|7deg" | split: ";" -%}
+{%- for s in scenes -%}
+  {%- assign p = s | split: '|' -%}
+  {%- assign specs = p[5] | split: ',' -%}
+  <section class="kc-sc{% cycle '', ' kc-sc--r' %}" data-kc-sc="{{ p[0] }}">
+    <img class="kc-sc-poster" src="{{ 'kc-u-' | append: p[0] | append: '.jpg' | asset_url }}" alt="" loading="lazy">
+    <video muted loop playsinline preload="none" data-d="{{ 'kc-u-' | append: p[0] | append: '-16x9.mp4' | asset_url }}" data-m="{{ 'kc-u-' | append: p[0] | append: '-9x16.mp4' | asset_url }}"></video>
+    <div class="kc-sc-in">
+      <div class="kc-sc-txt">
+        <div class="kc-sc-k">{{ p[1] }}</div>
+        <h2>{{ p[2] }}<span>{{ p[3] }}</span></h2>
+        <p>{{ p[4] }}</p>
+        <div class="kc-sc-specs">{%- for x in specs -%}<span>{{ x }}</span>{%- endfor -%}</div>
+        <a class="kc-sc-cta" href="{{ routes.root_url }}products/kapsulcam-4k">Choisir ma KapsulCam &rarr;</a>
+      </div>
+    </div>
+  </section>
+{%- endfor -%}
+<script>
+  (() => {
+    const mob = window.matchMedia('(max-width: 749px)').matches;
+    document.querySelectorAll('[data-kc-sc]').forEach((sec) => {
+      const v = sec.querySelector('video');
+      const poster = sec.querySelector('.kc-sc-poster');
+      if (mob && poster) poster.src = poster.src.replace('.jpg', '-m.jpg');
+      new IntersectionObserver(([e]) => {
+        if (e.isIntersecting) {
+          if (!v.src) v.src = mob ? v.dataset.m : v.dataset.d;
+          v.play().then(() => { if (poster) poster.style.opacity = 0; }).catch(() => {});
+        } else v.pause();
+      }, { rootMargin: '200px 0px' }).observe(sec);
+    });
+    document.querySelectorAll('.kc-sc-cta').forEach((a) => a.addEventListener('click', (e) => {
+      const t = document.querySelector('[id^="shopify-section-"][id$="__produit"], [id^="shopify-section-"][id$="__main"]');
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+    }));
+  })();
+</script>

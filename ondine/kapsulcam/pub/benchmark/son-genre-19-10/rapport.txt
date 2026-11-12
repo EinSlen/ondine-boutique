@@ -1,0 +1,40 @@
+Pubs des concurrents KapsulCam : genre et son (relevé du 19/10/2026)
+
+Source : bibliothèque publicitaire Meta, pubs vidéo actives en France. Couverture = personnes uniques touchées dans l'UE depuis le début de chaque pub. Musiques reconnues avec Shazam, voix transcrites automatiquement. Les 22 vidéos sont en pièces jointes (3 mails), numérotées par couverture.
+
+QUI DÉPENSE
+- Moovora : 63 pubs vidéo actives, 3,56 M de personnes touchées. C'est le seul gros (environ 25-30 k€/mois).
+- EyesPRO : 31 pubs, 38 k personnes seulement (petit budget). Une partie concerne leur intercom moto, pas la caméra.
+- The Pov Pro : 14 pubs en anglais sur toute l'UE, 52 k personnes.
+- FilmLibre (doulia-store) : 3 pubs, 10 k personnes.
+- Écartés : Vitivie et Copenrain vendent des caméras espion (Vitivie dit « mets-la dans la salle de bain », c'est illégal, à ne jamais copier).
+
+LE SON
+Deux familles, à peu près moitié-moitié chez Moovora (14 pubs les plus vues = 2,95 M de personnes) :
+1. VOIX qui parle (57 % de la couverture) : les 2 meilleures pubs (578 k et 533 k) sont des motards qui parlent face caméra, en français naturel, tutoiement (« je te conseille de prendre une dashcam »). Pas de musique ou un fond très bas. Durée 27 à 72 s.
+2. MUSIQUE seule, zéro voix (43 %) : formats courts de 8 à 16 s, texte à l'écran. Musiques trouvées :
+   - Funk brésilien / phonk : MENTE MÁ (Nakama & Mc Staff), NO FEAR! (Andromeda & KVRXD), BRODYAGA FUNK (Eternxlkz)
+   - Classiques connus : Golden Brown (The Stranglers), Me Gustas Tú (Manu Chao), Bad Guy version blues (Penny Ora)
+   - Rap FR : La Misère ($krrt Cobain)
+   - Sons de banque libres : Skylight transition (Coastline), bruits de forêt
+   The Pov Pro : tv off (Kendrick Lamar), Forever Young (Alphaville). EyesPRO : I Run (HAVEN.).
+Volume : les 22 pubs sortent toutes à -14 LUFS, sans doute la normalisation de Meta. Exporter nos vidéos à ce niveau évite qu'elles soient remontées ou baissées.
+
+LE GENRE (formats qui reviennent)
+- Le mème « GoPro » (8-16 s, musique) : bulle de texte « Achète juste une GoPro... » puis « Non, merci 😏 » sur un plan POV avec bandes noires. Variante « T'aimes bien Insta 360 ? » / « Moovora me suffit ».
+- Le « POV : ... » (8-13 s, musique) : « POV : la caméra 4K que les motards recherchent », plan POV route, carte de fin.
+- La phrase choc + POV (11-16 s) : « Tous les cyclistes ont besoin de ça », « 3 angles à filmer en moto » (guidon, collier, casque).
+- Le motard qui parle (34-42 s, voix) : face caméra devant sa moto, extraits POV en incrustation, écran de l'appli, « prends le lien ».
+- La comparaison prix (16 s, voix + rap) : capture d'une GoPro à 449,99 €, « pourquoi payer aussi cher ? ».
+- Le tuto accessoires / déballage (47-87 s, voix) : mains sur table, chaque fixation montrée. Moovora fait aussi parler une créatrice depuis SA page (« nanu.rush », pub partenariat lancée le 13/10, « Offre d'Automne -50 % »).
+- Carte de fin Moovora : fond noir, caméra, « Ne perdez plus vos preuves » ou « Chaque balade mérite son film », « Stock limité ».
+
+UNIVERS
+Moto 64 % de la couverture, vélo de route 27 %, VTT 9 %. Aucun ski, mer, piscine ni neige.
+
+À RETENIR POUR KAPSULCAM
+- Nos 7 films sont muets et parlent ski, snow, mer, piscine : les concurrents dépensent presque tout sur la moto et le vélo.
+- Faire 2 types de pubs : un mème POV de 10-15 s sur un son funk brésilien / phonk, et une version 30-40 s avec une voix française qui tutoie.
+- Musique : prendre les sons dans la bibliothèque Meta (Sound Collection) ou la bibliothèque commerciale TikTok. Les titres connus (Kendrick Lamar, Manu Chao...) ne sont pas autorisés en pub sans licence : la pub peut être coupée ou passée en muet.
+- Voix : une voix off qui décrit le produit est OK ; pas de faux témoignage « je l'ai achetée ».
+- EyesPRO a repris telle quelle la meilleure pub de Moovora (vidéo 17 = copie de la 01) : à ne pas faire.

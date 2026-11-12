@@ -1,0 +1,101 @@
+{
+ "date": "2026-10-15T07:35:59.046Z",
+ "shop": {
+  "name": "dead2me",
+  "email": "valentin.damlencour4@gmail.com",
+  "contactEmail": "valentin.damlencour4@gmail.com"
+ },
+ "produitsActifs": [
+  {
+   "id": "gid://shopify/Product/10233685999944",
+   "title": "SPLIT FIGURES ZIP"
+  },
+  {
+   "id": "gid://shopify/Product/10233686163784",
+   "title": "SEATED FIGURE ZIP"
+  },
+  {
+   "id": "gid://shopify/Product/10233686393160",
+   "title": "TABLE ALONE ZIP"
+  },
+  {
+   "id": "gid://shopify/Product/10233686524232",
+   "title": "AFTERMATH ZIP"
+  },
+  {
+   "id": "gid://shopify/Product/10233686557000",
+   "title": "RUN AWAY TEE"
+  },
+  {
+   "id": "gid://shopify/Product/10234748928328",
+   "title": "VOID WIDE-LEG JOGGERS"
+  },
+  {
+   "id": "gid://shopify/Product/10234748993864",
+   "title": "STATIC WIDE-LEG PANTS"
+  },
+  {
+   "id": "gid://shopify/Product/10234749059400",
+   "title": "NO SIGNAL TRACK PANTS"
+  },
+  {
+   "id": "gid://shopify/Product/10236247015752",
+   "title": "D2M HEAVYWEIGHT TEE"
+  },
+  {
+   "id": "gid://shopify/Product/10236247081288",
+   "title": "D2M ESSENTIALS TEE"
+  },
+  {
+   "id": "gid://shopify/Product/10236247277896",
+   "title": "D2M ZIP HOODIE"
+  },
+  {
+   "id": "gid://shopify/Product/10236247376200",
+   "title": "D2M HOODIE"
+  }
+ ],
+ "themePublie": {
+  "id": 188582592840,
+  "name": "DEAD2ME — DROP 001",
+  "created_at": "2026-08-21T13:45:45+02:00",
+  "updated_at": "2026-08-30T04:52:29+02:00",
+  "role": "main",
+  "theme_store_id": 2481,
+  "previewable": true,
+  "processing": false,
+  "admin_graphql_api_id": "gid://shopify/Theme/188582592840"
+ },
+ "themes": [
+  {
+   "id": 188582592840,
+   "name": "DEAD2ME — DROP 001",
+   "role": "main"
+  },
+  {
+   "id": 188585640264,
+   "name": "dead2me",
+   "role": "unpublished"
+  },
+  {
+   "id": 188832285000,
+   "name": "dead2me",
+   "role": "unpublished"
+  },
+  {
+   "id": 189175988552,
+   "name": "DEAD2ME — Éditorial v2 — Aperçu",
+   "role": "unpublished"
+  },
+  {
+   "id": 189335208264,
+   "name": "Collection — Chocolat & ciel — Aperçu",
+   "role": "unpublished"
+  },
+  {
+   "id": 190185144648,
+   "name": "VELNUIT — Chocolat & ciel — 01 octobre",
+   "role": "unpublished"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{%- if product.handle == 'kapsulcam-4k' -%}
+{%- comment -%} Sticky add-to-cart bar shown once the main buy button scrolls out of view. Params: product, section_id {%- endcomment -%}
+<style>
+  .kc-sticky{position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;color:#111;border-top:1px solid #e4e4e1;box-shadow:0 -6px 24px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s;letter-spacing:0}
+  .kc-sticky.is-on{transform:none}
+  .kc-sticky-in{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+  .kc-sticky img{width:48px;height:48px;object-fit:contain;border-radius:8px;background:#f3f3f1}
+  .kc-sticky-t{flex:1;min-width:0;line-height:1.25}
+  .kc-sticky-t b{display:block;font-size:15px}
+  .kc-sticky-t span{font-size:13px;opacity:.7;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .kc-sticky button{border:0;border-radius:99px;background:#111;color:#fff;font-weight:600;font-size:15px;padding:14px 22px;cursor:pointer;white-space:nowrap}
+  @media(max-width:749px){.kc-sticky img{display:none}.kc-sticky button{padding:13px 16px}}
+</style>
+<div class="kc-sticky" data-kc-sticky data-section="{{ section_id }}" aria-hidden="true">
+  <div class="kc-sticky-in">
+    <img src="{{ product.featured_media | image_url: width: 120 }}" alt="" width="48" height="48" loading="lazy">
+    <div class="kc-sticky-t"><b>KapsulCam 4K</b><span data-kc-sv>{{ product.selected_or_first_available_variant.title }}</span></div>
+    <button type="button" data-kc-sb>Ajouter au panier · <span data-kc-sp>{{ product.selected_or_first_available_variant.price | money }}</span></button>
+  </div>
+</div>
+<script>
+  (() => {
+    const bar = document.currentScript.previousElementSibling;
+    document.body.appendChild(bar);
+    const sid = bar.dataset.section;
+    const form = () => document.getElementById('product-form-' + sid);
+    const btn = () => form() && form().querySelector('button[name="add"]');
+    const refresh = () => {
+      const p = document.querySelector(`#price-${sid} .price-item--last`);
+      if (p) bar.querySelector('[data-kc-sp]').textContent = p.textContent.trim();
+      const on = [...document.querySelectorAll(`#variant-selects-${sid} input:checked`)].map((i) => i.value);
+      if (on.length) bar.querySelector('[data-kc-sv]').textContent = on.join(' · ');
+    };
+    bar.querySelector('[data-kc-sb]').addEventListener('click', () => { const b = btn(); if (b) b.click(); });
+    let ticking = false;
+    const check = () => {
+      ticking = false;
+      const t = btn();
+      const r = t && t.getBoundingClientRect();
+      const passed = !!r && r.bottom < 0;
+      if (passed !== bar.classList.contains('is-on')) {
+        bar.classList.toggle('is-on', passed);
+        bar.setAttribute('aria-hidden', passed ? 'false' : 'true');
+        refresh();
+      }
+    };
+    window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
+    if (typeof subscribe === 'function' && typeof PUB_SUB_EVENTS !== 'undefined') subscribe(PUB_SUB_EVENTS.variantChange, () => setTimeout(refresh, 80));
+  })();
+</script>
+
+{%- endif -%}

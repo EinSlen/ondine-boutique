@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buybox": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'kc-buybox', product: product, section_id: section.id %}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "trust": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'kc-trust' %}{% render 'kc-sticky', product: product, section_id: section.id %}"
+          }
+        },
+        "tab_specs": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Caractéristiques",
+            "icon": "eye",
+            "content": "<ul><li>Vidéo 4K, encodage H.265</li><li>Poids : 36 g</li><li>Dimensions : 6,4 x 2,8 x 1,8 cm</li><li>Autonomie : jusqu'à 90 min (Wi-Fi coupé), recharge USB-C</li><li>Stockage : microSD jusqu'à 128 Go</li><li>Wi-Fi et appli gratuite iOS / Android</li><li>Étanche jusqu'à 30 m dans le caisson fourni</li></ul>"
+          }
+        },
+        "tab_box": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dans la boîte",
+            "icon": "box",
+            "content": "<ul><li>Caméra 4K</li><li>Caisson étanche 30 m</li><li>Collier magnétique</li><li>Clip dos</li><li>Bracelet</li><li>Support guidon vélo et moto</li><li>Câble USB-C</li><li>Notice</li><li>Avec le Pack Complet : carte microSD 64 Go et perche-trépied 3 en 1</li></ul>"
+          }
+        },
+        "tab_ship": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison et retours",
+            "icon": "truck",
+            "content": "<p>Livraison suivie offerte en France, Belgique et Luxembourg, en 10 à 18 jours ouvrés. Un numéro de suivi vous est envoyé par e-mail dès l'expédition.</p><p>Satisfait ou remboursé 30 jours pour une caméra complète et non utilisée. Garantie légale de conformité de 2 ans.</p>"
+          }
+        },
+        "tab_safety": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Consignes de sécurité",
+            "icon": "lock",
+            "content": "<ul><li>Batterie lithium intégrée : ne pas exposer à une forte chaleur (plus de 45 °C), ne pas percer ni démonter, recharger uniquement avec le câble USB-C fourni ou un chargeur 5 V.</li><li>La caméra seule n'est pas étanche : utilisez le caisson fourni pour l'eau.</li><li>Petites pièces et collier : tenir hors de portée des enfants de moins de 3 ans. Ne pas laisser le collier autour du cou d'un enfant sans surveillance.</li><li>Respectez la vie privée : filmer des personnes sans leur accord peut être interdit.</li><li>Appareil électrique : ne pas jeter avec les ordures ménagères, à déposer dans un point de collecte.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "buybox",
+        "variant_picker",
+        "buy_buttons",
+        "trust",
+        "tab_specs",
+        "tab_box",
+        "tab_ship",
+        "tab_safety"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "columns",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "activites": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'kc-activites' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 24
+      }
+    },
+    "banner": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'kc-banner' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "etapes": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'kc-etapes' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 24
+      }
+    },
+    "band": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "\n<style>\n.kc-wrap{max-width:1320px;margin:0 auto;padding:0 24px;color:#111;letter-spacing:0}\n.kc-h{font-size:clamp(30px,4vw,48px);font-weight:500;letter-spacing:-1.2px;line-height:1.05;margin:0 0 14px}\n.kc-sub{font-size:17px;color:#6b6b6b;line-height:1.55;margin:0 0 26px;max-width:640px}\n.kc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}\n.kc-card{border-radius:20px;overflow:hidden;background:rgba(255,255,255,.06)}\n.kc-card img{display:block;width:100%;height:auto}\n.kc-card p{margin:0;padding:16px 18px;font-weight:600}\n.kc-two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}\n.kc-two img{width:100%;border-radius:20px;display:block}\n.kc-band{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;background:#f3f3f1;border-radius:20px;padding:26px 10px}\n.kc-band div{padding:4px 10px;border-left:1px solid #dcdcd8;font-size:14px;color:#6b6b6b}.kc-band div:first-child{border-left:0}\n.kc-band b{display:block;font-size:26px;font-weight:500;color:#111;letter-spacing:-.8px;margin-bottom:2px}\n.kc-cmp{width:100%;border-collapse:separate;border-spacing:0 8px;font-size:16px}\n.kc-cmp th{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#6b6b6b;font-weight:600;padding:0 10px 4px;text-align:center}\n.kc-cmp td{padding:16px 12px;background:#f3f3f1;text-align:center}\n.kc-cmp td:first-child{text-align:left;font-weight:600;border-radius:12px 0 0 12px}\n.kc-cmp td:last-child{border-radius:0 12px 12px 0}\n.kc-cmp .kc-cmp-us{color:#111;font-weight:700}\n.kc-cmp td.kc-cmp-us{background:#fff;box-shadow:inset 0 0 0 1.5px #111}\n@media(max-width:749px){.kc-grid,.kc-two{grid-template-columns:1fr}.kc-cmp{font-size:13px}.kc-cmp td{padding:12px 6px;white-space:nowrap}.kc-cmp td:first-child{white-space:normal;font-size:12.5px;line-height:1.25}.kc-cmp th{font-size:10px;letter-spacing:.4px;padding:0 4px 4px}.kc-band{grid-template-columns:repeat(2,1fr);row-gap:18px}.kc-band div:nth-child(3){border-left:0}}\n</style>\n<div class=\"kc-wrap\">\n  <div class=\"kc-band\">\n    <div><b>4K</b>Ultra HD</div><div><b>36 g</b>sur vous</div><div><b>30 m</b>étanche (caisson)</div><div><b>90 min</b>d'autonomie</div>\n  </div>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "comparatif": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "\n<div class=\"kc-wrap kc-two\">\n  <table class=\"kc-cmp\">\n    <tr><th></th><th class=\"kc-cmp-us\">KapsulCam</th><th>Smartphone</th><th>Action cam</th></tr>\n    <tr><td>Mains libres</td><td class=\"kc-cmp-us\">Oui</td><td>Non</td><td>Oui</td></tr>\n    <tr><td>Poids</td><td class=\"kc-cmp-us\">36 g</td><td>200 g</td><td>150 g</td></tr>\n    <tr><td>Se porte sur soi</td><td class=\"kc-cmp-us\">Oui</td><td>Non</td><td>Harnais</td></tr>\n    <tr><td>Étanche 30 m</td><td class=\"kc-cmp-us\">Oui</td><td>Non</td><td>Oui</td></tr>\n    <tr><td>Prix</td><td class=\"kc-cmp-us\">89,90 €</td><td>-</td><td>300 € et +</td></tr>\n  </table>\n  <div>\n    <h2 class=\"kc-h\">Plus besoin de choisir entre vivre et filmer</h2>\n    <p class=\"kc-sub\">Le téléphone occupe une main et rate l'action. Une action cam classique pèse lourd et coûte plus de 300 €. KapsulCam pèse 36 g, se porte sur vous et filme en 4K, pour 89,90 € avec tous les accessoires.</p>\n    <a class=\"button\" href=\"{{ routes.root_url }}products/kapsulcam-4k\">Je la veux</a>\n  </div>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "avisNote": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"kc-wrap\" id=\"avis\" style=\"scroll-margin-top:90px\"><h2 class=\"kc-h\">Ce qu'en disent les acheteurs</h2><p class=\"kc-sub\" style=\"font-size:14px;margin:0\">Avis d'acheteurs de ce modèle (version 4K) sur une place de marché, traduits automatiquement. Les avis des clients KapsulCam s'ajoutent ici après leur livraison.</p></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "avis": {
+      "type": "apps",
+      "blocks": {
+        "jm": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "jm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle carte mémoire faut-il ?",
+            "icon": "question_mark",
+            "row_content": "<p>Une carte microSD jusqu'à 128 Go (classe U3 conseillée). Elle est incluse dans le Pack Complet, avec la perche-trépied. Avec le Duo, ajoutez le kit carte + perche.</p>"
+          }
+        },
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Est-elle étanche sans le caisson ?",
+            "icon": "question_mark",
+            "row_content": "<p>La caméra seule résiste aux éclaboussures. Pour la piscine, la mer ou la plongée jusqu'à 30 m, glissez-la dans le caisson étanche fourni.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment récupérer mes vidéos ?",
+            "icon": "question_mark",
+            "row_content": "<p>Par Wi-Fi avec l'appli gratuite (iPhone et Android) : aperçu en direct, téléchargement et partage. Ou par câble USB-C sur ordinateur.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps dure la batterie ?",
+            "icon": "question_mark",
+            "row_content": "<p>Jusqu'à 90 minutes d'enregistrement Wi-Fi coupé. La recharge se fait en USB-C.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les délais de livraison ?",
+            "icon": "question_mark",
+            "row_content": "<p>La livraison suivie est offerte en France, Belgique et Luxembourg et prend 10 à 18 jours ouvrés. Vous recevez le numéro de suivi par e-mail dès l'expédition.</p>"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sera-t-elle livrée avant Noël ?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui pour toute commande passée avant le 25 novembre, en France, en Belgique et au Luxembourg. Après cette date, la livraison peut arriver après Noël : la date estimée est indiquée sur la page du produit.</p>"
+          }
+        },
+        "q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si elle ne me plaît pas ?",
+            "icon": "question_mark",
+            "row_content": "<p>Vous avez 30 jours après réception pour nous la renvoyer complète, non utilisée et dans son emballage d'origine : nous vous remboursons. Écrivez-nous depuis la page Contact. Garantie légale de conformité de 2 ans en plus.</p>"
+          }
+        }
+      },
+      "settings": {
+        "caption": "",
+        "heading": "Des questions ? On vous répond.",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 52
+      },
+      "block_order": [
+        "q0",
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "activites",
+    "etapes",
+    "band",
+    "comparatif",
+    "avisNote",
+    "avis",
+    "faq",
+    "banner"
+  ]
+}

@@ -1,0 +1,22 @@
+{%- comment -%} Judge.me average rating under the product title (home page), links to the reviews and their disclaimer on the product page. {%- endcomment -%}
+{%- assign kc_count = product.metafields.reviews.rating_count.value | default: 0 -%}
+{%- if kc_count > 0 -%}
+  {%- assign kc_rating = product.metafields.reviews.rating.value.rating -%}
+  {%- assign kc_label = kc_rating | round: 1 | replace: '.', ',' -%}
+  <style>
+    .kc-rating{display:inline-flex;align-items:center;gap:8px;margin:-6px 0 12px;font-size:14px;line-height:1;color:#111;text-decoration:none;letter-spacing:0}
+    .kc-rating__stars{position:relative;display:block;width:94px;height:18px}
+    .kc-rating__stars span{position:absolute;top:0;left:0;bottom:0;display:flex;gap:1px;overflow:hidden}
+    .kc-rating__stars svg{flex:0 0 18px;width:18px;height:18px}
+    .kc-rating__n{color:#6b6b6b;text-decoration:underline;text-underline-offset:3px}
+  </style>
+  {%- capture kc_star -%}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.6l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.2 1.2-6.5-4.8-4.6 6.6-.9z"/></svg>{%- endcapture -%}
+  <a class="kc-rating" href="{{ product.url }}#avis" aria-label="Note moyenne {{ kc_label }} sur 5, {{ kc_count }} avis">
+    <span class="kc-rating__stars">
+      <span style="right:0;fill:none;stroke:#108474;stroke-width:1.6">{%- for i in (1..5) -%}{{ kc_star }}{%- endfor -%}</span>
+      <span style="width:{{ kc_rating | times: 20 }}%;fill:#108474;stroke:#108474;stroke-width:1.6">{%- for i in (1..5) -%}{{ kc_star }}{%- endfor -%}</span>
+    </span>
+    <span>{{ kc_label }}/5</span>
+    <span class="kc-rating__n">{{ kc_count }} avis</span>
+  </a>
+{%- endif -%}

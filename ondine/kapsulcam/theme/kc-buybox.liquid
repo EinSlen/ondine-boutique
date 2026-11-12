@@ -1,0 +1,146 @@
+{%- if product.handle == 'kapsulcam-4k' -%}
+{%- comment -%}
+  KapsulCam buy box, Loop-like light style: checklist, colour swatches and offer cards driving the hidden Dawn variant picker.
+  Params: product, section_id
+{%- endcomment -%}
+{%- assign couleur_defaut = product.options_with_values[0].values[0] -%}
+<style>
+  #variant-selects-{{ section_id }}{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;}
+  .kc-bb{--ink:#111;--muted:#6b6b6b;--line:#e4e4e1;--soft:#f3f3f1;letter-spacing:0;color:var(--ink);margin:2px 0 6px}
+  #shopify-section-{{ section_id }} .product__title h1,#shopify-section-{{ section_id }} .product__title h2,#shopify-section-{{ section_id }} h2.product__title{font-size:clamp(28px,2.8vw,40px)!important;font-weight:500!important;letter-spacing:-.8px;line-height:1.1!important}
+  #shopify-section-{{ section_id }} .price{font-size:20px}
+  #shopify-section-{{ section_id }} .product__media-item,#shopify-section-{{ section_id }} .product-media-container{border-radius:20px;overflow:hidden;background:var(--soft)}
+  {%- if template.name == 'index' -%}
+  @media screen and (min-width:750px){#shopify-section-{{ section_id }} .product.grid{align-items:flex-start}#shopify-section-{{ section_id }} .product__media-wrapper{position:sticky;top:96px;align-self:flex-start;z-index:1}}
+  {%- endif -%}
+  @media(min-width:990px){#shopify-section-{{ section_id }} .product__info-wrapper{position:sticky;top:100px;align-self:flex-start}}
+  .kc-sub{font-size:16px;line-height:1.55;color:var(--muted);margin:0 0 18px}
+  .kc-label{font-size:14px;margin:20px 0 10px}
+  .kc-label b{font-weight:600}
+  .kc-swatches{display:flex;gap:10px}
+  .kc-sw{width:34px;height:34px;border-radius:50%;cursor:pointer;border:1px solid var(--line);box-shadow:inset 0 0 0 3px #fff;outline:1px solid transparent;outline-offset:2px;transition:outline-color .15s}
+  .kc-sw.is-on{outline:1.5px solid var(--ink)}
+  .kc-packs{display:grid;gap:10px}
+  .kc-pack{position:relative;display:flex;gap:14px;align-items:center;background:var(--soft);border:1.5px solid transparent;border-radius:16px;padding:12px 14px;cursor:pointer;transition:border-color .15s}
+  .kc-pack:hover{border-color:#cfcfcb}
+  .kc-pack.is-on{border-color:var(--ink);background:#fff}
+  .kc-bb .kc-othumb{width:58px!important;height:58px!important;object-fit:contain;flex:0 0 58px;background:#fff;border-radius:12px}
+  .kc-pack-txt{flex:1;min-width:0}
+  .kc-pack-txt b{display:block;font-size:15px;font-weight:600}
+  .kc-pack-txt span{display:block;font-size:13px;color:var(--muted);line-height:1.4;margin-top:2px}
+  .kc-price{text-align:right;white-space:nowrap;font-size:15px;font-weight:600}
+  .kc-price s{display:block;font-weight:400;font-size:12.5px;color:var(--muted)}
+  .kc-save{display:inline-block;margin-top:4px;font-size:11px;font-weight:600;background:#e6f4ea;color:#14713a;border-radius:99px;padding:2px 8px}
+  .kc-reco{position:absolute;top:-9px;left:14px;background:var(--ink);color:#fff;font-size:10.5px;font-weight:600;letter-spacing:.4px;border-radius:99px;padding:3px 10px;line-height:1.4}
+  .kc-legal{font-size:11.5px;color:var(--muted);margin:8px 0 0}
+  .kc-ship{display:flex;gap:10px;align-items:center;margin:16px 0 4px;font-size:13.5px;color:var(--muted)}
+  .kc-ship::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:#22a559;box-shadow:0 0 0 4px rgba(34,165,89,.15)}
+  .kc-ship b{color:var(--ink);font-weight:600}
+  .kc-xmas{margin:6px 0 4px 18px;font-size:13px;color:var(--muted)}
+  .kc-xmas b{color:#b3261e;font-weight:600}
+  .kc-check{list-style:none;padding:0;margin:0 0 6px;display:grid;gap:12px}
+  .kc-check li{display:grid;grid-template-columns:20px 1fr;gap:10px;font-size:14.5px;line-height:1.45}
+  .kc-check svg{width:18px;height:18px;margin-top:2px;stroke:var(--ink)}
+  .kc-check b{font-weight:600;display:block}
+  .kc-check span{color:var(--muted)}
+</style>
+
+{%- capture ic_check -%}<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg>{%- endcapture -%}
+
+<div class="kc-bb" data-kc-bb data-section="{{ section_id }}">
+  <p class="kc-sub">La caméra 4K de 36 g qui se porte sur vous et filme ce que vous vivez, à hauteur d'yeux.</p>
+
+  <div class="kc-label">Couleur : <b data-kc-colorname>{{ couleur_defaut }}</b></div>
+  <div class="kc-swatches">
+    {%- for c in product.options_with_values[0].values -%}
+      {%- if c contains 'Blanc' -%}{%- assign bgc = '#f1f1ef' -%}{%- else -%}{%- assign bgc = '#1b1b1b' -%}{%- endif -%}
+      <div role="button" tabindex="0" aria-label="{{ c | escape }}" class="kc-sw" style="background:{{ bgc }}" data-kc-option="{{ product.options_with_values[0].name | escape }}" data-kc-value="{{ c | escape }}"></div>
+    {%- endfor -%}
+  </div>
+
+  <div class="kc-label"><b>Choisissez votre offre</b></div>
+  <div class="kc-packs">
+    {%- for pack in product.options_with_values[1].values -%}
+      {%- assign v = nil -%}
+      {%- for x in product.variants -%}
+        {%- if x.option1 == couleur_defaut and x.option2 == pack -%}{%- assign v = x -%}{%- endif -%}
+      {%- endfor -%}
+      {%- assign reco = false -%}
+      {%- if pack contains 'Pack' -%}{%- assign reco = true -%}{%- endif -%}
+      {%- if reco -%}{%- assign th = 'kc-offre-pack.png' -%}{%- elsif pack contains 'Duo' -%}{%- assign th = 'kc-offre-duo.png' -%}{%- else -%}{%- assign th = 'kc-offre-seule.png' -%}{%- endif -%}
+      <div role="button" tabindex="0" class="kc-pack" data-kc-option="{{ product.options_with_values[1].name | escape }}" data-kc-value="{{ pack | escape }}">
+        {%- if reco -%}<span class="kc-reco">Recommandé</span>{%- endif -%}
+        <img class="kc-othumb" src="{{ th | asset_url }}" alt="" width="58" height="58" loading="lazy">
+        <span class="kc-pack-txt">
+          <b>{{ pack }}</b>
+          <span>
+            {%- if reco -%}Avec carte microSD 64 Go et perche-trépied
+            {%- elsif pack contains 'Duo' -%}2 caméras et leurs accessoires
+            {%- else -%}Caisson étanche, collier, clip, bracelet, support{%- endif -%}
+          </span>
+        </span>
+        <span class="kc-price">
+          {{ v.price | money }}
+          {%- if v.compare_at_price > v.price -%}
+            <s>{{ v.compare_at_price | money }}</s>
+            <span class="kc-save">-{{ v.compare_at_price | minus: v.price | money }}</span>
+          {%- endif -%}
+        </span>
+      </div>
+    {%- endfor -%}
+  </div>
+  <p class="kc-legal">Prix barrés : prix des mêmes articles achetés séparément sur la boutique.</p>
+  <p class="kc-ship"><span>Livraison suivie offerte, chez vous entre le <b data-kc-d1>&nbsp;</b> et le <b data-kc-d2>&nbsp;</b></span></p>
+  <p class="kc-xmas" data-kc-xmas hidden></p>
+</div>
+
+<script>
+  (() => {
+    const root = document.currentScript.previousElementSibling;
+    const sid = root.dataset.section;
+    const selects = () => document.getElementById('variant-selects-' + sid);
+    const esc = (s) => (window.CSS && CSS.escape ? CSS.escape(s) : s.replace(/"/g, '\\"'));
+    const sync = () => {
+      const vs = selects();
+      if (!vs) return;
+      root.querySelectorAll('[data-kc-option]').forEach((b) => {
+        const i = vs.querySelector(`input[data-option-name="${esc(b.dataset.kcOption)}"][value="${esc(b.dataset.kcValue)}"]`);
+        b.classList.toggle('is-on', !!(i && i.checked));
+        b.setAttribute('aria-pressed', i && i.checked ? 'true' : 'false');
+        if (i && i.checked && b.classList.contains('kc-sw')) root.querySelector('[data-kc-colorname]').textContent = b.dataset.kcValue;
+      });
+      const form = document.getElementById('product-form-' + sid);
+      const price = document.querySelector(`#price-${sid} .price-item--last`);
+      const label = form && form.querySelector('button[name="add"] > span');
+      if (label && price && !form.querySelector('button[name="add"][disabled]')) label.textContent = 'Ajouter au panier · ' + price.textContent.trim();
+    };
+    root.addEventListener('keydown', (e) => { if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('[data-kc-option]')) { e.preventDefault(); e.target.click(); } });
+    root.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-kc-option]');
+      if (!b) return;
+      const vs = selects();
+      const i = vs && vs.querySelector(`input[data-option-name="${esc(b.dataset.kcOption)}"][value="${esc(b.dataset.kcValue)}"]`);
+      if (!i || i.checked) return;
+      i.checked = true;
+      i.dispatchEvent(new Event('change', { bubbles: true }));
+      root.querySelectorAll(`[data-kc-option="${esc(b.dataset.kcOption)}"]`).forEach((x) => x.classList.toggle('is-on', x === b));
+      if (b.classList.contains('kc-sw')) root.querySelector('[data-kc-colorname]').textContent = b.dataset.kcValue;
+    });
+    const addBusinessDays = (d, n) => { const r = new Date(d); while (n > 0) { r.setDate(r.getDate() + 1); if (r.getDay() % 6) n--; } return r; };
+    const f = (d) => d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+    const now = new Date();
+    root.querySelector('[data-kc-d1]').textContent = f(addBusinessDays(now, 10));
+    root.querySelector('[data-kc-d2]').textContent = f(addBusinessDays(now, 18));
+    const xmas = new Date(now.getFullYear(), 11, 24, 23, 59);
+    const deadline = (() => { const r = new Date(xmas); let n = 21; while (n > 0) { r.setDate(r.getDate() - 1); if (r.getDay() % 6) n--; } return r; })();
+    const xm = root.querySelector('[data-kc-xmas]');
+    if (xm && now.getMonth() >= 9 && now <= xmas) {
+      xm.hidden = false;
+      xm.innerHTML = now <= deadline ? '<b>Idée cadeau :</b> livrée avant Noël pour toute commande avant le ' + deadline.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) + '.' : 'Commandée aujourd\'hui, elle arrivera probablement après Noël.';
+    }
+    if (typeof subscribe === 'function' && typeof PUB_SUB_EVENTS !== 'undefined') subscribe(PUB_SUB_EVENTS.variantChange, () => setTimeout(sync, 50));
+    new MutationObserver(() => setTimeout(sync, 30)).observe(document.getElementById('price-' + sid) || document.body, { childList: true, subtree: true });
+    document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', sync) : sync();
+  })();
+</script>
+{%- endif -%}

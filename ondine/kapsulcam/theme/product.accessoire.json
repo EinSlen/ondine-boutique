@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "compat": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"margin:4px 0 0;font-size:14px;color:#6b6b6b\">Compatible avec la <a href=\"{{ routes.root_url }}products/kapsulcam-4k\" style=\"color:#111\">KapsulCam 4K</a>, et aussi incluse dans son Pack Complet.</p>"
+          }
+        },
+        "trust": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'kc-trust' %}"
+          }
+        },
+        "tab_ship": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison et retours",
+            "icon": "truck",
+            "content": "<p>Livraison suivie offerte en France, Belgique et Luxembourg, en 10 à 18 jours ouvrés. Un numéro de suivi vous est envoyé par e-mail dès l'expédition.</p><p>Satisfait ou remboursé 30 jours pour une caméra complète et non utilisée. Garantie légale de conformité de 2 ans.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "buy_buttons",
+        "compat",
+        "trust",
+        "tab_ship"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "banner": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'kc-banner' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner"
+  ]
+}

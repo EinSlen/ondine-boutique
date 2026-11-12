@@ -1,0 +1,55 @@
+{
+ "site": "https://kapsulcam.com",
+ "accroches": [
+  "Livraison offerte",
+  "Vidéo 4K grand angle",
+  "Seulement 36 g",
+  "Caisson étanche 30 m",
+  "Collier magnétique fourni",
+  "Appli iPhone et Android",
+  "Satisfait ou remboursé",
+  "Garantie légale 2 ans"
+ ],
+ "liens": [
+  {
+   "texte": "Livraison et retours",
+   "url": "/pages/livraison-et-retours",
+   "d1": "Livraison suivie offerte",
+   "d2": "Satisfait ou remboursé 30 jours"
+  },
+  {
+   "texte": "Kit carte + perche",
+   "url": "/products/kit-carte-perche",
+   "d1": "Carte microSD 64 Go",
+   "d2": "et perche-trépied 3 en 1"
+  },
+  {
+   "texte": "Choisir sa caméra POV",
+   "url": "/blogs/journal/choisir-mini-camera-pov",
+   "d1": "7 critères pour bien choisir",
+   "d2": "Notre guide avant d'acheter"
+  },
+  {
+   "texte": "Filmer en VTT et à vélo",
+   "url": "/blogs/journal/filmer-vtt-velo-pov-conseils",
+   "d1": "Nos conseils pour filmer",
+   "d2": "vos sorties en POV"
+  },
+  {
+   "texte": "Filmer sous l'eau",
+   "url": "/blogs/journal/filmer-sous-l-eau-mini-camera",
+   "d1": "Le guide pour débuter",
+   "d2": "Caisson étanche 30 m inclus"
+  },
+  {
+   "texte": "Nous contacter",
+   "url": "/pages/nous-contacter",
+   "d1": "Une question avant d'acheter ?",
+   "d2": "Réponse sous 24 h ouvrées"
+  }
+ ],
+ "titre": {
+  "avant": "La Caméra POV Qui Se Porte",
+  "apres": "Caméra 4K Sport et Voyage"
+ }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "gid://shopify/Menu/309237121352",
+  "handle": "kc-main",
+  "title": "KapsulCam principal",
+  "items": [
+    {
+      "id": "gid://shopify/MenuItem/768488014152",
+      "title": "Accueil",
+      "type": "FRONTPAGE",
+      "resourceId": null,
+      "url": "/en"
+    },
+    {
+      "id": "gid://shopify/MenuItem/768488046920",
+      "title": "La caméra",
+      "type": "PRODUCT",
+      "resourceId": "gid://shopify/Product/10345072001352",
+      "url": "/en/products/kapsulcam-4k"
+    },
+    {
+      "id": "gid://shopify/MenuItem/768488079688",
+      "title": "Journal",
+      "type": "BLOG",
+      "resourceId": "gid://shopify/Blog/122201440584",
+      "url": "/en/blogs/journal"
+    },
+    {
+      "id": "gid://shopify/MenuItem/768488112456",
+      "title": "Livraison et retours",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/157603889480",
+      "url": "/en/pages/livraison-et-retours"
+    },
+    {
+      "id": "gid://shopify/MenuItem/768488145224",
+      "title": "Contact",
+      "type": "PAGE",
+      "resourceId": "gid://shopify/Page/157603922248",
+      "url": "/en/pages/nous-contacter"
+    }
+  ]
+}

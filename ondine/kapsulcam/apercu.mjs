@@ -1,0 +1,13 @@
+import { createRequire } from 'node:module';
+const require = createRequire('C:/Users/Valentin/node_modules/');
+const puppeteer = require('puppeteer-core');
+const [url, out, w = '1440', full = '1'] = process.argv.slice(2);
+const nav = await puppeteer.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true });
+const p = await nav.newPage();
+await p.setViewport({ width: Number(w), height: Number(w) < 600 ? 860 : 900, isMobile: Number(w) < 600, deviceScaleFactor: 1 });
+await p.goto(url, { waitUntil: 'networkidle2', timeout: 90000 });
+await new Promise((r) => setTimeout(r, 2500));
+await p.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } window.scrollTo(0, 0); });
+await new Promise((r) => setTimeout(r, 1000));
+await p.screenshot({ path: out, fullPage: full === '1' });
+await nav.close();

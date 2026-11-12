@@ -1,0 +1,35 @@
+{%- comment -%} Under the add-to-cart button: reassurance row, payment icons, checklist (Loop-like). {%- endcomment -%}
+<style>
+  .kc-trust{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 6px;font-size:12.5px;line-height:1.3;color:#111;letter-spacing:0}
+  .kc-trust div{display:flex;gap:8px;align-items:center}
+  .kc-trust svg{flex:0 0 20px;width:20px;height:20px;stroke:#111}
+  .kc-legal-30{font-size:11px;color:#6b6b6b;margin:6px 0 10px}
+  .kc-pay{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 22px}
+  .kc-pay svg{width:36px;height:23px}
+  .kc-points-t{font-size:15px;font-weight:600;margin:4px 0 12px;letter-spacing:0}
+  .kc-check{list-style:none;padding:0;margin:0 0 8px;display:grid;gap:14px;letter-spacing:0}
+  .kc-check li{display:grid;grid-template-columns:20px 1fr;gap:10px;font-size:14.5px;line-height:1.45}
+  .kc-check svg{width:18px;height:18px;margin-top:2px;stroke:#111}
+  .kc-check b{font-weight:600;display:block}
+  .kc-check span{color:#6b6b6b}
+  @media(max-width:749px){.kc-trust{grid-template-columns:1fr;gap:10px}}
+</style>
+{%- capture ck -%}<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg>{%- endcapture -%}
+<div class="kc-trust">
+  <div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg>Livraison suivie offerte</div>
+  <div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 3-6.3"/><path d="M4 4v4h4"/></svg>Satisfait ou remboursé 30 jours*</div>
+  <div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4" stroke-linecap="round"/></svg>Garantie 2 ans</div>
+</div>
+<p class="kc-legal-30">* Produit complet, non utilisé, dans son emballage d'origine. <a href="{{ routes.root_url }}pages/livraison-et-retours" style="color:inherit">Conditions de retour</a></p>
+<div class="kc-pay">
+  {%- assign pays = 'cartes_bancaires,visa,master,american_express,apple_pay,google_pay,shopify_pay' | split: ',' -%}{%- for type in pays -%}{{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}{%- endfor -%}
+</div>
+{%- if product.handle == 'kapsulcam-4k' -%}
+  <p class="kc-points-t">Pensée pour être oubliée</p>
+  <ul class="kc-check">
+    <li>{{ ck }}<span><b>Vraiment mains libres</b>Collier magnétique, clip, bracelet ou support guidon : elle tient où vous voulez.</span></li>
+    <li>{{ ck }}<span><b>Étanche jusqu'à 30 m</b>Caisson de plongée inclus pour la mer, la piscine et la pluie.</span></li>
+    <li>{{ ck }}<span><b>Vos vidéos sur le téléphone</b>Wi-Fi et appli gratuite : aperçu en direct, partage en un geste.</span></li>
+    <li>{{ ck }}<span><b>Jusqu'à 90 minutes</b>d'enregistrement en continu, recharge en USB-C.</span></li>
+  </ul>
+{%- endif -%}

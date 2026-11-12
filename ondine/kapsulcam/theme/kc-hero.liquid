@@ -1,0 +1,45 @@
+{%- comment -%} Home hero, Loop-like: inset rounded video card, light large heading, pill buttons. {%- endcomment -%}
+<style>
+  .kc-hw{padding:16px 24px 0;max-width:1440px;margin:0 auto}
+  .kc-hero{position:relative;height:min(78vh,760px);min-height:520px;border-radius:24px;overflow:hidden;color:#fff;background:#1b2a33;letter-spacing:0}
+  .kc-hero video,.kc-hero .kc-hp{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .kc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.45),rgba(0,0,0,.08) 55%),linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,0) 40%)}
+  .kc-hero-in{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 clamp(24px,5vw,72px);max-width:760px}
+  .kc-hero h1{font-size:clamp(44px,6.4vw,92px);font-weight:500;letter-spacing:-2.5px;line-height:.98;margin:0 0 18px;color:#fff}
+  .kc-hero p{font-size:clamp(16px,1.4vw,19px);line-height:1.5;margin:0 0 28px;max-width:480px;opacity:.95}
+  .kc-hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+  .kc-gift{display:inline-block;align-self:flex-start;margin:0 0 16px;padding:7px 14px;border-radius:99px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.45);font-size:13px;font-weight:600;backdrop-filter:blur(6px)}
+  .kc-gift[hidden]{display:none}
+  .kc-hero-cta a{display:inline-flex;align-items:center;border-radius:99px;padding:15px 26px;font-weight:600;font-size:15px;text-decoration:none}
+  .kc-hero-cta .a1{background:#fff;color:#111}
+  .kc-hero-cta .a2{border:1px solid rgba(255,255,255,.7);color:#fff}
+  @media(max-width:749px){.kc-hw{padding:12px 12px 0}.kc-hero{height:72vh;border-radius:20px}.kc-hero-in{justify-content:flex-end;padding-bottom:36px}.kc-hero h1{letter-spacing:-1.5px}}
+</style>
+<div class="kc-hw">
+  <section class="kc-hero">
+    <img class="kc-hp" src="{{ 'kc-u-mer.jpg' | asset_img_url: '1500x' }}" srcset="{{ 'kc-u-mer.jpg' | asset_img_url: '750x' }} 750w, {{ 'kc-u-mer.jpg' | asset_img_url: '1500x' }} 1500w" sizes="100vw" fetchpriority="high" alt="">
+    <video autoplay muted loop playsinline preload="none" data-d="{{ 'kc-hero-16x9.mp4' | asset_url }}" data-m="{{ 'kc-hero-9x16.mp4' | asset_url }}"></video>
+    <div class="kc-hero-in">
+      <span class="kc-gift" data-kc-gift hidden>Idée cadeau de Noël</span>
+      <h1>Vivez le moment.<br>Elle le filme.</h1>
+      <p>La caméra 4K de 36 g qui se porte sur vous. Du sommet à la mer, à hauteur d'yeux.</p>
+      <div class="kc-hero-cta">
+        <a class="a1" href="#kc-acheter" data-kc-go>Choisir ma KapsulCam</a>
+        <a class="a2" href="#kc-moments" data-kc-go2>Voir en action</a>
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+  (() => {
+    const w = document.currentScript.previousElementSibling;
+    const v = w.querySelector('video');
+    const now = new Date(); const g = w.querySelector('[data-kc-gift]');
+    if (g && now.getMonth() >= 9 && now <= new Date(now.getFullYear(), 11, 24, 23, 59)) g.hidden = false;
+    const start = () => { v.src = window.matchMedia('(max-width: 749px)').matches ? v.dataset.m : v.dataset.d; v.play().catch(() => {}); };
+    if (document.readyState === 'complete') setTimeout(start, 300); else window.addEventListener('load', () => setTimeout(start, 300), { once: true });
+    const go = (sel) => (e) => { const t = document.querySelector(sel); if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); } };
+    w.querySelector('[data-kc-go]').addEventListener('click', go('[id^="shopify-section-"][id$="__produit"]'));
+    w.querySelector('[data-kc-go2]').addEventListener('click', go('.kc-mo'));
+  })();
+</script>
