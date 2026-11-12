@@ -1,0 +1,76 @@
+{
+  "accueil": {
+    "titre": "Plafond Céleste | Projecteurs de plafond et veilleuses étoilées",
+    "description": "Projecteurs ciel étoilé, aurore boréale et reflets d'eau pour le plafond de la chambre, veilleuses enfant et lune personnalisée. Livraison offerte en France."
+  },
+  "produits": {
+    "lucarne": {
+      "titre": "Lucarne, veilleuse projecteur ciel étoilé USB",
+      "description": "Mini projecteur USB qui affiche la lune, une galaxie ou un ciel étoilé au plafond de la chambre. 6 disques d'images fournis. Livraison suivie offerte.",
+      "alts": [
+        "Lucarne branchée sur une prise près du lit, ciel étoilé projeté au plafond de la chambre",
+        "Projecteur Lucarne avec son câble USB, galaxie projetée au plafond",
+        "Lucarne dans une chambre, planète à anneaux projetée au plafond",
+        "Baleine étoilée projetée au plafond par Lucarne",
+        "Pleine lune projetée au plafond par Lucarne branchée près du lit",
+        "Croissant de lune projeté au plafond d'une chambre par Lucarne",
+        "Lucarne et ses disques d'images dans un coffret cadeau",
+        "Disque d'images glissé dans le projecteur Lucarne",
+        "Un enfant et son parent regardent une lune et des nuages projetés au plafond"
+      ]
+    },
+    "boreale": {
+      "titre": "Boréale, projecteur aurore boréale au plafond",
+      "description": "Projecteur d'aurore boréale et d'étoiles pour le plafond de la chambre, couleurs au choix avec la télécommande, alimentation USB. Livraison suivie offerte.",
+      "alts": [
+        "Projecteur Boréale sur une table de chevet, aurore boréale violette et verte au plafond",
+        "Boréale avec sa télécommande et son câble USB, aurore projetée au plafond",
+        "Quatre couleurs d'aurore boréale projetées par Boréale dans une chambre",
+        "Aurore boréale projetée au-dessus du lit par Boréale",
+        "Un couple au lit sous une aurore boréale verte projetée par Boréale"
+      ]
+    },
+    "astro": {
+      "titre": "Astro, projecteur astronaute galaxie 12 disques",
+      "description": "Projecteur astronaute qui affiche nébuleuses, planètes et étoiles au plafond de la chambre d'enfant. 12 disques d'images, alimentation USB. Livraison offerte.",
+      "alts": [
+        "Projecteur astronaute Astro, nébuleuse violette projetée au plafond de la chambre",
+        "Astro projette des planètes, une galaxie et un astronaute au plafond",
+        "Trois enfants en combinaison d'astronaute devant la galaxie projetée par Astro",
+        "Deux enfants déguisés en astronautes sous la galaxie projetée au plafond",
+        "Astro posé sur une étagère, galaxie projetée au-dessus du lit",
+        "Projecteur astronaute Astro vu de près",
+        "Chambre d'enfant avec la galaxie et les planètes projetées par Astro au plafond"
+      ]
+    },
+    "lagon": {
+      "titre": "Lagon, lampe reflets d'eau au plafond",
+      "description": "Lampe à reflets d'eau qui ondulent sur les murs et le plafond, 16 couleurs, télécommande avec variateur et rotation des reflets. Livraison suivie offerte.",
+      "alts": [
+        "Lampe Lagon sur une table de chevet, reflets d'eau turquoise au plafond",
+        "Lagon et sa télécommande 16 couleurs, reflets d'eau bleus dans une chambre",
+        "Lampe cube Lagon en verre texturé, lumière turquoise",
+        "Lagon en lumière ambrée, reflets d'eau dorés sur le mur",
+        "Lagon dans une salle de bain, reflets d'eau turquoise au plafond"
+      ]
+    },
+    "selene": {
+      "titre": "Séléné, lampe lune personnalisée photo ou texte",
+      "description": "Lampe lune imprimée en 3D avec votre photo ou votre texte, 15 cm, support en bois, 16 couleurs, rechargeable en USB. Fabriquée à la commande, prête à offrir."
+    }
+  },
+  "collections": {
+    "frontpage": {
+      "titre": "Projecteurs de plafond et veilleuses étoilées",
+      "description": "Ciel étoilé, galaxie, aurore boréale, reflets d'eau et lune personnalisée : tous nos projecteurs et veilleuses pour le plafond de la chambre. Livraison offerte."
+    }
+  },
+  "pages": {
+    "livraison": "Livraison suivie offerte en France métropolitaine : 8 à 15 jours ouvrés, 3 à 4 semaines pour un article personnalisé. Numéro de suivi envoyé par e-mail.",
+    "retours": "14 jours pour changer d'avis après réception, remboursement sous 14 jours, produit arrivé cassé remplacé ou remboursé sur simple photo.",
+    "questions": "Taille de la pièce, alimentation USB, délais de livraison, produit cassé : les réponses aux questions fréquentes sur nos projecteurs de plafond.",
+    "a-propos": "Plafond Céleste, boutique en ligne de projecteurs et de lampes pour le plafond de la chambre : ciel étoilé, aurore boréale, reflets d'eau, lune.",
+    "contact": "Une question sur une commande ou sur un produit ? Écrivez à Plafond Céleste depuis ce formulaire de contact.",
+    "renoncer-au-contrat": "Formulaire pour renoncer à votre achat dans les 14 jours qui suivent la réception de votre commande, sans avoir à vous justifier."
+  }
+}

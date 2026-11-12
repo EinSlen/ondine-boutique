@@ -1,0 +1,64 @@
+{
+  "siret": "",
+  "mediateur": {
+    "adhesion_faite": false,
+    "nom": "CM2C",
+    "adresse": "49 rue de Ponthieu, 75008 Paris",
+    "site": "https://www.cm2c.net"
+  },
+  "deee": {
+    "eco_organisme": "ecosystem",
+    "idu": ""
+  },
+  "emballages": {
+    "eco_organisme": "Citeo",
+    "idu": ""
+  },
+  "piles": {
+    "eco_organisme": "ecosystem",
+    "idu": ""
+  },
+  "responsable_ue": "Plafond Céleste, Valentin Damlencourt (entrepreneur individuel), 6 rue Pierre Simon, 62680 Méricourt, France",
+  "produits": {
+    "lucarne": {
+      "eco_participation_ttc": "0,10",
+      "fabricant": "",
+      "adresse_fabricant": "",
+      "contact_fabricant": "",
+      "reference": "PC-LUCARNE-6",
+      "batterie": false
+    },
+    "boreale": {
+      "eco_participation_ttc": "0,10",
+      "fabricant": "",
+      "adresse_fabricant": "",
+      "contact_fabricant": "",
+      "reference": "PC-BOREALE",
+      "batterie": false
+    },
+    "astro": {
+      "eco_participation_ttc": "0,10",
+      "fabricant": "",
+      "adresse_fabricant": "",
+      "contact_fabricant": "",
+      "reference": "PC-ASTRO",
+      "batterie": false
+    },
+    "lagon": {
+      "eco_participation_ttc": "0,10",
+      "fabricant": "",
+      "adresse_fabricant": "",
+      "contact_fabricant": "",
+      "reference": "PC-LAGON",
+      "batterie": false
+    },
+    "selene": {
+      "eco_participation_ttc": "0,25",
+      "fabricant": "",
+      "adresse_fabricant": "",
+      "contact_fabricant": "",
+      "reference": "PC-SELENE-15",
+      "batterie": true
+    }
+  }
+}

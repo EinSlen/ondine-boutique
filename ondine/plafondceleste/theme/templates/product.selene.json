@@ -1,0 +1,592 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product-information",
+      "blocks": {
+        "disclosures_g9mWze": {
+          "type": "disclosures",
+          "name": "t:names.disclosures",
+          "settings": {
+            "heading": "Informations produit",
+            "heading_preset": "h5",
+            "open_by_default": false,
+            "icon": "caret",
+            "disclosure_heading_preset": "h6",
+            "text_color": "",
+            "dividers": true,
+            "divider_color": "{{ settings.color_palette.color2 }}",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "media-gallery": {
+          "type": "_product-media-gallery",
+          "static": true,
+          "settings": {
+            "media_presentation": "grid",
+            "media_columns": "two",
+            "image_gap": 4,
+            "large_first_image": false,
+            "slideshow_controls_style": "counter",
+            "slideshow_mobile_controls_style": "dots",
+            "thumbnail_position": "right",
+            "thumbnail_width": 44,
+            "thumbnail_radius": 0,
+            "aspect_ratio": "1/1.25",
+            "constrain_to_viewport": true,
+            "media_fit": "cover",
+            "media_radius": 0,
+            "extend_media": false,
+            "zoom": true,
+            "video_loop": false,
+            "hide_variants": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "product-details": {
+          "type": "_product-details",
+          "static": true,
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "details_position": "flex-start",
+            "gap": 28,
+            "sticky_details_desktop": true,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_icgrde": {
+              "type": "group",
+              "name": "t:names.header",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_xrnftG": {
+                  "type": "text",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "text": "<h1>{{ closest.product.title }}</h1>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "text_color": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_tVjtKg": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "text_color": "",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_xrnftG",
+                "price_tVjtKg"
+              ]
+            },
+            "divider_VJhene": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "thickness": 1,
+                "corner_radius": "square",
+                "divider_color": "{{ settings.color_palette.color2 }}",
+                "width_percent": 100,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              },
+              "blocks": {}
+            },
+            "variant_picker_R3rGDr": {
+              "type": "variant-picker",
+              "settings": {
+                "variant_style": "buttons",
+                "show_swatches": false,
+                "option_label_text_color": "",
+                "variant_style_class": "default",
+                "custom_variant_background": "{{ settings.color_palette.background }}",
+                "custom_variant_text": "{{ settings.color_palette.foreground }}",
+                "custom_variant_border": "{{ settings.color_palette.foreground }}",
+                "selected_variant_style_class": "default",
+                "custom_selected_variant_background": "{{ settings.color_palette.foreground }}",
+                "custom_selected_variant_text": "{{ settings.color_palette.background }}",
+                "custom_selected_variant_border": "{{ settings.color_palette.foreground }}",
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "buy_buttons_eYQEYi": {
+              "type": "buy-buttons",
+              "settings": {
+                "stacking": true,
+                "text_color": "",
+                "show_pickup_availability": false,
+                "gift_card_form": true,
+                "recipient_button_style": "default",
+                "recipient_button_background": "{{ settings.color_palette.background }}",
+                "recipient_button_text": "{{ settings.color_palette.foreground }}",
+                "recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_style": "default",
+                "selected_recipient_button_background": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_text": "{{ settings.color_palette.background }}",
+                "selected_recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "input_style": "default",
+                "input_background_color": "{{ settings.color_palette.background }}",
+                "input_text_color": "{{ settings.color_palette.foreground }}",
+                "input_border_color": "{{ settings.color_palette.foreground }}",
+                "border_width": 1,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {
+                    "input_style": "default",
+                    "input_background_color": "{{ settings.color_palette.background }}",
+                    "input_text_color": "{{ settings.color_palette.foreground }}",
+                    "input_border_color": "{{ settings.color_palette.foreground }}",
+                    "border_width": 1,
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button",
+                    "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_text": "{{ settings.color_palette.background }}",
+                    "custom_button_border": "{{ settings.color_palette.background }}"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            },
+            "text_aEtTtq": {
+              "type": "text",
+              "name": "t:names.product_description",
+              "settings": {
+                "text": "{{ closest.product.description }}",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "pc_reassure": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "<ul class=\"pc-reassure\">\n  <li><span><strong>Fabriquée à votre commande</strong>, livraison suivie offerte en 3 à 4 semaines</span></li>\n  <li><span><strong>Pour Noël</strong>, commandez avant le 20 novembre</span></li>\n  <li><span><strong>Arrivée abîmée ou différente de votre photo ?</strong> On la refait ou on rembourse</span></li>\n  <li><span><strong>Paiement sécurisé</strong></span></li>\n</ul>\n<style>\n  .pc-reassure { list-style: none; margin: 0; padding: 18px 20px; display: grid; gap: 10px; border: 1px solid #26304a; border-radius: 2px; background: #10172b; font-size: 14px; line-height: 1.45; color: #a4abbb; }\n  .pc-reassure li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; }\n  .pc-reassure li::before { content: \"✦\"; color: #d8ad62; }\n  .pc-reassure strong { font-weight: 600; color: #efe7d6; }\n</style>"
+              },
+              "blocks": {}
+            },
+            "pc_accordion": {
+              "type": "accordion",
+              "settings": {
+                "type_preset": "paragraph"
+              },
+              "blocks": {
+                "row_shipping": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Livraison et retours",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Chaque lune est fabriquée à votre commande avec votre photo ou votre texte, puis envoyée avec un numéro de suivi. Comptez 3 à 4 semaines au total. Pour l'avoir à Noël, commandez avant le 20 novembre.</p><p>Comme c'est un article personnalisé, il ne peut être ni repris ni échangé. S'il arrive abîmé ou s'il ne correspond pas à ce que vous avez envoyé, écrivez-nous depuis la page Contact avec une photo : on la refait ou on vous rembourse.</p>",
+                        "width": "100%"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text"
+                  ]
+                },
+                "row_faq": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Questions fréquentes",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>Quelle photo choisir ?</strong> Une photo nette et bien éclairée, où les visages prennent une bonne partie de l'image. Les photos sombres ou floues rendent moins bien.</p><p><strong>Quel texte ?</strong> Jusqu'à 60 caractères : des prénoms, une date, une courte phrase.</p><p><strong>Comment s'allume-t-elle ?</strong> Elle se recharge en USB et s'utilise ensuite sans fil. La télécommande change la couleur, 16 au choix.</p>",
+                        "width": "100%"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text"
+                  ]
+                },
+                "row_safety": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Sécurité et recyclage",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "liquid": {
+                      "type": "custom-liquid",
+                      "settings": {
+                        "custom_liquid": "<div class=\"pc-safety\">\n  \n  {%- case product.handle -%}{%- when 'lucarne' -%}<p><strong>Référence :</strong> PC-LUCARNE-6</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'boreale' -%}<p><strong>Référence :</strong> PC-BOREALE</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'astro' -%}<p><strong>Référence :</strong> PC-ASTRO</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'lagon' -%}<p><strong>Référence :</strong> PC-LAGON</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'selene' -%}<p><strong>Référence :</strong> PC-SELENE-15</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li><li>Contient une batterie rechargeable : chargez-la avec un câble USB 5 V, sous surveillance et loin de toute source de chaleur. Ne la percez pas et ne la jetez pas au feu.</li></ul>{%- endcase -%}\n  <p><strong>Recyclage :</strong> ne jetez pas cet appareil avec les ordures ménagères. Déposez-le gratuitement en magasin ou en déchetterie, points de collecte sur <a href=\"https://quefairedemesdechets.ademe.fr\" target=\"_blank\" rel=\"noopener\">quefairedemesdechets.ademe.fr</a>.</p>\n</div>\n<style>\n  .pc-safety { display: grid; gap: 8px; font-size: 14px; line-height: 1.55; color: #a4abbb; }\n  .pc-safety p, .pc-safety ul { margin: 0; }\n  .pc-safety ul { padding-left: 18px; display: grid; gap: 4px; }\n  .pc-safety strong { font-weight: 600; color: #efe7d6; }\n  .pc-safety a { color: inherit; }\n</style>"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "liquid"
+                  ]
+                }
+              },
+              "block_order": [
+                "row_shipping",
+                "row_faq",
+                "row_safety"
+              ]
+            },
+            "pc_perso": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{%- assign pc_form = 'BuyButtons-ProductForm-' | append: section.id -%}\n<div class=\"pc-perso\" data-pc-perso>\n  <p class=\"pc-perso__title\">Votre photo ou votre texte</p>\n  <label class=\"pc-perso__field\">\n    <span class=\"pc-perso__label\">Votre photo</span>\n    <span class=\"pc-perso__pick\"><span class=\"pc-perso__btn\">Choisir une photo</span><span class=\"pc-perso__name\">Aucune photo</span></span>\n    <input class=\"pc-perso__file\" type=\"file\" name=\"properties[Photo]\" accept=\"image/jpeg,image/png,image/webp,image/heic\" form=\"{{ pc_form }}\">\n  </label>\n  <label class=\"pc-perso__field\">\n    <span class=\"pc-perso__label\">Ou votre texte, 60 caractères maximum</span>\n    <input class=\"pc-perso__text\" type=\"text\" name=\"properties[Texte]\" maxlength=\"60\" placeholder=\"Ex. : Inès & Malik, 14.02.2024\" form=\"{{ pc_form }}\">\n  </label>\n  <p class=\"pc-perso__hint\">Une photo nette et bien éclairée, avec les visages assez grands, donne le plus beau rendu.</p>\n  <p class=\"pc-perso__error\" role=\"alert\" hidden>Ajoutez une photo ou un texte pour personnaliser votre lune.</p>\n</div>\n<style>\n  .pc-perso { display: grid; gap: 12px; padding: 18px 20px; border: 1px solid #26304a; border-radius: 4px; background: #10172b; }\n  .pc-perso__title { margin: 0; font-weight: 600; color: #efe7d6; }\n  .pc-perso__field { position: relative; display: grid; gap: 6px; font-size: 14px; color: #a4abbb; }\n  .pc-perso__pick, .pc-perso__text { width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid #26304a; border-radius: 4px; background: #0a0f1d; color: #efe7d6; font: inherit; }\n  .pc-perso__pick { display: flex; align-items: center; gap: 12px; cursor: pointer; }\n  .pc-perso__field:focus-within .pc-perso__pick { outline: 2px solid #d8ad62; outline-offset: 2px; }\n  .pc-perso__btn { flex: none; padding: 8px 14px; border-radius: 2px; background: #d8ad62; color: #1a1306; font-weight: 600; }\n  .pc-perso__name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #a4abbb; }\n  .pc-perso__file { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }\n  .pc-perso__text { padding: 12px 14px; }\n  .pc-perso__hint { margin: 0; font-size: 13px; color: #6f7890; }\n  .pc-perso__error { margin: 0; font-size: 14px; color: #f08a7e; }\n  .accelerated-checkout-block { display: none !important; }\n</style>\n<script>\n  (() => {\n    if (window.pcPersoReady) return;\n    window.pcPersoReady = true;\n    const formId = {{ pc_form | json }};\n    document.addEventListener('change', (event) => {\n      const input = event.target;\n      if (!(input instanceof HTMLInputElement) || !input.classList.contains('pc-perso__file')) return;\n      const name = input.closest('.pc-perso__field')?.querySelector('.pc-perso__name');\n      if (name) name.textContent = input.files && input.files.length ? input.files[0].name : 'Aucune photo';\n    });\n    document.addEventListener('submit', (event) => {\n      const form = event.target;\n      if (!(form instanceof HTMLFormElement) || form.getAttribute('id') !== formId) return;\n      const root = document.querySelector('[data-pc-perso]');\n      if (!root) return;\n      const file = root.querySelector('.pc-perso__file');\n      const text = root.querySelector('.pc-perso__text');\n      const error = root.querySelector('.pc-perso__error');\n      const hasFile = Boolean(file.files && file.files.length);\n      const hasText = text.value.trim() !== '';\n      if (!hasFile && !hasText) {\n        event.preventDefault();\n        event.stopImmediatePropagation();\n        error.hidden = false;\n        root.scrollIntoView({ behavior: 'smooth', block: 'center' });\n        return;\n      }\n      error.hidden = true;\n      for (const [input, filled] of [[file, hasFile], [text, hasText]]) {\n        if (filled) continue;\n        input.disabled = true;\n        setTimeout(() => { input.disabled = false; }, 0);\n      }\n    }, true);\n  })();\n</script>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "group_icgrde",
+            "divider_VJhene",
+            "variant_picker_R3rGDr",
+            "pc_perso",
+            "buy_buttons_eYQEYi",
+            "pc_reassure",
+            "text_aEtTtq",
+            "pc_accordion"
+          ]
+        }
+      },
+      "block_order": [
+        "disclosures_g9mWze"
+      ],
+      "settings": {
+        "content_width": "content-center-aligned",
+        "desktop_media_position": "left",
+        "equal_columns": false,
+        "limit_details_width": false,
+        "gap": 48,
+        "enable_sticky_add_to_cart": true,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "product_recommendations_qggXJq": {
+      "type": "product-recommendations",
+      "blocks": {
+        "text_cbcgyb": {
+          "type": "text",
+          "name": "t:names.header",
+          "settings": {
+            "text": "<h3>À voir aussi au plafond</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_DNizbJ": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_M7MJkb": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_gLWgA6": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_DNizbJ",
+            "product_title_M7MJkb",
+            "price_gLWgA6"
+          ]
+        }
+      },
+      "block_order": [
+        "text_cbcgyb"
+      ],
+      "name": "t:names.product_recommendations",
+      "settings": {
+        "product": "{{ closest.product }}",
+        "recommendation_type": "related",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 12,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "pc_avis": {
+      "type": "section",
+      "settings": {
+        "content_direction": "column",
+        "gap": 8,
+        "section_width": "page-width",
+        "padding-block-start": 56,
+        "padding-block-end": 24
+      },
+      "blocks": {
+        "pc_avis_head": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{%- assign pc_review_count = product.metafields.reviews.rating_count.value | default: 0 -%}\n{%- if pc_review_count > 0 or product.handle == 'lucarne' -%}\n<div class=\"pc-avis\">\n  <h2 class=\"pc-avis__title\">Ce qu'en disent les acheteurs</h2>\n  {%- if product.handle == 'lucarne' -%}<p class=\"pc-avis__note\">Avis d'acheteurs de ce modèle sur une place de marché, traduits.</p>{%- endif -%}\n</div>\n{%- else -%}\n<style>#shopify-section-{{ section.id }} { display: none; }</style>\n{%- endif -%}\n<style>\n  .pc-avis { display: grid; gap: 6px; }\n  .pc-avis__title { margin: 0; font-family: var(--font-heading--family); font-weight: 600; font-size: clamp(28px, 3.2vw, 38px); letter-spacing: -.03em; color: #efe7d6; }\n  .pc-avis__note { margin: 0; font-size: 12px; color: #6f7890; }\n  .jm-review-widget, .jm-review-item, .jm-review-widget [style*=\"--jm-review-widget\"] {\n    --jm-review-widget-text-color: #efe7d6 !important;\n    --jm-review-widget-lighter-text-color: #a4abbb !important;\n    --jm-review-widget-star-and-histogram-color: #d8ad62 !important;\n    --jm-review-widget-button-color: #d8ad62 !important;\n    --jm-review-widget-button-text-color: #1a1306 !important;\n    --jm-widget-primary-color: #d8ad62 !important;\n    --jm-widget-border-radius: 2px !important;\n    --jm-question-color: #a4abbb !important;\n    --jm-track-bg: #26304a !important;\n  }\n  .jm-review-widget-minimal-header__title { display: none !important; }\n  .jdgm-widget-revamp hr, .jm-review-widget [class*=\"divider\"] { border-color: rgba(239, 231, 214, .12) !important; }\n  .jdgm-write-review-modal__overlay { background: rgba(6, 10, 21, .82) !important; }\n  .jdgm-write-review-modal__content { background: #10172b !important; color: #efe7d6 !important; border: 1px solid #26304a !important; border-radius: 4px !important; }\n  .jdgm-write-review-modal__title, .jdgm-write-review-modal__product-title, .jdgm-write-review-modal__status, .jdgm-write-review-modal__field-label, .jdgm-write-review-modal__checkbox-text, .jdgm-write-review-modal__text { color: #efe7d6 !important; }\n  .jdgm-write-review-modal__title { font-family: var(--font-heading--family) !important; font-weight: 600 !important; letter-spacing: -.02em !important; }\n  .jdgm-write-review-modal__intro, .jdgm-write-review-modal__gdpr-statement, .jdgm-write-review-modal__gdpr-statement a, .jdgm-write-review-modal__field-help, .jdgm-write-review-modal__media-upload-prompt, .jdgm-write-review-modal__media-upload-prompt b { color: #a4abbb !important; }\n  .jdgm-write-review-modal .jdgm-star { color: #d8ad62 !important; }\n  .jdgm-write-review-modal__stars::before, .jdgm-write-review-modal__stars::after { color: #a4abbb !important; }\n  .jdgm-write-review-modal__field-input { background: #0a0f1d !important; color: #efe7d6 !important; border: 1px solid #26304a !important; border-radius: 4px !important; }\n  .jdgm-write-review-modal__field-input::placeholder { color: #6f7890 !important; }\n  .jdgm-write-review-modal__field-input:focus { outline: 2px solid #d8ad62 !important; outline-offset: 2px !important; }\n  .jdgm-write-review-modal__checkbox-custom { background: #0a0f1d !important; border-color: #6f7890 !important; }\n  .jdgm-write-review-modal__field-group--media-upload { border-color: #26304a !important; }\n  .jdgm-write-review-modal__field-group--media-upload path { fill: #a4abbb !important; }\n  .jdgm-write-review-modal__nav-btn:not(.jdgm-write-review-modal__nav-btn-back) { background: #d8ad62 !important; color: #1a1306 !important; border-radius: 2px !important; }\n  .jdgm-write-review-modal__nav-btn-back { color: #a4abbb !important; }\n  .jdgm-write-review-modal__close-btn path { stroke: #efe7d6 !important; }\n  .jdgm-write-review-modal__close-btn:focus-visible { outline: 2px solid #d8ad62 !important; outline-offset: 2px !important; }\n  .jdgm-modal__overlay { background: rgba(6, 10, 21, .82) !important; }\n  .jdgm-modal .jm-content { background: #10172b !important; color: #efe7d6 !important; }\n  .jdgm-modal .jm-carousel, .jdgm-modal .jm-media__blur { background-color: #0a0f1d !important; }\n  .jdgm-modal .jm-indicator__close, .jdgm-modal .jm-navigation__previous, .jdgm-modal .jm-navigation__next { background: rgba(10, 15, 29, .8) !important; color: #efe7d6 !important; }\n  .jdgm-modal .jm-media-grid__item--active { border-color: #d8ad62 !important; }\n</style>"
+          },
+          "blocks": {}
+        },
+        "pc_avis_widget": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "pc_avis_head",
+        "pc_avis_widget"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "pc_avis",
+    "product_recommendations_qggXJq"
+  ]
+}

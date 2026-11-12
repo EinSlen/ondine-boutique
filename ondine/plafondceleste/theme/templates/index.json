@@ -1,0 +1,337 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_jVaWmY": {
+      "type": "hero",
+      "blocks": {
+        "text_YLPk4p": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<p>Découvrez nos lumières</p>",
+            "text_color": "{{ settings.color_palette.background }}",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_H9gpTf": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Tout voir",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button-custom",
+            "custom_button_background": "rgba(0,0,0,0)",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_YLPk4p",
+        "button_H9gpTf"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-end",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "flex-end",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "section_height_custom": 50,
+        "background_color": "rgba(0,0,0,0)",
+        "toggle_overlay": true,
+        "overlay_color": "#12121266",
+        "overlay_style": "solid",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 100,
+        "padding-block-end": 72
+      },
+      "disabled": true
+    },
+    "product_list_fa6P9H": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_YFtzcL": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h3>Tout ce qui se passe au plafond</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_MWeP9V": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "Tout voir",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_YFtzcL",
+            "product_list_button_MWeP9V"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_677WP3": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_YXxMTj": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_JQzVV4": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_677WP3",
+            "product_title_YXxMTj",
+            "price_JQzVV4"
+          ]
+        }
+      },
+      "name": "t:names.product_list",
+      "settings": {
+        "collection": "frontpage",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 5,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 64,
+        "padding-block-end": 32
+      }
+    },
+    "pc_hero": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"pc-hero\">\n  <picture class=\"pc-hero__photo\">\n    <source media=\"(max-width: 860px)\" srcset=\"{{ 'pc-hero-plafond-900.jpg' | asset_url }}\" width=\"900\" height=\"1000\">\n    <img src=\"{{ 'pc-hero-plafond-2048.jpg' | asset_url }}\" alt=\"Ciel étoilé projeté au plafond d'une chambre par le projecteur Lucarne\" width=\"2048\" height=\"1158\" loading=\"eager\" fetchpriority=\"high\">\n  </picture>\n  <div class=\"pc-hero__inner\">\n    <div class=\"pc-hero__copy\">\n      <p class=\"pc-kicker\">Lucarne · le ciel de poche</p>\n      <h1 class=\"pc-hero__title\">Branchez. Éteignez. <em>Regardez en l'air.</em></h1>\n      <p class=\"pc-hero__lead\">Le petit projecteur que tout le monde se montre en ce moment. On le branche près du lit, on glisse un disque, on éteint : la lune s'affiche au plafond.</p>\n      <div class=\"pc-hero__ctas\">\n        <a class=\"button\" href=\"/products/lucarne\">Découvrir Lucarne · {{ all_products['lucarne'].price | money }}</a>\n        <a class=\"button-secondary\" href=\"/collections/frontpage\">Toute la collection</a>\n      </div>\n      <p class=\"pc-hero__proof\">Livraison suivie offerte · 8 à 15 jours ouvrés · Retours sous 14 jours</p>\n    </div>\n  </div>\n</section>\n<style>\n  .pc-hero { position: relative; overflow: hidden; background: #060a15; border-bottom: 1px solid rgba(239, 231, 214, .12); }\n  .pc-hero__photo, .pc-hero__photo img { position: absolute; inset: 0; width: 100%; height: 100%; }\n  .pc-hero__photo img { object-fit: cover; object-position: 70% 30%; }\n  .pc-hero::before { content: \"\"; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(6, 10, 21, .94) 0%, rgba(6, 10, 21, .78) 38%, rgba(6, 10, 21, .15) 68%, rgba(6, 10, 21, 0) 100%); }\n  .pc-hero__inner { position: relative; z-index: 2; max-width: var(--page-width, 1240px); min-height: clamp(560px, 44vw, 700px); margin: 0 auto; padding: clamp(48px, 7vw, 96px) var(--page-margin, 20px); display: grid; align-content: center; }\n  .pc-hero__copy { display: grid; gap: 22px; min-width: 0; max-width: 600px; }\n  .pc-kicker { margin: 0; font-family: var(--font-body--family); font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: #d8ad62; }\n  .pc-hero__title { margin: 0; font-family: var(--font-heading--family); font-weight: 600; font-size: clamp(42px, 5.6vw, 78px); line-height: 1.1; letter-spacing: -.035em; color: #efe7d6; text-wrap: balance; }\n  .pc-hero__title em { font-family: var(--font-accent--family); font-style: italic; font-weight: 400; font-size: 1.1em; letter-spacing: -.01em; color: #d8ad62; }\n  .pc-hero__lead { margin: 0; max-width: 46ch; font-size: 18px; line-height: 1.6; color: #a4abbb; }\n  .pc-hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; }\n  .pc-hero__proof { margin: 0; font-size: 13px; letter-spacing: .04em; color: #6f7890; }\n  @media (max-width: 860px) {\n    .pc-hero__photo img { object-position: 78% 0; }\n    .pc-hero::before { background: linear-gradient(180deg, rgba(6, 10, 21, 0) 0%, rgba(6, 10, 21, .1) 30%, rgba(6, 10, 21, .86) 52%, rgba(6, 10, 21, .96) 100%); }\n    .pc-hero__inner { min-height: 0; padding-block: min(66vw, 340px) 48px; }\n  }\n</style>",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "pc_band": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"pc-band\">\n  <span>Livraison suivie offerte</span><span>8 à 15 jours ouvrés</span><span>Retours sous 14 jours</span><span>Casse remplacée</span><span>Paiement sécurisé</span>\n</div>\n<style>\n  .pc-band { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 34px; padding: 16px var(--page-margin, 20px); border-bottom: 1px solid rgba(239, 231, 214, .12); background: #10172b; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: #a4abbb; }\n  .pc-band span::before { content: \"✦\"; color: #d8ad62; margin-right: 10px; }\n</style>",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "pc_reels": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- assign pc_reels = 'baleine|lucarne|Disque baleine,spirale|lucarne|Disque galaxie,aurore|boreale|Aurore au plafond,lagon|lagon|Reflets d eau' | split: ',' -%}\n<section class=\"pc-reels\">\n  <div class=\"pc-reels__head\">\n    <p class=\"pc-kicker\">En vidéo</p>\n    <h2 class=\"pc-reels__title\">Ce que ça donne <em>au plafond</em></h2>\n  </div>\n  <div class=\"pc-reels__track\">\n    {%- for reel in pc_reels -%}\n      {%- assign parts = reel | split: '|' -%}\n      {%- assign reel_product = all_products[parts[1]] -%}\n      {%- assign reel_poster = 'pc-video-' | append: parts[0] | append: '.jpg' | asset_url -%}\n      {%- assign reel_video = 'pc-video-' | append: parts[0] | append: '.mp4' | asset_url -%}\n      <a class=\"pc-reel\" href=\"{{ reel_product.url }}\">\n        <video class=\"pc-reel__video\" muted loop playsinline preload=\"none\" poster=\"{{ reel_poster }}\" data-src=\"{{ reel_video }}\" width=\"540\" height=\"960\" aria-hidden=\"true\"></video>\n        <span class=\"pc-reel__label\"><strong>{{ reel_product.title | split: ',' | first }}</strong>{{ parts[2] | replace: 'd eau', \"d'eau\" }} · {{ reel_product.price | money }}</span>\n      </a>\n    {%- endfor -%}\n  </div>\n</section>\n<style>\n  .pc-reels { width: 100%; max-width: var(--page-width, 1240px); margin: 0 auto; padding: clamp(56px, 8vw, 104px) var(--page-margin, 20px) 0; }\n  .pc-reels__head { display: grid; gap: 12px; margin-bottom: 28px; }\n  .pc-reels__title { margin: 0; font-family: var(--font-heading--family); font-weight: 600; font-size: clamp(30px, 4vw, 50px); line-height: 1.05; letter-spacing: -.03em; color: #efe7d6; text-wrap: balance; }\n  .pc-reels__title em, .pc-kids__title em, .pc-phebe__title em { font-family: var(--font-accent--family); font-style: italic; font-weight: 400; font-size: 1.1em; letter-spacing: -.01em; color: #d8ad62; }\n  .pc-reels__track { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }\n  .pc-reel { position: relative; display: block; aspect-ratio: 9 / 16; overflow: hidden; border-radius: 4px; background: #10172b; color: #efe7d6; text-decoration: none; }\n  .pc-reel__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }\n  .pc-reel::after { content: \"\"; position: absolute; inset: 55% 0 0; background: linear-gradient(180deg, rgba(6, 10, 21, 0), rgba(6, 10, 21, .9)); }\n  .pc-reel__label { position: absolute; left: 16px; right: 16px; bottom: 16px; z-index: 1; display: grid; gap: 2px; font-size: 13px; color: #a4abbb; }\n  .pc-reel__label strong { font-size: 17px; font-weight: 600; letter-spacing: -.01em; color: #efe7d6; }\n  .pc-reel:hover .pc-reel__video, .pc-reel:focus-visible .pc-reel__video { transform: scale(1.04); }\n  @media (max-width: 860px) {\n    .pc-reels__track { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 64%; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: calc(-1 * var(--page-margin, 20px)); padding-inline: var(--page-margin, 20px); scrollbar-width: none; }\n    .pc-reels__track::-webkit-scrollbar { display: none; }\n    .pc-reel { scroll-snap-align: start; }\n  }\n</style>\n<script>\n  (() => {\n    const videos = document.querySelectorAll('.pc-reel__video[data-src]');\n    if (!videos.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;\n    const io = new IntersectionObserver((entries) => {\n      entries.forEach(({ target, isIntersecting }) => {\n        if (isIntersecting) {\n          if (!target.getAttribute('src')) target.src = target.dataset.src;\n          target.play().catch(() => {});\n        } else target.pause();\n      });\n    }, { rootMargin: '200px 0px' });\n    videos.forEach((video) => io.observe(video));\n  })();\n</script>",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "pc_kids": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"pc-kids\">\n  <div class=\"pc-kids__media\">\n    <img class=\"pc-kids__main\" src=\"{{ 'pc-kids-coucher.jpg' | asset_url }}\" alt=\"Un enfant et son parent regardent une lune projetée au plafond de la chambre\" width=\"1100\" height=\"1376\" loading=\"lazy\">\n    <img class=\"pc-kids__inset\" src=\"{{ 'pc-kids-berceau.jpg' | asset_url }}\" alt=\"Une lune douce projetée au-dessus d'un berceau\" width=\"1100\" height=\"1376\" loading=\"lazy\">\n  </div>\n  <div class=\"pc-kids__copy\">\n    <p class=\"pc-kicker\">Chambre d'enfant</p>\n    <h2 class=\"pc-kids__title\">Pour l'histoire <em>du soir</em></h2>\n    <p class=\"pc-kids__lead\">Allumé pendant l'histoire, il laisse une lune ou des étoiles au plafond le temps que l'enfant s'endorme, au lieu du noir complet.</p>\n    <ul class=\"pc-kids__points\">\n      <li><span><strong>Une lumière douce</strong> au plafond, sans écran</span></li>\n      <li><span><strong>Six disques</strong> fournis avec Lucarne, à changer selon les soirs</span></li>\n      <li><span><strong>À poser en hauteur</strong>, hors de portée des tout-petits</span></li>\n    </ul>\n    <div class=\"pc-kids__picks\">\n      {%- assign pc_kids_handles = 'lucarne,astro,lagon' | split: ',' -%}\n      {%- for handle in pc_kids_handles -%}\n        {%- assign kid_product = all_products[handle] -%}\n        {%- if kid_product.title != blank -%}\n          <a class=\"pc-kids__pick\" href=\"{{ kid_product.url }}\">\n            {{ kid_product.featured_image | image_url: width: 240 | image_tag: loading: 'lazy', widths: '120, 240', sizes: '72px', alt: kid_product.featured_image.alt }}\n            <span><strong>{{ kid_product.title | split: ',' | first }}</strong>{{ kid_product.price | money }}</span>\n          </a>\n        {%- endif -%}\n      {%- endfor -%}\n    </div>\n  </div>\n</section>\n<style>\n  .pc-kids { width: 100%; max-width: var(--page-width, 1240px); margin: 0 auto; padding: clamp(56px, 8vw, 104px) var(--page-margin, 20px); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: center; }\n  .pc-kids__media { position: relative; padding-bottom: 12%; }\n  .pc-kids__media img { display: block; height: auto; border-radius: 4px; }\n  .pc-kids__media .pc-kids__main { width: 82%; }\n  .pc-kids__media .pc-kids__inset { position: absolute; right: 0; bottom: 0; width: 44%; border: 4px solid #0a0f1d; box-shadow: 0 24px 60px rgba(0, 0, 0, .45); }\n  .pc-kids__copy { display: grid; gap: 20px; min-width: 0; }\n  .pc-kids__title { margin: 0; font-family: var(--font-heading--family); font-weight: 600; font-size: clamp(32px, 4.2vw, 54px); line-height: 1.04; letter-spacing: -.03em; color: #efe7d6; text-wrap: balance; }\n  .pc-kids__lead { margin: 0; max-width: 48ch; font-size: 17px; line-height: 1.6; color: #a4abbb; text-wrap: pretty; }\n  .pc-kids__points { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; font-size: 15px; color: #a4abbb; }\n  .pc-kids__points li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; }\n  .pc-kids__points li::before { content: \"✦\"; color: #d8ad62; }\n  .pc-kids__points strong { font-weight: 600; color: #efe7d6; }\n  .pc-kids__picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 6px; }\n  .pc-kids__pick { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 10px; align-items: center; padding: 8px; border: 1px solid #26304a; border-radius: 4px; background: #10172b; color: #a4abbb; font-size: 13px; text-decoration: none; transition: border-color .2s ease; }\n  .pc-kids__pick:hover, .pc-kids__pick:focus-visible { border-color: #d8ad62; }\n  .pc-kids__pick img { width: 56px; height: 56px; object-fit: cover; border-radius: 2px; }\n  .pc-kids__pick span { display: grid; min-width: 0; }\n  .pc-kids__pick strong { font-weight: 600; color: #efe7d6; }\n  @media (max-width: 860px) {\n    .pc-kids { grid-template-columns: minmax(0, 1fr); }\n    .pc-kids__picks { grid-template-columns: minmax(0, 1fr); }\n  }\n</style>",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "pc_selene": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- assign selene = all_products['selene'] -%}\n<section class=\"pc-selene\">\n  <div class=\"pc-selene__art\"><img src=\"{{ 'pc-selene-photo.jpg' | asset_url }}\" alt=\"Lune Séléné allumée sur une table de chevet, avec la photo d'un couple imprimée dedans\" width=\"1100\" height=\"1375\" loading=\"lazy\"></div>\n  <div class=\"pc-selene__copy\">\n    <p class=\"pc-kicker\">Nouveau · Séléné</p>\n    <h2 class=\"pc-selene__title\">Votre photo <em>dans la lune</em></h2>\n    <p class=\"pc-selene__lead\">Séléné est une lune imprimée en 3D : votre photo, ou des prénoms et une date, apparaissent quand elle s'allume. Elle est fabriquée à votre commande et arrive avec son support en bois.</p>\n    <div class=\"pc-selene__cta\">\n      <a class=\"button\" href=\"{{ selene.url | default: '/products/selene' }}\">Personnaliser la mienne{% if selene.price %} · {{ selene.price | money }}{% endif %}</a>\n      <p class=\"pc-selene__note\">Pour Noël, commandez avant le 20 novembre.</p>\n    </div>\n  </div>\n</section>\n<style>\n  .pc-selene { width: 100%; max-width: var(--page-width, 1240px); margin: 0 auto; padding: clamp(48px, 8vw, 100px) var(--page-margin, 20px); display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 48px; align-items: center; }\n  .pc-selene__art { width: min(100%, 460px); justify-self: center; }\n  .pc-selene__art img { display: block; width: 100%; height: auto; border-radius: 4px; }\n  .pc-selene__copy { display: grid; gap: 20px; min-width: 0; }\n  .pc-selene__title { margin: 0; font-family: var(--font-heading--family); font-weight: 600; font-size: clamp(32px, 4.2vw, 54px); line-height: 1.04; letter-spacing: -.03em; text-wrap: balance; }\n  .pc-selene__title em { font-family: var(--font-accent--family); font-style: italic; font-weight: 400; font-size: 1.1em; letter-spacing: -.01em; color: #d8ad62; }\n  .pc-selene__lead { margin: 0; max-width: 50ch; font-size: 17px; line-height: 1.6; color: #a4abbb; text-wrap: pretty; }\n  .pc-selene__cta { display: grid; justify-items: start; gap: 10px; }\n  .pc-selene__note { margin: 0; font-size: 13px; color: #6f7890; }\n  @media (max-width: 860px) { .pc-selene { grid-template-columns: minmax(0, 1fr); } .pc-selene__art { width: 100%; } }\n</style>",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    }
+  },
+  "order": [
+    "pc_hero",
+    "pc_band",
+    "hero_jVaWmY",
+    "pc_reels",
+    "product_list_fa6P9H",
+    "pc_kids",
+    "pc_selene"
+  ]
+}

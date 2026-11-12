@@ -1,0 +1,43 @@
+{
+  "name": "pub-C-avant-apres-boreale",
+  "input": "C-1080.mp4",
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2.95,
+      "text": "Ma chambre *avant*",
+      "chunk": 3
+    },
+    {
+      "start": 3.1,
+      "end": 4.8,
+      "text": "Un projecteur *aurore*",
+      "chunk": 3
+    },
+    {
+      "start": 5.5,
+      "end": 8.6,
+      "text": "Ma chambre à *22 h*",
+      "chunk": 4
+    },
+    {
+      "start": 13.32,
+      "end": 14.7,
+      "text": "Ok, je sors plus d'*ici*",
+      "chunk": 2
+    }
+  ],
+  "end": [
+    {
+      "start": 11,
+      "end": 15,
+      "text": "Boréale"
+    },
+    {
+      "start": 11,
+      "end": 15,
+      "style": "EndSmall",
+      "text": "Lien en bio"
+    }
+  ]
+}

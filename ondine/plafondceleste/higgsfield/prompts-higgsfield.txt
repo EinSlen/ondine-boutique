@@ -1,0 +1,111 @@
+PLAFOND CÉLESTE, prompts Higgsfield (offre Plus)
+Préparé le 10/11/2026.
+
+COMMENT S'EN SERVIR
+- Images : pendant les 7 premiers jours, Seedream 5.0 Pro, Seedream 5.5 et GPT Image 2.6 sont illimités, MAIS seulement sur le site higgsfield.ai (pas depuis Claude). Lance les prompts IMAGES sur le site, en 2K.
+- Vidéos : Seedance 2.5 se paie en crédits (environ 15 crédits par vidéo de 5 s, 80 vidéos par mois). Je peux les lancer moi-même depuis ici une fois le compte débloqué, ou tu les lances sur le site.
+- Toujours joindre la photo de référence indiquée (dossier references/) : c'est elle qui garde le vrai produit.
+- Prompts en anglais : les modèles les comprennent mieux. Rien à traduire.
+- Aucun texte, logo ou chiffre dans les images : on ajoute les textes au montage.
+- Fidélité : la projection doit rester de la taille et de la netteté du vrai produit (plafond de chambre, 2 à 3 m, image d'environ 60 à 100 cm). Si un rendu exagère, on le jette.
+- Sur TikTok et Instagram, cocher « contenu généré par IA » pour chaque vidéo qui contient un plan réaliste fait ici.
+- À garder sur chaque image : la meilleure des 4 propositions. Range-les dans higgsfield/images/<produit>/.
+
+Suffixe à coller à la fin de chaque prompt image :
+, photorealistic, natural light falloff, real camera, 35mm lens, no text, no logo, no watermark, no letters, no numbers
+
+
+================================================================
+A. IMAGES DE LA BOUTIQUE (7 jours illimités, sur le site)
+================================================================
+
+LUCARNE (référence : references/lucarne-produit.jpg)
+A1. Packshot nuit, carré 1:1
+The exact small white USB star projector from the reference photo, plugged into a wall socket next to a bed, flexible white neck bent upward, in a dark cozy bedroom at night, a faint starry projection on the ceiling above, warm soft glow from the projector, wooden nightstand, linen bedding, calm and premium mood
+A2. Dans la main, carré 1:1
+Close-up of a hand sliding a small round image disc into the exact white mini star projector from the reference photo, dark blue background, soft side light, shallow depth of field, product clearly visible
+A3. Le plafond, 4:5
+Low angle view of a white bedroom ceiling at night with a single round projection of the full moon, about 80 cm wide, sharp and detailed, soft dark edges, the small white projector from the reference photo visible at the bottom of the frame plugged near the bed, rest of the room dark
+A4. Ambiance, 4:5
+Young adult lying in bed in a dark bedroom, looking up at a projection of stars and a crescent moon on the ceiling, face softly lit by the projection, cozy blanket, the small white projector from the reference photo glowing on the nightstand
+A5. Cadeau, carré 1:1
+Open dark navy gift box on a wooden table, inside the exact white mini star projector from the reference photo and a small stack of round image discs, gold tissue paper, warm evening light, Christmas mood without decorations overload
+
+BORÉALE (références : references/boreale-chambre.jpg + references/boreale-plafonds.jpg)
+B1. Packshot nuit, carré 1:1
+The exact round black aurora projector from the reference photo on a bedside table with its small remote, dark bedroom, soft purple and green aurora waves projected on the ceiling and walls, realistic intensity, calm mood
+B2. Le plafond, 4:5
+Bedroom ceiling at night covered with soft green and violet aurora borealis waves and a few stars, realistic light intensity, slight blur on the waves like a real projection, bed visible at the bottom, projector from the reference glowing on the nightstand
+B3. Ambiance, 4:5
+Couple lying on a bed under a duvet in a dark room, both looking at green aurora waves on the ceiling, seen from the foot of the bed, the aurora projector from the reference on the nightstand
+
+ASTRO (référence : references/astro-produit.jpg)
+C1. Packshot nuit, carré 1:1
+The exact white astronaut star projector from the reference photo standing on a wooden desk in a dark bedroom, blue and purple nebula projected on the ceiling and wall behind, realistic intensity, soft glow on the astronaut helmet
+C2. Détail, carré 1:1
+Close-up of the exact white astronaut projector from the reference photo, three-quarter view, helmet visor reflecting a nebula, dark background, studio quality
+C3. Chambre d'ado, 4:5
+Teenager's bedroom at night, posters out of focus, the astronaut projector from the reference on a shelf projecting a galaxy and stars on the ceiling, realistic intensity, nobody in the room
+
+LAGON (référence : references/lagon-chambre.jpg)
+D1. Packshot nuit, carré 1:1
+The exact crystal cube lamp from the reference photo with its wooden base, glowing turquoise, on a nightstand, water ripple light patterns on the wall and ceiling behind, dark calm bedroom
+D2. Couleurs, carré 1:1
+The exact crystal cube lamp from the reference photo glowing warm amber, on a minimal shelf, gentle water ripple reflections on the wall, cozy evening mood
+D3. Salle de bain / détente, 4:5
+Dimly lit bathroom with a bathtub, the crystal cube lamp from the reference on a stool, turquoise water ripple patterns moving on the tiles and ceiling, spa mood, nobody in the frame
+
+PHÉBÉ, TEASER (référence de forme seulement : references/phebe-1.jpg ; ignorer le logo et les pictos)
+E1. Socle gravé, carré 1:1, avec GPT Image 2.6 (bon pour le texte gravé)
+A levitating moon lamp floating 1.5 cm above a square walnut wooden base, the moon glowing warm white, the front of the wooden base laser-engraved with the small elegant text "Inès & Malik · 14.02.2024", dark bedroom at night, warm glow on the wood, premium gift product photo
+   (Ici le texte est voulu : c'est la gravure. Retirer « no text, no letters, no numbers » du suffixe.)
+E2. Ambiance, 4:5
+The levitating moon lamp floating above its walnut base on a nightstand, a couple's hands touching next to it, dark room, warm intimate light, no faces
+
+ACCUEIL ET RÉSEAUX
+F1. Image d'accueil, 16:9, sans produit (fond pour le texte « Branchez. Éteignez. »)
+Dark bedroom at night seen from the bed, ceiling with a soft realistic projection of stars and a pale full moon, large empty dark area on the left side of the frame for text, deep navy tones, quiet and elegant
+F2. Photo de profil TikTok et Instagram, carré 1:1, avec GPT Image 2.6
+Minimal logo: a thin gold crescent moon and three small stars inside a circle, deep navy background, flat vector style, centered, generous margins
+F3. Variante du logo avec le nom, carré 1:1, avec GPT Image 2.6
+Minimal logo: a thin gold crescent moon above the words "Plafond Céleste" in an elegant serif font, deep navy background, flat vector style, centered
+   (F2 et F3 : retirer le suffixe photo, garder « no watermark ».)
+
+
+================================================================
+B. PLANS VIDÉO (Seedance 2.5, en crédits, 9:16, 5 s, 720p)
+================================================================
+Premier lot : 12 plans, environ 180 crédits avec les essais. Chaque plan servira à 2 vidéos (accroches différentes).
+Mode « image vers vidéo » : départ = l'image A/B/C/D correspondante une fois faite, sinon la photo de référence.
+
+V1. Lucarne, le geste (départ : A1)
+A hand plugs the small white projector into the wall socket, then switches off the bedside lamp, the room goes dark and a starry sky slowly appears on the ceiling, static camera, realistic intensity
+V2. Lucarne, la mise au point (départ : A3)
+The moon projection on the ceiling starts slightly blurry and becomes sharp as if someone turns the focus ring, slow subtle camera push-in, dark room
+   (Accroche possible : « Le geste que personne ne fait : la mise au point »)
+V3. Lucarne, cadeau (départ : A5)
+Hands open the navy gift box and lift the small white projector, soft warm light, slow push-in, no faces
+V4. Boréale, la vague (départ : B2)
+Green and violet aurora waves slowly flowing across the bedroom ceiling, gentle drift, static camera, seamless loop feeling
+V5. Boréale, 22 h / 22 h 01, plan 1 (départ : B1 avec la lumière allumée, à générer en image d'abord)
+Ordinary bedroom with the ceiling light on, nothing happens, static camera, slight natural noise
+V6. Boréale, 22 h / 22 h 01, plan 2 (départ : B1)
+Same bedroom, lights off, aurora waves appear and spread across the ceiling, static camera from the exact same angle
+V7. Astro, l'orbite (départ : C1)
+Slow orbit of the camera around the white astronaut projector on the desk while the nebula glows on the ceiling, dark room
+V8. Lagon, les reflets (départ : D1)
+Water ripple light patterns slowly moving on the wall and ceiling around the glowing crystal cube, static camera, calm loop
+V9. Lagon, couleurs (départ : D2)
+The crystal cube lamp slowly shifts from amber to turquoise to violet, ripple reflections moving on the wall, static camera
+V10. Phébé, boucle (départ : E1)
+The moon lamp levitates and rotates slowly above the engraved wooden base, dark room, perfectly still camera, seamless loop
+   (Taille et hauteur de lévitation comme la référence : 1 à 2 cm. Étiqueter IA. Ne pas publier avant que Phébé soit en vente.)
+V11. Accroche « téléphone retourné » (sans produit)
+A hand places a smartphone face down on a wooden nightstand at night, warm lamp light, then the lamp is switched off, static close-up
+V12. Accroche ciel (sans produit, ouverture du script « Je lui ai offert la lune »)
+Night sky above Paris rooftops with a bright full moon, slow upward tilt, cinematic, no people
+
+À vérifier sur chaque plan avant de le garder :
+- le produit ressemble exactement à la référence (forme, couleur, câble) ;
+- la projection n'est ni plus grande ni plus lumineuse que ce que montrent les vraies photos d'acheteurs ;
+- pas de texte parasite, pas de main ou de visage déformé.

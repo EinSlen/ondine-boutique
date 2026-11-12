@@ -1,0 +1,61 @@
+PLAFOND CÉLESTE, ce qu'il faut avant la première vente (préparé le 10/11/2026)
+
+Tout ce qui se remplit va dans un seul fichier : boutique/lancement/infos-a-remplir.json
+Ensuite je lance boutique/lancement/remplir.mjs puis les scripts du thème : SIRET, médiateur, IDU, éco-participation et fabricants se mettent partout d'un coup.
+Pour voir ce qui manque encore : node boutique/lancement/remplir.mjs (la liste s'affiche à la fin).
+
+
+DÉJÀ FAIT SUR LA BOUTIQUE (sous mot de passe)
+- Mentions légales, coordonnées, CGV, retours, expédition, confidentialité, conditions d'utilisation.
+- CGV : encadré de garantie légale au mot près (annexe de l'article D211-2), rétractation, exception des articles personnalisés, recyclage des appareils.
+- Page « Renoncer au contrat » + lien « Renoncer au contrat ici » en bas de chaque page (obligatoire depuis le 19 juin 2026, article D221-5).
+- Fiches produits : volet « Sécurité et recyclage » (référence, précautions, batterie de Séléné, recyclage). Le fabricant s'y ajoutera dès qu'il est rempli.
+- Bannière cookies active pour la France, politique de confidentialité publiée.
+
+
+1. MICRO-ENTREPRISE (à faire en premier, tout le reste en dépend)
+   Où : https://formalites.entreprises.gouv.fr (guichet unique, gratuit)
+   Activité à déclarer : vente en ligne de luminaires et d'objets de décoration (achat-revente), à ton adresse.
+   À avoir : pièce d'identité, justificatif de domicile.
+   Pendant la déclaration : regarde si tu as droit à l'ACRE (autoentrepreneur.urssaf.fr) et choisis la fréquence de déclaration du chiffre d'affaires (mensuelle ou trimestrielle).
+   Délai : le SIRET arrive en général en une à deux semaines.
+   Ensuite : mets le SIRET dans "siret".
+
+2. MÉDIATEUR DE LA CONSOMMATION : CM2C
+   Où : https://www.cm2c.net/inscription-professionnel.php
+   Prix : 48 € pour 3 ans (jusqu'à 10 personnes), payés une fois. 36 € par médiation à distance, seulement si un client en demande une.
+   Il faut le SIRET (c'est l'identifiant de connexion).
+   Ensuite : mets "adhesion_faite": true dans "mediateur".
+
+3. ÉCO-ORGANISME APPAREILS ÉLECTRIQUES ET BATTERIES : ecosystem
+   Où : https://pro.ecosystem.eco (formulaire de contact de l'espace producteurs)
+   Mail prêt : boutique/lancement/mails/ecosystem.txt
+   Coût : barème 2026, luminaire de 500 g ou moins 0,08 € HT par pièce (0,10 € TTC), de 500 g à 3,5 kg 0,21 € HT (0,25 € TTC, cas de Séléné à 600 g). Minimum annuel éventuel : la question est dans le mail.
+   Séléné a une batterie rechargeable : la filière piles et batteries s'applique aussi (la question est dans le mail).
+   Ensuite : mets l'IDU dans "deee" (et dans "piles" si c'est un autre numéro). L'éco-participation s'affiche alors sous le prix de chaque fiche.
+
+4. EMBALLAGES : Citeo (ou Léko)
+   Où : https://www.citeo.com, espace entreprises
+   Coût : forfait d'environ 110 € HT par an sous 10 000 produits vendus, d'après des guides de consultants (pas vérifié sur le barème officiel).
+   Ensuite : mets l'IDU dans "emballages".
+
+5. FICHES PRODUITS : FABRICANT (règlement européen sur la sécurité des produits)
+   Mail prêt, en anglais : boutique/lancement/mails/fournisseurs-securite.txt (un message par vendeur AliExpress ou à l'agent).
+   À recopier dans "produits" : fabricant, adresse_fabricant, contact_fabricant, batterie.
+   Garde les déclarations CE et les rapports de test qu'ils t'envoient : en dropshipping, c'est toi qui réponds de la conformité en France.
+   "responsable_ue" est prérempli avec ton nom et ton adresse : ils apparaîtront sur chaque fiche produit. À toi de dire si ça te va.
+
+6. SHOPIFY
+   - Shopify Payments (il demande le SIRET).
+   - Forfait payant pour retirer le mot de passe.
+   - Domaine plafondceleste.fr et une adresse contact@ pour répondre aux clients sans montrer ton adresse perso.
+
+7. APRÈS L'OUVERTURE
+   - Rétractation : quand un message « Objet : Rétractation » arrive, envoie l'accusé de réception le jour même. Modèle : boutique/lancement/mails/accuse-retractation.txt
+   - Livre des recettes (obligatoire en micro-entreprise) : exporte les commandes Shopify chaque mois (Commandes > Exporter).
+   - Déclare ton chiffre d'affaires sur autoentrepreneur.urssaf.fr à chaque échéance, même s'il est à 0.
+   - Factures : à faire si un client en demande une, avec ton nom suivi de « EI », ton SIRET et « TVA non applicable, article 293 B du CGI ».
+   - Factures électroniques : depuis le 1er septembre 2026, toute entreprise doit pouvoir en recevoir via une plateforme agréée (liste sur impots.gouv.fr). L'envoi suit en septembre 2027 pour les micro-entreprises. Dates lues dans des guides, à confirmer sur impots.gouv.fr.
+
+À SURVEILLER
+- Avis harmonisé sur la garantie légale (directive européenne 2024/825, applicable depuis le 27 septembre 2026) : la loi française qui l'impose n'était pas encore confirmée au Journal officiel dans ce que j'ai trouvé. Je l'ajouterai à la boutique quand le texte sera clair.

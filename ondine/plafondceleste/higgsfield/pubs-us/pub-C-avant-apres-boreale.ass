@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Segoe UI Black,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,2,5,90,90,0,1
+Style: Top,Segoe UI Black,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,6,2,8,110,110,300,1
+Style: End,Segoe UI Black,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,2,2,90,90,640,1
+Style: EndSmall,Segoe UI Black,66,&H0062ADD8,&H0062ADD8,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,6,2,2,90,90,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.20,0:00:02.95,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}Ma chambre {\c&H0062ADD8&}avant{\c&HFFFFFF&}
+Dialogue: 1,0:00:03.10,0:00:04.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}Un projecteur {\c&H0062ADD8&}aurore{\c&HFFFFFF&}
+Dialogue: 1,0:00:05.50,0:00:08.60,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}Ma chambre à {\c&H0062ADD8&}22 h{\c&HFFFFFF&}
+Dialogue: 1,0:00:13.32,0:00:13.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}Ok, je
+Dialogue: 1,0:00:13.78,0:00:14.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}sors plus
+Dialogue: 1,0:00:14.24,0:00:14.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}d'ici
+Dialogue: 3,0:00:11.00,0:00:15.00,End,,0,0,0,,{\fad(150,0)\fscx90\fscy90\t(0,150,\fscx100\fscy100)}Boréale
+Dialogue: 3,0:00:11.00,0:00:15.00,EndSmall,,0,0,0,,{\fad(150,0)\fscx90\fscy90\t(0,150,\fscx100\fscy100)}Lien en bio

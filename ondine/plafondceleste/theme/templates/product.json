@@ -1,0 +1,594 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product-information",
+      "blocks": {
+        "disclosures_g9mWze": {
+          "type": "disclosures",
+          "name": "t:names.disclosures",
+          "settings": {
+            "heading": "Informations produit",
+            "heading_preset": "h5",
+            "open_by_default": false,
+            "icon": "caret",
+            "disclosure_heading_preset": "h6",
+            "text_color": "",
+            "dividers": true,
+            "divider_color": "{{ settings.color_palette.color2 }}",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "media-gallery": {
+          "type": "_product-media-gallery",
+          "static": true,
+          "settings": {
+            "media_presentation": "grid",
+            "media_columns": "two",
+            "image_gap": 4,
+            "large_first_image": false,
+            "slideshow_controls_style": "counter",
+            "slideshow_mobile_controls_style": "dots",
+            "thumbnail_position": "right",
+            "thumbnail_width": 44,
+            "thumbnail_radius": 0,
+            "aspect_ratio": "adapt",
+            "constrain_to_viewport": true,
+            "media_fit": "contain",
+            "media_radius": 0,
+            "extend_media": false,
+            "zoom": true,
+            "video_loop": false,
+            "hide_variants": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "product-details": {
+          "type": "_product-details",
+          "static": true,
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "details_position": "flex-start",
+            "gap": 28,
+            "sticky_details_desktop": true,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_icgrde": {
+              "type": "group",
+              "name": "t:names.header",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "background_color": "",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_xrnftG": {
+                  "type": "text",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "text": "<h1>{{ closest.product.title }}</h1>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "text_color": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price_tVjtKg": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "text_color": "",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_xrnftG",
+                "price_tVjtKg"
+              ]
+            },
+            "divider_VJhene": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "thickness": 1,
+                "corner_radius": "square",
+                "divider_color": "{{ settings.color_palette.color2 }}",
+                "width_percent": 100,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              },
+              "blocks": {}
+            },
+            "variant_picker_R3rGDr": {
+              "type": "variant-picker",
+              "settings": {
+                "variant_style": "buttons",
+                "show_swatches": false,
+                "option_label_text_color": "",
+                "variant_style_class": "default",
+                "custom_variant_background": "{{ settings.color_palette.background }}",
+                "custom_variant_text": "{{ settings.color_palette.foreground }}",
+                "custom_variant_border": "{{ settings.color_palette.foreground }}",
+                "selected_variant_style_class": "default",
+                "custom_selected_variant_background": "{{ settings.color_palette.foreground }}",
+                "custom_selected_variant_text": "{{ settings.color_palette.background }}",
+                "custom_selected_variant_border": "{{ settings.color_palette.foreground }}",
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "buy_buttons_eYQEYi": {
+              "type": "buy-buttons",
+              "settings": {
+                "stacking": true,
+                "text_color": "",
+                "show_pickup_availability": false,
+                "gift_card_form": true,
+                "recipient_button_style": "default",
+                "recipient_button_background": "{{ settings.color_palette.background }}",
+                "recipient_button_text": "{{ settings.color_palette.foreground }}",
+                "recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_style": "default",
+                "selected_recipient_button_background": "{{ settings.color_palette.foreground }}",
+                "selected_recipient_button_text": "{{ settings.color_palette.background }}",
+                "selected_recipient_button_border": "{{ settings.color_palette.foreground }}",
+                "input_style": "default",
+                "input_background_color": "{{ settings.color_palette.background }}",
+                "input_text_color": "{{ settings.color_palette.foreground }}",
+                "input_border_color": "{{ settings.color_palette.foreground }}",
+                "border_width": 1,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {
+                    "input_style": "default",
+                    "input_background_color": "{{ settings.color_palette.background }}",
+                    "input_text_color": "{{ settings.color_palette.foreground }}",
+                    "input_border_color": "{{ settings.color_palette.foreground }}",
+                    "border_width": 1,
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button",
+                    "custom_button_background": "{{ settings.color_palette.foreground }}",
+                    "custom_button_text": "{{ settings.color_palette.background }}",
+                    "custom_button_border": "{{ settings.color_palette.background }}"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            },
+            "text_aEtTtq": {
+              "type": "text",
+              "name": "t:names.product_description",
+              "settings": {
+                "text": "{{ closest.product.description }}",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "pc_reassure": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "<ul class=\"pc-reassure\">\n  <li><span><strong>Livraison suivie offerte</strong> en France, 8 à 15 jours ouvrés</span></li>\n  <li><span><strong>Retours sous 14 jours</strong> après réception</span></li>\n  <li><span><strong>Arrivé cassé ?</strong> Une photo suffit, on remplace ou on rembourse</span></li>\n  <li><span><strong>Paiement sécurisé</strong></span></li>\n</ul>\n<style>\n  .pc-reassure { list-style: none; margin: 0; padding: 18px 20px; display: grid; gap: 10px; border: 1px solid #26304a; border-radius: 2px; background: #10172b; font-size: 14px; line-height: 1.45; color: #a4abbb; }\n  .pc-reassure li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; }\n  .pc-reassure li::before { content: \"✦\"; color: #d8ad62; }\n  .pc-reassure strong { font-weight: 500; color: #efe7d6; }\n</style>"
+              },
+              "blocks": {}
+            },
+            "pc_accordion": {
+              "type": "accordion",
+              "settings": {
+                "type_preset": "paragraph"
+              },
+              "blocks": {
+                "row_shipping": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Livraison et retours",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Chaque commande part avec un numéro de suivi, envoyé par e-mail dès l'expédition. Comptez 8 à 15 jours ouvrés pour la France. Pour Noël, commandez avant le 1er décembre.</p><p>Vous avez 14 jours après réception pour changer d'avis : écrivez-nous depuis la page Contact avec votre numéro de commande. Le remboursement est fait sous 14 jours après réception du retour.</p>",
+                        "width": "100%"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text"
+                  ]
+                },
+                "row_faq": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Questions fréquentes",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p><strong>Ça marche dans une grande pièce ?</strong> Ces lumières sont faites pour un plafond de chambre, à 2 ou 3 m. Dans un grand salon, l'image s'étale et pâlit.</p><p><strong>Comment ça s'alimente ?</strong> En USB : sur une prise murale avec un adaptateur, un ordinateur ou une batterie.</p><p><strong>Et si le produit arrive cassé ?</strong> Envoyez une photo, on remplace ou on rembourse.</p>",
+                        "width": "100%"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text"
+                  ]
+                },
+                "row_safety": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Sécurité et recyclage",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "liquid": {
+                      "type": "custom-liquid",
+                      "settings": {
+                        "custom_liquid": "<div class=\"pc-safety\">\n  \n  {%- case product.handle -%}{%- when 'lucarne' -%}<p><strong>Référence :</strong> PC-LUCARNE-6</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'boreale' -%}<p><strong>Référence :</strong> PC-BOREALE</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'astro' -%}<p><strong>Référence :</strong> PC-ASTRO</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'lagon' -%}<p><strong>Référence :</strong> PC-LAGON</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li></ul>{%- when 'selene' -%}<p><strong>Référence :</strong> PC-SELENE-15</p><p><strong>Précautions :</strong></p><ul><li>Usage en intérieur, dans un endroit sec.</li><li>Ne regardez pas la source lumineuse de près.</li><li>Ce n'est pas un jouet. Dans une chambre d'enfant, placez l'appareil et son câble hors de sa portée, jamais dans le lit ni dans le berceau.</li><li>Alimentation par câble USB 5 V uniquement. Débranchez-le avant de le nettoyer.</li><li>Ne couvrez pas l'appareil quand il est allumé.</li><li>Contient une batterie rechargeable : chargez-la avec un câble USB 5 V, sous surveillance et loin de toute source de chaleur. Ne la percez pas et ne la jetez pas au feu.</li></ul>{%- endcase -%}\n  <p><strong>Recyclage :</strong> ne jetez pas cet appareil avec les ordures ménagères. Déposez-le gratuitement en magasin ou en déchetterie, points de collecte sur <a href=\"https://quefairedemesdechets.ademe.fr\" target=\"_blank\" rel=\"noopener\">quefairedemesdechets.ademe.fr</a>.</p>\n</div>\n<style>\n  .pc-safety { display: grid; gap: 8px; font-size: 14px; line-height: 1.55; color: #a4abbb; }\n  .pc-safety p, .pc-safety ul { margin: 0; }\n  .pc-safety ul { padding-left: 18px; display: grid; gap: 4px; }\n  .pc-safety strong { font-weight: 600; color: #efe7d6; }\n  .pc-safety a { color: inherit; }\n</style>"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "liquid"
+                  ]
+                }
+              },
+              "block_order": [
+                "row_shipping",
+                "row_faq",
+                "row_safety"
+              ]
+            }
+          },
+          "block_order": [
+            "group_icgrde",
+            "divider_VJhene",
+            "variant_picker_R3rGDr",
+            "buy_buttons_eYQEYi",
+            "pc_reassure",
+            "text_aEtTtq",
+            "pc_accordion"
+          ]
+        }
+      },
+      "block_order": [
+        "disclosures_g9mWze"
+      ],
+      "settings": {
+        "content_width": "content-center-aligned",
+        "desktop_media_position": "left",
+        "equal_columns": false,
+        "limit_details_width": false,
+        "gap": 48,
+        "enable_sticky_add_to_cart": true,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "product_recommendations_qggXJq": {
+      "type": "product-recommendations",
+      "blocks": {
+        "text_cbcgyb": {
+          "type": "text",
+          "name": "t:names.header",
+          "settings": {
+            "text": "<h3>À voir aussi au plafond</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_DNizbJ": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_M7MJkb": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_gLWgA6": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_DNizbJ",
+            "product_title_M7MJkb",
+            "price_gLWgA6"
+          ]
+        }
+      },
+      "block_order": [
+        "text_cbcgyb"
+      ],
+      "name": "t:names.product_recommendations",
+      "settings": {
+        "product": "{{ closest.product }}",
+        "recommendation_type": "related",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 12,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "pc_steps": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"pc-steps\">\n  <p class=\"pc-steps__kicker\">Comment ça marche</p>\n  <ol class=\"pc-steps__list\">\n    <li><span class=\"pc-steps__num\">01</span><h3>Branchez</h3><p>En USB, près du lit : un adaptateur secteur, un ordinateur ou une batterie suffit.</p></li>\n    <li><span class=\"pc-steps__num\">02</span><h3>Éteignez</h3><p>La pièce dans le noir, c'est là que tout commence.</p></li>\n    <li><span class=\"pc-steps__num\">03</span><h3>Regardez en l'air</h3><p>L'image s'affiche au plafond d'une chambre, à 2 ou 3 m.</p></li>\n  </ol>\n</section>\n<style>\n  .pc-steps { width: 100%; max-width: var(--page-width, 1240px); margin: 0 auto; padding: clamp(48px, 7vw, 88px) var(--page-margin, 20px); border-top: 1px solid rgba(239, 231, 214, .12); }\n  .pc-steps__kicker { margin: 0 0 28px; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: #d8ad62; }\n  .pc-steps__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }\n  .pc-steps__num { display: block; font-family: var(--font-accent--family); font-style: italic; font-weight: 400; font-size: 40px; line-height: 1; color: #d8ad62; }\n  .pc-steps h3 { margin: 10px 0 8px; font-family: var(--font-heading--family); font-weight: 600; font-size: 26px; letter-spacing: -.02em; color: #efe7d6; }\n  .pc-steps p { margin: 0; max-width: 34ch; font-size: 15px; line-height: 1.6; color: #a4abbb; text-wrap: pretty; }\n  @media (max-width: 760px) { .pc-steps__list { grid-template-columns: minmax(0, 1fr); gap: 24px; } }\n</style>",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "pc_avis": {
+      "type": "section",
+      "settings": {
+        "content_direction": "column",
+        "gap": 8,
+        "section_width": "page-width",
+        "padding-block-start": 56,
+        "padding-block-end": 24
+      },
+      "blocks": {
+        "pc_avis_head": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{%- assign pc_review_count = product.metafields.reviews.rating_count.value | default: 0 -%}\n{%- if pc_review_count > 0 or product.handle == 'lucarne' -%}\n<div class=\"pc-avis\">\n  <h2 class=\"pc-avis__title\">Ce qu'en disent les acheteurs</h2>\n  {%- if product.handle == 'lucarne' -%}<p class=\"pc-avis__note\">Avis d'acheteurs de ce modèle sur une place de marché, traduits.</p>{%- endif -%}\n</div>\n{%- else -%}\n<style>#shopify-section-{{ section.id }} { display: none; }</style>\n{%- endif -%}\n<style>\n  .pc-avis { display: grid; gap: 6px; }\n  .pc-avis__title { margin: 0; font-family: var(--font-heading--family); font-weight: 600; font-size: clamp(28px, 3.2vw, 38px); letter-spacing: -.03em; color: #efe7d6; }\n  .pc-avis__note { margin: 0; font-size: 12px; color: #6f7890; }\n  .jm-review-widget, .jm-review-item, .jm-review-widget [style*=\"--jm-review-widget\"] {\n    --jm-review-widget-text-color: #efe7d6 !important;\n    --jm-review-widget-lighter-text-color: #a4abbb !important;\n    --jm-review-widget-star-and-histogram-color: #d8ad62 !important;\n    --jm-review-widget-button-color: #d8ad62 !important;\n    --jm-review-widget-button-text-color: #1a1306 !important;\n    --jm-widget-primary-color: #d8ad62 !important;\n    --jm-widget-border-radius: 2px !important;\n    --jm-question-color: #a4abbb !important;\n    --jm-track-bg: #26304a !important;\n  }\n  .jm-review-widget-minimal-header__title { display: none !important; }\n  .jdgm-widget-revamp hr, .jm-review-widget [class*=\"divider\"] { border-color: rgba(239, 231, 214, .12) !important; }\n  .jdgm-write-review-modal__overlay { background: rgba(6, 10, 21, .82) !important; }\n  .jdgm-write-review-modal__content { background: #10172b !important; color: #efe7d6 !important; border: 1px solid #26304a !important; border-radius: 4px !important; }\n  .jdgm-write-review-modal__title, .jdgm-write-review-modal__product-title, .jdgm-write-review-modal__status, .jdgm-write-review-modal__field-label, .jdgm-write-review-modal__checkbox-text, .jdgm-write-review-modal__text { color: #efe7d6 !important; }\n  .jdgm-write-review-modal__title { font-family: var(--font-heading--family) !important; font-weight: 600 !important; letter-spacing: -.02em !important; }\n  .jdgm-write-review-modal__intro, .jdgm-write-review-modal__gdpr-statement, .jdgm-write-review-modal__gdpr-statement a, .jdgm-write-review-modal__field-help, .jdgm-write-review-modal__media-upload-prompt, .jdgm-write-review-modal__media-upload-prompt b { color: #a4abbb !important; }\n  .jdgm-write-review-modal .jdgm-star { color: #d8ad62 !important; }\n  .jdgm-write-review-modal__stars::before, .jdgm-write-review-modal__stars::after { color: #a4abbb !important; }\n  .jdgm-write-review-modal__field-input { background: #0a0f1d !important; color: #efe7d6 !important; border: 1px solid #26304a !important; border-radius: 4px !important; }\n  .jdgm-write-review-modal__field-input::placeholder { color: #6f7890 !important; }\n  .jdgm-write-review-modal__field-input:focus { outline: 2px solid #d8ad62 !important; outline-offset: 2px !important; }\n  .jdgm-write-review-modal__checkbox-custom { background: #0a0f1d !important; border-color: #6f7890 !important; }\n  .jdgm-write-review-modal__field-group--media-upload { border-color: #26304a !important; }\n  .jdgm-write-review-modal__field-group--media-upload path { fill: #a4abbb !important; }\n  .jdgm-write-review-modal__nav-btn:not(.jdgm-write-review-modal__nav-btn-back) { background: #d8ad62 !important; color: #1a1306 !important; border-radius: 2px !important; }\n  .jdgm-write-review-modal__nav-btn-back { color: #a4abbb !important; }\n  .jdgm-write-review-modal__close-btn path { stroke: #efe7d6 !important; }\n  .jdgm-write-review-modal__close-btn:focus-visible { outline: 2px solid #d8ad62 !important; outline-offset: 2px !important; }\n  .jdgm-modal__overlay { background: rgba(6, 10, 21, .82) !important; }\n  .jdgm-modal .jm-content { background: #10172b !important; color: #efe7d6 !important; }\n  .jdgm-modal .jm-carousel, .jdgm-modal .jm-media__blur { background-color: #0a0f1d !important; }\n  .jdgm-modal .jm-indicator__close, .jdgm-modal .jm-navigation__previous, .jdgm-modal .jm-navigation__next { background: rgba(10, 15, 29, .8) !important; color: #efe7d6 !important; }\n  .jdgm-modal .jm-media-grid__item--active { border-color: #d8ad62 !important; }\n</style>"
+          },
+          "blocks": {}
+        },
+        "pc_avis_widget": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "pc_avis_head",
+        "pc_avis_widget"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "pc_steps",
+    "pc_avis",
+    "product_recommendations_qggXJq"
+  ]
+}

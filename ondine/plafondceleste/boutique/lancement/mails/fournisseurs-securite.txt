@@ -1,0 +1,28 @@
+À ENVOYER PAR : la messagerie AliExpress de chaque vendeur (ou à l'agent qui fournira les produits), un message par produit
+PRODUITS ET ANNONCES :
+- Lucarne : https://www.aliexpress.com/item/1005012194142648.html
+- Boréale : https://www.aliexpress.com/item/1005007595116342.html
+- Lagon : https://www.aliexpress.com/item/1005009627622084.html
+- Astro : https://www.aliexpress.com/item/1005009890378414.html
+- Séléné : https://www.aliexpress.com/item/4000840785397.html
+CE QU'IL FAUT RECOPIER ENSUITE DANS infos-a-remplir.json : fabricant, adresse_fabricant, contact_fabricant, batterie (true ou false)
+
+---
+
+Hello,
+
+I plan to sell this product to consumers in France: [AliExpress link]
+
+Under EU product safety rules (GPSR), I need the following before I can list it. Could you send me:
+
+1. The manufacturer's full legal company name, postal address and email.
+2. The name and address of your EU responsible person or EU representative, if you have one.
+3. The CE Declaration of Conformity (EMC 2014/30/EU and RoHS 2011/65/EU) and the test reports, as PDF.
+4. The exact model number printed on the product or the box.
+5. Does the product contain a battery? If yes: type (lithium-ion or other), capacity in mAh, and whether it can be removed.
+6. The net weight of the product without packaging, in grams.
+7. The user manual as PDF (in French if you have it, otherwise in English).
+8. Is the crossed-out wheelie bin symbol (WEEE) printed on the product or the box?
+
+Thank you very much,
+Valentin

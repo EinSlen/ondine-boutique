@@ -1,0 +1,35 @@
+PLAFOND CÉLESTE, pubs au format américain (10/11/2026)
+
+Ce que font les pubs US qui marchent (vu sur YouTube Shorts, reprises de TikTok) :
+- 10 à 15 secondes, une coupe toutes les 1 à 2 secondes.
+- Une accroche écrite dans la première seconde, en gros, au centre ou en haut.
+- Trois formats qui reviennent :
+  1. Mini-histoire jouée par des personnages IA (« She said my room was boring... now she's obsessed »), répliques à voix haute, sous-titres mot par mot.
+  2. « Testing out the viral galaxy projector » : gros plans de mains (on glisse le disque, on branche), on éteint, puis les disques défilent au plafond.
+  3. Avant / après : la chambre banale lumière allumée, puis la même pièce dans le noir avec le plafond étoilé.
+- Fin : le produit en gros plan + « lien en bio ».
+- Son : voix et bruits dans la vidéo ; la musique tendance s'ajoute dans TikTok au moment de publier.
+
+Chaque pub = une seule génération Seedance 2.5 de 15 s à plusieurs plans avec le son (45 crédits en 480p), puis sous-titres et carton de fin ajoutés au montage, puis agrandissement 1080p.
+
+PUB A, « Elle trouvait ma chambre nulle » (Lucarne, format 1)
+Accroche : « Elle m'a dit que ma chambre était nulle »
+Plans : lui choqué face caméra / elle, bras croisés, chambre éclairée / il branche Lucarne / il éteint, baleine au plafond / elle, émerveillée : « Attends... c'est trop beau » / Lucarne qui brille.
+Fin : « Lucarne · lien en bio »
+
+PUB B, « J'ai testé le projecteur dont tout le monde parle » (Lucarne, format 2)
+Accroche fixe en haut : « J'ai testé le projecteur dont tout le monde parle »
+Plans : Lucarne en main / on glisse le disque / on branche / on éteint / lune / Saturne / galaxie.
+Textes : « 6 disques fournis » pendant les disques. Fin : « Lucarne · lien en bio »
+
+PUB C, « Ma chambre avant / à 22 h » (Boréale, format 3)
+Textes : « Ma chambre avant » puis « Ma chambre à 22 h »
+Plans : chambre banale, elle s'ennuie sur son téléphone / elle pose Boréale / elle éteint / aurore sur tout le plafond / elle, détendue : « Ok, je sors plus d'ici ».
+Fin : « Boréale · lien en bio »
+
+PUB D, « Je veux pas dormir ! » (Astro, chambre d'enfant, format 1)
+Accroche : « Je veux pas dormir ! »
+Plans : petit garçon debout sur son lit, bras croisés / sa mère pose Astro sur une étagère haute / elle éteint / nébuleuse au plafond / lui sous la couette, yeux grands ouverts : « Wouah... » / la mère sourit et ferme la porte.
+Fin : « Astro · lien en bio »
+
+À publier avec l'étiquette « contenu généré par IA » cochée sur TikTok et Instagram.

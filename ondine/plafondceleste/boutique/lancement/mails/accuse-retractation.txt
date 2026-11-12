@@ -1,0 +1,21 @@
+QUAND : dès que tu reçois l'e-mail Shopify « Nouveau message » avec « Objet : Rétractation » (formulaire Renoncer au contrat ici). Le jour même si possible.
+À QUI : à l'e-mail que le client a indiqué dans le formulaire, depuis l'adresse de la boutique.
+OBJET : Accusé de réception de votre rétractation, commande [numéro]
+
+Bonjour [Prénom Nom],
+
+Nous avons bien reçu votre rétractation, envoyée le [date] à [heure] depuis notre site. Voici ce que vous nous avez transmis :
+
+- Nom et prénom : [...]
+- Numéro de commande : [...]
+- Produits concernés : [...]
+- Date de réception : [...]
+- E-mail pour l'accusé de réception : [...]
+
+Pour la suite, renvoyez le produit complet, dans son emballage si possible, à cette adresse dans les 14 jours :
+[adresse de retour]
+
+Les frais de retour sont à votre charge, sauf si le produit est défectueux ou ne correspond pas à votre commande. Nous vous remboursons la totalité de la commande, frais de livraison compris, au plus tard 14 jours après avoir reçu le produit ou la preuve de son expédition, avec le moyen de paiement utilisé lors de l'achat.
+
+Bonne journée,
+Plafond Céleste

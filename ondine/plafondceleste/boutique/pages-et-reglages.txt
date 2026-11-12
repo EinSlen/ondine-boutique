@@ -1,0 +1,36 @@
+PLAFOND CÉLESTE, pages et réglages de la boutique Shopify (préparé le 9/11/2026)
+
+A FAIRE PAR VALENTIN (comptes et paiements à son nom)
+1. Shopify : dans ton compte, « Créer une boutique », nom « Plafond Céleste », pays France, devise EUR.
+2. Domaine plafondceleste.fr (libre au 9/11) : l'acheter dans Shopify (Paramètres > Domaines) ou chez un registraire, environ 10 € par an.
+3. TikTok @plafondceleste (libre au 9/11) et Instagram @plafondceleste : créer les comptes, passer Instagram en compte professionnel.
+4. Ouvrir l'admin de la nouvelle boutique dans la fenêtre Edge pilotée (fenetre.mjs) ou dans le navigateur de l'app, pour que je fasse le reste.
+5. Annuler l'abonnement de la boutique KapsulCam avant le 25/11.
+
+RÉGLAGES QUE JE FERAI ENSUITE
+- Importer produits-shopify.csv (Produits > Importer) : Lucarne 34,90, Boréale 34,90, Astro 39,90, Lagon 29,90 actifs ; Phébé en brouillon.
+- Livraison : zone France, un seul tarif « Livraison suivie offerte, 8 à 15 jours ouvrés ».
+- Taxes : pas de TVA facturée (prix affichés TTC, aucune TVA ajoutée au paiement).
+- Paiements : Shopify Payments, cartes, Apple Pay, Google Pay ; PayPal si déjà ouvert.
+- Thème : thème gratuit de Shopify, palette nuit de la maquette (fond #0a0f1d, texte #efe7d6, accent #d8ad62), polices Cormorant Garamond et Jost.
+- Accueil : Lucarne en ouverture, Boréale / Astro / Lagon en dessous, bandeau « Phébé bientôt disponible » avec inscription e-mail.
+- Pages ci-dessous, et les politiques Shopify (remboursement, confidentialité, conditions, expédition) générées puis relues.
+
+PAGE « LIVRAISON »
+Chaque commande est préparée par notre partenaire et envoyée avec un numéro de suivi. Comptez 8 à 15 jours ouvrés pour la France. Le numéro de suivi vous est envoyé par e-mail dès l'expédition. Pour Noël, commandez avant le 5 décembre.
+
+PAGE « RETOURS »
+Vous avez 14 jours après réception pour changer d'avis. Écrivez-nous à [adresse e-mail de la boutique] avec votre numéro de commande : nous vous indiquons l'adresse de retour. Le remboursement est fait sous 14 jours après réception du colis. Un produit arrivé cassé ou qui ne marche pas est remplacé ou remboursé, sur simple photo.
+
+PAGE « QUESTIONS »
+- Combien de temps pour la livraison ? 8 à 15 jours ouvrés, avec suivi.
+- Ça marche dans une grande pièce ? Ces lumières sont faites pour un plafond de chambre, à 2 ou 3 m. Dans un grand salon, l'image s'étale et pâlit.
+- Comment ça s'alimente ? En USB : sur une prise murale avec un adaptateur, un ordinateur ou une batterie.
+- Et si le produit arrive cassé ? Envoyez une photo, on remplace ou on rembourse.
+
+PAGE « À PROPOS »
+Plafond Céleste, ce sont des lumières choisies pour ce qu'elles font quand on éteint : une lune, une aurore, des reflets d'eau au plafond. Nous les testons en vidéo avant de les proposer, et nous préférons vous dire les vrais délais plutôt que de promettre l'impossible.
+
+MENTIONS LÉGALES (à compléter, obligatoires)
+Éditeur : [prénom nom], [adresse], [e-mail], [téléphone facultatif].
+Hébergeur : Shopify International Limited, Victoria Buildings, 1-2 Haddington Road, Dublin 4, Irlande.

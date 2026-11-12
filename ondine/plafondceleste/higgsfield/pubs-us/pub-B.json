@@ -1,0 +1,50 @@
+{
+  "name": "pub-B-test-lucarne",
+  "input": "B-corrige.mp4",
+  "top": [
+    {
+      "start": 0,
+      "end": 6.55,
+      "text": "J'ai testé le projecteur\ndont tout le monde parle"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.15,
+      "end": 2.6,
+      "text": "On glisse un *disque*",
+      "chunk": 2
+    },
+    {
+      "start": 2.8,
+      "end": 5.5,
+      "text": "On le branche en *USB* près du lit",
+      "chunk": 2
+    },
+    {
+      "start": 5.7,
+      "end": 6.55,
+      "text": "On *éteint*",
+      "chunk": 2
+    },
+    {
+      "start": 10.45,
+      "end": 12.15,
+      "text": "*6 disques* fournis",
+      "chunk": 3
+    }
+  ],
+  "end": [
+    {
+      "start": 12.45,
+      "end": 14.36,
+      "text": "Lucarne"
+    },
+    {
+      "start": 12.45,
+      "end": 14.36,
+      "style": "EndSmall",
+      "text": "Lien en bio"
+    }
+  ]
+}
